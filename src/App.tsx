@@ -5,6 +5,7 @@ import { ROOTS, sourceCounts } from "./roots";
 import Verifier from "./Verifier";
 
 import "../static/scss/main.scss";
+import RootList from "./RootList";
 
 class App extends Component {
   render() {
@@ -34,6 +35,9 @@ class App extends Component {
                                   <Route index element={<p style={{fontSize: "200%"}}>
                                       {Array.from(ROOTS.values()).map(r => r.CJK).sort().join('')}
                                   </p>}/>
+                                  <Route path={"/roots"}>
+                                      <Route index element={<RootList/>}/>
+                                  </Route>
                                   <Route path={"/verify"}>
                                       <Route index element={<Verifier/>}/>
                                   </Route>
