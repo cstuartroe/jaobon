@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { ROOTS } from "./roots";
+import {stringToSyllable, Syllable, syllableToFont} from "./syllables";
 
 type Props = {
 }
@@ -29,6 +30,10 @@ export default class RootList extends Component<Props, State> {
                   {rootInfo.CJK}
                 </a>
                 {' '}{syllable}
+                {' '}
+                <span className={"lauvinko"}>
+                  {syllableToFont(stringToSyllable(syllable) as Syllable)}
+                </span>
               </h2>
               <p>{rootInfo.definition}</p>
               <p>From

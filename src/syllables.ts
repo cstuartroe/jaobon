@@ -4,101 +4,80 @@ export type MOA = "nasal" | "unvoiced stop" | "voiced stop" | "fricative" | "app
 export type Onset = {
     poa: POA,
     moa: MOA,
+    letter: string,
+}
+
+function onsetKV(letter: string, poa: POA, moa: MOA): [string, Onset] {
+    return [
+        letter,
+        {poa, moa, letter},
+    ];
 }
 
 const ONSETS = new Map<string, Onset | undefined>([
     ["", undefined],
-    ["m", {
-        poa: "labial",
-        moa: "nasal",
-    }],
-    ["p", {
-        poa: "labial",
-        moa: "unvoiced stop",
-    }],
-    ["b", {
-        poa: "labial",
-        moa: "voiced stop",
-    }],
-    ["w", {
-        poa: "labial",
-        moa: "approximant",
-    }],
-    ["n", {
-        poa: "alveolar",
-        moa: "nasal",
-    }],
-    ["t", {
-        poa: "alveolar",
-        moa: "unvoiced stop",
-    }],
-    ["d", {
-        poa: "alveolar",
-        moa: "voiced stop",
-    }],
-    ["s", {
-        poa: "alveolar",
-        moa: "fricative",
-    }],
-    ["l", {
-        poa: "alveolar",
-        moa: "approximant",
-    }],
-    ["c", {
-        poa: "palatal",
-        moa: "unvoiced stop",
-    }],
-    ["j", {
-        poa: "palatal",
-        moa: "voiced stop",
-    }],
-    ["x", {
-        poa: "palatal",
-        moa: "fricative",
-    }],
-    ["y", {
-        poa: "palatal",
-        moa: "approximant",
-    }],
-    ["k", {
-        poa: "velar",
-        moa: "unvoiced stop",
-    }],
-    ["g", {
-        poa: "velar",
-        moa: "voiced stop",
-    }],
-    ["h", {
-        poa: "velar",
-        moa: "fricative",
-    }],
-])
+    onsetKV("m", "labial", "nasal"),
+    onsetKV("p", "labial", "unvoiced stop"),
+    onsetKV("b", "labial", "voiced stop"),
+    ["w", {poa: "labial", moa: "approximant", letter: "v"}],
+    onsetKV("n", "alveolar", "nasal"),
+    onsetKV("t", "alveolar", "unvoiced stop"),
+    onsetKV("d", "alveolar", "voiced stop"),
+    onsetKV("s", "alveolar", "fricative"),
+    onsetKV("l", "alveolar", "approximant"),
+    onsetKV("c", "palatal", "unvoiced stop"),
+    onsetKV("j", "palatal", "voiced stop"),
+    onsetKV("x", "palatal", "fricative"),
+    onsetKV("y", "palatal", "approximant"),
+    onsetKV("k", "velar", "unvoiced stop"),
+    ["g", {poa: "velar", moa: "voiced stop", letter: "G"}],
+    onsetKV("h", "velar", "fricative"),
+]);
+
+type Frontness = "front" | "center" | "back";
 
 export type Vowel = {
     high: boolean,
-    frontness: "front" | "center" | "back",
+    frontness: Frontness,
+    standaloneLetter: string,
+    beforeLetter?: string,
+    afterLetter?: string,
+    wideAfterLetter?: string,
 }
 
 export const VOWELS = new Map<string, Vowel>([
     ["a", {
         high: false,
         frontness: "center",
+        standaloneLetter: "A",
+        afterLetter: "a",
     }],
     ["e", {
         high: false,
         frontness: "front",
+        standaloneLetter: "E",
+        beforeLetter: "e",
     }],
     ["i", {
         high: true,
         frontness: "front",
+        standaloneLetter: "I",
+        afterLetter: "i",
+        wideAfterLetter: "X",
     }],
     ["o", {
         high: false,
         frontness: "back",
+        standaloneLetter: "O",
+        beforeLetter: "e",
+        afterLetter: "o",
     }],
     ["u", {
         high: true,
         frontness: "back",
+        standaloneLetter: "U",
+        afterLetter: "u",
+        wideAfterLetter: "Z",
     }],
 ]);
 
@@ -200,4 +179,40 @@ export function allSyllables(): string[] {
     return out;
 }
 
+const serifInitials: (string | undefined)[] = ["b", "G", "h", "k", "t", "x"];
+const serifBlockingVowels: string[] = ["a", "o", "u", "Z"];
+const wideInitials: (string | undefined)[] = ["h", "k", "l", "m", "t", "x", "y"];
 
+export function syllableToFont(syll: Syllable): string {
+    let beforeVowel: string = "";
+    let initialLetter: string | undefined = syll.onset?.letter;
+    let afterVowel: string = "";
+    let finalLetter: string = "";
+
+    if (syll.coda == "o") {
+        afterVowel = "W";
+    } else if (syll.coda == "i") {
+        afterVowel = "Y";
+    } else if (initialLetter === undefined) {
+        afterVowel = syll.vowel.standaloneLetter;
+    } else {
+        beforeVowel = syll.vowel.beforeLetter || "";
+        afterVowel = syll.vowel.afterLetter || "";
+
+        if (syll.vowel.wideAfterLetter !== undefined && wideInitials.includes(initialLetter)) {
+            afterVowel = syll.vowel.wideAfterLetter;
+        }
+    }
+
+    if (syll.coda == "n") {
+        finalLetter = "M";
+    } else if (syll.coda == "s") {
+        finalLetter = "S";
+    } else if (syll.coda == "k") {
+        finalLetter = "K";
+    }
+
+    const useSerif = serifInitials.includes(initialLetter) && !serifBlockingVowels.includes(afterVowel);
+
+    return beforeVowel + (initialLetter || "") + (useSerif ? "q" : "") + afterVowel + finalLetter;
+}
