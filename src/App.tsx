@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { allSyllables } from "./syllables";
 import { ROOTS, sourceCounts } from "./roots";
+import Verifier from "./Verifier";
 
 import "../static/scss/main.scss";
 
@@ -30,7 +31,12 @@ class App extends Component {
                       <div className="col-12 col-md-8">
                           <Routes>
                               <Route path="/">
-                                  <Route index element={<p>Hello, World!</p>}/>
+                                  <Route index element={<p style={{fontSize: "200%"}}>
+                                      {Array.from(ROOTS.values()).map(r => r.CJK).sort().join('')}
+                                  </p>}/>
+                                  <Route path={"/verify"}>
+                                      <Route index element={<Verifier/>}/>
+                                  </Route>
                               </Route>
                           </Routes>
                       </div>
