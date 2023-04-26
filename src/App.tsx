@@ -7,6 +7,7 @@ import Menu from "./Menu";
 import Home from "./Home";
 import RootList from "./RootList";
 import Verifier from "./Verifier";
+import Dictionary from "./Dictionary";
 
 class App extends Component {
   render() {
@@ -26,6 +27,9 @@ class App extends Component {
                                   </Route>
                                   <Route path={"/verify"}>
                                       <Route index element={<Verifier/>}/>
+                                  </Route>
+                                  <Route path={"/dictionary"}>
+                                      <Route index element={<Dictionary/>}/>
                                   </Route>
                               </Route>
                           </Routes>
