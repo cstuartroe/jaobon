@@ -18,10 +18,10 @@ export default class RootList extends Component<Props, State> {
 
   render() {
     return (
-      <div>
+      <>
         <h1>{ROOTS.size} roots!</h1>
         {Array.from(ROOTS.entries()).map(([syllable, rootInfo], _) => (
-            <div>
+            <div key={syllable}>
               <h2>
                 <a
                     href={`https://en.wiktionary.org/wiki/${rootInfo.CJK}`}
@@ -36,23 +36,22 @@ export default class RootList extends Component<Props, State> {
                 </span>
               </h2>
               <p>{rootInfo.definition}</p>
-              <p>From
-                <ul>
-                  {rootInfo.etymologies.map(e => (
-                      <li>
-                        <a
-                            href={`https://en.wiktionary.org/wiki/${e.word}#${e.language}`}
-                            target="_blank"
-                        >
-                          {e.language} {e.word}
-                        </a>
-                      </li>
-                  ))}
-                </ul>
-              </p>
+              <p>From</p>
+              <ul>
+                {rootInfo.etymologies.map((e, i) => (
+                    <li key={i}>
+                      <a
+                          href={`https://en.wiktionary.org/wiki/${e.word}#${e.language}`}
+                          target="_blank"
+                      >
+                        {e.language} {e.word}
+                      </a>
+                    </li>
+                ))}
+              </ul>
             </div>
         ))}
-      </div>
+      </>
     );
   }
 }

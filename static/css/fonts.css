@@ -11,3 +11,10 @@
        url("/static/font/lauvinko-bubble.otf") format('opentype');
   font-weight: normal;
 }
+
+@font-face {
+    font-family: "Kanit";
+    src: url("/static/font/Kanit-Light.ttf") format('truetype'),
+         url("/static/font/Kanit-Light.otf") format('opentype');
+    font-weight: normal;
+}

@@ -1,4 +1,32 @@
+$purple: #8866cc;
+
+* {
+  font-family: "Kanit";
+}
+
+h1 {
+  color: $purple;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
 .lauvinko {
   //font-family: "Lauvinko Bubble", sans-serif;
   font-family: "Lauvinko Smooth Serif", sans-serif;
+}
+
+.menu {
+  background-color: $purple;
+  padding: 0;
+}
+
+.menu-item {
+  font-size: 2.5vh;
+  padding: 1vh 3vw;
+  color: white;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
 }
