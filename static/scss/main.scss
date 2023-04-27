@@ -73,3 +73,17 @@ h1 {
     background: white;
   }
 }
+
+table {
+  margin: auto auto 1.5vh;
+
+  td, th {
+    padding: .5vw;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  th {
+    font-weight: 800;
+  }
+}

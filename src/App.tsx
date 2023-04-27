@@ -5,6 +5,7 @@ import "../static/scss/main.scss";
 
 import Menu from "./Menu";
 import Home from "./Home";
+import Phonology from "./Phonology";
 import RootList from "./RootList";
 import Verifier from "./Verifier";
 import Dictionary from "./Dictionary";
@@ -22,6 +23,9 @@ class App extends Component {
                           <Routes>
                               <Route path="/">
                                   <Route index element={<Home/>}/>
+                                  <Route path={"/phonology"}>
+                                      <Route index element={<Phonology/>}/>
+                                  </Route>
                                   <Route path={"/roots"}>
                                       <Route index element={<RootList/>}/>
                                   </Route>
@@ -33,6 +37,7 @@ class App extends Component {
                                   </Route>
                               </Route>
                           </Routes>
+                          <div style={{height: "10vh"}}/>
                       </div>
                   </div>
               </div>

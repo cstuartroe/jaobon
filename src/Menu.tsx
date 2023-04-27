@@ -48,7 +48,8 @@ export default class Menu extends Component<Props, State> {
         return (
             <div className="col-12 col-md-3 col-lg-2 menu">
                 <div className="fixture">
-                    <MenuItem label={'Home'} destination={'/'}/>
+                    <MenuItem label={'Overview'} destination={'/'}/>
+                    <MenuItem label={'Phonology'} destination={'/phonology'}/>
                     <MenuItem label={'Roots'} destination={'/roots'}/>
                     <MenuItem label={'Dictionary'} destination={'/dictionary'}/>
                     <MenuItem label={'Texts'} destination={'/texts'}/>

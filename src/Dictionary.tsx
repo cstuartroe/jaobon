@@ -32,8 +32,11 @@ export default class Dictionary extends Component<Props, State> {
   render() {
     return (
       <>
+        <h1>Dictionary</h1>
         {dictionarySections.map(s => (
             <div key={s.title}>
+              <div style={{height: "5vh"}}/>
+
               <h2>{s.title}</h2>
 
               {s.entries.map((e, i) => (
@@ -43,8 +46,6 @@ export default class Dictionary extends Component<Props, State> {
                     <p style={{marginBottom: 0}}>"{e.English}"</p>
                   </div>
               ))}
-
-              <div style={{height: "10vh"}}/>
             </div>
         ))}
       </>

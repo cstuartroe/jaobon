@@ -15,6 +15,14 @@ export default class RootList extends Component<Props, State> {
     };
   }
 
+  componentDidMount() {
+    if (window.location.hash) {
+      setTimeout(() => {
+        window.location = window.location;
+      }, 250);
+    }
+  }
+
 
   render() {
     return (
