@@ -315,11 +315,11 @@
       },
       {
         "English": "minute",
-        "Jaobon": "kok ho"
+        "Jaobon": "kok xas"
       },
       {
         "English": "second",
-        "Jaobon": "ho gok"
+        "Jaobon": "xas gok"
       },
       {
         "English": "decade",
@@ -343,7 +343,7 @@
       },
       {
         "English": "noon",
-        "Jaobon": "nun"
+        "Jaobon": "nun mes"
       },
       {
         "English": "afternoon",
@@ -363,7 +363,7 @@
       },
       {
         "English": "now",
-        "Jaobon": "je xan"
+        "Jaobon": "je xas"
       },
       {
         "English": "later",
@@ -429,27 +429,27 @@
     "entries": [
       {
         "English": "monday",
-        "Jaobon": "xin cek dos/xin cek mun"
+        "Jaobon": "xin cek dos, xin cek mun"
       },
       {
         "English": "tuesday",
-        "Jaobon": "xin cek san/xin cek wo"
+        "Jaobon": "xin cek san, xin cek wo"
       },
       {
         "English": "wednesday",
-        "Jaobon": "xin cek pu/xin cek wa"
+        "Jaobon": "xin cek pu, xin cek wa"
       },
       {
         "English": "thursday",
-        "Jaobon": "xin cek u/xin cek mu"
+        "Jaobon": "xin cek u, xin cek mu"
       },
       {
         "English": "friday",
-        "Jaobon": "xin cek ses/xin cek jin"
+        "Jaobon": "xin cek ses, xin cek jin"
       },
       {
         "English": "saturday",
-        "Jaobon": "xin cek ci/xin cek tu"
+        "Jaobon": "xin cek ci, xin cek tu"
       },
       {
         "English": "sunday",
@@ -612,7 +612,7 @@
       },
       {
         "English": "direction",
-        "Jaobon": "la, do"
+        "Jaobon": "la, dao"
       }
     ]
   },
@@ -781,7 +781,7 @@
       },
       {
         "English": "mustache",
-        "Jaobon": "bok jan mao"
+        "Jaobon": "bok xan mao"
       },
       {
         "English": "head hair",
@@ -889,7 +889,7 @@
       },
       {
         "English": "chest",
-        "Jaobon": "pek"
+        "Jaobon": "xon"
       },
       {
         "English": "bone",
@@ -1151,11 +1151,11 @@
       },
       {
         "English": "fly",
-        "Jaobon": "bo wos con"
+        "Jaobon": "wos bo con"
       },
       {
         "English": "cockroach ",
-        "Jaobon": "gis wos con"
+        "Jaobon": "wos gis con"
       },
       {
         "English": "worm",
@@ -1208,7 +1208,7 @@
       },
       {
         "English": "snout/animal's mouth",
-        "Jaobon": "bok/nos"
+        "Jaobon": "bok, nos"
       },
       {
         "English": "wing",
@@ -1237,7 +1237,7 @@
       },
       {
         "English": "bicycle",
-        "Jaobon": "dos lun ce/jin pao ce"
+        "Jaobon": "dos lun ce, jao pao ce"
       },
       {
         "English": "bus",
@@ -1261,7 +1261,7 @@
       },
       {
         "English": "engine",
-        "Jaobon": "pao mak"
+        "Jaobon": "pao mek"
       },
       {
         "English": "ticket",
@@ -1277,7 +1277,7 @@
       },
       {
         "English": "brake",
-        "Jaobon": "mo su kos"
+        "Jaobon": "mo su mek"
       }
     ]
   },
@@ -1306,7 +1306,7 @@
       },
       {
         "English": "room",
-        "Jaobon": "kas pis/can den"
+        "Jaobon": "kas pis, can den"
       },
       {
         "English": "ground",
@@ -1346,7 +1346,7 @@
       },
       {
         "English": "farm",
-        "Jaobon": "non tu/non luk"
+        "Jaobon": "non tu, non luk"
       },
       {
         "English": "court (law)",
@@ -1430,7 +1430,7 @@
       },
       {
         "English": "state",
-        "Jaobon": "gi jik"
+        "Jaobon": "tu jik"
       },
       {
         "English": "province",
@@ -1463,7 +1463,7 @@
       },
       {
         "English": "skirt",
-        "Jaobon": "li mes te"
+        "Jaobon": "muk mes te"
       },
       {
         "English": "pants",
@@ -1967,7 +1967,7 @@
       },
       {
         "English": "drug",
-        "Jaobon": "he us/ben nao us"
+        "Jaobon": "he us, ben nao us"
       },
       {
         "English": "sign",
@@ -2045,7 +2045,7 @@
       },
       {
         "English": "wine",
-        "Jaobon": "jus sak"
+        "Jaobon": "jus sak, gos sak"
       },
       {
         "English": "water",
@@ -2070,7 +2070,7 @@
     "entries": [
       {
         "English": "egg",
-        "Jaobon": "(cik/pak) gos"
+        "Jaobon": "cik gos, pak gos"
       },
       {
         "English": "butter",
@@ -2187,7 +2187,7 @@
     "entries": [
       {
         "English": "knife",
-        "Jaobon": "kok kos"
+        "Jaobon": "kok gun"
       },
       {
         "English": "spoon",
@@ -2195,7 +2195,7 @@
       },
       {
         "English": "fork",
-        "Jaobon": "pin kos"
+        "Jaobon": "pin gun"
       },
       {
         "English": "chopsticks",
@@ -2353,7 +2353,7 @@
       },
       {
         "English": "paint",
-        "Jaobon": "tus us/so us"
+        "Jaobon": "tus us, so us"
       },
       {
         "English": "key",
@@ -2377,7 +2377,7 @@
       },
       {
         "English": "gift",
-        "Jaobon": "li kos/ge kos"
+        "Jaobon": "li kos, ge kos"
       },
       {
         "English": "card",
@@ -2397,11 +2397,11 @@
       },
       {
         "English": "clock",
-        "Jaobon": "xas mak"
+        "Jaobon": "xas mek"
       },
       {
         "English": "fan",
-        "Jaobon": "lu gas mak"
+        "Jaobon": "lu gas mek"
       },
       {
         "English": "lamp",
@@ -2417,7 +2417,7 @@
       },
       {
         "English": "refrigerator",
-        "Jaobon": "bin mak"
+        "Jaobon": "bin mek"
       },
       {
         "English": "sink",
@@ -2433,7 +2433,7 @@
       },
       {
         "English": "umbrella ",
-        "Jaobon": "han wa kos/to xan kos"
+        "Jaobon": "han wa mek, to xan mek"
       }
     ]
   },
@@ -2442,23 +2442,23 @@
     "entries": [
       {
         "English": "camera",
-        "Jaobon": "pik mak"
+        "Jaobon": "pik mek"
       },
       {
         "English": "radio",
-        "Jaobon": "ek bos mak"
+        "Jaobon": "ek bos mek"
       },
       {
         "English": "television",
-        "Jaobon": "ek lus mak"
+        "Jaobon": "ek lus mek"
       },
       {
         "English": "telephone",
-        "Jaobon": "ek bos mak"
+        "Jaobon": "ek des mek"
       },
       {
         "English": "cell phone",
-        "Jaobon": "ek bok cek"
+        "Jaobon": "ek des cek"
       },
       {
         "English": "smartphone",
@@ -2551,7 +2551,7 @@
       },
       {
         "English": "beach",
-        "Jaobon": "wa pi"
+        "Jaobon": "wa la"
       },
       {
         "English": "island",
@@ -2612,7 +2612,7 @@
       },
       {
         "English": "soil",
-        "Jaobon": "tu us/tu xa"
+        "Jaobon": "tu us, tu xa"
       },
       {
         "English": "sand",
@@ -2750,7 +2750,7 @@
       },
       {
         "English": "fluorine",
-        "Jaobon": "tus us"
+        "Jaobon": "yas us"
       },
       {
         "English": "neon",
@@ -2786,7 +2786,7 @@
       },
       {
         "English": "argon",
-        "Jaobon": "tan us"
+        "Jaobon": "xos us"
       },
       {
         "English": "potassium",
@@ -2798,7 +2798,7 @@
       },
       {
         "English": "titanium",
-        "Jaobon": "li jin"
+        "Jaobon": "pao jin"
       },
       {
         "English": "iron",
@@ -2818,7 +2818,7 @@
       },
       {
         "English": "zinc",
-        "Jaobon": "los jin"
+        "Jaobon": "he jin"
       },
       {
         "English": "bromine",
@@ -2879,51 +2879,51 @@
       },
       {
         "English": "word",
-        "Jaobon": "das pis"
+        "Jaobon": "des pis"
       },
       {
         "English": "sentence",
-        "Jaobon": "das pai"
+        "Jaobon": "des pai"
       },
       {
         "English": "noun",
-        "Jaobon": "min das pis"
+        "Jaobon": "min des pis"
       },
       {
         "English": "verb",
-        "Jaobon": "ak das pis"
+        "Jaobon": "ak des pis"
       },
       {
         "English": "adjective",
-        "Jaobon": "le das pis"
+        "Jaobon": "le des pis"
       },
       {
         "English": "adverb",
-        "Jaobon": "we das pis"
+        "Jaobon": "we des pis"
       },
       {
         "English": "article",
-        "Jaobon": "sa das pis"
+        "Jaobon": "sa des pis"
       },
       {
         "English": "pronoun",
-        "Jaobon": "lik min (das pis)"
+        "Jaobon": "lik min des pis"
       },
       {
         "English": "adposition",
-        "Jaobon": "dao das pis"
+        "Jaobon": "dao des pis"
       },
       {
         "English": "dictionary",
-        "Jaobon": "das pis buk"
+        "Jaobon": "des pis buk"
       },
       {
         "English": "language",
-        "Jaobon": "das we"
+        "Jaobon": "des we"
       },
       {
         "English": "conversation",
-        "Jaobon": "das lu"
+        "Jaobon": "des lu"
       }
     ]
   },
@@ -2952,7 +2952,7 @@
       },
       {
         "English": "narrow",
-        "Jaobon": "xao/no ho"
+        "Jaobon": "xao, no ho"
       },
       {
         "English": "big",
@@ -2980,7 +2980,7 @@
       },
       {
         "English": "warm",
-        "Jaobon": "hok cek/wen"
+        "Jaobon": "hok cek, wen"
       },
       {
         "English": "cool",
@@ -3000,7 +3000,7 @@
       },
       {
         "English": "old",
-        "Jaobon": "bik/gu"
+        "Jaobon": "bik, gu"
       },
       {
         "English": "strong",
@@ -3016,7 +3016,7 @@
       },
       {
         "English": "alive",
-        "Jaobon": "bi/cun"
+        "Jaobon": "bi, cun"
       },
       {
         "English": "heavy",
@@ -3028,11 +3028,11 @@
       },
       {
         "English": "dark",
-        "Jaobon": "dak/no yo lus"
+        "Jaobon": "dak, no yo lus"
       },
       {
         "English": "light/bright",
-        "Jaobon": "wai/yo lus"
+        "Jaobon": "wai, yo lus"
       },
       {
         "English": "good",
@@ -3044,11 +3044,11 @@
       },
       {
         "English": "pretty",
-        "Jaobon": "be/hao kan"
+        "Jaobon": "be, hao kan"
       },
       {
         "English": "handsome",
-        "Jaobon": "be/hao kan"
+        "Jaobon": "be, hao kan"
       },
       {
         "English": "ugly",
@@ -3056,7 +3056,7 @@
       },
       {
         "English": "first",
-        "Jaobon": "ji un/mas cen"
+        "Jaobon": "ji un, mas cen"
       },
       {
         "English": "last",
@@ -3076,7 +3076,7 @@
       },
       {
         "English": "different",
-        "Jaobon": "no ton/yo ca"
+        "Jaobon": "no ton, yo ca"
       },
       {
         "English": "other",
@@ -3169,7 +3169,7 @@
       },
       {
         "English": "do/make",
-        "Jaobon": "as/mek"
+        "Jaobon": "as, mek"
       },
       {
         "English": "give",
@@ -3209,27 +3209,27 @@
       },
       {
         "English": "go",
-        "Jaobon": "wak/a"
+        "Jaobon": "wak, a"
       },
       {
         "English": "stop",
-        "Jaobon": "mo/xos"
+        "Jaobon": "mo, xos"
       },
       {
         "English": "follow",
-        "Jaobon": "wis/ces"
+        "Jaobon": "wis, ces"
       },
       {
         "English": "think",
-        "Jaobon": "jek/kao"
+        "Jaobon": "jek, kao"
       },
       {
         "English": "speak/say",
-        "Jaobon": "das"
+        "Jaobon": "des"
       },
       {
         "English": "tell",
-        "Jaobon": "das"
+        "Jaobon": "des"
       },
       {
         "English": "eat",
@@ -3301,7 +3301,7 @@
       },
       {
         "English": "taste (something)",
-        "Jaobon": "ge tes"
+        "Jaobon": "gek tes"
       },
       {
         "English": "taste (like)",
@@ -3325,7 +3325,7 @@
       },
       {
         "English": "burn",
-        "Jaobon": "ca/wo co"
+        "Jaobon": "ca, wo co"
       },
       {
         "English": "melt",
@@ -3333,7 +3333,7 @@
       },
       {
         "English": "dig",
-        "Jaobon": "mek tu bok"
+        "Jaobon": "mak tu bok"
       },
       {
         "English": "explode",
@@ -3433,7 +3433,7 @@
       },
       {
         "English": "call",
-        "Jaobon": "ek das"
+        "Jaobon": "ek des"
       },
       {
         "English": "turn",
@@ -3441,7 +3441,7 @@
       },
       {
         "English": "build",
-        "Jaobon": "mek"
+        "Jaobon": "mak"
       },
       {
         "English": "teach",
@@ -3477,7 +3477,7 @@
       },
       {
         "English": "find",
-        "Jaobon": "bus dao"
+        "Jaobon": "bus has"
       },
       {
         "English": "fall",
@@ -3533,7 +3533,7 @@
       },
       {
         "English": "kick",
-        "Jaobon": "jao da"
+        "Jaobon": "yus jao da"
       },
       {
         "English": "lead",
@@ -3566,7 +3566,7 @@
       },
       {
         "English": "maybe",
-        "Jaobon": "yo we/ken"
+        "Jaobon": "yo we, ken"
       },
       {
         "English": "definitely",
@@ -3594,7 +3594,7 @@
       },
       {
         "English": "at least",
-        "Jaobon": "no les"
+        "Jaobon": "o mas"
       },
       {
         "English": "both",
@@ -3629,16 +3629,12 @@
         "Jaobon": "no bus"
       },
       {
-        "English": "soon",
-        "Jaobon": "yak xas"
-      },
-      {
         "English": "again",
         "Jaobon": "i bes"
       },
       {
         "English": "suddenly",
-        "Jaobon": "su"
+        "Jaobon": "su we"
       }
     ]
   },
@@ -3651,7 +3647,7 @@
       },
       {
         "English": "what",
-        "Jaobon": "ke/ke kos"
+        "Jaobon": "ke, ke kos"
       },
       {
         "English": "which",
@@ -3716,7 +3712,7 @@
       },
       {
         "English": "Germany",
-        "Jaobon": "do ce nas"
+        "Jaobon": "dao ce nas"
       },
       {
         "English": "India",
@@ -3732,11 +3728,11 @@
       },
       {
         "English": "Italy",
-        "Jaobon": "ik tao nas"
+        "Jaobon": "i tao nas"
       },
       {
         "English": "Japan",
-        "Jaobon": "son xan nas"
+        "Jaobon": "son gen nas"
       },
       {
         "English": "Mexico",
@@ -3748,7 +3744,7 @@
       },
       {
         "English": "Pakistan",
-        "Jaobon": "pak kis nas"
+        "Jaobon": "pa ki nas"
       },
       {
         "English": "Philippines",
@@ -3776,11 +3772,11 @@
       },
       {
         "English": "Turkey",
-        "Jaobon": "tu kin nas"
+        "Jaobon": "tu ki nas"
       },
       {
         "English": "United Kingdom",
-        "Jaobon": "ton ga gi nas"
+        "Jaobon": "ton ga lon gi nas"
       },
       {
         "English": "United States",

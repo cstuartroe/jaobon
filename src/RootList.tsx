@@ -21,7 +21,7 @@ export default class RootList extends Component<Props, State> {
       <>
         <h1>{ROOTS.size} roots!</h1>
         {Array.from(ROOTS.entries()).map(([syllable, rootInfo], _) => (
-            <div key={syllable}>
+            <div key={syllable} id={syllable}>
               <h2>
                 <a
                     href={`https://en.wiktionary.org/wiki/${rootInfo.CJK}`}

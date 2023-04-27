@@ -695,7 +695,7 @@ export const ROOTS = new Map<string, Root>([
         "huk",
         "hook, bend, curve, corner",
         "角",
-        [["English", "hook"]],
+        [["English", "hook"], ["Dutch", "hoek"]],
     ),
     root(
         "hun",
