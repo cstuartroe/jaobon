@@ -7,6 +7,7 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     'jaobon.herokuapp.com',
+    'jaobon.conorstuartroe.com',
 ]
 
 DEBUG = bool(os.getenv('DEBUG'))
