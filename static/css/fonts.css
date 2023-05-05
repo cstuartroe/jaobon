@@ -18,3 +18,10 @@
          url("/static/font/Kanit-Light.otf") format('opentype');
     font-weight: normal;
 }
+
+@font-face {
+    font-family: "Gentium";
+    src: url("/static/font/GentiumPlus-R.ttf") format('truetype'),
+         url("/static/font/GentiumPlus-R.otf") format('opentype');
+    font-weight: normal;
+}

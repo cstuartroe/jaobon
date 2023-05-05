@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {sourceCounts} from "./roots";
 import {Link} from "react-router-dom";
+import {IPA} from "./Phonology";
 
 type Props = {
 }
@@ -97,35 +98,35 @@ export default class Sourcing extends Component<Props, State> {
         </p>
 
         <ul>
-            <li>Vowels are often distorted: English <i>back</i> [bæk] → Jaobon <i>bek</i> [bek]</li>
+            <li>Vowels are often distorted: English <i>back</i> <IPA>[bæk]</IPA> → Jaobon <i>bek</i> <IPA>[bek]</IPA></li>
             <li>
                 Consonants, especially liquids and glides, are liable to disappear:
-                Mandarin 年 [njɛn˧˥] → Jaobon <i>nen</i>,
+                Mandarin 年 <IPA>[njɛn˧˥]</IPA> → Jaobon <i>nen</i>,
                 Spanish <i>crecer</i> → Jaobon <i>kes</i>,
                 English <i>horse</i> → Jaobon <i>hos</i>,
                 English <i>glass</i> → Jaobon <i>las</i>,
-                Hindi मुक्त [mʊkt̪] → Jaobon <i>muk</i>
+                Hindi मुक्त <IPA>[mʊkt̪]</IPA> → Jaobon <i>muk</i>
             </li>
             <li>
-                Consonants (particularly, [f]) are sometimes replaced with the closest but still not-so-similar alternatives:
+                Consonants (particularly, <IPA>[f]</IPA>) are sometimes replaced with the closest but still not-so-similar alternatives:
                 English <i>four</i> → Jaobon <i>pu</i>. This is especially true with final consonants:
                 <ul>
                     <li>
-                        Any old stop might become Jaobon final <i>k</i> (for which I consider both [k] and [ʔ] acceptable pronunciations):
+                        Any old stop might become Jaobon final <i>k</i> (for which I consider both <IPA>[k]</IPA> and <IPA>[ʔ]</IPA> acceptable pronunciations):
                         English <i>dog</i> → Jaobon <i>dok</i>,
-                        Mandarin 舞蹈 [u˧˥ tau̯˨˩˦] → Jaobon <i>uk</i>
+                        Mandarin 舞蹈 <IPA>[u˧˥ tau̯˨˩˦]</IPA> → Jaobon <i>uk</i>
                     </li>
                     <li>
                         Any coronal fricative or affricate might become Jaobon final <i>s</i>:
                         English <i>with</i> → Jaobon <i>wis</i>,
-                        Mandarin 物质 [u˥˩ ʈ͡ʂɻ̩˥˩] → Jaobon <i>us</i>
+                        Mandarin 物质 <IPA>[u˥˩ ʈ͡ʂɻ̩˥˩]</IPA> → Jaobon <i>us</i>
                     </li>
                 </ul>
             </li>
             <li>
                 On rare occasions, I allowed a root to be more recognizable in spelling than pronunciation:
                 English <i>make</i> → Jaobon <i>mak</i>,
-                Spanish <i>hasta</i> [asta] → Jaobon <i>has</i> [has]
+                Spanish <i>hasta</i> <IPA>[asta]</IPA> → Jaobon <i>has</i> <IPA>[has]</IPA>
             </li>
             <li>
                 I may only take the first or stressed syllable of a multisyllablic source word/stem:

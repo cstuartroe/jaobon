@@ -12,11 +12,11 @@ type State = {
 const notes = {
   alveolar: 'In free variation with dental place of articulation.',
   stops: 'The fortis-lenis distinction may surface as a difference in voicing, aspiration, or both. I notate stops/affricates in broad transcription as though they contrast in voicing.',
-  affricates: 'May be any coronal affricate: [t͡ʃ d͡ʒ], [t͡ɕ d͡ʑ], [t͡ʂ d͡ʐ], or even [t͡s d͡z].',
+  affricates: <>May be any coronal affricate: <IPA>[t͡ʃ d͡ʒ]</IPA>, <IPA>[t͡ɕ d͡ʑ]</IPA>, <IPA>[t͡ʂ d͡ʐ]</IPA>, or even <IPA>[t͡s d͡z]</IPA>.'</>,
   fricatives: 'Voicing is non-contrastive in fricatives, but they preferably remain unvoiced. This is because some listeners may have trouble distinguishing between voiced affricates and fricatives.',
-  shush: 'Free variation: [ʃ~ɕ~ʂ].',
+  shush: <>Free variation: <IPA>[ʃ~ɕ~ʂ]</IPA>.</>,
   liquids: 'May be any lateral or rhotic consonant.',
-  h: 'Free variation: [x~χ~h]',
+  h: <>Free variation: <IPA>[x~χ~h]</IPA></>,
 };
 
 type noteId = keyof typeof notes;
@@ -46,6 +46,10 @@ function ipa2Syllable(ipa: string) {
       .replace('Q', 'k')
       .replace('N', 'n')
       .replace('S', 's')
+}
+
+export function IPA(props: React.PropsWithChildren<{}>) {
+  return <span style={{fontFamily: "Gentium"}}>{props.children}</span>;
 }
 
 
@@ -109,40 +113,40 @@ export default class Phonology extends Component<Props, State> {
             <tbody>
             <tr>
               <th>Nasal</th>
-              <td>m</td>
-              <td>n</td>
+              <td><IPA>m</IPA></td>
+              <td><IPA>n</IPA></td>
               <td></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
               <th>Fortis stop/affricate{noteRef('stops')}</th>
-              <td>p</td>
-              <td>t</td>
-              <td>t͡ʃ{noteRef('affricates')}</td>
-              <td>k</td>
-              <td>ʔ</td>
+              <td><IPA>p</IPA></td>
+              <td><IPA>t</IPA></td>
+              <td><IPA>t͡ʃ</IPA>{noteRef('affricates')}</td>
+              <td><IPA>k</IPA></td>
+              <td><IPA>ʔ</IPA></td>
             </tr>
             <tr>
               <th>Lenis stop/affricate{noteRef('stops')}</th>
-              <td>b</td>
-              <td>d</td>
-              <td>d͡ʒ{noteRef('affricates')}</td>
-              <td>g</td>
+              <td><IPA>b</IPA></td>
+              <td><IPA>d</IPA></td>
+              <td><IPA>d͡ʒ</IPA>{noteRef('affricates')}</td>
+              <td><IPA>g</IPA></td>
               <td></td>
             </tr>
             <tr>
               <th>Fricative{noteRef('fricatives')}</th>
               <td></td>
-              <td>s</td>
-              <td>ʃ{noteRef('shush')}</td>
-              <td colSpan={2}>h{noteRef('h')}</td>
+              <td><IPA>s</IPA></td>
+              <td><IPA>ʃ</IPA>{noteRef('shush')}</td>
+              <td colSpan={2}><IPA>h</IPA>{noteRef('h')}</td>
             </tr>
             <tr>
               <th>Approximant</th>
-              <td>w</td>
-              <td>l{noteRef('liquids')}</td>
-              <td>j</td>
+              <td><IPA>w</IPA></td>
+              <td><IPA>l</IPA>{noteRef('liquids')}</td>
+              <td><IPA>j</IPA></td>
               <td></td>
               <td></td>
             </tr>
@@ -154,16 +158,16 @@ export default class Phonology extends Component<Props, State> {
               .map(([id, _n], _i) => noteBody(id))
           }
 
-          <p>Jaobon has the common system of five cardinal vowels /a e i o u/. It also has two diphthongs /ai̯ au̯/.</p>
+          <p>Jaobon has the common system of five cardinal vowels <IPA>/a e i o u/</IPA>. It also has two diphthongs <IPA>/ai̯ au̯/</IPA>.</p>
 
-          <p>A number of initial-vowel sequences are disallowed: /ti/, /di/, /si/, /hi/, /ji/, and /wu/.</p>
+          <p>A number of initial-vowel sequences are disallowed: <IPA>/ti/</IPA>, <IPA>/di/</IPA>, <IPA>/si/</IPA>, <IPA>/hi/</IPA>, <IPA>/ji/</IPA>, and <IPA>/wu/</IPA>.</p>
 
           <p>Jaobon has three possible coda consonant phonemes:</p>
 
           <ul>
-            <li>A stop /Q/, which is typically pronounced [k̚] or [ʔ], but may optionally assimilate in place to a following consonant.</li>
-            <li>A nasal /N/, which is typically [n~ŋ~ɴ] before a pause, but usually assimilates in place to a following consonant. May also surface as nasalization of the previous vowel.</li>
-            <li>A fricative /S/, which is preferably [s] but may be any fricative sound.</li>
+            <li>A stop <IPA>/Q/</IPA>, which is typically pronounced <IPA>[k̚]</IPA> or <IPA>[ʔ]</IPA>, but may optionally assimilate in place to a following consonant.</li>
+            <li>A nasal <IPA>/N/</IPA>, which is typically <IPA>[n~ŋ~ɴ]</IPA> before a pause, but usually assimilates in place to a following consonant. May also surface as nasalization of the previous vowel.</li>
+            <li>A fricative <IPA>/S/</IPA>, which is preferably <IPA>[s]</IPA> but may be any fricative sound.</li>
           </ul>
 
           <p>
@@ -176,13 +180,13 @@ export default class Phonology extends Component<Props, State> {
             <thead>
             <tr>
               <th/>
-              {initials.map(i => <th key={i}>{i}</th>)}
+              {initials.map(i => <th key={i}><IPA>{i}</IPA></th>)}
             </tr>
             </thead>
             <tbody>
             {rimes.map(r => (
                 <tr>
-                  <th>{r}</th>
+                  <th><IPA>{r}</IPA></th>
                   {initials.map(i => {
                     const syllable = ipa2Syllable(i + r);
                     const permissible = validSyllableString(syllable);
