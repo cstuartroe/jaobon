@@ -1391,7 +1391,7 @@ export const ROOTS = new Map<string, Root>([
         "nuk",
         "nut, bead",
         "珠",
-        [["Latin", "nux"]],
+        [["Latin", "nux"], ["English", "nut"]],
     ),
     root(
         "o",

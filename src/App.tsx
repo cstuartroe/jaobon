@@ -9,6 +9,7 @@ import Phonology from "./Phonology";
 import RootList from "./RootList";
 import Verifier from "./Verifier";
 import Dictionary from "./Dictionary";
+import Sourcing from "./Sourcing";
 
 class App extends Component {
   render() {
@@ -25,6 +26,9 @@ class App extends Component {
                                   <Route index element={<Home/>}/>
                                   <Route path={"/phonology"}>
                                       <Route index element={<Phonology/>}/>
+                                  </Route>
+                                  <Route path={"/sourcing"}>
+                                      <Route index element={<Sourcing/>}/>
                                   </Route>
                                   <Route path={"/roots"}>
                                       <Route index element={<RootList/>}/>
