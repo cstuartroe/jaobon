@@ -10,6 +10,7 @@ import RootList from "./RootList";
 import Verifier from "./Verifier";
 import Dictionary from "./Dictionary";
 import Sourcing from "./Sourcing";
+import Texts, { TextReader } from "./Texts";
 
 class App extends Component {
   render() {
@@ -38,6 +39,12 @@ class App extends Component {
                                   </Route>
                                   <Route path={"/dictionary"}>
                                       <Route index element={<Dictionary/>}/>
+                                  </Route>
+                                  <Route path={"/texts"}>
+                                      <Route index element={<Texts/>}/>
+                                  </Route>
+                                  <Route path={"/texts/:textId"}>
+                                      <Route index element={<TextReader/>}/>
                                   </Route>
                               </Route>
                           </Routes>

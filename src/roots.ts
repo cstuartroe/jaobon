@@ -651,7 +651,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "hen",
-        "very",
+        "very, intensely",
         "很",
         [["Chinese", "很"]],
     ),
