@@ -50,6 +50,7 @@ class App extends Component {
                           </Routes>
                           <div style={{height: "10vh"}}/>
                       </div>
+                      <div className="col-0 col-md-2 col-lg-3"/>
                   </div>
               </div>
           </Router>

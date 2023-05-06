@@ -1,7 +1,16 @@
 $purple: #8866cc;
+$ice_blue: #86cbf9;
 
 * {
   font-family: "Kanit";
+}
+
+a {
+  color: $ice_blue;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 h1 {
