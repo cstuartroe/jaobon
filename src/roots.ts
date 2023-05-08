@@ -585,9 +585,9 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "guk",
-        "group",
+        "group, together",
         "组",
-        [["English", "group"], ["Spanish", "grupo"]],
+        [["English", "group"], ["Spanish", "grupo"], ["Chinese", "共同"]],
     ),
     root(
         "gun",
@@ -1119,7 +1119,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "lun",
-        "round, circle, wheel, cycle",
+        "round, circle, wheel, cycle, roll",
         "轮",
         [["Chinese", "轮"]],
     ),
