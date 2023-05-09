@@ -34,6 +34,7 @@ export default class RootList extends Component<Props, State> {
                 <a
                     href={`https://en.wiktionary.org/wiki/${rootInfo.CJK}`}
                     target="_blank"
+                    className="cjk"
                 >
                   {rootInfo.CJK}
                 </a>

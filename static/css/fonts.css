@@ -25,3 +25,10 @@
          url("/static/font/GentiumPlus-R.otf") format('opentype');
     font-weight: normal;
 }
+
+@font-face {
+    font-family: "Xiao Lai";
+    src: url("/static/font/XiaolaiSC-Regular.ttf") format('truetype');
+    src: url("/static/font/XiaolaiSC-Regular.otf") format('opentype');
+    font-weight: normal;
+}

@@ -34,6 +34,7 @@ class AnnotatedCharacter extends Component<ACProps, ACState> {
               <a
                   href={`/roots#${this.props.syllable}`}
                   target="_blank"
+                  className="cjk"
               >
                   {root.CJK}
               </a>
@@ -82,7 +83,7 @@ export default function AnnotatedText(props: Props) {
             if (chunk === undefined) {
                 console.error(`Unknown char: ${c}`);
             } else {
-                chunks.push(chunk);
+                chunks.push(<span className="cjk">{chunk}</span>);
             }
         }
     }

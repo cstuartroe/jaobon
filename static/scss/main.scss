@@ -5,6 +5,11 @@ $ice_blue: #86cbf9;
   font-family: "Kanit", sans-serif;
 }
 
+.cjk {
+  font-family: "Xiao Lai";
+  font-size: 150%;
+}
+
 a {
   color: $ice_blue;
 
@@ -53,7 +58,6 @@ h1 {
   padding: 0 0.25vh;
 
   a {
-    font-size: 2.5vh;
     line-height: 250%;
     color: inherit;
 
