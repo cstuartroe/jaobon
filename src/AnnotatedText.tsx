@@ -56,6 +56,7 @@ const charMappings = new Map<string, string | null>([
     [',', '、'],
     ['~', '〜'],
     ['.', '。'],
+    ['?', '？'],
 ])
 
 export default function AnnotatedText(props: Props) {
