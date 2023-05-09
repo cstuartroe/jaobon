@@ -221,6 +221,70 @@ const texts = new Map<string, Text>([
           jaobon: "ik de as sen en ko yak wek ta pa.",
           translation: "The child waited at the door for her father.",
         },
+        {
+          jaobon: "xan son nus ik en dus cek ki mas bik de ben no ken bus dao ta mao cek.",
+          translation: "Yesterday the oldest girl in the village lost her kitten.",
+        },
+        {
+          jaobon: "ni de cu cun en je dus cek o?",
+          translation: "Were you born in this village?",
+        },
+        {
+          jaobon: "ni nan kek ken hao uk o?",
+          translation: "Can your brother dance well?",
+        },
+        {
+          jaobon: "nan jen de cu o?",
+          translation: "Did the man leave?",
+        },
+        {
+          jaobon: "ni nus kek a as lai dao ni o?",
+          translation: "Is your sister coming for you?",
+        },
+        {
+          jaobon: "ni ken lai xan son o?",
+          translation: "Can you come tomorrow?",
+        },
+        {
+          jaobon: "yak jen de as wak a ek we pas bin xas o?",
+          translation: "Have the neighbors gone away for the winter?",
+        },
+        {
+          jaobon: "hon xon pak as cak en ten wa o?",
+          translation: "Does the robin sing in the rain?",
+        },
+        {
+          jaobon: "ni a as wis mi men wak a tun ga o?",
+          translation: "Are you going with us to the concert?",
+        },
+        {
+          jaobon: "yo xas ki ni as bis xen ju tu o?",
+          translation: "Have you ever travelled in the jungle?",
+        },
+        {
+          jaobon: "mi men de as sen wa ce ces dao lu pas ji tao ek pis.",
+          translation: "We sailed down the river for several miles.",
+        },
+        {
+          jaobon: "me jen sa nis ces an",
+          translation: "Everybody knows about hunting.",
+        },
+        {
+          jaobon: "sao xas en lus ton bon ki hen yo son, mi men as cu wak a mon ga.",
+          translation: "On a sunny morning after the solstice we started for the mountains.",
+        },
+        {
+          jaobon: "mik to mu de ha nis hu nes de hus.",
+          translation: "Tom laughed at the monkey's tricks.",
+        },
+        {
+          jaobon: "gu nan jen ki yo wak mu de as jan en mu can yak.",
+          translation: "An old man with a walking stick stood beside the fence.",
+        },
+        {
+          jaobon: "do luk de mu mus es gis en mu tak ki ka.",
+          translation: "The squirrel's nest was hidden by drooping boughs.",
+        },
       ],
     }],
 ]);

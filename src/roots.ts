@@ -705,7 +705,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "hus",
-        "monkey, ape",
+        "monkey, ape, naughty, tricksy",
         "猴",
         [["Chinese", "猴子"]],
     ),
