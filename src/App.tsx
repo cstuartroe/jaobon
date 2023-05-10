@@ -17,7 +17,7 @@ class App extends Component {
       return (
           <Router>
               <div id="main-container" className="container-fluid">
-                  <div className="row" style={{minHeight: '100vh'}}>
+                  <div className="row main-row">
                       <Menu/>
                       <div className="col-0 col-md-1"/>
                       <div className="col-12 col-md-6">
