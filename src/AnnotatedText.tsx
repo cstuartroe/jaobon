@@ -1,15 +1,15 @@
 import React, { Component } from "react";
-import {ROOTS} from "./roots";
+import { Root, ROOTS } from "./roots";
 
 type ACProps = {
-    syllable: string,
+    root: Root,
 }
 
 type ACState = {
     tooltipShown: boolean,
 }
 
-class AnnotatedCharacter extends Component<ACProps, ACState> {
+export class AnnotatedCharacter extends Component<ACProps, ACState> {
   constructor(props: ACProps) {
     super(props);
     this.state = {
@@ -19,12 +19,6 @@ class AnnotatedCharacter extends Component<ACProps, ACState> {
 
 
   render() {
-      const root = ROOTS.get(this.props.syllable);
-      if (root === undefined) {
-          console.error(`Unrecognized syllable: ${this.props.syllable}`)
-          return null;
-      }
-
       return (
           <span
               className="annotated"
@@ -32,15 +26,15 @@ class AnnotatedCharacter extends Component<ACProps, ACState> {
               onMouseLeave={() => this.setState({tooltipShown: false})}
           >
               <a
-                  href={`/roots#${this.props.syllable}`}
+                  href={`/roots#${this.props.root.syllable}`}
                   target="_blank"
                   className="cjk"
               >
-                  {root.CJK}
+                  {this.props.root.CJK}
               </a>
-              <span className="annotation">{this.props.syllable}</span>
+              <span className="annotation">{this.props.root.syllable}</span>
               {this.state.tooltipShown && (
-                  <span className="translation">{root.definition}</span>
+                  <span className="translation">{this.props.root.definition}</span>
               )}
           </span>
     );
@@ -60,15 +54,23 @@ const charMappings = new Map<string, string | null>([
     ['?', '？'],
 ])
 
-export default function AnnotatedText(props: Props) {
-    const sentence = props.sentence.toLocaleLowerCase();
-    const chunks: (string | JSX.Element | null)[] = [];
+
+export function parseJaobon(sentence: string): (Root | string)[] {
+    sentence = sentence.toLocaleLowerCase();
+
+    const pieces: (Root | string)[] = [];
 
     let currentWord = "";
 
     function popWord(i: number) {
         if (currentWord !== "") {
-            chunks.push(<AnnotatedCharacter syllable={currentWord} key={i}/>);
+            const root = ROOTS.get(currentWord);
+            if (root === undefined) {
+                console.error(`Unrecognized syllable: ${currentWord}`)
+            } else {
+                pieces.push(root)
+            }
+
             currentWord = "";
         }
     }
@@ -79,15 +81,27 @@ export default function AnnotatedText(props: Props) {
             currentWord += c;
         } else {
             popWord(i);
-            const chunk = charMappings.get(c);
-            if (chunk === undefined) {
-                console.error(`Unknown char: ${c}`);
-            } else {
-                chunks.push(<span className="cjk">{chunk}</span>);
-            }
+            pieces.push(c)
         }
     }
     popWord(-1);
 
-    return <>{chunks}</>
+    return pieces;
+}
+
+export default function AnnotatedText(props: Props) {
+    return <>
+        {parseJaobon(props.sentence).map((piece, i)=> {
+            if (typeof piece === "string") {
+                const c = charMappings.get(piece);
+                if (c === undefined) {
+                    console.error(`Unknown char: ${piece}`);
+                } else {
+                    return <span className="cjk" key={i}>{c}</span>;
+                }
+            } else {
+                return <AnnotatedCharacter root={piece} key={i}/>;
+            }
+        })}
+    </>
 }

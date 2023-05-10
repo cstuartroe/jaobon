@@ -7,17 +7,18 @@ type Etymology = {
     word: string,
 }
 
-type Root = {
+export type Root = {
     definition: string,
+    syllable: string,
     etymologies: Etymology[],
     CJK: string,
 }
 
 const usedCJK = new Set<string>();
 
-function root(syll: string, definition: string, CJK: string, etymologies: [SourceLanguage, string][]): [string, Root] {
-    if (!validSyllableString(syll)) {
-        throw `Invalid syllable: ${syll}`
+function root(syllable: string, definition: string, CJK: string, etymologies: [SourceLanguage, string][]): [string, Root] {
+    if (!validSyllableString(syllable)) {
+        throw `Invalid syllable: ${syllable}`
     }
     if (CJK.length != 1) {
         throw `Invalid CJK: ${CJK}`
@@ -27,9 +28,10 @@ function root(syll: string, definition: string, CJK: string, etymologies: [Sourc
     }
     usedCJK.add(CJK);
     return [
-        syll,
+        syllable,
         {
             definition,
+            syllable,
             CJK,
             etymologies: etymologies.map(([language, word], _) => ({language, word})),
         },
@@ -1847,7 +1849,7 @@ export const ROOTS = new Map<string, Root>([
         "wes",
         "bone; west",
         "骨",
-        [["English", "west"], ["Spanish", "hueso"]],
+        [["English", "west"], ["Spanish", "oeste"], ["Spanish", "hueso"]],
     ),
     root(
         "wi",

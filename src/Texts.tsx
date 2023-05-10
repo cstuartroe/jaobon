@@ -1,6 +1,7 @@
-import React, { Component } from "react";
+import React, {Component, useState} from "react";
 import {Link, useParams} from "react-router-dom";
-import AnnotatedText from "./AnnotatedText";
+import AnnotatedText, {AnnotatedCharacter, parseJaobon} from "./AnnotatedText";
+import {Root, ROOTS} from "./roots";
 
 type TextLine = {
   jaobon: string,
@@ -377,8 +378,47 @@ const texts = new Map<string, Text>([
     }],
 ]);
 
+function rootFrequencies(text: Text) {
+  const out = new Map<Root, number>();
+
+  text.lines.forEach(line => {
+    parseJaobon(line.jaobon).forEach(piece => {
+      if (typeof piece !== "string") {
+        out.set(piece, (out.get(piece) || 0) + 1);
+      }
+    })
+  })
+
+  return out
+}
+
+function textRootInfo(text: Text) {
+  const frequencies = rootFrequencies(text);
+
+  const totalRoots = Array.from(frequencies.values())
+      .reduce((a, b) => a + b, 0);
+
+  return {
+    frequencies,
+    totalRoots,
+  }
+}
+
+function rootFrequencyList(textInfo: ReturnType<typeof textRootInfo>) {
+  return (
+      <ul>
+        {Array.from(textInfo.frequencies.entries())
+            .sort((a, b) => b[1] - a[1])
+            .map(([root, count], i) => (
+                <li><AnnotatedCharacter root={root}/> {count} ({Math.round(10000 * count / textInfo.totalRoots)/100}%)</li>
+            ))}
+      </ul>
+  );
+}
+
 export function TextReader(props: {}) {
   const { textId } = useParams();
+  const [showFrequencies, setShowFrequencies] = useState<boolean>();
 
   if (textId === undefined) {
     return null;
@@ -390,6 +430,8 @@ export function TextReader(props: {}) {
     return null;
   }
 
+  const textInfo = textRootInfo(text);
+
   return (
       <>
         <h2>{text.title}</h2>
@@ -398,10 +440,48 @@ export function TextReader(props: {}) {
             <p>{text.description}</p>
         )}
 
-        {text.lines.map((line, i) => <div key={i}>
-          <p><AnnotatedText sentence={line.jaobon}/></p>
-          <p>{line.translation}</p>
-        </div>)}
+        <div style={{border: "1px solid black", padding: "1vw"}}>
+          <p>
+            This text has{' '}
+            {text.lines.length} lines,{' '}
+            {textInfo.totalRoots} roots total,{' '}
+            and {textInfo.frequencies.size} distinct roots.
+          </p>
+
+          <p>
+            <a href="#" onClick={() => setShowFrequencies(!showFrequencies)}>
+              Click to {showFrequencies ? "hide" : "show"} root frequencies for this text
+            </a>
+          </p>
+
+          {showFrequencies && rootFrequencyList(textInfo)}
+
+          {showFrequencies && (textInfo.frequencies.size > 150) && (
+              <p>
+                Unused roots:{' '}
+                {Array.from(ROOTS.values())
+                    .filter(r => textInfo.frequencies.get(r) === undefined)
+                    .map(r => <AnnotatedCharacter root={r}/>)
+                }
+              </p>
+          )}
+        </div>
+
+        {text.lines.map((line, i) => (
+            <div key={i}>
+              <p style={{position: "relative", marginBottom: ".5vh"}}>
+                <span style={{
+                  position: "absolute",
+                  left: 0,
+                  top: "50%",
+                  transform: "translate(-100%, -50%)",
+                  paddingRight: ".5vw",
+                }}>{i + 1}.</span>
+                <AnnotatedText sentence={line.jaobon}/>
+              </p>
+              <p>{line.translation}</p>
+            </div>
+        ))}
       </>
   );
 }
