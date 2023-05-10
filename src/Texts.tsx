@@ -266,7 +266,7 @@ const texts = new Map<string, Text>([
           translation: "We sailed down the river for several miles.",
         },
         {
-          jaobon: "me jen sa nis ces an",
+          jaobon: "me jen sa nis ces an.",
           translation: "Everybody knows about hunting.",
         },
         {
@@ -284,6 +284,94 @@ const texts = new Map<string, Text>([
         {
           jaobon: "do luk de mu mus es gis en mu tak ki ka.",
           translation: "The squirrel's nest was hidden by drooping boughs.",
+        },
+        {
+          jaobon: "xao sai jon de sen en ten bin wa bon i hao wek wen son de cun xas.",
+          translation: "The little seeds waited patiently under the snow for the warm spring sun.",
+        },
+        {
+          jaobon: "men xao nus ik ki dai sai so lun en to de as uk en mu wo yak.",
+          translation: "Many little girls with wreaths of flowers on their heads danced around the bonfire.",
+        },
+        {
+          jaobon: "dun kos de pai tai tas de ka dao kas tu.",
+          translation: "The cover of the basket fell to the floor.",
+        },
+        {
+          jaobon: "nan ik en jen pai ki mas cen de as mo wak en ko cen.",
+          translation: "The first boy in the line stopped at the entrance.",
+        },
+        {
+          jaobon: "mon cek xan de yo xao kas cek en ki kin gu nus jen bi.",
+          translation: "On the top of the hill in a little hut lived a wise old woman.",
+        },
+        {
+          jaobon: "xas ki bi en nak tu, mi men as wak en mao sai tu men bes.",
+          translation: "During our residence in the country we often walked in the pastures.",
+        },
+        {
+          jaobon: "ke xas bis jen de bik dus a as lai dao?",
+          translation: "When will your guests from the city arrive?",
+        },
+        {
+          jaobon: "dao de wa lu hen su ben wak a don la en mo lu luk yak.",
+          translation: "Near the mouth of the river, its course turns sharply towards the East.",
+        },
+        {
+          jaobon: "mes de je dos hen gao mon yo lo tu en ki sai wen we kes.",
+          translation: "Between the two lofty mountains lay a fertile valley.",
+        },
+        {
+          jaobon: "len nao sai so ki hon i gao de kes en hos pan sai mes.",
+          translation: "Among the wheat grew tall red poppies.",
+        },
+        {
+          jaobon: "duk mu gen de dun jon mu de es in cu de tu.",
+          translation: "The strong roots of the oak trees were torn from the ground.",
+        },
+        {
+          jaobon: "son de kan pas mu tak, kan ik men ki en hu.",
+          translation: "The sun looked down through the branches upon the children at play.",
+        },
+        {
+          jaobon: "gas lu de wes la de lu pas mi to cen ton we de mik tok.",
+          translation: "The west wind blew across my face like a friendly caress.",
+        },
+        {
+          jaobon: "tai cao lun de lun wak pas kas tu.",
+          translation: "The spool of thread rolled across the floor.",
+        },
+        {
+          jaobon: "jan bao en ki sai men kes de sen en can las cen.",
+          translation: "A box of growing plants stood in the window.",
+        },
+        {
+          jaobon: "mi hen xi.",
+          translation: "I am very happy.",
+        },
+        {
+          jaobon: "je jin hon gos men hen yo jus.",
+          translation: "These oranges are juicy.",
+        },
+        {
+          jaobon: "wa de yen wa lan hen yo yen.",
+          translation: "Sea water is salty.",
+        },
+        {
+          jaobon: "dao xan hen yo jen.",
+          translation: "The streets are full of people.",
+        },
+        {
+          jaobon: "suk yo suk tes.",
+          translation: "Sugar tastes sweet.",
+        },
+        {
+          jaobon: "wo es jek hok.",
+          translation: "The fire feels hot.",
+        },
+        {
+          jaobon: "xao nus ik de es kan we ki jek lon.",
+          translation: "The little girl seemed lonely.",
         },
       ],
     }],
