@@ -468,7 +468,7 @@ export function TextReader(props: {}) {
         </div>
 
         {text.lines.map((line, i) => (
-            <div key={i}>
+            <div key={i} className="text-line">
               <p style={{position: "relative", marginBottom: ".5vh"}}>
                 <span style={{
                   position: "absolute",

@@ -29,6 +29,12 @@ h1 {
   font-family: "Lauvinko Smooth Serif", sans-serif;
 }
 
+.text-line {
+  @media only screen and (max-width: 768px) {
+    padding-left: 3vw;
+  }
+}
+
 .menu {
   background-color: $purple;
   padding: 0;
