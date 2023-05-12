@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { ROOTS } from "./roots";
-import {stringToSyllable, Syllable, syllableToFont} from "./syllables";
+import {stringToSyllable, Syllable, syllableToDots, syllableToFalavay} from "./syllables";
 
 type Props = {
 }
@@ -30,7 +30,7 @@ export default class RootList extends Component<Props, State> {
         <h1>{ROOTS.size} roots!</h1>
         {Array.from(ROOTS.entries()).map(([syllable, rootInfo], _) => (
             <div key={syllable} id={syllable}>
-              <h2>
+              <h2 className="root-entry-header">
                 <a
                     href={`https://en.wiktionary.org/wiki/${rootInfo.CJK}`}
                     target="_blank"
@@ -40,8 +40,8 @@ export default class RootList extends Component<Props, State> {
                 </a>
                 {' '}{syllable}
                 {' '}
-                <span className={"lauvinko"}>
-                  {syllableToFont(stringToSyllable(syllable) as Syllable)}
+                <span className={"dots"}>
+                  {syllableToDots(stringToSyllable(syllable) as Syllable)}
                 </span>
               </h2>
               <p>{rootInfo.definition}</p>

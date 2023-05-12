@@ -28,7 +28,14 @@
 
 @font-face {
     font-family: "Xiao Lai";
-    src: url("/static/font/XiaolaiSC-Regular.ttf") format('truetype');
-    src: url("/static/font/XiaolaiSC-Regular.otf") format('opentype');
+    src: url("/static/font/XiaolaiSC-Regular.ttf") format('truetype'),
+         url("/static/font/XiaolaiSC-Regular.otf") format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Featural Dots";
+    src: url("/static/font/featural-dots.ttf") format('truetype'),
+         url("/static/font/featural-dots.otf") format('opentype');
     font-weight: normal;
 }

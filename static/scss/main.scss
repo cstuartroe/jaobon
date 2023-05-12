@@ -1,12 +1,18 @@
 $purple: #8866cc;
 $ice_blue: #86cbf9;
 
-* {
+h1, h2, p, li, .translation {
   font-family: "Kanit", sans-serif;
 }
 
+.dots {
+  font-family: "Featural Dots", sans-serif;
+  font-size: 200%;
+  //line-height: 150%;
+}
+
 .cjk {
-  font-family: "Xiao Lai";
+  font-family: "Xiao Lai", sans-serif;
   font-size: 150%;
 }
 
@@ -35,7 +41,7 @@ h1 {
   }
 }
 
-.text-line {
+.translated-line {
   @media only screen and (max-width: 768px) {
     padding-left: 3vw;
   }
@@ -67,10 +73,8 @@ h1 {
 
 .annotated {
   position: relative;
-  padding: 0 0.25vh;
 
   a {
-    line-height: 250%;
     color: inherit;
 
     &:hover {
@@ -78,24 +82,23 @@ h1 {
     }
   }
 
-  .annotation {
-    position: absolute;
-    font-size: 1.5vh;
-    top: 2.25vh;
-    left: 50%;
-    transform: translate(-50%, 0);
-  }
-
   .translation {
     position: absolute;
     font-size: 1.5vh;
-    bottom: 3.25vh;
+    line-height: 1.5vh;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, -125%);
     border: 1px solid black;
     white-space: nowrap;
     padding: 2px;
     background: white;
+  }
+
+  &.tooltip-shown {
+    a {
+      background-color: #ccffdd;
+    }
   }
 }
 

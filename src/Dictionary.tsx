@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import _dictionary from "./dictionary.json"
-import AnnotatedText from "./AnnotatedText";
+import {TranslatedLine} from "./AnnotatedText";
 
 type DictionaryEntry = {
   English: string,
@@ -40,11 +40,7 @@ export default class Dictionary extends Component<Props, State> {
               <h2>{s.title}</h2>
 
               {s.entries.map((e, i) => (
-                  <div className="dict-entry" key={i}>
-                    <AnnotatedText sentence={e.Jaobon}/>
-
-                    <p style={{marginBottom: 0}}>"{e.English}"</p>
-                  </div>
+                  <TranslatedLine key={i} jaobon={e.Jaobon} translation={e.English}/>
               ))}
             </div>
         ))}

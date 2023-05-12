@@ -4,13 +4,14 @@ export type MOA = "nasal" | "unvoiced stop" | "voiced stop" | "fricative" | "app
 export type Onset = {
     poa: POA,
     moa: MOA,
-    letter: string,
+    falavayLetter: string,
+    transcriptionLetter: string,
 }
 
-function onsetKV(letter: string, poa: POA, moa: MOA): [string, Onset] {
+function onsetKV(letter: string, poa: POA, moa: MOA, falavayLetter?: string): [string, Onset] {
     return [
         letter,
-        {poa, moa, letter},
+        {poa, moa, falavayLetter: falavayLetter || letter, transcriptionLetter: letter},
     ];
 }
 
@@ -19,7 +20,7 @@ const ONSETS = new Map<string, Onset | undefined>([
     onsetKV("m", "labial", "nasal"),
     onsetKV("p", "labial", "unvoiced stop"),
     onsetKV("b", "labial", "voiced stop"),
-    ["w", {poa: "labial", moa: "approximant", letter: "v"}],
+    onsetKV("w", "labial", "approximant", "v"),
     onsetKV("n", "alveolar", "nasal"),
     onsetKV("t", "alveolar", "unvoiced stop"),
     onsetKV("d", "alveolar", "voiced stop"),
@@ -30,7 +31,7 @@ const ONSETS = new Map<string, Onset | undefined>([
     onsetKV("x", "palatal", "fricative"),
     onsetKV("y", "palatal", "approximant"),
     onsetKV("k", "velar", "unvoiced stop"),
-    ["g", {poa: "velar", moa: "voiced stop", letter: "G"}],
+    onsetKV("g","velar", "voiced stop", "G"),
     onsetKV("h", "velar", "fricative"),
 ]);
 
@@ -39,6 +40,7 @@ type Frontness = "front" | "center" | "back";
 export type Vowel = {
     high: boolean,
     frontness: Frontness,
+    transcriptionLetter: string,
     standaloneLetter: string,
     beforeLetter?: string,
     afterLetter?: string,
@@ -49,18 +51,21 @@ export const VOWELS = new Map<string, Vowel>([
     ["a", {
         high: false,
         frontness: "center",
+        transcriptionLetter: "a",
         standaloneLetter: "A",
         afterLetter: "a",
     }],
     ["e", {
         high: false,
         frontness: "front",
+        transcriptionLetter: "e",
         standaloneLetter: "E",
         beforeLetter: "e",
     }],
     ["i", {
         high: true,
         frontness: "front",
+        transcriptionLetter: "i",
         standaloneLetter: "I",
         afterLetter: "i",
         wideAfterLetter: "X",
@@ -68,6 +73,7 @@ export const VOWELS = new Map<string, Vowel>([
     ["o", {
         high: false,
         frontness: "back",
+        transcriptionLetter: "o",
         standaloneLetter: "O",
         beforeLetter: "e",
         afterLetter: "o",
@@ -75,6 +81,7 @@ export const VOWELS = new Map<string, Vowel>([
     ["u", {
         high: true,
         frontness: "back",
+        transcriptionLetter: "u",
         standaloneLetter: "U",
         afterLetter: "u",
         wideAfterLetter: "Z",
@@ -183,9 +190,9 @@ const serifInitials: (string | undefined)[] = ["b", "G", "h", "k", "t", "x"];
 const serifBlockingVowels: string[] = ["a", "o", "u", "Z"];
 const wideInitials: (string | undefined)[] = ["h", "k", "l", "m", "t", "x", "y"];
 
-export function syllableToFont(syll: Syllable): string {
+export function syllableToFalavay(syll: Syllable): string {
     let beforeVowel: string = "";
-    let initialLetter: string | undefined = syll.onset?.letter;
+    let initialLetter: string | undefined = syll.onset?.falavayLetter;
     let afterVowel: string = "";
     let finalLetter: string = "";
 
@@ -215,4 +222,18 @@ export function syllableToFont(syll: Syllable): string {
     const useSerif = serifInitials.includes(initialLetter) && !serifBlockingVowels.includes(afterVowel);
 
     return beforeVowel + (initialLetter || "") + (useSerif ? "q" : "") + afterVowel + finalLetter;
+}
+
+export function syllableToDots(syllable: Syllable): string {
+    let out = "";
+
+    out += syllable.onset?.transcriptionLetter || "";
+    out += syllable.vowel.transcriptionLetter;
+    if (syllable.coda == "o") {
+        out += "U";
+    } else {
+        out += syllable.coda?.toLocaleUpperCase() || "";
+    }
+
+    return out;
 }

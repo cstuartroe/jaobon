@@ -1,6 +1,6 @@
 import React, {Component, useState} from "react";
 import {Link, useParams} from "react-router-dom";
-import AnnotatedText, {AnnotatedCharacter, parseJaobon} from "./AnnotatedText";
+import {AnnotatedCharacter, parseJaobon, TranslatedLine} from "./AnnotatedText";
 import {Root, ROOTS} from "./roots";
 
 type TextLine = {
@@ -410,7 +410,7 @@ function rootFrequencyList(textInfo: ReturnType<typeof textRootInfo>) {
         {Array.from(textInfo.frequencies.entries())
             .sort((a, b) => b[1] - a[1])
             .map(([root, count], i) => (
-                <li><AnnotatedCharacter root={root}/> {count} ({Math.round(10000 * count / textInfo.totalRoots)/100}%)</li>
+                <li><AnnotatedCharacter root={root} dots={true}/> {count} ({Math.round(10000 * count / textInfo.totalRoots)/100}%)</li>
             ))}
       </ul>
   );
@@ -440,7 +440,7 @@ export function TextReader(props: {}) {
             <p>{text.description}</p>
         )}
 
-        <div style={{border: "1px solid black", padding: "1vw"}}>
+        <div style={{border: "1px solid black", padding: "1vw", marginBottom: "2vh"}}>
           <p>
             This text has{' '}
             {text.lines.length} lines,{' '}
@@ -457,30 +457,18 @@ export function TextReader(props: {}) {
           {showFrequencies && rootFrequencyList(textInfo)}
 
           {showFrequencies && (textInfo.frequencies.size > 150) && (
-              <p>
+              <p style={{marginBottom: 0}}>
                 Unused roots:{' '}
                 {Array.from(ROOTS.values())
                     .filter(r => textInfo.frequencies.get(r) === undefined)
-                    .map(r => <AnnotatedCharacter root={r}/>)
+                    .map(r => <><AnnotatedCharacter root={r} dots={true}/>{"\u200b"}</>)
                 }
               </p>
           )}
         </div>
 
         {text.lines.map((line, i) => (
-            <div key={i} className="text-line">
-              <p style={{position: "relative", marginBottom: ".5vh"}}>
-                <span style={{
-                  position: "absolute",
-                  left: 0,
-                  top: "50%",
-                  transform: "translate(-100%, -50%)",
-                  paddingRight: ".5vw",
-                }}>{i + 1}.</span>
-                <AnnotatedText sentence={line.jaobon}/>
-              </p>
-              <p>{line.translation}</p>
-            </div>
+            <TranslatedLine key={i} jaobon={line.jaobon} translation={line.translation} number={i+1}/>
         ))}
       </>
   );
