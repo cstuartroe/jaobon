@@ -12,6 +12,36 @@ export type Text = {
 }
 
 const texts = new Map<string, Text>([
+    ["north_wind", {
+      title: "The North Wind and the Sun",
+      description: "A classic conlanger's translation.",
+      lines: [
+        {
+          jaobon: "nok la gas lu i son en as des puk nis ke mas yo pao. je xas lu jen ki dai wen dun te as lai pas yak.",
+          translation: "The North Wind and the Sun were disputing which was the stronger, when a traveler came along wrapped in a warm cloak.",
+        },
+        {
+          jaobon: "je dos as ton des ke ki gan as ke lu jen as kik dun te de se, ta gai es min nis ki mas yo pao de o la.",
+          translation: "They agreed that the one who first succeeded in making the traveler take his cloak off should be considered stronger than the other.",
+        },
+        {
+          jaobon: "nok la gas lu as mas yo pao we ki ken ya gas, i ta as mas yo pao we ya gas, lu jen jo as in dun te a mas xak a se tuk.",
+          translation: "Then the North Wind blew as hard as he could, but the more he blew the more closely did the traveler fold his cloak around him.",
+        },
+        {
+          jaobon: "jo lai xas ki nok la gas lu as mo ya.",
+          translation: "At last the North Wind gave up the attempt. ",
+        },
+        {
+          jaobon: "je bon, son as wen we ge lus, i lu jen jo as kik dun te de se.",
+          translation: "Then the Sun shined out warmly, and immediately the traveler took off his cloak.",
+        },
+        {
+          jaobon: "je we, nok la gas lu mos des ke son mas yo pao de se.",
+          translation: "And so the North Wind was obliged to confess that the Sun was the stronger of the two.",
+        },
+      ],
+    }],
     ["syntax_test", {
       title: "Syntax Test Cases",
       description: <>
