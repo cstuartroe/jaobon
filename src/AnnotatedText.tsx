@@ -72,7 +72,7 @@ type Props = {
 
 const charMappings = new Map<string, [string, string]>([
     // [Original, [CJK, Dots]]
-    [' ', ['', '']],
+    [' ', ["\u200b", "\u200b"]],
     ['!', ['！', '.']],
     [',', ['、', '']],
     ['~', ['〜', '.']],
