@@ -2,10 +2,11 @@ import React, { Component } from "react";
 import { Root, ROOTS } from "./roots";
 import {stringToSyllable, syllableToDots} from "./syllables";
 import classNames from "classnames";
+import {DisplaySettings} from "./DisplaySettings";
 
 type ACProps = {
     root: Root,
-    dots: boolean,
+    displaySettings: DisplaySettings,
 }
 
 type ACState = {
@@ -21,26 +22,27 @@ export class AnnotatedCharacter extends Component<ACProps, ACState> {
   }
 
   annotated() {
-      if (this.props.dots) {
-          const syllable = stringToSyllable(this.props.root.syllable);
-          if (syllable === null) {
-              return undefined;
-          }
-          return syllableToDots(syllable);
-      } else {
-          return this.props.root.CJK;
+      switch (this.props.displaySettings.writingSystem) {
+          case "roman":
+              return this.props.root.syllable
+          case "cjk":
+              return this.props.root.CJK;
+          case "dots":
+              const syllable = stringToSyllable(this.props.root.syllable);
+              if (syllable === null) {
+                  return undefined;
+              }
+              return syllableToDots(syllable);
       }
   }
 
 
   render() {
-      const fontClass = this.props.dots ? "dots" : "cjk";
-
       return (
           <span
               className={classNames([
                   "annotated",
-                  fontClass,
+                  this.props.displaySettings.writingSystem,
                   {"tooltip-shown": this.state.tooltipShown}
               ])}
               onMouseEnter={() => this.setState({tooltipShown: true})}
@@ -65,7 +67,7 @@ export class AnnotatedCharacter extends Component<ACProps, ACState> {
 
 type Props = {
     sentence: string,
-    dots: boolean,
+    displaySettings: DisplaySettings,
 }
 
 const charMappings = new Map<string, [string, string]>([
@@ -122,10 +124,16 @@ export default function AnnotatedText(props: Props) {
                     console.error(`Unknown char: ${piece}`);
                 } else {
                     const [cjkPunct, dotsPunct] = pair;
-                    return <span className={props.dots ? "dots" : "cjk"} key={i}>{props.dots ? dotsPunct : cjkPunct}</span>;
+                    let punct: string = "";
+                    switch (props.displaySettings.writingSystem) {
+                        case "roman": punct = piece; break;
+                        case "cjk": punct = cjkPunct; break;
+                        case "dots": punct = dotsPunct; break;
+                    }
+                    return <span className={props.displaySettings.writingSystem} key={i}>{punct}</span>;
                 }
             } else {
-                return <AnnotatedCharacter root={piece} dots={props.dots} key={i}/>;
+                return <AnnotatedCharacter root={piece} displaySettings={props.displaySettings} key={i}/>;
             }
         })}
     </>
@@ -135,6 +143,7 @@ type TLProps = {
     number?: number,
     jaobon: string,
     translation: string,
+    displaySettings: DisplaySettings,
 }
 
 export function TranslatedLine(props: TLProps) {
@@ -152,7 +161,7 @@ export function TranslatedLine(props: TLProps) {
                         {props.number}.
                     </span>
                 )}
-                <AnnotatedText sentence={props.jaobon} dots={true}/>
+                <AnnotatedText sentence={props.jaobon} displaySettings={props.displaySettings}/>
             </p>
             <p>{props.translation}</p>
         </div>

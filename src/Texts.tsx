@@ -2,6 +2,7 @@ import React, {Component, useState} from "react";
 import {Link, useParams} from "react-router-dom";
 import {AnnotatedCharacter, parseJaobon, TranslatedLine} from "./AnnotatedText";
 import {Root, ROOTS} from "./roots";
+import {DisplaySettings} from "./DisplaySettings";
 
 type TextLine = {
   jaobon: string,
@@ -404,19 +405,29 @@ function textRootInfo(text: Text) {
   }
 }
 
-function rootFrequencyList(textInfo: ReturnType<typeof textRootInfo>) {
+function rootFrequencyList(textInfo: ReturnType<typeof textRootInfo>, displaySettings: DisplaySettings) {
   return (
       <ul>
         {Array.from(textInfo.frequencies.entries())
             .sort((a, b) => b[1] - a[1])
             .map(([root, count], i) => (
-                <li><AnnotatedCharacter root={root} dots={true}/> {count} ({Math.round(10000 * count / textInfo.totalRoots)/100}%)</li>
+                <li>
+                  <AnnotatedCharacter root={root} displaySettings={displaySettings}/>
+                  {' '}
+                  {count}
+                  {' '}
+                  ({Math.round(10000 * count / textInfo.totalRoots)/100}%)
+                </li>
             ))}
       </ul>
   );
 }
 
-export function TextReader(props: {}) {
+type Props = {
+  displaySettings: DisplaySettings,
+}
+
+export function TextReader(props: Props) {
   const { textId } = useParams();
   const [showFrequencies, setShowFrequencies] = useState<boolean>();
 
@@ -454,21 +465,27 @@ export function TextReader(props: {}) {
             </a>
           </p>
 
-          {showFrequencies && rootFrequencyList(textInfo)}
+          {showFrequencies && rootFrequencyList(textInfo, props.displaySettings)}
 
           {showFrequencies && (textInfo.frequencies.size > 150) && (
               <p style={{marginBottom: 0}}>
                 Unused roots:{' '}
                 {Array.from(ROOTS.values())
                     .filter(r => textInfo.frequencies.get(r) === undefined)
-                    .map(r => <><AnnotatedCharacter root={r} dots={true}/>{"\u200b"}</>)
+                    .map(r => (
+                        <>
+                          <AnnotatedCharacter root={r} displaySettings={props.displaySettings}/>
+                          {props.displaySettings.writingSystem == "roman" ? " " : "\u200b"}
+                        </>
+                    ))
                 }
               </p>
           )}
         </div>
 
         {text.lines.map((line, i) => (
-            <TranslatedLine key={i} jaobon={line.jaobon} translation={line.translation} number={i+1}/>
+            <TranslatedLine key={i} jaobon={line.jaobon} translation={line.translation} number={i+1}
+                            displaySettings={props.displaySettings}/>
         ))}
       </>
   );

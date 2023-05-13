@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "../static/scss/main.scss";
 
+import {getStartingDisplaySettings, DisplaySettings, DisplaySettingsWidget} from "./DisplaySettings";
 import Menu from "./Menu";
 import Home from "./Home";
 import Phonology from "./Phonology";
@@ -12,7 +13,19 @@ import Dictionary from "./Dictionary";
 import Sourcing from "./Sourcing";
 import Texts, { TextReader } from "./Texts";
 
-class App extends Component {
+type AppState = {
+    displaySettings: DisplaySettings,
+}
+
+class App extends Component<{}, AppState> {
+    constructor(props: {}) {
+        super(props);
+
+        this.state = {
+            displaySettings: getStartingDisplaySettings(),
+        }
+    }
+
   render() {
       return (
           <Router>
@@ -38,19 +51,24 @@ class App extends Component {
                                       <Route index element={<Verifier/>}/>
                                   </Route>
                                   <Route path={"/dictionary"}>
-                                      <Route index element={<Dictionary/>}/>
+                                      <Route index element={<Dictionary displaySettings={this.state.displaySettings}/>}/>
                                   </Route>
                                   <Route path={"/texts"}>
                                       <Route index element={<Texts/>}/>
                                   </Route>
                                   <Route path={"/texts/:textId"}>
-                                      <Route index element={<TextReader/>}/>
+                                      <Route index element={<TextReader displaySettings={this.state.displaySettings}/>}/>
                                   </Route>
                               </Route>
                           </Routes>
                           <div style={{height: "10vh"}}/>
                       </div>
                       <div className="col-0 col-md-2 col-lg-3"/>
+
+                      <DisplaySettingsWidget
+                          displaySettings={this.state.displaySettings}
+                          setDisplaySettings={(d: DisplaySettings) => this.setState({displaySettings: d})}
+                      />
                   </div>
               </div>
           </Router>
