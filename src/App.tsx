@@ -11,7 +11,7 @@ import RootList from "./RootList";
 import Verifier from "./Verifier";
 import Dictionary from "./Dictionary";
 import Sourcing from "./Sourcing";
-import Texts, { TextReader } from "./Texts";
+import TextReader, {TextList} from "./TextReader";
 
 type AppState = {
     displaySettings: DisplaySettings,
@@ -54,7 +54,7 @@ class App extends Component<{}, AppState> {
                                       <Route index element={<Dictionary displaySettings={this.state.displaySettings}/>}/>
                                   </Route>
                                   <Route path={"/texts"}>
-                                      <Route index element={<Texts/>}/>
+                                      <Route index element={<TextList/>}/>
                                   </Route>
                                   <Route path={"/texts/:textId"}>
                                       <Route index element={<TextReader displaySettings={this.state.displaySettings}/>}/>
