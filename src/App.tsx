@@ -54,7 +54,7 @@ class App extends Component<{}, AppState> {
                                       <Route index element={<Dictionary displaySettings={this.state.displaySettings}/>}/>
                                   </Route>
                                   <Route path={"/texts"}>
-                                      <Route index element={<TextList/>}/>
+                                      <Route index element={<TextList displaySettings={this.state.displaySettings}/>}/>
                                   </Route>
                                   <Route path={"/texts/:textId"}>
                                       <Route index element={<TextReader displaySettings={this.state.displaySettings}/>}/>
