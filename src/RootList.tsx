@@ -44,7 +44,7 @@ export default class RootList extends Component<Props, State> {
                   {syllableToDots(stringToSyllable(syllable) as Syllable)}
                 </span>
               </h2>
-              <p>{rootInfo.definition}</p>
+              <p>{rootInfo.pos} - {rootInfo.definition}</p>
               <p>From</p>
               <ul>
                 {rootInfo.etymologies.map((e, i) => (
