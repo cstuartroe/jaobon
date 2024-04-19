@@ -12,6 +12,7 @@ import Verifier from "./Verifier";
 import Dictionary from "./Dictionary";
 import Sourcing from "./Sourcing";
 import TextReader, {TextList} from "./TextReader";
+import WritingSystems from "./WritingSystems";
 
 type AppState = {
     displaySettings: DisplaySettings,
@@ -40,6 +41,9 @@ class App extends Component<{}, AppState> {
                                   <Route index element={<Home/>}/>
                                   <Route path={"/phonology"}>
                                       <Route index element={<Phonology/>}/>
+                                  </Route>
+                                  <Route path={"/scripts"}>
+                                      <Route index element={<WritingSystems/>}/>
                                   </Route>
                                   <Route path={"/sourcing"}>
                                       <Route index element={<Sourcing/>}/>

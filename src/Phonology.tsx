@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {validSyllableString} from "./syllables";
 import {Link} from "react-router-dom";
+import NoteManager from "./notes";
 
 type Props = {
 }
@@ -18,8 +19,6 @@ const notes = {
   liquids: 'May be any lateral or rhotic consonant.',
   h: <>Free variation: <IPA>[x~χ~h]</IPA></>,
 };
-
-type noteId = keyof typeof notes;
 
 export const initials = ['ʔ', 'm', 'n', 'p', 't', 't͡ʃ', 'k', 'b', 'd', 'd͡ʒ', 'g', 's', 'ʃ', 'h', 'w', 'l', 'j'];
 const vowels = ['a', 'e', 'i', 'o', 'u'];
@@ -61,22 +60,7 @@ export default class Phonology extends Component<Props, State> {
 
 
   render() {
-    const noteOrder = new Map<noteId, number>([]);
-    const noteNum = (id: noteId) => (noteOrder.get(id) || 0) + 1;
-
-    const noteRef = (id: noteId) => {
-      if (noteOrder.get(id) === undefined) {
-        noteOrder.set(id, noteOrder.size);
-      }
-
-      return <sup>{noteNum(id)}</sup>;
-    }
-
-    const noteBody = (id: noteId) => {
-      return (
-          <p key={id}><sup>{noteNum(id)}</sup> {notes[id]}</p>
-      )
-    }
+    const nm = NoteManager(notes);
 
     let syllableCount = 0;
 
@@ -104,7 +88,7 @@ export default class Phonology extends Component<Props, State> {
             <tr>
               <th></th>
               <th>Labial</th>
-              <th>Alveolar{noteRef('alveolar')}</th>
+              <th>Alveolar{nm.noteRef('alveolar')}</th>
               <th>Palatal</th>
               <th>Velar</th>
               <th>Glottal</th>
@@ -120,32 +104,32 @@ export default class Phonology extends Component<Props, State> {
               <td></td>
             </tr>
             <tr>
-              <th>Fortis stop/affricate{noteRef('stops')}</th>
+              <th>Fortis stop/affricate{nm.noteRef('stops')}</th>
               <td><IPA>p</IPA></td>
               <td><IPA>t</IPA></td>
-              <td><IPA>t͡ʃ</IPA>{noteRef('affricates')}</td>
+              <td><IPA>t͡ʃ</IPA>{nm.noteRef('affricates')}</td>
               <td><IPA>k</IPA></td>
               <td><IPA>ʔ</IPA></td>
             </tr>
             <tr>
-              <th>Lenis stop/affricate{noteRef('stops')}</th>
+              <th>Lenis stop/affricate{nm.noteRef('stops')}</th>
               <td><IPA>b</IPA></td>
               <td><IPA>d</IPA></td>
-              <td><IPA>d͡ʒ</IPA>{noteRef('affricates')}</td>
+              <td><IPA>d͡ʒ</IPA>{nm.noteRef('affricates')}</td>
               <td><IPA>g</IPA></td>
               <td></td>
             </tr>
             <tr>
-              <th>Fricative{noteRef('fricatives')}</th>
+              <th>Fricative{nm.noteRef('fricatives')}</th>
               <td></td>
               <td><IPA>s</IPA></td>
-              <td><IPA>ʃ</IPA>{noteRef('shush')}</td>
-              <td colSpan={2}><IPA>h</IPA>{noteRef('h')}</td>
+              <td><IPA>ʃ</IPA>{nm.noteRef('shush')}</td>
+              <td colSpan={2}><IPA>h</IPA>{nm.noteRef('h')}</td>
             </tr>
             <tr>
               <th>Approximant</th>
               <td><IPA>w</IPA></td>
-              <td><IPA>l</IPA>{noteRef('liquids')}</td>
+              <td><IPA>l</IPA>{nm.noteRef('liquids')}</td>
               <td><IPA>j</IPA></td>
               <td></td>
               <td></td>
@@ -153,10 +137,7 @@ export default class Phonology extends Component<Props, State> {
             </tbody>
           </table>
 
-          {Array.from(noteOrder.entries())
-              .sort((a, b) => (a[1] - b[1]))
-              .map(([id, _n], _i) => noteBody(id))
-          }
+          {nm.notesInOrder()}
 
           <p>Jaobon has the common system of five cardinal vowels <IPA>/a e i o u/</IPA>. It also has two diphthongs <IPA>/ai̯ au̯/</IPA>.</p>
 
@@ -185,7 +166,7 @@ export default class Phonology extends Component<Props, State> {
             </thead>
             <tbody>
             {rimes.map(r => (
-                <tr>
+                <tr key={r}>
                   <th><IPA>{r}</IPA></th>
                   {initials.map(i => {
                     const syllable = ipa2Syllable(i + r);

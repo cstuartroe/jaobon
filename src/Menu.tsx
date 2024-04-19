@@ -50,6 +50,7 @@ export default class Menu extends Component<Props, State> {
                 <div className="fixture">
                     <MenuItem label={'Overview'} destination={'/'}/>
                     <MenuItem label={'Phonology'} destination={'/phonology'}/>
+                    <MenuItem label={'Writing Systems'} destination={'/scripts'}/>
                     <MenuItem label={'Sourcing Roots'} destination={'/sourcing'}/>
                     <MenuItem label={'Root List'} destination={'/roots'}/>
                     <MenuItem label={'Dictionary'} destination={'/dictionary'}/>

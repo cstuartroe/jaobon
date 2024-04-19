@@ -14,10 +14,6 @@ h1, h2, p, li, .translation {
   font-size: 200%;
 }
 
-h2 .dots {
-  font-size: 100%;
-}
-
 .cjk {
   font-family: "Xiao Lai", sans-serif;
   font-size: 150%;
@@ -35,7 +31,53 @@ h1 {
   color: $purple;
   text-align: center;
   margin-bottom: 25px;
+  font-size: 4.5vh;
 }
+
+h2 {
+  font-size: 3.5vh;
+
+  .dots {
+    font-size: 100%;
+  }
+}
+
+p, li, table, .translation {
+  font-size: 2.2vh;
+  line-height: 160%;
+}
+
+.dots.inline-dots {
+  font-size: 120%;
+  line-height: 0;
+}
+
+th .dots {
+  font-weight: 400;
+}
+
+.fd-phoneme-chart .dots {
+  font-size: 160%;
+  line-height: 100%;
+}
+
+.notes {
+  margin-bottom: 1.5rem;
+
+  p {
+    margin-bottom: .25rem;
+  }
+}
+
+//p, ul {
+//  margin-top: 2vh;
+//  padding-bottom: 1.5vh;
+//  margin-bottom: 0;
+//
+//  &.note {
+//    margin-top: 0;
+//  }
+//}
 
 .lauvinko {
   //font-family: "Lauvinko Bubble", sans-serif;
@@ -119,7 +161,6 @@ h1 {
 
   .translation {
     position: absolute;
-    font-size: 2vh;
     line-height: 1.5vh;
     top: 0;
     left: 50%;

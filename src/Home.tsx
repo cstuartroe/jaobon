@@ -43,12 +43,16 @@ export default class Home extends Component<Props, State> {
               extensively in a manner similar to Mandarin, appearing after a noun.
           </p>
 
-          {/* <p>
-              However, the grammar differs from these source languages in being more fastidious and systematic about
-              transitivity and voice. Verbal roots generally do not have a lexically-specified transitivity in Jaobon;
-              they may always be used in a bivalent transitive/causative sense or a monovalent intransitive/mediopassive
-              sense, depending on marking.
-          </p> */}
+          <p>
+              Jaobon is in large part inspired by, and in response to, Toki Pona; it shares many similarities but
+              also a few key philosophical differences: more roots, shorter roots, and an explicitly prescribed
+              dictionary of root collocations to express more complex concepts. Also, in contrast to Toki Pona's
+              fairly neutral/unique flavor, I think that Jaobon has a distinct affinity with the{' '}
+              <a href="https://en.wikipedia.org/wiki/Mainland_Southeast_Asia_linguistic_area">
+                  Mainland Southeast Asia linguistic area
+              </a>
+              {' '}(particularly with Chinese languages) in its phonology, syntax, semantics, and overall feel.
+          </p>
 
           <p>
               Jaobon has three canonical writing systems:
@@ -60,23 +64,12 @@ export default class Home extends Component<Props, State> {
                   CJK characters, with a set of 350 in use in a one-to-one relationship with Jaobon morphemes.
                   I use simplified Chinese characters to write Jaobon, with the justification that visual simplicity
                   should be prioritized for such a small grapheme set.
-                  {/*
-                  It would be non-trivial to convert to traditional
-                  equivalents, as many single simplified characters used in Jaobon are the simplified variant of
-                  multiple traditional characters of different meanings, with the meaning of more than one traditional
-                  character serving as inspiration for the meaning of the morpheme as used in Jaobon.
-                  */}
                   {' '}
                   I prefer the use of CJK characters when reading; all texts on this site are rendered in CJK characters
                   by default.
               </li>
               <li>
-                  The <a href="https://lauvinko.conorstuartroe.com/palavaytolis">Palavaytòlis</a> script,
-                  a <a href="https://en.wikipedia.org/wiki/Brahmic_scripts">Brahmic</a> abugida closely related
-                  to the <a href="https://en.wikipedia.org/wiki/Kawi_script">Kawi</a> script of Java. Palavaytòlis was
-                  created for <a href="https://lauvinko.conorstuartroe.com/">Lauvìnko</a>, another constructed
-                  language of mine, though nearly half of the Palavaytòlis graphemes used to write Jaobon are not used
-                  in Lauvìnko.
+                  A general-purpose featural script called Featural Dots, which is space-efficient and cool!
               </li>
           </ul>
 
