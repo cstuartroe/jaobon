@@ -126,7 +126,7 @@ export default class WritingSystems extends Component<Props, State> {
                 <p>
                     The vowels <IPA>a e i o u</IPA> are romanized ⟨a e i o u⟩,
                     because I'm not a madman.{' '}
-                    <IPA>ai̯ au̯</IPA> are ⟨ai au⟩,
+                    <IPA>ai̯ au̯</IPA> are ⟨ai ao⟩ (with ⟨ao⟩ taking inspiration from Mandarin Pinyin),
                     and the coda consonants <IPA>Q N S</IPA> are spelled ⟨k n s⟩.
                 </p>
 
