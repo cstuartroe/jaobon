@@ -17,7 +17,7 @@ const texts = new Map<string, Text>([
       description: "A classic conlanger's translation.",
       lines: [
         {
-          jaobon: "nok la gas lu i son en as des puk nis ke mas yo pao. je xas lu jen ki dai wen dun te as lai pas yak.",
+          jaobon: "nok la win i son en as des puk nis ke mas yo pao. je xas lu jen ki dai wen dun te as lai pas yak.",
           translation: "The North Wind and the Sun were disputing which was the stronger, when a traveler came along wrapped in a warm cloak.",
         },
         {
@@ -25,11 +25,11 @@ const texts = new Map<string, Text>([
           translation: "They agreed that the one who first succeeded in making the traveler take his cloak off should be considered stronger than the other.",
         },
         {
-          jaobon: "nok la gas lu as mas yo pao we ki ken ya gas, i ta as mas yo pao we ya gas, lu jen jo as in dun te a mas xak a se tuk.",
+          jaobon: "nok la win as mas yo pao we ki ken ya gas, i ta as mas yo pao we ya gas, lu jen jo as in dun te a mas xak a se tuk.",
           translation: "Then the North Wind blew as hard as he could, but the more he blew the more closely did the traveler fold his cloak around him.",
         },
         {
-          jaobon: "jo lai xas ki nok la gas lu as mo ya.",
+          jaobon: "jo lai xas ki nok la win as mo ya.",
           translation: "At last the North Wind gave up the attempt. ",
         },
         {
@@ -37,7 +37,7 @@ const texts = new Map<string, Text>([
           translation: "Then the Sun shined out warmly, and immediately the traveler took off his cloak.",
         },
         {
-          jaobon: "je we, nok la gas lu mos des ke son mas yo pao de se.",
+          jaobon: "je we, nok la win mos des ke son mas yo pao de se.",
           translation: "And so the North Wind was obliged to confess that the Sun was the stronger of the two.",
         },
       ],
@@ -362,7 +362,7 @@ const texts = new Map<string, Text>([
           translation: "The sun looked down through the branches upon the children at play.",
         },
         {
-          jaobon: "gas lu de wes la de lu pas mi to cen ton we de mik tok.",
+          jaobon: "win de wes la de lu pas mi to cen ton we de mik tok.",
           translation: "The west wind blew across my face like a friendly caress.",
         },
         {
