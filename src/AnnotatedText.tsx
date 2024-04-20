@@ -68,6 +68,7 @@ export class AnnotatedCharacter extends Component<ACProps, ACState> {
 type Props = {
     sentence: string,
     displaySettings: DisplaySettings,
+    inline: boolean,
 }
 
 const charMappings = new Map<string, [string, string]>([
@@ -116,7 +117,7 @@ export function parseJaobon(sentence: string): (Root | string)[] {
 }
 
 export default function AnnotatedText(props: Props) {
-    return <>
+    return <span className={props.inline ? "inline" : ""}>
         {parseJaobon(props.sentence).map((piece, i)=> {
             if (typeof piece === "string") {
                 const pair = charMappings.get(piece);
@@ -136,7 +137,7 @@ export default function AnnotatedText(props: Props) {
                 return <AnnotatedCharacter root={piece} displaySettings={props.displaySettings} key={i}/>;
             }
         })}
-    </>
+    </span>
 }
 
 type TLProps = {
@@ -161,7 +162,7 @@ export function TranslatedLine(props: TLProps) {
                         {props.number}.
                     </span>
                 )}
-                <AnnotatedText sentence={props.jaobon} displaySettings={props.displaySettings}/>
+                <AnnotatedText sentence={props.jaobon} displaySettings={props.displaySettings} inline={false}/>
             </p>
             <p>{props.translation}</p>
         </div>

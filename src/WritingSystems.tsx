@@ -9,7 +9,7 @@ function dots(s: string) {
 }
 
 function inlineDots(s: string) {
-    return <span className="dots inline-dots">{s.replace(' ', noBreakSpace)}</span>
+    return <span className="inline">{dots(s)}</span>
 }
 
 function IPA(props: React.PropsWithChildren<{}>) {

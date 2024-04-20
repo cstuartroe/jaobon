@@ -25,10 +25,16 @@ export default class RootList extends Component<Props, State> {
 
 
   render() {
+    let roots = Array.from(ROOTS.entries());
+    const pos = new URLSearchParams(document.location.search).get("pos");
+    if (pos !== null) {
+      roots = roots.filter(([key, root]) => root.pos === pos);
+    }
+
     return (
       <>
-        <h1>{ROOTS.size} roots!</h1>
-        {Array.from(ROOTS.entries()).map(([syllable, rootInfo], _) => (
+        <h1>{roots.length} {pos} root{roots.length > 1 ? "s" : ""}!</h1>
+        {roots.map(([syllable, rootInfo], _) => (
             <div key={syllable} id={syllable}>
               <h2 className="root-entry-header">
                 <a

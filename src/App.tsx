@@ -13,6 +13,7 @@ import Dictionary from "./Dictionary";
 import Sourcing from "./Sourcing";
 import TextReader, {TextList} from "./TextReader";
 import WritingSystems from "./WritingSystems";
+import Syntax from "./Syntax";
 
 type AppState = {
     displaySettings: DisplaySettings,
@@ -50,6 +51,9 @@ class App extends Component<{}, AppState> {
                                   </Route>
                                   <Route path={"/roots"}>
                                       <Route index element={<RootList/>}/>
+                                  </Route>
+                                  <Route path={"/syntax"}>
+                                      <Route index element={<Syntax displaySettings={this.state.displaySettings}/>}/>
                                   </Route>
                                   <Route path={"/verify"}>
                                       <Route index element={<Verifier/>}/>

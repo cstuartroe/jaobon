@@ -51,7 +51,7 @@ export default class Home extends Component<Props, State> {
               <a href="https://en.wikipedia.org/wiki/Mainland_Southeast_Asia_linguistic_area">
                   Mainland Southeast Asia linguistic area
               </a>
-              {' '}(particularly with Chinese languages) in its phonology, syntax, semantics, and overall feel.
+              {' '}(particularly with Chinese languages) in its phonotactics, syntax, semantics, and overall feel.
           </p>
 
           <p>

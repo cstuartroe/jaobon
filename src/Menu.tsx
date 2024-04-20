@@ -53,6 +53,7 @@ export default class Menu extends Component<Props, State> {
                     <MenuItem label={'Writing Systems'} destination={'/scripts'}/>
                     <MenuItem label={'Sourcing Roots'} destination={'/sourcing'}/>
                     <MenuItem label={'Root List'} destination={'/roots'}/>
+                    <MenuItem label={'Syntax'} destination={'/syntax'}/>
                     <MenuItem label={'Dictionary'} destination={'/dictionary'}/>
                     <MenuItem label={'Texts'} destination={'/texts'}/>
                 </div>

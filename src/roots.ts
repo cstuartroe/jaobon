@@ -21,7 +21,7 @@ type Etymology = {
     word: string,
 }
 
-const partsOfSpeech = [
+export const partsOfSpeech = [
     "noun",
     "positional",
     "pronoun",
@@ -37,16 +37,16 @@ const partsOfSpeech = [
     "existential",
     "preposition",
 
-    "demonstrative",
+    "adverb",
+    "determiner",
+    "voice particle",
     "coordinating conjunction",
     "subordinating conjunction",
     "relativizer",
-    "voice particle",
-    "adverb",
     "interjection",
 ] as const;
 
-type PartOfSpeech = (typeof partsOfSpeech)[number];
+export type PartOfSpeech = (typeof partsOfSpeech)[number];
 
 export type Root = {
     definition: string,
@@ -939,7 +939,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "je",
         "this, that",
-        "demonstrative",
+        "determiner",
         "这",
         [["Chinese", "这"]],
     ),
@@ -1093,7 +1093,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "ke",
         "what, which",
-        "demonstrative",
+        "determiner",
         "何",
         [["Spanish", "qué"]],
     ),
@@ -1401,7 +1401,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "me",
         "all, each, every",
-        "demonstrative",
+        "determiner",
         "每",
         [["Chinese", "每"]],
     ),
