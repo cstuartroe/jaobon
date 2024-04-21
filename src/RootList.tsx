@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ROOTS } from "./roots";
+import {PartOfSpeech, ROOTS} from "./roots";
 import {stringToSyllable, Syllable, syllableToDots, syllableToFalavay} from "./syllables";
 
 type Props = {
@@ -28,7 +28,7 @@ export default class RootList extends Component<Props, State> {
     let roots = Array.from(ROOTS.entries());
     const pos = new URLSearchParams(document.location.search).get("pos");
     if (pos !== null) {
-      roots = roots.filter(([key, root]) => root.pos === pos);
+      roots = roots.filter(([key, root]) => (root.pos as string[]).includes(pos));
     }
 
     return (
@@ -50,7 +50,7 @@ export default class RootList extends Component<Props, State> {
                   {syllableToDots(stringToSyllable(syllable) as Syllable)}
                 </span>
               </h2>
-              <p>{rootInfo.pos} - {rootInfo.definition}</p>
+              <p>{rootInfo.pos.join(', ')} - {rootInfo.definition}</p>
               <p>From</p>
               <ul>
                 {rootInfo.etymologies.map((e, i) => (
