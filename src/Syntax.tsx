@@ -125,6 +125,11 @@ export default class Syntax extends Component<Props, State> {
                 </p>
 
                 <p>
+                    A clause with no aspect particles may be interpreted as a simple present, a past or future perfective,
+                    or a gnomic, depending on context.
+                </p>
+
+                <p>
                     Aspect particles can be chained according to logical order: {text('ni a mo su wak')} "you will
                     stop running." {text('mi de pas kai as xes')} "I had started studying."
                 </p>
@@ -533,6 +538,42 @@ export default class Syntax extends Component<Props, State> {
                     mandatorily include {text('lai')}: {text('ni lai bus ta!')} "let's find it!" Note that
                     such sentences can be read as plain indicative sentences as well - only context and tone of
                     voice clarifies which mood is intended.
+                </p>
+
+                <h2>Other topics</h2>
+
+                <h3>Comparatives</h3>
+
+                <p>
+                    A comparative phrase in Jaobon uses the adverb {text('mas')} before the quality or action
+                    being compared, with the object of comparison in a later predicate with the preposition{' '}
+                    {text('de')}: {text('ni mas gao de ta')} "you're taller than him."
+                </p>
+
+                <p>
+                    Comparatives with properties with verbal meanings compare frequency or intensity:{' '}
+                    {text('mi mas les buk de ni')} "I read more books than you" or "I read books more often than you."
+                </p>
+
+                <h3>Comparative correlatives</h3>
+
+                <p>
+                    Phrases communicated in English with "the more... the more..." and Mandarin with "越... 越..."
+                    are translated in Jaobon with an oblique clause {text('bes ki... mas...')} in a main clause
+                    with the adverbs {text('jo mas')}: {text('bes ki mas men, jo mas hao')} "the more, the better."
+                </p>
+
+                <p>
+                    The similar phrase structure in English "more and more..." and in Mandarin "越来越..." has a
+                    completely different {text('pas xas jo mas')} equivalent in Jaobon:{' '}
+                    {text('je xao jen pas xas jo mas gao')} "that child is getting taller and taller."
+                </p>
+
+                <h3>As ... as possible</h3>
+
+                <p>
+                    This adverbial concept is expressed in Lauvinko with an oblique phrase{' '}
+                    {text('mas ... we ki ken')}: {text('cin mak je mas su we ki ken')} "please do it ASAP."
                 </p>
             </>
         );

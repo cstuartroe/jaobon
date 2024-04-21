@@ -17,23 +17,23 @@ const texts = new Map<string, Text>([
       description: "A classic conlanger's translation.",
       lines: [
         {
-          jaobon: "nok la win i son en as des puk nis ke mas yo pao. je xas lu jen ki dai wen dun te as lai pas yak.",
+          jaobon: "nok la win i son en des puk nis ke es ki mas yo pao. je xas lu jen, ki dai dun te ki wen, as lai pas yak.",
           translation: "The North Wind and the Sun were disputing which was the stronger, when a traveler came along wrapped in a warm cloak.",
         },
         {
-          jaobon: "je dos as ton des ke ki gan as ke lu jen as kik dun te de se, ta gai es min nis ki mas yo pao de o la.",
+          jaobon: "je dos ton des ke ki gan as ke lu jen kik dun te de se gai es min nis ki mas yo pao de o la.",
           translation: "They agreed that the one who first succeeded in making the traveler take his cloak off should be considered stronger than the other.",
         },
         {
-          jaobon: "nok la win as mas yo pao we ki ken ya gas, i ta as mas yo pao we ya gas, lu jen jo as in dun te a mas xak a se tuk.",
+          jaobon: "nok la win as lu gas mas yo pao we ki ken, i bes ki win as lu gas mas yo pao we, lu jen jo mas as in xak dun te a se tuk.",
           translation: "Then the North Wind blew as hard as he could, but the more he blew the more closely did the traveler fold his cloak around him.",
         },
         {
-          jaobon: "jo lai xas ki nok la win as mo ya.",
+          jaobon: "jo yo xas ki nok la win mo as lu.",
           translation: "At last the North Wind gave up the attempt. ",
         },
         {
-          jaobon: "je bon, son as wen we ge lus, i lu jen jo as kik dun te de se.",
+          jaobon: "je bon, son as tos wen lus, i je xas lu jen jo kik dun te de se.",
           translation: "Then the Sun shined out warmly, and immediately the traveler took off his cloak.",
         },
         {
@@ -50,39 +50,39 @@ const texts = new Map<string, Text>([
       </>,
       lines: [
         {
-          jaobon: "son ge lus.",
+          jaobon: "son tos lus.",
           translation: "The sun shines.",
         },
         {
-          jaobon: "son en ge lus.",
+          jaobon: "son en tos lus.",
           translation: "The sun is shining.",
         },
         {
-          jaobon: "son de ge lus.",
+          jaobon: "son de tos lus.",
           translation: "The sun shone.",
         },
         {
-          jaobon: "son a ge lus.",
+          jaobon: "son a tos lus.",
           translation: "The sun will shine.",
         },
         {
-          jaobon: "son pas ge lus.",
+          jaobon: "son pas tos lus.",
           translation: "The sun has been shining.",
         },
         {
-          jaobon: "son ge lus nu bes.",
+          jaobon: "son tos lus nu bes.",
           translation: "The sun is shining again.",
         },
         {
-          jaobon: "son ge lus bon son.",
+          jaobon: "son tos lus bon son.",
           translation: "The sun will shine tomorrow.",
         },
         {
-          jaobon: "son hen ge lus.",
+          jaobon: "son hen tos lus.",
           translation: "The sun shines brightly.",
         },
         {
-          jaobon: "lus son ge lus.",
+          jaobon: "son ki yo lus tos lus.",
           translation: "The bright sun shines.",
         },
         {
@@ -98,7 +98,7 @@ const texts = new Map<string, Text>([
           translation: "Some of the people shouted.",
         },
         {
-          jaobon: "men de je jen de as bik bos dos bes.",
+          jaobon: "men ki en je jen de as bik bos dos bes.",
           translation: "Many of the people shouted twice.",
         },
             {
