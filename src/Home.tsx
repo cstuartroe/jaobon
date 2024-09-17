@@ -29,6 +29,12 @@ export default class Home extends Component<Props, State> {
               derived in whole or part from other languages: Japanese, Hindi, Latin, Arabic, etc.
           </p>
 
+          <img
+              src="/static/img/jaobon_flag_8866cc_puzzle_3x2.png"
+              alt="Flag of Jaobon"
+              style={{"width": "60%", "margin": "20px auto", "display": "block"}}
+          />
+
           <p>
               Like Mandarin, Jaobon has no morphology which modifies phonemes or results in syllable rebracketing.
               In this sense, Jaobon can be said to be a purely analytical language.
