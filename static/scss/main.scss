@@ -1,5 +1,6 @@
 $purple: #8866cc;
-$ice_blue: #86cbf9;
+$green: #66cc88;
+$brown: #cc8866;
 
 h1, h2, h3, p, li, .translation {
   font-family: "Kanit", sans-serif;
@@ -20,10 +21,11 @@ h1, h2, h3, p, li, .translation {
 }
 
 a {
-  color: $ice_blue;
+  color: $green;
 
   &:hover {
     text-decoration: none;
+    color: $brown;
   }
 }
 
@@ -183,7 +185,7 @@ th .dots {
 
   &.tooltip-shown {
     a {
-      background-color: #ccffdd;
+      background-color: $green;
     }
   }
 }
