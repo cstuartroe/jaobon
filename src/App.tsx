@@ -71,7 +71,6 @@ class App extends Component<{}, AppState> {
                           </Routes>
                           <div style={{height: "10vh"}}/>
                       </div>
-                      <div className="col-0 col-md-2 col-lg-3"/>
 
                       <DisplaySettingsWidget
                           displaySettings={this.state.displaySettings}
