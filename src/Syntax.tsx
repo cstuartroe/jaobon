@@ -110,13 +110,12 @@ export default class Syntax extends Component<Props, State> {
                     Aspect particles are prepositions and verbs which Jaobon co-opts for aspectual
                     (sometimes mixed with tense)
                     meaning.{' '}
-                    {text('de')} "from" indicates a perfect aspect and/or past tense. {text('a')} "to" indicates a
-                    prospective aspect or future tense.{' '}
-                    {text('pas')} "across, over" indicates an experiential aspect.{' '}
+                    {text('pas')} "across, over" indicates an experiential/retrospective aspect and/or past tense.{' '}
+                    {text('a')} "to" indicates a prospective aspect or future tense.{' '}
                     {text('en')} "in, on" indicates a progressive aspect, which may have
                     a default present-tense interpretation, but can certainly be used for past and future times if
                     context makes
-                    that clear: {text('xas ki mi en wok, ta de des a mi')} "When I was working, she spoke to me."{' '}
+                    that clear: {text('xas ki mi en wok, ta pas des a mi')} "When I was working, she spoke to me."{' '}
                     {text('kai')} "open" indicates an inchoative/inceptive aspect: {text('ni kai su wak')}{' '}
                     "you start to run."{' '}
                     {text('mo')} "die" indicates a cessative aspect: {text('ni mo su wak')} "you stop running."{' '}
@@ -125,21 +124,22 @@ export default class Syntax extends Component<Props, State> {
                 </p>
 
                 <p>
-                    A clause with no aspect particles may be interpreted as a simple present, a past or future perfective,
+                    A clause with no aspect particles may be interpreted as a simple present, a past or future
+                    perfective,
                     or a gnomic, depending on context.
                 </p>
 
                 <p>
                     Aspect particles can be chained according to logical order: {text('ni a mo su wak')} "you will
-                    stop running." {text('mi de pas kai as xes')} "I had started studying."
+                    stop running." {text('mi pas kai as xes')} "I have started studying."
                 </p>
 
                 <h3>Adverbs</h3>
 
                 <p>
                     Jaobon's {posCounts['adverb']} adverbs appear in between aspect particles and predicates:{' '}
-                    {text('mi de gai wok')} "I should have worked." Like aspect particles, they can be chained
-                    according to logical order: {text('mi de gai mas wok')} "I should have worked more."
+                    {text('mi pas gai wok')} "I should have worked." Like aspect particles, they can be chained
+                    according to logical order: {text('mi pas gai mas wok')} "I should have worked more."
                 </p>
 
                 <h3>Predicates</h3>
@@ -185,7 +185,7 @@ export default class Syntax extends Component<Props, State> {
                         <p>
                             A special case of noun phrases, complementizer phrases, can use the voice
                             particle {text('as')} with a
-                            causative meaning: {text('mi de as ke ta co wa')} "I made him drink water."
+                            causative meaning: {text('mi pas as ke ta co wa')} "I made him drink water."
                         </p>
                     </li>
                     <li>
@@ -226,7 +226,8 @@ export default class Syntax extends Component<Props, State> {
                             not just
                             a matter of clarifying the syntax of the sentence, but may also suggest greater
                             volition:{' '}
-                            {text('mi de pe hu')} "I lost the game" vs. {text('mi de as pe hu')} "I (intentionally) lost
+                            {text('mi pas pe hu')} "I lost the game" vs. {text('mi pas as pe hu')} "I (intentionally)
+                            lost
                             the
                             game."
                         </p>
@@ -235,6 +236,17 @@ export default class Syntax extends Component<Props, State> {
                             a direct object: {text('mi en es ces')} "I am being followed." The agent can be recovered
                             with the preposition {text('nis')}: {text('mi en es ces nis ta')} "I'm being followed
                             by him."
+                        </p>
+                        <p>
+                            Note the perhaps surprising syntax that this implies for prepositions, which are a subtype
+                            of transitives: to mean "it is under the table," {text('ta es en jos bon')} is incorrect,
+                            although it might be an apparent word-for-word translation from English or Spanish.{' '}
+                            {text('ta')} has a patient role with regard to the transitive {text('en')}, so it
+                            must use either {text('as')} or no voice particle. No voice particle is prototypical
+                            for prepositions: {text('ta en jos bon')}. {text('as')} may be used to imply volition:
+                            {' '}{text('ta as en jos bon')} would be correct if, for instance, "it" was an animal that
+                            had gone under the table. This is a normal way to express willful motion:{' '}
+                            {text('ta as a mai luk')} "she's going to the store".
                         </p>
                     </li>
                 </ul>
@@ -256,7 +268,7 @@ export default class Syntax extends Component<Props, State> {
                         the other being imperatives. This{' '}
                         {text('yo')}...{text('ki')} pattern in particular is used like an indefinite article, to
                         introduce a subject which has not previously been mentioned:{' '}
-                        {text('yo jen ki de as en dao jan')} "a person was standing in the street."
+                        {text('yo jen ki pas as en dao jan')} "a person was standing in the street."
                     </li>
                 </ul>
 
@@ -266,8 +278,9 @@ export default class Syntax extends Component<Props, State> {
                     {text('mi sen i co pan')} or {text('mi sen co pan')} "I sit and eat."
                     A direct object can be shared between two or more predicates, appearing only in the last one:{' '}
                     {text('ta ba co cai')} "she grabbed the tea and drank it." Voice particles apply to subsequent
-                    predicates until a new voice particle is included: {text('wak xis de as co i mo kok con')} "the
-                    lizard ate the insect, which killed the insect", but {text('wak xis de as co kok con i es mo')}{' '}
+                    predicates until a new voice particle is included: {text('wak xis pas as co i mo kok con')} "the
+                    lizard ate the insect, which killed the insect",
+                    but {text('wak xis pas as co kok con i es mo')}{' '}
                     "the lizard ate the insect, and the lizard died."
                 </p>
 
@@ -312,7 +325,7 @@ export default class Syntax extends Component<Props, State> {
 
                 <p>
                     {text('xas')} is also used as the head of oblique phrases in another way: in the set phrase{' '}
-                    {text('xas ki')} "when, the time that." For example {text('xas ki mi tok ta, ta de hok.')}{' '}
+                    {text('xas ki')} "when, the time that." For example {text('xas ki mi tok ta, ta hok.')}{' '}
                     "when I touched it, it was hot." This is structurally just a relative clause modifying {text('xas')}.
                 </p>
 
@@ -340,16 +353,16 @@ export default class Syntax extends Component<Props, State> {
                 <p>
                     Jaobon does not have indirect objects as a syntactic position. Recipients are the direct object
                     of the verb {text('ge')} "give," with the thing being given being the object of a verb like{' '}
-                    {text('ba')} "hold" in a separate predicate: {'ta de ba li kos ge mi'} "she gave me a gift."
+                    {text('ba')} "hold" in a separate predicate: {'ta pas ba li kos ge mi'} "she gave me a gift."
                     Benefactors are similarly direct objects of the verb {text('he')} "help":{' '}
-                    {text('mi de he ni dai ta lai')} "I brought it for you."
+                    {text('mi pas he ni dai ta lai')} "I brought it for you."
                 </p>
 
                 <p>
                     Such sentences are not really possible to passivize in the normal way, though this is true for any
                     sentence with multiple predicates which are hard to conceptually separate. Making a recipient a
                     subject can simply be accomplished with the verb {text('gek')} "receive" (
-                    {text('mi de gek li kos de ta')} "I got a gift from her"), though this is kind of cheating.
+                    {text('mi pas gek li kos de ta')} "I got a gift from her"), though this is kind of cheating.
                     The only other possibility is clefting with relative clauses: {text('li kos es ki ta ba ge mi')}
                     "a gift is what she gave me."
                 </p>
@@ -386,17 +399,35 @@ export default class Syntax extends Component<Props, State> {
                     compare {text('xe kos')} "pen" with {text('co kos')} "food."
                 </p>
 
+                <h3>Genitives</h3>
+
+                <p>
+                    Jaobon has a linking genitive particle {text('de')} which can be used similarly to Spanish <i>de</i> to
+                    mark possession or any other relationship between two nouns. For example, {text('ta buk')} can
+                    mean "his book" as in "the book he owns" or "the book he wrote."
+                </p>
+
+                <p>
+                    Genitives can also be expressed as with the possessor as a left-branching modifier, filling the
+                    same syntactic slot as a determiner (e.g., {text('ta buk')} "his book").
+                </p>
+
+                <p>
+                    There is no rigid criteria for which strategy to use, although the genitive particle {text('de')} is
+                    generally preferred for possessors consisting of more than one root.
+                </p>
+
                 <h3>Relative clauses</h3>
 
                 <p>
-                    Branching rightward happens via relative clauses, marked with the relativizer particle {text('ki')}.
+                    Branching rightward also happens via relative clauses, marked with the relativizer particle {text('ki')}.
                     Relative clauses occur more frequently in Jaobon than in English or Spanish, but less often than
                     Mandarin noun modifiers in 的. Jaobon relative clauses may have other nominal arguments, and
                     the head noun may be a subject, direct object, or oblique role in the relative clause. An example
                     of a relative clause where the head noun is a subject: {text('jen ki no co nik')} "person who
                     does not eat meat." An example of a relative clause where the head noun is a direct object:{' '}
-                    {text('kos ki mi de kan')} "thing I saw." Examples of relative clauses where the head noun is
-                    an oblique argument: {text('we ki mi men de mak ta')} "how we made it,"{' '}
+                    {text('kos ki mi pas kan')} "thing I saw." Examples of relative clauses where the head noun is
+                    an oblique argument: {text('we ki mi men pas mak ta')} "how we made it,"{' '}
                     {text('xas ki mi men mak ta')} "the time when we made it."
                 </p>
 
@@ -418,9 +449,10 @@ export default class Syntax extends Component<Props, State> {
                 </p>
 
                 <p>
-                    Note the perhaps unintuitive syntax for relative clauses where the predicate core is a
-                    preposition:{' '}
+                    Note the perhaps unintuitive syntax for relative clauses where the shared noun is the object of
+                    a preposition:{' '}
                     {text('luk ki ni en')} "the place where you are."
+                    This follows from the syntax for relative clauses with transitive predicates in general.
                 </p>
 
                 <p>
@@ -465,16 +497,6 @@ export default class Syntax extends Component<Props, State> {
                     e.g., {text('pin')} means "pierce" as a verb, and "pin" or "thorn" as a noun. Other transitive
                     roots - that is, prepositions and the existential {text('yo')} - cannot be the head of a noun
                     phrase.
-                </p>
-
-                <h3>Possessives</h3>
-
-                <p>
-                    There are two ways to express possessives in Jaobon: as a left-branching modifier, filling the
-                    same syntactic slot as a determiner (e.g., {text('ta jin')} "his money"), or in a relative
-                    clause with the existential {text('yo')} (e.g., {text('jin ki ta yo')} "his money".)
-                    Family members and body parts exclusively have left-branching possessors: {text('mi ma')}{' '}
-                    "my mother," {text('mi yek')} "my eye."
                 </p>
 
                 <h3>Positionals</h3>
@@ -574,6 +596,25 @@ export default class Syntax extends Component<Props, State> {
                 <p>
                     This adverbial concept is expressed in Lauvinko with an oblique phrase{' '}
                     {text('mas ... we ki ken')}: {text('cin mak je mas su we ki ken')} "please do it ASAP."
+                </p>
+
+                <h3>Preposition support</h3>
+
+                <p>
+                    Prepositions can be awkward to use directly with aspect particles, since they are often homonymous.
+                    For instance, {text('mi pas a bo lu tu')} "I went to the airport" is a little odd, with two
+                    prepositions in a row ({text('pas a')}). {text('mi a a bo lu tu')} "I will go to the airport"
+                    is even stranger, with two {text('a')} in a row. These sentences are grammatical, but it is more
+                    natural to use a supporting intransitive. With prepositions of motion ({text('a')},
+                    {' '}{text('has')}, {text('pas')}), this is normally {text('wak')}:{' '}
+                    {text('mi pas wak a bo lu tu')}. {text('wak')} prototypically refers to walking on foot when
+                    in reference to people, but this connotation is weak, and discarded when implausible;{' '}
+                    The compound {text('jao wak')} specifically refers to walking on foot, and can be used to
+                    clarify: {text('mi pas jao wak a bo lu tu')} "I walked to the airport".
+                    With {text('en')} and {text('nis')}, the normal supporting intransitive is
+                    {text('sen')}: {text('mi pas sen en ta kas')} "I was in his house". Analogously, {text('sen')}
+                    {' '}prototypically refers to a sitting position with human referents, but this is also a weak
+                    connotation. The compound {text('jao sen')} analogously refers specifically to actually sitting.
                 </p>
             </>
         );

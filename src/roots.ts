@@ -44,6 +44,7 @@ export const partsOfSpeech = [
     "coordinating conjunction",
     "subordinating conjunction",
     "relativizer",
+    "genitive particle",
     "interjection",
 ] as const;
 
@@ -464,7 +465,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "dao",
         "road, way, path, direction, go, arrive",
-        ["intransitive verb"],
+        ["transitive verb"],
         "道",
         [["Chinese", "道"], ["Chinese", "到"]],
     ),
@@ -478,7 +479,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "de",
         "from, off of, away from",
-        ["preposition", "aspect particle"],
+        ["preposition", "genitive particle"],
         "从",
         [["Spanish", "de"]],
     ),
