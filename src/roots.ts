@@ -1671,7 +1671,7 @@ export const ROOTS = new Map<string, Root>([
         "or, other",
         ["coordinating conjunction"],
         "另",
-        [["Spanish", "or"], ["Spanish", "otro"]],
+        [["English", "or"], ["Spanish", "otro"]],
     ),
     root(
         "ok",
