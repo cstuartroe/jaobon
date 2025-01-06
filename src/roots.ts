@@ -1367,10 +1367,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "mai",
-        "sell, convince",
+        "buy, sell, trade, exchange, swap, switch",
         ["transitive verb"],
-        "卖",
-        [["Chinese", "卖"]],
+        "买",
+        [["Chinese", "卖"], ["Chinese", "买"]],
     ),
     root(
         "mak",
@@ -1493,7 +1493,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "muk",
-        "free, open, unencumbered, loose, relaxed",
+        "free, open, unencumbered, loose, relaxed, non-binary, gender-nonconforming",
         ["adjective"],
         "放",
         [["Hindi", "मुक्त"]],
