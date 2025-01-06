@@ -580,35 +580,35 @@
     "entries": [
       {
         "English": "north",
-        "Jaobon": "nok la"
+        "Jaobon": "son yok"
       },
       {
         "English": "south",
-        "Jaobon": "nan la"
+        "Jaobon": "son is"
       },
       {
         "English": "east",
-        "Jaobon": "don la"
+        "Jaobon": "son bek"
       },
       {
         "English": "west",
-        "Jaobon": "wes la"
+        "Jaobon": "son cen"
       },
       {
         "English": "northwest",
-        "Jaobon": "nok wes la"
+        "Jaobon": "son cen yok"
       },
       {
         "English": "northeast",
-        "Jaobon": "nok don la"
+        "Jaobon": "son bek yok"
       },
       {
         "English": "southwest",
-        "Jaobon": "nan wes la"
+        "Jaobon": "son cen is"
       },
       {
         "English": "southeast",
-        "Jaobon": "nan don la"
+        "Jaobon": "nan ben is"
       },
       {
         "English": "direction",

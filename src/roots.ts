@@ -520,10 +520,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "don",
-        "understand; east",
+        "understand",
         ["transitive verb"],
         "懂",
-        [["Chinese", "東"], ["Chinese", "懂"]],
+        [["Chinese", "懂"]],
     ),
     root(
         "dos",
@@ -1535,10 +1535,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "nan",
-        "male, masculine; south",
+        "male, masculine",
         ["adjective"],
         "男",
-        [["Chinese", "男"], ["Chinese", "南"]],
+        [["Chinese", "男"]],
     ),
     root(
         "nao",
@@ -1619,10 +1619,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "nok",
-        "night; north",
+        "night",
         ["noun"],
         "夕",
-        [["Spanish", "noche"], ["Spanish", "norte"], ["English", "north"]],
+        [["Spanish", "noche"], ["Latin", "nox"]],
     ),
     root(
         "non",
@@ -2193,10 +2193,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "wes",
-        "bone; west",
+        "bone",
         ["noun"],
         "骨",
-        [["English", "west"], ["Spanish", "oeste"], ["Spanish", "hueso"]],
+        [["Spanish", "hueso"]],
     ),
     root(
         "wi",

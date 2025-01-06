@@ -17,7 +17,7 @@ const texts = new Map<string, Text>([
       description: "A classic conlanger's translation.",
       lines: [
         {
-          jaobon: "nok la win i son en des puk nis ke es ki mas yo pao. je xas lu jen, ki dai dun te ki wen, as lai pas yak.",
+          jaobon: "yok win i son en des puk nis ke es ki mas yo pao. je xas lu jen, ki dai dun te ki wen, as lai pas yak.",
           translation: "The North Wind and the Sun were disputing which was the stronger, when a traveler came along wrapped in a warm cloak.",
         },
         {
@@ -25,11 +25,11 @@ const texts = new Map<string, Text>([
           translation: "They agreed that the one who first succeeded in making the traveler take his cloak off should be considered stronger than the other.",
         },
         {
-          jaobon: "nok la win as lu gas mas yo pao we ki ken, i bes ki win as lu gas mas yo pao we, lu jen jo mas as in xak dun te a se tuk.",
+          jaobon: "yok win as lu gas mas yo pao we ki ken, i bes ki win as lu gas mas yo pao we, lu jen jo mas as in xak dun te a se tuk.",
           translation: "Then the North Wind blew as hard as he could, but the more he blew the more closely did the traveler fold his cloak around him.",
         },
         {
-          jaobon: "jo yo xas ki nok la win mo as lu.",
+          jaobon: "jo yo xas ki yok win mo as lu.",
           translation: "At last the North Wind gave up the attempt. ",
         },
         {
@@ -37,7 +37,7 @@ const texts = new Map<string, Text>([
           translation: "Then the Sun shined out warmly, and immediately the traveler took off his cloak.",
         },
         {
-          jaobon: "je we, nok la win mos des ke son mas yo pao de se.",
+          jaobon: "je we, yok win mos des ke son mas yo pao de se.",
           translation: "And so the North Wind was obliged to confess that the Sun was the stronger of the two.",
         },
       ],
