@@ -57,7 +57,7 @@ function rootFrequencyList(frequencies: Map<Root, number>, displaySettings: Disp
     return (
         <ul>
             {sortedEntries(frequencies).map(([root, count], i) => (
-                <li>
+                <li key={i}>
                     <AnnotatedCharacter root={root} displaySettings={displaySettings}/>
                     {' '}
                     {count}
