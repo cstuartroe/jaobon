@@ -44,7 +44,7 @@ export const partsOfSpeech = [
     "coordinating conjunction",
     "subordinating conjunction",
     "relativizer",
-    "genitive particle",
+    "linking particle",
     "interjection",
 ] as const;
 
@@ -479,7 +479,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "de",
         "from, off of, away from",
-        ["preposition", "genitive particle"],
+        ["preposition", "linking particle"],
         "从",
         [["Spanish", "de"]],
     ),
@@ -1606,7 +1606,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "nis",
         "about, concerning, with regard to",
-        ["preposition"],
+        ["preposition", "linking particle"],
         "关",
         [["Japanese", "について"]],
     ),

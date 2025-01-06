@@ -399,7 +399,7 @@ export default class Syntax extends Component<Props, State> {
                     compare {text('xe kos')} "pen" with {text('co kos')} "food."
                 </p>
 
-                <h3>Genitives</h3>
+                <h3>Genitives and linking particles</h3>
 
                 <p>
                     Jaobon has a linking genitive particle {text('de')} which can be used similarly to Spanish <i>de</i> to
@@ -415,6 +415,20 @@ export default class Syntax extends Component<Props, State> {
                 <p>
                     There is no rigid criteria for which strategy to use, although the genitive particle {text('de')} is
                     generally preferred for possessors consisting of more than one root.
+                </p>
+
+                <p>
+                    There is one other linking particle which allows one noun to modify another: {text('nis')} "about".
+                    It is used for conceptual relationships between noun phrases: {text('des nis gi jik')} "discussion
+                    about politics", {text('buk nis an')} "book about animals".
+                </p>
+
+                <p>
+                    Although {text('de')} and {text('nis')} are both prepositions, other prepositions cannot be
+                    used to directly link nouns: *{text('jos en kuk luk')}. The relativizer {text('ki')} must
+                    be used: {text('jos ki en kuk luk')} "table in the kitchen". This is because most other
+                    prepositions double as aspect
+                    particles, which could lead to ambiguity if allowed to join noun phrases as well.
                 </p>
 
                 <h3>Relative clauses</h3>
