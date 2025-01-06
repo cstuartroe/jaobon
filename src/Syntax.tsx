@@ -557,7 +557,7 @@ export default class Syntax extends Component<Props, State> {
 
                 <p>
                     Hortatives that include the speaker actually do have a subject {text('mi men')} "we" and
-                    mandatorily include {text('lai')}: {text('ni lai bus ta!')} "let's find it!" Note that
+                    mandatorily include {text('lai')}: {text('mi men lai bus ta!')} "let's find it!" Note that
                     such sentences can be read as plain indicative sentences as well - only context and tone of
                     voice clarifies which mood is intended.
                 </p>
