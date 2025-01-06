@@ -1,5 +1,5 @@
 import {Root, ROOTS} from "./roots";
-import {AnnotatedCharacter, parseJaobon, TranslatedLine} from "./AnnotatedText";
+import {AnnotatedCharacter, isPN, parseJaobon, TranslatedLine} from "./AnnotatedText";
 import {DisplaySettings} from "./DisplaySettings";
 import {Link, useParams} from "react-router-dom";
 import React, {Component, useState} from "react";
@@ -19,10 +19,19 @@ const newTextStats = (): TextStats => ({
 function addText(stats: TextStats, text: Text) {
     text.lines.forEach(line => {
         stats.numLines++;
+        const roots: Root[] = []
         parseJaobon(line.jaobon).forEach(piece => {
-            if (typeof piece !== "string") {
-                stats.frequencies.set(piece, (stats.frequencies.get(piece) || 0) + 1);
+            if (typeof piece === "string") {
+                return;
+            } else if (isPN(piece)) {
+                roots.push(...piece.roots);
+            } else {
+                roots.push(piece);
             }
+        })
+
+        roots.forEach(piece => {
+            stats.frequencies.set(piece, (stats.frequencies.get(piece) || 0) + 1);
         });
     });
 }

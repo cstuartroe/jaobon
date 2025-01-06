@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import { Root, ROOTS } from "./roots";
 import {stringToSyllable, syllableToDots} from "./syllables";
 import classNames from "classnames";
-import {DisplaySettings} from "./DisplaySettings";
+import {WritingSystem, DisplaySettings} from "./DisplaySettings";
 
 type ACProps = {
     root: Root,
     displaySettings: DisplaySettings,
+    capitalize?: boolean,
 }
 
 type ACState = {
@@ -24,7 +25,11 @@ export class AnnotatedCharacter extends Component<ACProps, ACState> {
   annotated() {
       switch (this.props.displaySettings.writingSystem) {
           case "roman":
-              return this.props.root.syllable
+              if (this.props.capitalize) {
+                  return this.props.root.syllable[0].toUpperCase() + this.props.root.syllable.slice(1);
+              } else {
+                  return this.props.root.syllable;
+              }
           case "cjk":
               return this.props.root.CJK;
           case "dots":
@@ -65,39 +70,87 @@ export class AnnotatedCharacter extends Component<ACProps, ACState> {
   }
 }
 
-type Props = {
-    sentence: string,
+type ProperNoun = {
+    roots: Root[],
+}
+
+export function isPN(x: ProperNoun | Root): x is ProperNoun {
+    return (x as ProperNoun).roots !== undefined;
+}
+
+const ProperNounBrackets: {[key in WritingSystem]: [string, string]} = {
+    "cjk": ["《", "》"],
+    "dots": ["<", ">"],
+    "roman": ["", ""],
+}
+
+type APNProps = {
+    pn: ProperNoun,
     displaySettings: DisplaySettings,
-    inline: boolean,
+}
+
+class AnnotatedPN extends Component<APNProps, {}> {
+    constructor(props: APNProps) {
+        super(props);
+    }
+
+    render() {
+        const {displaySettings, pn} = this.props;
+        const [lbr, rbr] = ProperNounBrackets[displaySettings.writingSystem];
+
+        return (
+            <span className="proper-noun">
+                <span className={displaySettings.writingSystem}>{lbr}</span>
+                {pn.roots.map((root, i) => (
+                    <AnnotatedCharacter root={root} displaySettings={displaySettings} key={i} capitalize={i === 0}/>
+                ))}
+                <span className={displaySettings.writingSystem}>{rbr}</span>
+            </span>
+        );
+    }
 }
 
 const charMappings = new Map<string, [string, string]>([
     // [Original, [CJK, Dots]]
     [' ', ["\u200b", "\u200b"]],
-    ['!', ['！', '.']],
+    ['!', ['！', '!']],
     [',', ['、', '']],
     ['~', ['〜', '.']],
     ['.', ['。', '.']],
-    ['?', ['？', '.']],
+    ['?', ['？', '?']],
     ['(', ['（ ', '(']],
     [')', ['）', ')']],
 ]);
 
-
-export function parseJaobon(sentence: string): (Root | string)[] {
+export function parseJaobon(sentence: string): (Root | ProperNoun | string)[] {
     sentence = sentence.toLocaleLowerCase();
 
-    const pieces: (Root | string)[] = [];
+    const pieces: (Root | ProperNoun | string)[] = [];
 
     let currentWord = "";
+    let currentProperNoun: ProperNoun | undefined = undefined;
 
-    function popWord(i: number) {
+    function pushPiece(piece: Root | string) {
+        if (currentProperNoun === undefined) {
+            pieces.push(piece);
+        } else {
+            if (typeof piece === "string") {
+                if (piece !== " ") {
+                    throw "Tried to include punctuation in proper noun";
+                }
+            } else {
+                currentProperNoun.roots.push(piece);
+            }
+        }
+    }
+
+    function popWord() {
         if (currentWord !== "") {
             const root = ROOTS.get(currentWord);
             if (root === undefined) {
                 console.error(`Unrecognized syllable: ${currentWord}`)
             } else {
-                pieces.push(root)
+                pushPiece(root);
             }
 
             currentWord = "";
@@ -108,14 +161,38 @@ export function parseJaobon(sentence: string): (Root | string)[] {
         const c = sentence[i];
         if (c.match(/[a-z]/) !== null) {
             currentWord += c;
+        } else if (c === '[') {
+            if (currentProperNoun !== undefined) {
+                throw "Nested brackets";
+            }
+            currentProperNoun = {
+                roots: [],
+            };
+            pieces.push(currentProperNoun);
+        } else if (c === ']') {
+            if (currentProperNoun === undefined) {
+                throw "Unmatched bracket";
+            }
+            popWord();
+            currentProperNoun = undefined;
         } else {
-            popWord(i);
-            pieces.push(c)
+            popWord();
+            pushPiece(c);
         }
     }
-    popWord(-1);
+    popWord();
+
+    if (currentProperNoun !== undefined) {
+        throw "Unmatched brackets";
+    }
 
     return pieces;
+}
+
+type Props = {
+    sentence: string,
+    displaySettings: DisplaySettings,
+    inline: boolean,
 }
 
 export default function AnnotatedText(props: Props) {
@@ -129,12 +206,20 @@ export default function AnnotatedText(props: Props) {
                     const [cjkPunct, dotsPunct] = pair;
                     let punct: string = "";
                     switch (props.displaySettings.writingSystem) {
-                        case "roman": punct = piece; break;
-                        case "cjk": punct = cjkPunct; break;
-                        case "dots": punct = dotsPunct; break;
+                        case "roman":
+                            punct = piece;
+                            break;
+                        case "cjk":
+                            punct = cjkPunct;
+                            break;
+                        case "dots":
+                            punct = dotsPunct;
+                            break;
                     }
                     return <span className={props.displaySettings.writingSystem} key={i}>{punct}</span>;
                 }
+            } else if (isPN(piece)) {
+                return <AnnotatedPN pn={piece} displaySettings={props.displaySettings} key={i}/>;
             } else {
                 return <AnnotatedCharacter root={piece} displaySettings={props.displaySettings} key={i}/>;
             }
