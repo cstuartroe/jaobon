@@ -616,6 +616,60 @@ export default class Syntax extends Component<Props, State> {
                     {' '}prototypically refers to a sitting position with human referents, but this is also a weak
                     connotation. The compound {text('jao sen')} analogously refers specifically to actually sitting.
                 </p>
+
+                <h3>Personal names and titles</h3>
+
+                <p>
+                    Since any phonologically valid rendering of a name in Jaobon will sound like a sequence
+                    of existing roots, there is some risk of ambiguity between a name and the normal compositional
+                    meaning of those roots. A particularly difficult example is that someone named Jen
+                    may find their name to be very confusing in Jaobon, as it simply sounds like{' '}
+                    {text('jen')} "person". It is fair game to choose between any of one's names to
+                    predominantly use in Jaobon, if one fits Jaobon phonology better or is less confusable
+                    for a normal phrase. Phonetic distortions are also fine in order to arrive at a sequence
+                    of roots with a nicer meaning, e.g. the most straightforward phonetic rendering of my name
+                    (Conor) is probably {text('[ko na]')} or {text('[ka na]')}, but I prefer{' '}
+                    {text('[kon nak]')}. Taken a step further, there's nothing wrong with inventing an
+                    a priori Jaobon name for oneself.
+                </p>
+                <p>
+                    To reduce auditory ambiguity as well as convey social information, personal names are
+                    typically prefixed by a root acting like a title or the Mandarin name prefixes 老 and 小. The
+                    set of titles is fairly open, although using overly unconventional titles in speech may
+                    not serve to reduce confusion.
+                </p>
+                <p>
+                    The most neutral title possible is {text('ta')}, which conveys no information whatsoever
+                    about its referent, although it is so impersonal that it may only be appropriate if the
+                    identity of the referent is unknown or general, such as on a form or legal document.
+                </p>
+                <p>
+                    Another fairly neutral option is a title that only conveys gender information:{' '}
+                    {text('nan')}, {text('nus')}, or {text('muk')}, equivalent to English
+                    Mr., Ms., Mx. This is appropriate for fairly formal settings or unfamiliar people.
+                </p>
+                <p>
+                    Age/seniority based titles {text('gu')} and {text('xao')}, equivalent to
+                    Mandarin 老 and 小, convey a bit more social information but are probably only
+                    socially appropriate among somewhat closer associates.
+                </p>
+                <p>
+                    Less formal but still common titles
+                    include {text('mik')} or {text('be')} for friends and
+                    kinship terms like {text('ik')}, {text('kek')}, {text('ma')}, {text('pa')}{' '}
+                    (which need not be for actual blood relatives)
+                </p>
+                <p>
+                    The least formal and even humorous titles include physical attributes like {text('gao')},
+                    {text('lo')}, animals like {text('mus')}, {text('hus')}, {text('pak')}, {text('os')},
+                    or any descriptor that feels appropriate, like {text('kin')}, {text('ao')}.
+                </p>
+                <p>
+                    These prefixed titles are distinguished from true occupational titles, e.g.,{' '}
+                    {text('ki as he')} "medical doctor", which should come after the personal name.
+                    Such occupational titles may obviate the need for a name prefix:{' '}
+                    {text('[a li] ki as he')} or {text('gu [a li] ki as he')} "Dr. Ali".
+                </p>
             </>
         );
     }

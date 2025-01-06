@@ -298,6 +298,17 @@ export default class WritingSystems extends Component<Props, State> {
                     double dot of fortis stops, and <IPA>aS</IPA> is {inlineDots('aS')}, using the horizontal line of
                     fricatives.
                 </p>
+
+                <h1>Representation of proper nouns</h1>
+
+                <p>
+                    Proper nouns like personal names and place names are set apart orthographically in all
+                    writing systems for Jaobon. In the Latin alphabet, names are written capitalized, with
+                    all syllables grouped together without spaces: <span className="roman">Toma</span>.
+                    In CJK characters double angle brackets are placed around the name:{' '}
+                    <span className="cjk">《头妈》</span>. In Featural Dots, similar bracket characters are used
+                    in the same way: <span className="dots">{'<'}toma{'>'}</span>
+                </p>
             </>
         );
     }
