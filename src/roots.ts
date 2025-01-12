@@ -922,7 +922,7 @@ export const ROOTS = new Map<string, Root>([
         "flat, straight, correct, right, proper, stand",
         ["intransitive verb"],
         "长",
-        [["Chinese", "张"], ["Chinese", "长"], ["Chinese", "站"]],
+        [["Chinese", "张"], ["Chinese", "长"], ["Chinese", "站"], ["Chinese", "真"]],
     ),
     root(
         "jao",
