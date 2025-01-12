@@ -401,6 +401,34 @@ const texts = new Map<string, Text>([
           jaobon: "xao nus ik pas es kan we ki jek lon.",
           translation: "The little girl seemed lonely.",
         },
+        {
+          jaobon: "yo bes ki pa de je xao nan ik as wok en wa ce.",
+          translation: "The little boy's father had once been a sailor.",
+        },
+        {
+          jaobon: "mi no ken bus dao mi wen te.",
+          translation: "I have lost my blanket.",
+        },
+        {
+          jaobon: "yo hon xon pak ki pas mak do luk en ju de hos gos.",
+          translation: "A robin has built his nest in the apple tree.",
+        },
+        {
+          jaobon: "nun mes mi men pas co en dao la.",
+          translation: "At noon we ate our lunch by the roadside.",
+        },
+        {
+          jaobon: "nan [jon sa] pas mak kin kos ge xao nan ik.",
+          translation: "Mr. Jones made a knife for his little boy.",
+        },
+        {
+          jaobon: "ta men bos es kus hen xi we.",
+          translation: "Their voices sound very happy.",
+        },
+        {
+          jaobon: "je son es xin cek dos o?",
+          translation: "Is today Monday?",
+        },
       ],
     }],
 ]);
