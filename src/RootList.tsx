@@ -30,6 +30,10 @@ export default class RootList extends Component<Props, State> {
     if (pos !== null) {
       roots = roots.filter(([key, root]) => (root.pos as string[]).includes(pos));
     }
+    const lang = new URLSearchParams(document.location.search).get("lang");
+    if (lang !== null) {
+      roots = roots.filter(([key, root]) => (root.etymologies.map(p => p.language as string)).includes(lang));
+    }
 
     return (
       <>

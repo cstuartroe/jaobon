@@ -72,7 +72,7 @@ export default class Sourcing extends Component<Props, State> {
             Array.from(sourceCounts().entries())
                 .sort((a, b) => b[1] - a[1])
                 .map(([lang, count], _) => (
-                    <li key={lang}>{lang}: {count} roots</li>
+                    <li key={lang}><a href={`/roots?lang=${lang}`}>{lang}: {count} roots</a></li>
                 ))
           }
         </ul>
