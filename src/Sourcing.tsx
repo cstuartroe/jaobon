@@ -135,6 +135,22 @@ export default class Sourcing extends Component<Props, State> {
                 Spanish <i>escuchar</i> → Jaobon <i>kus</i>
             </li>
         </ul>
+
+        <p>
+            In addition to phonetic fidelity, an effort was made to preserve semantic faithfulness as well,
+            which was key in defining the semantic space of certain roots. For instance, Jaobon <i>xun</i>{' '}
+            from Chinese 順 takes on its multiple related senses, including
+            "follow, go along; obey, comply; suit, fit; agree with".
+            This principle was not respected in all cases, in order to fill in semantic gaps, e.g. Jaobon <i>wik</i>
+            {' '}from English <i>weak</i> taking on not only the meaning "weak", but the related sense "tired".
+        </p>
+
+          <p>
+              In some cases, the principle of semantic fidelity has led to related sets of words having different
+              syntax, e.g. emotion terms <i>xi</i> "like", <i>has</i> "anger", <i>koi</i> "afraid":{' '}
+              <i>mi xi Toma</i> "I like Tom" vs. <i>mi yo has nis Toma</i> "I'm angry with Tom"
+              vs. <i>mi koi nis Toma</i> "I'm afraid of Tom".
+          </p>
       </>
     );
   }
