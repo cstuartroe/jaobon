@@ -23,7 +23,7 @@ export default class Sourcing extends Component<Props, State> {
         <h1>Sourcing roots</h1>
 
         <p>
-          Jaobon derives its 350 roots from other languages, so that speakers of those languages may have a
+          Jaobon derives its 366 roots from other languages, so that speakers of those languages may have a
           recognizable connection to as many roots as possible when first encountering them, to aid in remembering them.
           To this end, I have striven to make every root as close in sound and meaning as possible to the source
           word. I don't think that a speaker of a given source language would be able to guess the meaning of most Jaobon
@@ -52,7 +52,7 @@ export default class Sourcing extends Component<Props, State> {
           from their sources as to be humorous. What English speaker, for instance, would really connect the Jaobon
           word <i>hen</i> with its English source "heaven", and remember it as a term for "sky"; or the Jaobon
           word <i>tek</i> with its English source "thick"?
-          I think that deriving all or close to all of the 350 roots from only Spanish, English, and Mandarin
+          I think that deriving all or close to all of the 366 roots from only Spanish, English, and Mandarin
           while maintaining the quality of etymologies would have been essentially impossible.
         </p>
 
@@ -60,7 +60,7 @@ export default class Sourcing extends Component<Props, State> {
           In the end, I prioritized the fidelity of etymologies and my goal of using every phonologically permissible
           syllable over the purity of using only the three core languages. I threw out some etymologies which sounded
           too unlike the source word to be recognizable, and filled gaps opportunistically with words from other
-          languages. I ended up with a total of 14 source languages, although all but the core three contribute a
+          languages. I ended up with a total of 15 source languages, although all but the core three contribute a
           relatively tiny number of roots. In retrospect, I think this also had a positive effect on the feeling of
           the language, making it just a touch more variegated, global, and inclusive.
         </p>
@@ -77,16 +77,18 @@ export default class Sourcing extends Component<Props, State> {
           }
         </ul>
 
-        <p>The counts sum to more than 350, of course, since many roots have more than one source language.</p>
+        <p>The counts sum to more than 366, since many roots have more than one source language.</p>
 
         <p>
-          The only languages among this set without a large number of speakers and/or international significance are
+          The only languages among this set without a large number of speakers ({'>'} 80 million)
+          and/or international significance are
           Dutch and Polish. The inclusion of Polish I justify with the fact that
           the <Link to="/roots#cek"><i>-czek</i></Link> diminutive shares cognates in many Slavic languages, and has
           great sound symbolism to my ear. The even more disproportionate inclusion of Dutch was because of my personal
           familiarity with the language that led me to spot some chances to use Dutch etymologies that felt too
-          fitting to pass up (and, of course, that most of the Dutch etymons have fairly obvious English cognates).
-          Lastly, I'll point out that for Japanese, the language with the most etymons outside the core three,
+          fitting to pass up (and, only one of the Dutch-derived roots comes solely from Dutch;
+          it's generally there to reinforce and add adjacent semantic space to English/German sources).
+          Lastly, I'll point out that for Japanese, tied for the most etymons outside the core three,
           some of those are Sino-Japanese readings of characters which are especially recognizable cognates
           to the many widely-spoken Chinese varieties which preserve final stops.
         </p>
@@ -108,8 +110,8 @@ export default class Sourcing extends Component<Props, State> {
                 Hindi मुक्त <IPA>[mʊkt̪]</IPA> → Jaobon <i>muk</i>
             </li>
             <li>
-                Consonants (particularly, <IPA>[f]</IPA>) are sometimes replaced with the closest but still not-so-similar alternatives:
-                English <i>four</i> → Jaobon <i>pu</i>. This is especially true with final consonants:
+                Consonants (particularly, <IPA>[f]</IPA>) are occasionally replaced with the closest but still not-so-similar alternatives:
+                Mandarin 复杂 <IPA>[fût͡sǎ]</IPA> → Jaobon <i>pus</i>. This is especially true with final consonants:
                 <ul>
                     <li>
                         Any old stop might become Jaobon final <i>k</i> (for which I consider both <IPA>[k]</IPA> and <IPA>[ʔ]</IPA> acceptable pronunciations):
@@ -125,8 +127,7 @@ export default class Sourcing extends Component<Props, State> {
             </li>
             <li>
                 On rare occasions, I allowed a root to be more recognizable in spelling than pronunciation:
-                English <i>make</i> → Jaobon <i>mak</i>,
-                Spanish <i>hasta</i> <IPA>[asta]</IPA> → Jaobon <i>has</i> <IPA>[has]</IPA>
+                English <i>make</i> → Jaobon <i>mak</i>
             </li>
             <li>
                 I may only take the first or stressed syllable of a multisyllablic source word/stem:

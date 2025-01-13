@@ -20,9 +20,9 @@ export default class Home extends Component<Props, State> {
           <h1>Jaobon!</h1>
 
           <p>
-              is a constructed language with only 350 morphemes, all monosyllabic.
+              is a constructed language with only 366 morphemes, all monosyllabic.
 
-              Notably, these 350 syllables are the entire set of syllables distinguishable by Jaobon phonology; thus,
+              Notably, these 366 syllables are the entire set of syllables distinguishable by Jaobon phonology; thus,
               every phonologically possible syllable has a meaning assigned to it.
 
               Almost all of these morphemes are derived from Mandarin, Spanish, and English, although there are a handful
@@ -67,7 +67,7 @@ export default class Home extends Component<Props, State> {
           <ul>
               <li>The Latin alphabet, which is preferable for input methods and informal communication.</li>
               <li>
-                  CJK characters, with a set of 350 in use in a one-to-one relationship with Jaobon morphemes.
+                  CJK characters, with a set of 366 in use in a one-to-one relationship with Jaobon morphemes.
                   I use simplified Chinese characters to write Jaobon, with the justification that visual simplicity
                   should be prioritized for such a small grapheme set.
                   {' '}

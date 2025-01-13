@@ -17,23 +17,23 @@ const texts = new Map<string, Text>([
       description: "A classic conlanger's translation.",
       lines: [
         {
-          jaobon: "[yok win] i [son] en des puk nis ke es ki mas yo pao. je xas lu jen, ki dai dun te ki wen, as lai pas yak.",
+          jaobon: "[yok win] i [son] en des puk nis ke es ki mas yo pao. je xas pu jen, ki dai jak ki wen, as lai pas yak.",
           translation: "The North Wind and the Sun were disputing which was the stronger, when a traveler came along wrapped in a warm cloak.",
         },
         {
-          jaobon: "je dos ton des ke ki gan as ke lu jen kik dun te de se gai es min nis ki mas yo pao de o la.",
+          jaobon: "je dos ton des ke ki gan as ke pu jen kik jak de se gai es min nis ki mas yo pao de o la.",
           translation: "They agreed that the one who first succeeded in making the traveler take his cloak off should be considered stronger than the other.",
         },
         {
-          jaobon: "[yok win] as lu gas mas yo pao we ki ken, i bes ki win as lu gas mas yo pao we, lu jen jo mas as in xak dun te a se tuk.",
+          jaobon: "loi [yok win] as lu gas mas yo pao we ki ken, i bes ki ta as lu gas mas yo pao we, pu jen jo mas as in xak jak a se tuk.",
           translation: "Then the North Wind blew as hard as he could, but the more he blew the more closely did the traveler fold his cloak around him.",
         },
         {
-          jaobon: "jo yo xas ki [yok win] mo as lu.",
+          jaobon: "jo yo xas ki [yok win] mo kao.",
           translation: "At last the North Wind gave up the attempt. ",
         },
         {
-          jaobon: "je bon, [son] as tos wen lus, i je xas lu jen jo kik dun te de se.",
+          jaobon: "loi [son] as tos lus ki wen, i je xas pu jen jo kik jak.",
           translation: "Then the Sun shined out warmly, and immediately the traveler took off his cloak.",
         },
         {
@@ -170,11 +170,11 @@ const texts = new Map<string, Text>([
           translation: "He will arrive soon.",
         },
         {
-          jaobon: "cok de xao ik pas lun a ek.",
+          jaobon: "cok de cu cek pas hoi a ek.",
           translation: "The baby's ball has rolled away.",
         },
         {
-          jaobon: "dos nan ik en as guk wok.",
+          jaobon: "je dos xao nan jen en as wok guk we.",
           translation: "The two boys are working together.",
         },
         {
@@ -198,7 +198,7 @@ const texts = new Map<string, Text>([
           translation: "You must write more neatly.",
         },
         {
-          jaobon: "yo be xen kas ki es en jan han.",
+          jaobon: "yo be xen kas ki es en jan han la.",
           translation: "Directly opposite stands a wonderful palace.",
         },
         {
@@ -210,7 +210,7 @@ const texts = new Map<string, Text>([
           translation: "My cat is black.",
         },
         {
-          jaobon: "jen kos de xao nus ik es ca.",
+          jaobon: "jen kos de xao nus ik es soi.",
           translation: "The little girl's doll is broken.",
         },
         {
@@ -298,7 +298,7 @@ const texts = new Map<string, Text>([
           translation: "Everybody knows about hunting.",
         },
         {
-          jaobon: "sao xas en lus ton bon ki hen yo son, mi men as cu wak a mon ga.",
+          jaobon: "sao xas ki en lus ton bon ki hen yo son, mi men as cu wak a mon ga.",
           translation: "On a sunny morning after the solstice we started for the mountains.",
         },
         {
@@ -342,7 +342,7 @@ const texts = new Map<string, Text>([
           translation: "When will your guests from the city arrive?",
         },
         {
-          jaobon: "pis de wa lu ki en mo lu luk yak hen su ben wak a don la.",
+          jaobon: "pis de wa lu ki en mo lu luk yak hen su ben wak a son bek.",
           translation: "Near the mouth of the river, its course turns sharply towards the East.",
         },
         {
@@ -362,7 +362,7 @@ const texts = new Map<string, Text>([
           translation: "The sun looked down through the branches upon the children at play.",
         },
         {
-          jaobon: "win de wes la pas lu tok mi to cen ton we de mik jen.",
+          jaobon: "cen win pas lu tok mi to cen ton we de mik jen.",
           translation: "The west wind blew across my face like a friendly caress.",
         },
         {
@@ -378,15 +378,15 @@ const texts = new Map<string, Text>([
           translation: "I am very happy.",
         },
         {
-          jaobon: "je jin hon gos men hen yo jus.",
+          jaobon: "je kun hon gos men hen yo jus.",
           translation: "These oranges are juicy.",
         },
         {
-          jaobon: "wa de yen wa lan hen yo yen.",
+          jaobon: "wa de bik yen wa hen yo yen.",
           translation: "Sea water is salty.",
         },
         {
-          jaobon: "dao xan hen yo jen.",
+          jaobon: "pu xan hen yo jen.",
           translation: "The streets are full of people.",
         },
         {
@@ -414,7 +414,7 @@ const texts = new Map<string, Text>([
           translation: "A robin has built his nest in the apple tree.",
         },
         {
-          jaobon: "nun mes mi men pas co en dao la.",
+          jaobon: "nun mes mi men pas co en pu la.",
           translation: "At noon we ate our lunch by the roadside.",
         },
         {

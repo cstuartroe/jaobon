@@ -126,14 +126,14 @@ export default class WritingSystems extends Component<Props, State> {
                 <p>
                     The vowels <IPA>a e i o u</IPA> are romanized ⟨a e i o u⟩,
                     because I'm not a madman.{' '}
-                    <IPA>ai̯ au̯</IPA> are ⟨ai ao⟩ (with ⟨ao⟩ taking inspiration from Mandarin Pinyin),
+                    <IPA>ai̯ au̯ oi̯</IPA> are ⟨ai ao oi⟩ (with ⟨ao⟩ taking inspiration from Mandarin Pinyin),
                     and the coda consonants <IPA>Q N S</IPA> are spelled ⟨k n s⟩.
                 </p>
 
                 <h1>CJK Characters</h1>
 
                 <p>
-                    Every one of Jaobon's 350 roots has an assigned CJK character spelling, which can be found in
+                    Every one of Jaobon's 366 roots has an assigned CJK character spelling, which can be found in
                     the{' '}
                     <Link to="/roots">root list</Link>.
                 </p>
@@ -285,10 +285,10 @@ export default class WritingSystems extends Component<Props, State> {
                 </p>
 
                 <p>
-                    The diphthongs <IPA>ai̯ au̯</IPA> are written {inlineDots('aI aU')}, respectively, with
+                    The diphthongs <IPA>ai̯ au̯ oi̯</IPA> are written {inlineDots('aI aU oI')}, respectively, with
                     the single dots beneath using the same back = left / front = right symbolism as the vowels and
-                    initial consonants, with {inlineDots('aI aU')} <IPA>ai̯ au̯</IPA> specifically looking like vertically
-                    flipped versions of {inlineDots('ya wa')} <IPA>ja wa</IPA>.
+                    initial consonants, with {inlineDots('aI aU oI')} <IPA>ai̯ au̯</IPA> specifically looking like vertically
+                    flipped versions of {inlineDots('ya wa yo')} <IPA>ja wa jo</IPA>.
                 </p>
 
                 <p>
@@ -306,8 +306,8 @@ export default class WritingSystems extends Component<Props, State> {
                     writing systems for Jaobon. In the Latin alphabet, names are written capitalized, with
                     all syllables grouped together without spaces: <span className="roman">Toma</span>.
                     In CJK characters double angle brackets are placed around the name:{' '}
-                    <span className="cjk">《头妈》</span>. In Featural Dots, similar bracket characters are used
-                    in the same way: <span className="dots">{'<'}toma{'>'}</span>
+                    <span className="inline"><span className="cjk">《头妈》</span></span>. In Featural Dots, similar bracket characters are used
+                    in the same way: {inlineDots('<toma>')}.
                 </p>
             </>
         );

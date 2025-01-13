@@ -14,7 +14,8 @@ type SourceLanguage =
     | "Hindi"
     | "Malay"
     | "Russian"
-    | "German";
+    | "German"
+    | "Vietnamese";
 
 type Etymology = {
     language: SourceLanguage,
@@ -71,6 +72,9 @@ function root(syllable: string, definition: string, pos: PartOfSpeech[], CJK: st
         throw `Duplicate CJK: ${CJK}`
     }
     usedCJK.add(CJK);
+    if (etymologies.length == 0) {
+        console.log(`No etymologies: ${syllable}`);
+    }
     return [
         syllable,
         {
@@ -232,6 +236,13 @@ export const ROOTS = new Map<string, Root>([
         [["Spanish", "volar"]],
     ),
     root(
+        "boi",
+        "yell, shout, howl, bark, moo, meow (etc., any animal sound)",
+        ["intransitive verb"],
+        "喊",
+        [["French", "aboyer"]]
+    ),
+    root(
         "bok",
         "mouth, hole open at one end",
         ["noun"],
@@ -282,7 +293,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "ca",
-        "fall short, difference, minus, mistake, break, error, bad",
+        "fall short, different, minus, mistake, error, bad",
         ["intransitive verb"],
         "差",
         [["Chinese", "差"]],
@@ -292,7 +303,7 @@ export const ROOTS = new Map<string, Root>([
         "boil, tea",
         ["intransitive verb"],
         "茶",
-        [["Chinese", "茶"]],
+        [["Chinese", "茶"], ["Hindi", "चाय"]],
     ),
     root(
         "cak",
@@ -386,6 +397,13 @@ export const ROOTS = new Map<string, Root>([
         [["Chinese", "吃"]],
     ),
     root(
+        "coi",
+        "float, drift",
+        ["intransitive verb"],
+        "漂",
+        [["Vietnamese", "trôi"]],
+    ),
+    root(
         "cok",
         "ball, sphere",
         ["noun"],
@@ -464,10 +482,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "dao",
-        "road, way, path, direction, go, arrive",
-        ["transitive verb"],
-        "道",
-        [["Chinese", "道"], ["Chinese", "到"]],
+        "arrive, until, up to",
+        ["preposition"],
+        "到",
+        [["Chinese", "到"]],
     ),
     root(
         "das",
@@ -512,6 +530,13 @@ export const ROOTS = new Map<string, Root>([
         [["Spanish", "dormir"]],
     ),
     root(
+        "doi",
+        "sorrow, sadness",
+        ["noun"],
+        "悲",
+        [["Spanish", "duelo"]]
+    ),
+    root(
         "dok",
         "dog",
         ["noun"],
@@ -548,7 +573,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "dun",
-        "shield, guard, cover",
+        "shield, guard, cover, protect",
         ["transitive verb"],
         "盾",
         [["Chinese", "盾"]],
@@ -625,7 +650,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "gas",
-        "gas, air, odor, weather",
+        "gas, air, odor",
         ["noun"],
         "气",
         [["English", "gas"], ["Spanish", "gas"]],
@@ -694,6 +719,13 @@ export const ROOTS = new Map<string, Root>([
         [["Chinese", "够"]],
     ),
     root(
+        "goi",
+        "expensive, valuable, precious",
+        ["adjective"],
+        "贵",
+        [["Chinese", "贵"]],
+    ),
+    root(
         "gok",
         "drop, bead, spot, point, grain",
         ["noun"],
@@ -730,7 +762,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "gun",
-        "stick, tube, pipe",
+        "stick, tube, pipe, rod",
         ["noun"],
         "管",
         [["Chinese", "管"]],
@@ -745,7 +777,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "ha",
         "laugh",
-        ["intransitive verb"],
+        ["intransitive verb", "interjection"],
         "哈",
         [["Chinese", "哈哈"], ["English", "haha"], ["Spanish", "jaja"]],
     ),
@@ -765,7 +797,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "han",
-        "reverse, oppose, opposite, against, return, respond, react",
+        "reverse, oppose, opposite, against, respond, react",
         ["transitive verb"],
         "反",
         [["Chinese", "返"], ["Chinese", "反"]],
@@ -779,10 +811,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "has",
-        "up to, until",
-        ["preposition"],
-        "至",
-        [["Spanish", "hasta"]],
+        "anger, wrath",
+        ["noun"],
+        "怒",
+        [["French", "rage"], ["Hindi", "ख़श्म"]],
     ),
     root(
         "he",
@@ -796,7 +828,7 @@ export const ROOTS = new Map<string, Root>([
         "hate, be disgusted by",
         ["transitive verb"],
         "恨",
-        [["English", "hate"]],
+        [["English", "hate"], ["Dutch", "hekel"]],
     ),
     root(
         "hen",
@@ -820,6 +852,13 @@ export const ROOTS = new Map<string, Root>([
         [["Chinese", "厚"]],
     ),
     root(
+        "hoi",
+        "turn, revolve, rotate, turn back, return, orbit",
+        ["intransitive verb"],
+        "回",
+        [["Chinese", "回"]],
+    ),
+    root(
         "hok",
         "hot, heat",
         ["adjective"],
@@ -828,7 +867,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "hon",
-        "red, anger, passion",
+        "red",
         ["adjective"],
         "红",
         [["Chinese", "红"]],
@@ -919,10 +958,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "jan",
-        "flat, straight, correct, right, proper, stand",
+        "flat, sheet, surface, platform, straight, stand",
         ["intransitive verb"],
-        "长",
-        [["Chinese", "张"], ["Chinese", "长"], ["Chinese", "站"], ["Chinese", "真"]],
+        "张",
+        [["Chinese", "张"], ["Chinese", "站"]],
     ),
     root(
         "jao",
@@ -933,7 +972,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "jas",
-        "true, real, genuine, serious",
+        "true, real, genuine, correct, serious",
         ["adjective"],
         "真",
         [["Chinese", "真实"]],
@@ -982,8 +1021,8 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "jin",
-        "yellow, brown, gold, metal, money",
-        ["adjective"],
+        "metal, money",
+        ["noun"],
         "金",
         [["Chinese", "金"]],
     ),
@@ -1000,6 +1039,13 @@ export const ROOTS = new Map<string, Root>([
         ["adverb"],
         "就",
         [["Chinese", "就"]],
+    ),
+    root(
+        "joi",
+        "watch out, pay attention, beware, nurture, guard",
+        ["transitive verb"],
+        "注",
+        [["Chinese", "注意"]]
     ),
     root(
         "jok",
@@ -1156,6 +1202,13 @@ export const ROOTS = new Map<string, Root>([
         [["Chinese", "口"]],
     ),
     root(
+        "koi",
+        "fearful, afraid",
+        ["adjective"],
+        "怖",
+        [["Japanese", "怖い"]]
+    ),
+    root(
         "kok",
         "cut, separate, short, restrict",
         ["transitive verb"],
@@ -1192,10 +1245,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "kun",
-        "fear, afraid",
-        ["transitive verb"],
-        "恐",
-        [["Chinese", "恐"]],
+        "yellow, orange, brown",
+        ["adjective"],
+        "黄",
+        [["Malay", "kuning"]],
     ),
     root(
         "kus",
@@ -1227,7 +1280,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "lan",
-        "blue, body of water, sad",
+        "blue",
         ["adjective"],
         "蓝",
         [["Chinese", "蓝"]],
@@ -1310,6 +1363,13 @@ export const ROOTS = new Map<string, Root>([
         [["English", "low"]],
     ),
     root(
+        "loi",
+        "then, next, later, so, therefore",
+        ["adverb"],
+        "而",
+        [["Spanish", "luego"]],
+    ),
+    root(
         "lok",
         "crazy",
         ["adjective"],
@@ -1346,7 +1406,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "lun",
-        "round, circle, wheel, cycle, roll",
+        "round, circle, wheel, cycle",
         ["noun"],
         "轮",
         [["Chinese", "轮"]],
@@ -1464,11 +1524,18 @@ export const ROOTS = new Map<string, Root>([
         [["Spanish", "morir"], ["Chinese", "末"]],
     ),
     root(
+        "moi",
+        "soft, smooth, mild, easy, slight, relaxed",
+        ["adjective"],
+        "软",
+        [["Spanish", "muelle"]],
+    ),
+    root(
         "mok",
-        "nag, annoy, bother, harass, disturb",
+        "mock, copy, imitate, resemble",
         ["transitive verb"],
-        "烦",
-        [["Spanish", "molestar"]],
+        "仿",
+        [["English", "mock"]],
     ),
     root(
         "mon",
@@ -1618,6 +1685,13 @@ export const ROOTS = new Map<string, Root>([
         [["English", "no"], ["Spanish", "no"]],
     ),
     root(
+        "noi",
+        "nag, annoy, bother, harass, disturb",
+        ["transitive verb"],
+        "烦",
+        [["English", "annoy"]],
+    ),
+    root(
         "nok",
         "night",
         ["noun"],
@@ -1674,6 +1748,13 @@ export const ROOTS = new Map<string, Root>([
         [["English", "or"], ["Spanish", "otro"]],
     ),
     root(
+        "oi",
+        "oh, hey",
+        ["interjection"],
+        "喂",
+        [["Chinese", "喂"], ["English", "oi"], ["Japanese", "おい"]],
+    ),
+    root(
         "ok",
         "eight",
         ["numeral"],
@@ -1713,7 +1794,7 @@ export const ROOTS = new Map<string, Root>([
         "bird",
         ["noun"],
         "鸟",
-        [["Spanish", "pájaro"]],
+        [["Spanish", "pájaro"], ["Hindi", "पक्षी"]],
     ),
     root(
         "pan",
@@ -1800,6 +1881,13 @@ export const ROOTS = new Map<string, Root>([
         [["English", "poor"], ["Spanish", "pobre"], ["Spanish", "poco"]],
     ),
     root(
+        "poi",
+        "four",
+        ["numeral"],
+        "四",
+        [["English", "four"]],
+    ),
+    root(
         "pok",
         "pig",
         ["noun"],
@@ -1822,10 +1910,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "pu",
-        "four",
-        ["numeral"],
-        "四",
-        [["English", "four"]],
+        "way, road, path, direction",
+        ["noun"],
+        "路",
+        [["Russian", "путь"]],
     ),
     root(
         "puk",
@@ -1924,6 +2012,13 @@ export const ROOTS = new Map<string, Root>([
         ["noun"],
         "色",
         [["Chinese", "色"]],
+    ),
+    root(
+        "soi",
+        "break, shatter, shred",
+        ["transitive verb"],
+        "碎",
+        [["Chinese", "碎"]],
     ),
     root(
         "sok",
@@ -2050,6 +2145,13 @@ export const ROOTS = new Map<string, Root>([
         ["noun"],
         "头",
         [["Chinese", "头"]],
+    ),
+    root(
+        "toi",
+        "push, extend, postpone, publish, promote",
+        ["transitive verb"],
+        "推",
+        [["Chinese", "推"]],
     ),
     root(
         "tok",
@@ -2186,7 +2288,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "wen",
-        "soft, tender, mild, smooth, easy, warm",
+        "warm, tender, gentle",
         ["adjective"],
         "温",
         [["Chinese", "温"]],
@@ -2214,7 +2316,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "win",
-        "wind, atmosphere",
+        "wind, atmosphere, weather",
         ["noun"],
         "风",
         [["English", "wind"]],
@@ -2360,6 +2462,13 @@ export const ROOTS = new Map<string, Root>([
         [["Chinese", "手"]],
     ),
     root(
+        "xoi",
+        "taxation, rent, revenue, cost",
+        ["noun"],
+        "税",
+        [["Chinese", "税"]],
+    ),
+    root(
         "xok",
         "stone, rock",
         ["noun"],
@@ -2396,7 +2505,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "xun",
-        "obey",
+        "obey, follow, fit, suit",
         ["transitive verb"],
         "顺",
         [["Chinese", "顺"]],
@@ -2424,8 +2533,8 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "yak",
-        "around, near, about, approximately",
-        ["positional"],
+        "around, near, about, approximately, almost",
+        ["positional", "adverb"],
         "约",
         [["Turkish", "yakın"], ["Japanese", "約"]],
     ),
@@ -2484,6 +2593,13 @@ export const ROOTS = new Map<string, Root>([
         ["existential"],
         "有",
         [["Chinese", "有"]],
+    ),
+    root(
+        "yoi",
+        "(marginal interjection expressing surprise or dismay)",
+        ["interjection"],
+        "哎",
+        [],
     ),
     root(
         "yok",

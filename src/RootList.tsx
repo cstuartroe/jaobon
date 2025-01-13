@@ -37,7 +37,7 @@ export default class RootList extends Component<Props, State> {
 
     return (
       <>
-        <h1>{roots.length} {pos} root{roots.length > 1 ? "s" : ""}!</h1>
+        <h1>{roots.length} {pos} root{roots.length > 1 ? "s" : ""}{lang ? ` from ${lang}` : ""}!</h1>
         {roots.map(([syllable, rootInfo], _) => (
             <div key={syllable} id={syllable}>
               <h2 className="root-entry-header">

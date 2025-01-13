@@ -241,7 +241,7 @@ export default class Syntax extends Component<Props, State> {
                             Note the perhaps surprising syntax that this implies for prepositions, which are a subtype
                             of transitives: to mean "it is under the table," {text('ta es en jos bon')} is incorrect,
                             although it might be an apparent word-for-word translation from English or Spanish.{' '}
-                            {text('ta')} has a patient role with regard to the transitive {text('en')}, so it
+                            {text('ta')} has an agent role with regard to the transitive {text('en')}, so it
                             must use either {text('as')} or no voice particle. No voice particle is prototypical
                             for prepositions: {text('ta en jos bon')}. {text('as')} may be used to imply volition:
                             {' '}{text('ta as en jos bon')} would be correct if, for instance, "it" was an animal that
@@ -268,7 +268,7 @@ export default class Syntax extends Component<Props, State> {
                         the other being imperatives. This{' '}
                         {text('yo')}...{text('ki')} pattern in particular is used like an indefinite article, to
                         introduce a subject which has not previously been mentioned:{' '}
-                        {text('yo jen ki pas as en dao jan')} "a person was standing in the street."
+                        {text('yo jen ki pas as en pu jan')} "a person was standing in the street."
                     </li>
                 </ul>
 
@@ -302,7 +302,7 @@ export default class Syntax extends Component<Props, State> {
                 </p>
 
                 <p>
-                    {text('we')} is used to form adverbs of manner: {'mi as des su we'} "I speak quickly."
+                    {text('we')} is used to form adverbs of manner: {text('mi as des su we')} "I speak quickly."
                     This includes {text('ke we')} "how."
                 </p>
 
@@ -353,7 +353,7 @@ export default class Syntax extends Component<Props, State> {
                 <p>
                     Jaobon does not have indirect objects as a syntactic position. Recipients are the direct object
                     of the verb {text('ge')} "give," with the thing being given being the object of a verb like{' '}
-                    {text('ba')} "hold" in a separate predicate: {'ta pas ba li kos ge mi'} "she gave me a gift."
+                    {text('ba')} "hold" in a separate predicate: {text('ta pas ba li kos ge mi')} "she gave me a gift."
                     Benefactors are similarly direct objects of the verb {text('he')} "help":{' '}
                     {text('mi pas he ni dai ta lai')} "I brought it for you."
                 </p>
@@ -389,7 +389,7 @@ export default class Syntax extends Component<Props, State> {
                     Modifiers coming before the head of a noun phrase are very flexible, in that nearly any part of
                     speech can appear in that position. Note noun-noun compounds like {text('yek las')} "eyeglasses,"
                     verb-noun compounds like {text('in nik')} "muscle," and even entire predicates behaving as a
-                    modifier like in {text('mai ges jen')} "lawyer." As a result, they don't obey a fixed set of rules
+                    modifier like in {text('des ges jen')} "lawyer." As a result, they don't obey a fixed set of rules
                     for the relationship between modifier and head, tending to obey conventions specific to the head or
                     type of construction. For example, prefixing {text('jen')} "person" with a bare transitive verb
                     tends to
@@ -403,7 +403,7 @@ export default class Syntax extends Component<Props, State> {
 
                 <p>
                     Jaobon has a linking genitive particle {text('de')} which can be used similarly to Spanish <i>de</i> to
-                    mark possession or any other relationship between two nouns. For example, {text('ta buk')} can
+                    mark possession or any other relationship between two nouns. For example, {text('buk de ta')} can
                     mean "his book" as in "the book he owns" or "the book he wrote."
                 </p>
 
@@ -495,7 +495,7 @@ export default class Syntax extends Component<Props, State> {
                     and may be up to interpretation depending on context. {text('mi xi be')} could mean "I like the
                     beautiful (thing)," "I like beautiful things," or "I like beauty," depending on context.
                     Similarly,{' '}
-                    {text('mi kun bis')} is somewhat ambiguous in its meaning, most likely meaning "I am afraid of
+                    {text('mi koi nis bis')} is somewhat ambiguous in its meaning, most likely meaning "I am afraid of
                     travel," but perhaps meaning "I am afraid of travelers/guests." Ambiguity can always be easily
                     resolved by simply adding the nominalizer {text('nes')} on the end to form an abstract noun
                     (e.g., {text('be nes')} "beauty," {text('bis nes')} "traveling, tourism") or a noun root

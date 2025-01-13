@@ -108,7 +108,17 @@ const NO_I = [
     ONSETS.get("y"),
 ];
 
+
+const NO_OI = [
+    ONSETS.get("w"),
+    // ONSETS.get("y"),
+];
+
 export function validSyllable(syll: Syllable): boolean {
+    if (syll.vowel == VOWELS.get("o") && syll.coda == "i") {
+        return !NO_OI.includes(syll.onset);
+    }
+
     if (syll.coda && ONLY_A.includes(syll.coda) && syll.vowel != VOWELS.get("a")) {
         return false;
     }

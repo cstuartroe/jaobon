@@ -61,7 +61,7 @@
       },
       {
         "English": "4",
-        "Jaobon": "pu"
+        "Jaobon": "poi"
       },
       {
         "English": "5",
@@ -101,7 +101,7 @@
       },
       {
         "English": "14",
-        "Jaobon": "das pu"
+        "Jaobon": "das poi"
       },
       {
         "English": "15",
@@ -141,7 +141,7 @@
       },
       {
         "English": "40",
-        "Jaobon": "pu das"
+        "Jaobon": "poi das"
       },
       {
         "English": "50",
@@ -205,7 +205,7 @@
       },
       {
         "English": "1,000,000,000",
-        "Jaobon": "tao mon san bes"
+        "Jaobon": "tao mon se san bes"
       },
       {
         "English": "first",
@@ -221,7 +221,7 @@
       },
       {
         "English": "fourth",
-        "Jaobon": "ji pu"
+        "Jaobon": "ji poi"
       },
       {
         "English": "fifth",
@@ -233,22 +233,22 @@
       },
       {
         "English": "1/3",
-        "Jaobon": "un de san kok"
+        "Jaobon": "un de san pis"
       },
       {
         "English": "2/3",
-        "Jaobon": "dos de san kok"
+        "Jaobon": "dos de san pis"
       },
       {
         "English": "1/4",
-        "Jaobon": "un de pu kok"
+        "Jaobon": "un de poi pis"
       },
       {
         "English": "1/5",
-        "Jaobon": "un de u kok"
+        "Jaobon": "un de u pis"
       },
       {
-        "English": "number (count)",
+        "English": "number (cardinal)",
         "Jaobon": "ji, mon ji"
       },
       {
@@ -261,7 +261,27 @@
       },
       {
         "English": "percent",
-        "Jaobon": "de bai kok"
+        "Jaobon": "de bai pis"
+      },
+      {
+        "English": "plus",
+        "Jaobon": "i"
+      },
+      {
+        "English": "minus",
+        "Jaobon": "ca"
+      },
+      {
+        "English": "times",
+        "Jaobon": "mon"
+      },
+      {
+        "English": "divided by",
+        "Jaobon": "kok"
+      },
+      {
+        "English": "to the power of",
+        "Jaobon": "mon se ~ bes"
       }
     ]
   },
@@ -269,8 +289,12 @@
     "title": "Quantifiers",
     "entries": [
       {
-        "English": "some/a few",
-        "Jaobon": "men, un men"
+        "English": "some",
+        "Jaobon": "men"
+      },
+      {
+        "English": "a few",
+        "Jaobon": "po"
       },
       {
         "English": "most",
@@ -367,7 +391,7 @@
       },
       {
         "English": "later",
-        "Jaobon": "bon"
+        "Jaobon": "bon, loi"
       },
       {
         "English": "day before yesterday",
@@ -417,6 +441,14 @@
       {
         "English": "winter",
         "Jaobon": "bin xas"
+      },
+      {
+        "English": "monsoon/wet season",
+        "Jaobon": "wa xas"
+      },
+      {
+        "English": "dry season",
+        "Jaobon": "sek xas"
       },
       {
         "English": "season",
@@ -612,7 +644,7 @@
       },
       {
         "English": "direction",
-        "Jaobon": "la, dao"
+        "Jaobon": "la, pu"
       }
     ]
   },
@@ -674,8 +706,12 @@
         "Jaobon": "lun jan"
       },
       {
+        "English": "rectangle",
+        "Jaobon": "jan poi huk jan"
+      },
+      {
         "English": "square",
-        "Jaobon": "pu huk jan"
+        "Jaobon": "ton la poi huk jan"
       },
       {
         "English": "triangle",
@@ -686,15 +722,19 @@
         "Jaobon": "la"
       },
       {
-        "English": "corner",
+        "English": "corner, angle",
         "Jaobon": "huk"
       },
       {
-        "English": "dot",
+        "English": "right angle",
+        "Jaobon": "jan huk"
+      },
+      {
+        "English": "dot, point",
         "Jaobon": "gok"
       },
       {
-        "English": "piece/part",
+        "English": "piece, part",
         "Jaobon": "pis"
       },
       {
@@ -708,47 +748,47 @@
     "entries": [
       {
         "English": "black",
-        "Jaobon": "dak so"
+        "Jaobon": "dak"
       },
       {
         "English": "white",
-        "Jaobon": "wai so"
+        "Jaobon": "wai"
       },
       {
         "English": "red",
-        "Jaobon": "hon so"
+        "Jaobon": "hon"
       },
       {
         "English": "yellow",
-        "Jaobon": "jin so"
+        "Jaobon": "kun"
       },
       {
         "English": "green",
-        "Jaobon": "gin so"
+        "Jaobon": "gin"
       },
       {
         "English": "blue",
-        "Jaobon": "lan so"
+        "Jaobon": "lan"
       },
       {
         "English": "brown",
-        "Jaobon": "dak jin so"
+        "Jaobon": "dak kun"
       },
       {
         "English": "gray",
-        "Jaobon": "dak wai so"
+        "Jaobon": "dak wai"
       },
       {
         "English": "pink",
-        "Jaobon": "wai hon so"
+        "Jaobon": "wai hon"
       },
       {
         "English": "purple",
-        "Jaobon": "lan hon so"
+        "Jaobon": "lan hon"
       },
       {
         "English": "orange",
-        "Jaobon": "jin hon so"
+        "Jaobon": "kun hon"
       },
       {
         "English": "color",
@@ -826,6 +866,10 @@
       {
         "English": "chin",
         "Jaobon": "bok bon mon"
+      },
+      {
+        "English": "chest",
+        "Jaobon": "xon"
       },
       {
         "English": "back",
@@ -1083,7 +1127,7 @@
       },
       {
         "English": "dinosaur",
-        "Jaobon": "kun xis"
+        "Jaobon": "as koi xis"
       },
       {
         "English": "turtle",
@@ -1091,11 +1135,11 @@
       },
       {
         "English": "alligator",
-        "Jaobon": "gis xis"
+        "Jaobon": "na gis xis"
       },
       {
         "English": "crocodile",
-        "Jaobon": "gis xis"
+        "Jaobon": "na gis xis"
       },
       {
         "English": "lizard",
@@ -1115,7 +1159,7 @@
       },
       {
         "English": "shark",
-        "Jaobon": "kun yu"
+        "Jaobon": "as koi yu"
       },
       {
         "English": "spider",
@@ -1190,26 +1234,18 @@
         "Jaobon": "an"
       },
       {
-        "English": "pet",
+        "English": "livestock",
         "Jaobon": "non an"
+      },
+      {
+        "English": "pet",
+        "Jaobon": "kas an"
       }
     ]
   },
   {
     "title": "Animal body parts",
     "entries": [
-      {
-        "English": "paw",
-        "Jaobon": "jao"
-      },
-      {
-        "English": "animal's head",
-        "Jaobon": "to"
-      },
-      {
-        "English": "snout/animal's mouth",
-        "Jaobon": "bok, nos"
-      },
       {
         "English": "wing",
         "Jaobon": "bo xo"
@@ -1225,11 +1261,11 @@
       },
       {
         "English": "plane",
-        "Jaobon": "cao bo ce"
+        "Jaobon": "bo ce"
       },
       {
         "English": "car",
-        "Jaobon": "ce"
+        "Jaobon": "ce, pu ce"
       },
       {
         "English": "truck",
@@ -1244,11 +1280,7 @@
         "Jaobon": "gon ce"
       },
       {
-        "English": "boat",
-        "Jaobon": "wa ce"
-      },
-      {
-        "English": "ship",
+        "English": "boat, ship",
         "Jaobon": "wa ce"
       },
       {
@@ -1322,7 +1354,7 @@
       },
       {
         "English": "street/road",
-        "Jaobon": "dao"
+        "Jaobon": "pu"
       },
       {
         "English": "airport",
@@ -1334,7 +1366,7 @@
       },
       {
         "English": "bridge",
-        "Jaobon": "pas wa dao"
+        "Jaobon": "pas wa pu"
       },
       {
         "English": "hotel",
@@ -1429,7 +1461,7 @@
         "Jaobon": "nas tu"
       },
       {
-        "English": "state",
+        "English": "state, polity",
         "Jaobon": "tu jik"
       },
       {
@@ -1455,11 +1487,11 @@
       },
       {
         "English": "shirt",
-        "Jaobon": "tuk te"
+        "Jaobon": "xon te"
       },
       {
         "English": "T-shirt",
-        "Jaobon": "dan tuk te"
+        "Jaobon": "dan xon te"
       },
       {
         "English": "skirt",
@@ -1467,15 +1499,15 @@
       },
       {
         "English": "pants",
-        "Jaobon": "tak te"
+        "Jaobon": "jao tak te"
       },
       {
         "English": "suit",
-        "Jaobon": "jan te"
+        "Jaobon": "li te"
       },
       {
         "English": "dress",
-        "Jaobon": "wen te"
+        "Jaobon": "muk te"
       },
       {
         "English": "undies",
@@ -1483,7 +1515,7 @@
       },
       {
         "English": "sweater",
-        "Jaobon": "ho tuk te"
+        "Jaobon": "wen xon te"
       },
       {
         "English": "coat/jacket",
@@ -1491,7 +1523,7 @@
       },
       {
         "English": "sock",
-        "Jaobon": "jao te"
+        "Jaobon": "jao te, xu den te"
       },
       {
         "English": "shoe",
@@ -1645,7 +1677,7 @@
       },
       {
         "English": "adult",
-        "Jaobon": "kes jen"
+        "Jaobon": "kes jen, bik jen"
       },
       {
         "English": "boy",
@@ -1697,7 +1729,7 @@
       },
       {
         "English": "victim",
-        "Jaobon": "ki es mok"
+        "Jaobon": "ki es noi"
       },
       {
         "English": "player",
@@ -1705,7 +1737,7 @@
       },
       {
         "English": "fan",
-        "Jaobon": "xi kan jen"
+        "Jaobon": "xi kan gik"
       },
       {
         "English": "crowd",
@@ -1726,7 +1758,7 @@
       },
       {
         "English": "lawyer",
-        "Jaobon": "mai ges jen"
+        "Jaobon": "des ges jen"
       },
       {
         "English": "doctor",
@@ -1798,7 +1830,7 @@
       },
       {
         "English": "architect",
-        "Jaobon": "pik kas jen"
+        "Jaobon": "kas pik jen"
       },
       {
         "English": "programmer",
@@ -1823,7 +1855,7 @@
       },
       {
         "English": "hell",
-        "Jaobon": "mo bek luk"
+        "Jaobon": "mo bon luk"
       },
       {
         "English": "death",
@@ -1870,8 +1902,12 @@
         "Jaobon": "ge jon"
       },
       {
-        "English": "sex/gender",
+        "English": "sex (category)",
         "Jaobon": "jon le"
+      },
+      {
+        "English": "gender, sexual orientation",
+        "Jaobon": "jon hak"
       },
       {
         "English": "murder",
@@ -1935,7 +1971,7 @@
       },
       {
         "English": "gun",
-        "Jaobon": "cu da gen"
+        "Jaobon": "cu da mek"
       },
       {
         "English": "sport",
@@ -1963,11 +1999,11 @@
       },
       {
         "English": "price",
-        "Jaobon": "jin ji"
+        "Jaobon": "jin ji, goi nes"
       },
       {
-        "English": "drug",
-        "Jaobon": "he us, ben nao us"
+        "English": "psychoactive drug",
+        "Jaobon": "ben nao us"
       },
       {
         "English": "sign",
@@ -2033,11 +2069,11 @@
     "entries": [
       {
         "English": "coffee",
-        "Jaobon": "jon wa"
+        "Jaobon": "jon cai"
       },
       {
         "English": "tea",
-        "Jaobon": "sai wa"
+        "Jaobon": "sai cai"
       },
       {
         "English": "beer",
@@ -2045,7 +2081,7 @@
       },
       {
         "English": "wine",
-        "Jaobon": "jus sak, gos sak"
+        "Jaobon": "gos sak"
       },
       {
         "English": "water",
@@ -2118,26 +2154,22 @@
       },
       {
         "English": "banana",
-        "Jaobon": "jin cao gos"
+        "Jaobon": "kun cao gos"
       },
       {
         "English": "orange",
-        "Jaobon": "jin hon gos"
+        "Jaobon": "kun hon gos"
       },
       {
         "English": "lemon",
-        "Jaobon": "jin sun gos"
+        "Jaobon": "kun sun gos"
       },
       {
         "English": "corn",
-        "Jaobon": "jin pan"
+        "Jaobon": "kun pan"
       },
       {
-        "English": "uncooked rice",
-        "Jaobon": "wa pan"
-      },
-      {
-        "English": "cooked rice",
+        "English": "rice",
         "Jaobon": "wa pan"
       },
       {
@@ -2299,11 +2331,7 @@
         "Jaobon": "kas los"
       },
       {
-        "English": "carpet",
-        "Jaobon": "tu te"
-      },
-      {
-        "English": "rug",
+        "English": "carpet, rug",
         "Jaobon": "tu te"
       },
       {
@@ -2313,7 +2341,7 @@
     ]
   },
   {
-    "title": "Household items",
+    "title": "Everyday nouns",
     "entries": [
       {
         "English": "dream",
@@ -2425,7 +2453,7 @@
       },
       {
         "English": "handle",
-        "Jaobon": "ba cao"
+        "Jaobon": "ba gun"
       },
       {
         "English": "bucket",
@@ -2474,7 +2502,7 @@
       },
       {
         "English": "screen",
-        "Jaobon": "lus jan"
+        "Jaobon": "lus pen"
       },
       {
         "English": "program",
@@ -2518,20 +2546,16 @@
     "title": "Geography",
     "entries": [
       {
-        "English": "sea",
-        "Jaobon": "yen wa lan"
-      },
-      {
-        "English": "ocean",
-        "Jaobon": "yen wa lan"
+        "English": "sea, ocean",
+        "Jaobon": "bik yen wa"
       },
       {
         "English": "river",
         "Jaobon": "wa lu"
       },
       {
-        "English": "lake",
-        "Jaobon": "wa lan"
+        "English": "lake, wetland",
+        "Jaobon": "wa luk"
       },
       {
         "English": "mountain",
@@ -2559,7 +2583,7 @@
       },
       {
         "English": "sky",
-        "Jaobon": "ten"
+        "Jaobon": "ten, win"
       },
       {
         "English": "Earth",
@@ -2620,11 +2644,11 @@
       },
       {
         "English": "air",
-        "Jaobon": "gas"
+        "Jaobon": "gas, win"
       },
       {
         "English": "wind",
-        "Jaobon": "gas lu"
+        "Jaobon": "win, win lu"
       },
       {
         "English": "heat",
@@ -2681,7 +2705,7 @@
       },
       {
         "English": "metal",
-        "Jaobon": "jin le"
+        "Jaobon": "jin us"
       },
       {
         "English": "plastic",
@@ -2846,7 +2870,7 @@
       },
       {
         "English": "gold",
-        "Jaobon": "jin jin"
+        "Jaobon": "kun jin"
       },
       {
         "English": "mercury",
@@ -2911,7 +2935,7 @@
       },
       {
         "English": "adposition",
-        "Jaobon": "dao des pis"
+        "Jaobon": "pu des pis"
       },
       {
         "English": "dictionary",
@@ -2939,11 +2963,11 @@
         "Jaobon": "kok"
       },
       {
-        "English": "tall",
+        "English": "tall, high",
         "Jaobon": "gao"
       },
       {
-        "English": "short",
+        "English": "short, low",
         "Jaobon": "lo"
       },
       {
@@ -2980,11 +3004,11 @@
       },
       {
         "English": "warm",
-        "Jaobon": "hok cek, wen"
+        "Jaobon": "lik hok, wen"
       },
       {
         "English": "cool",
-        "Jaobon": "bin cek"
+        "Jaobon": "lik bin"
       },
       {
         "English": "new",
@@ -2999,8 +3023,12 @@
         "Jaobon": "xao"
       },
       {
-        "English": "old",
-        "Jaobon": "bik, gu"
+        "English": "old (adult)",
+        "Jaobon": "bik"
+      },
+      {
+        "English": "old (elderly)",
+        "Jaobon": "gu"
       },
       {
         "English": "strong",
@@ -3043,12 +3071,8 @@
         "Jaobon": "ca"
       },
       {
-        "English": "pretty",
-        "Jaobon": "be, hao kan"
-      },
-      {
-        "English": "handsome",
-        "Jaobon": "be, hao kan"
+        "English": "pretty, handsome",
+        "Jaobon": "be"
       },
       {
         "English": "ugly",
@@ -3083,14 +3107,6 @@
         "Jaobon": "o"
       },
       {
-        "English": "high",
-        "Jaobon": "gao"
-      },
-      {
-        "English": "low",
-        "Jaobon": "lo"
-      },
-      {
         "English": "early",
         "Jaobon": "sao"
       },
@@ -3120,7 +3136,7 @@
       },
       {
         "English": "strange",
-        "Jaobon": "no ton men"
+        "Jaobon": "no ton men, ao"
       },
       {
         "English": "unfamiliar",
@@ -3136,11 +3152,11 @@
       },
       {
         "English": "cheap",
-        "Jaobon": "lo jin ji"
+        "Jaobon": "no goi, yo xao jin ji"
       },
       {
         "English": "expensive",
-        "Jaobon": "gao jin ji"
+        "Jaobon": "goi, yo bik jin ji"
       },
       {
         "English": "important",
@@ -3220,23 +3236,19 @@
         "Jaobon": "wis, ces"
       },
       {
-        "English": "think",
-        "Jaobon": "jek, kao"
+        "English": "think, believe",
+        "Jaobon": "jek"
       },
       {
-        "English": "speak/say",
+        "English": "think (about)",
+        "Jaobon": "kao"
+      },
+      {
+        "English": "speak, say, tell",
         "Jaobon": "des"
       },
       {
-        "English": "tell",
-        "Jaobon": "des"
-      },
-      {
-        "English": "eat",
-        "Jaobon": "co"
-      },
-      {
-        "English": "drink",
+        "English": "eat, drink",
         "Jaobon": "co"
       },
       {
@@ -3249,7 +3261,7 @@
       },
       {
         "English": "smile",
-        "Jaobon": "ha cek"
+        "Jaobon": "lik ha"
       },
       {
         "English": "laugh",
@@ -3257,11 +3269,11 @@
       },
       {
         "English": "cry",
-        "Jaobon": "lan cak"
+        "Jaobon": "doi cak"
       },
       {
         "English": "buy",
-        "Jaobon": "tek"
+        "Jaobon": "tek, mai tek"
       },
       {
         "English": "pay",
@@ -3269,7 +3281,7 @@
       },
       {
         "English": "sell",
-        "Jaobon": "mai"
+        "Jaobon": "mai ge"
       },
       {
         "English": "shoot",
@@ -3289,14 +3301,10 @@
       },
       {
         "English": "smell (like)",
-        "Jaobon": "tos tes"
+        "Jaobon": "tos tes, tos gas"
       },
       {
-        "English": "hear",
-        "Jaobon": "kus"
-      },
-      {
-        "English": "listen",
+        "English": "hear, listen",
         "Jaobon": "kus"
       },
       {
@@ -3312,11 +3320,7 @@
         "Jaobon": "tok"
       },
       {
-        "English": "see",
-        "Jaobon": "kan"
-      },
-      {
-        "English": "watch/look",
+        "English": "see, watch, look",
         "Jaobon": "kan"
       },
       {
@@ -3436,8 +3440,8 @@
         "Jaobon": "ek des"
       },
       {
-        "English": "turn",
-        "Jaobon": "dao lun"
+        "English": "turn, spin",
+        "Jaobon": "hoi, ces lun"
       },
       {
         "English": "build",
@@ -3477,7 +3481,7 @@
       },
       {
         "English": "find",
-        "Jaobon": "bus has"
+        "Jaobon": "bus dao"
       },
       {
         "English": "fall",
@@ -3501,7 +3505,7 @@
       },
       {
         "English": "break",
-        "Jaobon": "da ca"
+        "Jaobon": "soi, as ca"
       },
       {
         "English": "wear",
@@ -3525,7 +3529,7 @@
       },
       {
         "English": "lift",
-        "Jaobon": "ba xan"
+        "Jaobon": "ba ~ a xan"
       },
       {
         "English": "strike/hit",
@@ -3553,7 +3557,7 @@
       },
       {
         "English": "climb",
-        "Jaobon": "ba xan"
+        "Jaobon": "wak a ~ xan, ba ~ wak a xan"
       }
     ]
   },
@@ -3574,7 +3578,7 @@
       },
       {
         "English": "actually",
-        "Jaobon": "en jas"
+        "Jaobon": "jas we"
       },
       {
         "English": "usually",
@@ -3610,7 +3614,7 @@
       },
       {
         "English": "until",
-        "Jaobon": "has"
+        "Jaobon": "dao"
       },
       {
         "English": "soon",
@@ -3619,6 +3623,14 @@
       {
         "English": "because",
         "Jaobon": "je we"
+      },
+      {
+        "English": "in order to",
+        "Jaobon": "we"
+      },
+      {
+        "English": "therefore",
+        "Jaobon": "loi"
       },
       {
         "English": "intentionally",
@@ -3630,7 +3642,7 @@
       },
       {
         "English": "again",
-        "Jaobon": "i bes"
+        "Jaobon": "nu bes"
       },
       {
         "English": "suddenly",
@@ -3712,7 +3724,7 @@
       },
       {
         "English": "Germany",
-        "Jaobon": "[dao ce nas]"
+        "Jaobon": "[doi ce nas]"
       },
       {
         "English": "India",
@@ -3789,8 +3801,16 @@
     ]
   },
   {
-    "title": "Exclamations",
+    "title": "Interjections",
     "entries": [
+      {
+        "English": "hey!",
+        "Jaobon": "oi!"
+      },
+      {
+        "English": "hello!",
+        "Jaobon": "hao son!"
+      },
       {
         "English": "thank you!",
         "Jaobon": "xuk!"
@@ -3798,6 +3818,10 @@
       {
         "English": "bless you!",
         "Jaobon": "sen he!"
+      },
+      {
+        "English": "ow!",
+        "Jaobon": "yoi!"
       },
       {
         "English": "what a pity!",
