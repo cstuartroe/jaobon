@@ -531,7 +531,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "doi",
-        "sorrow, sadness",
+        "sorrow, sadness, pain",
         ["noun"],
         "悲",
         [["Spanish", "duelo"]]
@@ -1819,7 +1819,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "pe",
-        "lose, pay, pain, suffer",
+        "lose, pay, suffer",
         ["transitive verb"],
         "损",
         [["English", "pay"], ["Spanish", "perder"], ["Spanish", "pena"]],

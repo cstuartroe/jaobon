@@ -3177,6 +3177,99 @@
     ]
   },
   {
+    "title": "Emotions",
+    "entries": [
+      {
+        "English": "happy",
+        "Jaobon": "xi"
+      },
+      {
+        "English": "happiness",
+        "Jaobon": "xi nes"
+      },
+      {
+        "English": "angry",
+        "Jaobon": "yo has"
+      },
+      {
+        "English": "anger",
+        "Jaobon": "has"
+      },
+      {
+        "English": "sad",
+        "Jaobon": "yo doi"
+      },
+      {
+        "English": "sadness, pain",
+        "Jaobon": "doi"
+      },
+      {
+        "English": "hate, disgusted",
+        "Jaobon": "hek"
+      },
+      {
+        "English": "hatred, disgust",
+        "Jaobon": "hek nes"
+      },
+      {
+        "English": "love (verb)",
+        "Jaobon": "ai"
+      },
+      {
+        "English": "love (noun)",
+        "Jaobon": "ai nes"
+      },
+      {
+        "English": "afraid",
+        "Jaobon": "koi"
+      },
+      {
+        "English": "fear",
+        "Jaobon": "koi nes"
+      },
+      {
+        "English": "surprised, amazed",
+        "Jaobon": "yai"
+      },
+      {
+        "English": "surprise (noun), amazement",
+        "Jaobon": "yai nes"
+      },
+      {
+        "English": "tired",
+        "Jaobon": "wik"
+      },
+      {
+        "English": "exhaustion",
+        "Jaobon": "wik nes"
+      },
+      {
+        "English": "bored",
+        "Jaobon": "no xi"
+      },
+      {
+        "English": "boredom",
+        "Jaobon": "no xi nes"
+      },
+      {
+        "English": "comfortable, relaxed",
+        "Jaobon": "xus"
+      },
+      {
+        "English": "comfort, relaxation",
+        "Jaobon": "xus nes"
+      },
+      {
+        "English": "shy, timid",
+        "Jaobon": "xai"
+      },
+      {
+        "English": "shyness",
+        "Jaobon": "xai nes"
+      }
+    ]
+  },
+  {
     "title": "Verbs",
     "entries": [
       {
