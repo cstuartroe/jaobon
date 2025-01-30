@@ -591,6 +591,11 @@ export default class Syntax extends Component<Props, State> {
                     {text('mi mas les buk de ni')} "I read more books than you" or "I read books more often than you."
                 </p>
 
+                <p>
+                    Superlatives can be the same as comparatives, or optionally clarified with {text('de me')} "than
+                    everything/everyone": {text('ni mas gao de me')} "you're the tallest."
+                </p>
+
                 <h3>Comparative correlatives</h3>
 
                 <p>

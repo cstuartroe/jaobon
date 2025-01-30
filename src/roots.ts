@@ -412,7 +412,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "con",
-        "insect, worm",
+        "insect, worm, invertebrate, arthropod",
         ["noun"],
         "虫",
         [["Chinese", "虫"]],
@@ -805,7 +805,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "hao",
         "good, beneficial, pleasant, beautiful, just",
-        ["adjective"],
+        ["adjective", "adverb"],
         "好",
         [["Chinese", "好"]],
     ),
@@ -1168,7 +1168,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "ki",
-        "(relativizer, complementizer)",
+        "(relativizer)",
         ["relativizer"],
         "者",
         [["French", "qui"]],

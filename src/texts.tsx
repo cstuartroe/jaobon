@@ -457,7 +457,7 @@ const texts = new Map<string, Text>([
           translation: "",
         },
         {
-          jaobon: "yo xas ki je duk pen lak an pas as mak des we ki mas hao de me.",
+          jaobon: "yo un bes ki je duk pen lak an pas as mak des we ki mas hao de me.",
           translation: "",
         },
         {
@@ -465,7 +465,7 @@ const texts = new Map<string, Text>([
           translation: "",
         },
         {
-          jaobon: "jai je duk pen lak an!",
+          jaobon: "jai duk pen lak an!",
           translation: "",
         },
       ],

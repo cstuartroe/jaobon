@@ -998,6 +998,10 @@
     "title": "Animals",
     "entries": [
       {
+        "English": "mammal",
+        "Jaobon": "lak an"
+      },
+      {
         "English": "dog",
         "Jaobon": "dok"
       },
@@ -1094,6 +1098,14 @@
         "Jaobon": "yon mus"
       },
       {
+        "English": "pangolin",
+        "Jaobon": "duk pen lak an"
+      },
+      {
+        "English": "armadillo",
+        "Jaobon": "wes pi lak an"
+      },
+      {
         "English": "bird",
         "Jaobon": "pak"
       },
@@ -1124,6 +1136,10 @@
       {
         "English": "parrot",
         "Jaobon": "des pak"
+      },
+      {
+        "English": "reptile",
+        "Jaobon": "xis, xis an, xis le"
       },
       {
         "English": "dinosaur",
@@ -1704,8 +1720,8 @@
         "Jaobon": "nus lon gi jen"
       },
       {
-        "English": "president",
-        "Jaobon": "gi jen"
+        "English": "president, leader",
+        "Jaobon": "gi jen, gi to"
       },
       {
         "English": "prime minister",
@@ -2016,6 +2032,10 @@
       {
         "English": "god",
         "Jaobon": "ten to"
+      },
+      {
+        "English": "idea",
+        "Jaobon": "jek pis"
       }
     ]
   },
@@ -3674,12 +3694,28 @@
         "Jaobon": "jas we"
       },
       {
+        "English": "always",
+        "Jaobon": "me xas, me bes"
+      },
+      {
         "English": "usually",
         "Jaobon": "mas bes"
       },
       {
         "English": "often",
         "Jaobon": "men bes"
+      },
+      {
+        "English": "sometimes",
+        "Jaobon": "yo bes ki ~"
+      },
+      {
+        "English": "once, some time",
+        "Jaobon": "yo un bes ki ~"
+      },
+      {
+        "English": "never",
+        "Jaobon": "me xas ~ no ~, me bes ~ no ~"
       },
       {
         "English": "almost",
@@ -3691,7 +3727,7 @@
       },
       {
         "English": "at least",
-        "Jaobon": "o mas"
+        "Jaobon": "~ o mas"
       },
       {
         "English": "both",
@@ -3715,7 +3751,7 @@
       },
       {
         "English": "because",
-        "Jaobon": "je we"
+        "Jaobon": "de we ki"
       },
       {
         "English": "in order to",
