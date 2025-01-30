@@ -84,11 +84,11 @@ export default class Sourcing extends Component<Props, State> {
           and/or international significance are
           Dutch and Polish. The inclusion of Polish I justify with the fact that
           the <Link to="/roots#cek"><i>-czek</i></Link> diminutive shares cognates in many Slavic languages, and has
-          great sound symbolism to my ear. The even more disproportionate inclusion of Dutch was because of my personal
+          great sound symbolism to my ear. The inclusion of Dutch was because of my personal
           familiarity with the language that led me to spot some chances to use Dutch etymologies that felt too
-          fitting to pass up (and, only one of the Dutch-derived roots comes solely from Dutch;
-          it's generally there to reinforce and add adjacent semantic space to English/German sources).
-          Lastly, I'll point out that for Japanese, tied for the most etymons outside the core three,
+          fitting to pass up; also, none of the Dutch-derived roots comes solely from Dutch;
+          they're only there to reinforce and add adjacent semantic space to English/German sources.
+          Lastly, I'll point out that for Japanese,
           some of those are Sino-Japanese readings of characters which are especially recognizable cognates
           to the many widely-spoken Chinese varieties which preserve final stops.
         </p>
@@ -147,9 +147,8 @@ export default class Sourcing extends Component<Props, State> {
 
           <p>
               In some cases, the principle of semantic fidelity has led to related sets of words having different
-              syntax, e.g. emotion terms <i>xi</i> "like", <i>has</i> "anger", <i>koi</i> "afraid":{' '}
-              <i>mi xi Toma</i> "I like Tom" vs. <i>mi yo has nis Toma</i> "I'm angry with Tom"
-              vs. <i>mi koi nis Toma</i> "I'm afraid of Tom".
+              syntax, e.g. emotion terms <i>xi</i> "like", <i>has</i> "anger":{' '}
+              <i>mi xi Toma</i> "I like Tom" vs. <i>mi yo has nis Toma</i> "I'm angry with Tom".
           </p>
       </>
     );

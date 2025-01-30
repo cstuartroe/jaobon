@@ -636,10 +636,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "gan",
-        "win, gain",
-        ["intransitive verb"],
-        "赢",
-        [["Spanish", "ganar"]],
+        "stick, pole, rod, bar",
+        ["noun"],
+        "杆",
+        [["Chinese", "杆"], ["Chinese", "杠"], ["Chinese", "竿"]],
     ),
     root(
         "gao",
@@ -762,10 +762,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "gun",
-        "stick, tube, pipe, rod",
-        ["noun"],
-        "管",
-        [["Chinese", "管"]],
+        "closed, shut",
+        ["adjective"],
+        "关",
+        [["Chinese", "关"]],
     ),
     root(
         "gus",
@@ -1203,10 +1203,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "koi",
-        "fearful, afraid",
-        ["adjective"],
-        "怖",
-        [["Japanese", "怖い"]]
+        "body, torso, corpse",
+        ["noun"],
+        "身",
+        [["Spanish", "cuerpo"]]
     ),
     root(
         "kok",
@@ -1674,7 +1674,7 @@ export const ROOTS = new Map<string, Root>([
         "nis",
         "about, concerning, with regard to",
         ["preposition", "linking particle"],
-        "关",
+        "于",
         [["Japanese", "について"]],
     ),
     root(
@@ -2085,10 +2085,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "tak",
-        "arm, branch, split, fork",
-        ["noun"],
-        "支",
-        [["Dutch", "tak"]],
+        "fear, afraid",
+        ["transitive verb"],
+        "怕",
+        [["Malay", "takut"]],
     ),
     root(
         "tan",
@@ -2127,7 +2127,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "ten",
-        "sky, heaven, god, holy, sacred",
+        "sky, weather, heaven, god, holy, sacred",
         ["noun"],
         "天",
         [["Chinese", "天"]],
@@ -2183,10 +2183,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "tuk",
-        "body, corpse, torso, person",
+        "tube, pipe",
         ["noun"],
-        "身",
-        [["Russian", "труп"], ["Malay", "tubuh"]],
+        "管",
+        [["Spanish", "tubo"], ["English", "tube"]],
     ),
     root(
         "tun",
@@ -2316,10 +2316,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "win",
-        "wind, atmosphere, weather",
-        ["noun"],
-        "风",
-        [["English", "wind"]],
+        "win, gain, obtain, succeed",
+        ["transitive verb"],
+        "赢",
+        [["English", "win"]],
     ),
     root(
         "wis",
@@ -2379,10 +2379,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "xak",
-        "shut, closed",
-        ["adjective"],
-        "闭",
-        [["English", "shut"]],
+        "branch, department, arm, tributary",
+        ["noun"],
+        "支",
+        [["Hindi", "शाखा"]],
     ),
     root(
         "xan",

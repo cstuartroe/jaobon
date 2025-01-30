@@ -17,19 +17,19 @@ const texts = new Map<string, Text>([
       description: "A classic conlanger's translation.",
       lines: [
         {
-          jaobon: "[yok win] i [son] en des puk nis ke es ki mas yo pao. je xas pu jen, ki dai jak ki wen, as lai pas yak.",
+          jaobon: "[yok gas lu] i [son] en des puk nis ke es ki mas yo pao. je xas pu jen, ki dai jak ki wen, as lai pas yak.",
           translation: "The North Wind and the Sun were disputing which was the stronger, when a traveler came along wrapped in a warm cloak.",
         },
         {
-          jaobon: "je dos ton des ke ki gan as ke pu jen kik jak de se gai es min nis ki mas yo pao de o la.",
+          jaobon: "je dos ton des ke ki win as ke pu jen kik jak de se gai es min nis ki mas yo pao de o la.",
           translation: "They agreed that the one who first succeeded in making the traveler take his cloak off should be considered stronger than the other.",
         },
         {
-          jaobon: "loi [yok win] as lu gas mas yo pao we ki ken, i bes ki ta as lu gas mas yo pao we, pu jen jo mas as in xak jak a se tuk.",
+          jaobon: "loi [yok gas lu] as lu gas mas yo pao we ki ken, i bes ki ta as lu gas mas yo pao we, pu jen jo mas as in gun jak a se koi.",
           translation: "Then the North Wind blew as hard as he could, but the more he blew the more closely did the traveler fold his cloak around him.",
         },
         {
-          jaobon: "jo yo xas ki [yok win] mo kao.",
+          jaobon: "jo yo xas ki [yok gas lu] mo kao.",
           translation: "At last the North Wind gave up the attempt. ",
         },
         {
@@ -37,7 +37,7 @@ const texts = new Map<string, Text>([
           translation: "Then the Sun shined out warmly, and immediately the traveler took off his cloak.",
         },
         {
-          jaobon: "je we, [yok win] mos des ke [son] mas yo pao de se.",
+          jaobon: "je we, [yok gas lu] mos des ke [son] mas yo pao de se.",
           translation: "And so the North Wind was obliged to confess that the Sun was the stronger of the two.",
         },
       ],
@@ -310,7 +310,7 @@ const texts = new Map<string, Text>([
           translation: "An old man with a walking stick stood beside the fence.",
         },
         {
-          jaobon: "do luk de mu mus es gis nis mu tak ki ka.",
+          jaobon: "do luk de mu mus es gis nis mu xak ki ka.",
           translation: "The squirrel's nest was hidden by drooping boughs.",
         },
         {
@@ -358,11 +358,11 @@ const texts = new Map<string, Text>([
           translation: "The strong roots of the oak trees were torn from the ground.",
         },
         {
-          jaobon: "son pas kan pas mu tak, kan ik men ki en hu.",
+          jaobon: "son pas kan pas mu xak, kan ik men ki en hu.",
           translation: "The sun looked down through the branches upon the children at play.",
         },
         {
-          jaobon: "cen win pas lu tok mi to cen ton we de mik jen.",
+          jaobon: "cen gas lu pas lu tok mi to cen ton we de mik jen.",
           translation: "The west wind blew across my face like a friendly caress.",
         },
         {

@@ -877,7 +877,7 @@
       },
       {
         "English": "arm",
-        "Jaobon": "xo tak"
+        "Jaobon": "xo xak"
       },
       {
         "English": "hand",
@@ -893,7 +893,7 @@
       },
       {
         "English": "leg",
-        "Jaobon": "jao tak"
+        "Jaobon": "jao xak"
       },
       {
         "English": "foot",
@@ -949,7 +949,7 @@
       },
       {
         "English": "body",
-        "Jaobon": "tuk"
+        "Jaobon": "koi"
       }
     ]
   },
@@ -1127,7 +1127,7 @@
       },
       {
         "English": "dinosaur",
-        "Jaobon": "as koi xis"
+        "Jaobon": "as tak xis"
       },
       {
         "English": "turtle",
@@ -1159,7 +1159,7 @@
       },
       {
         "English": "shark",
-        "Jaobon": "as koi yu"
+        "Jaobon": "as tak yu"
       },
       {
         "English": "spider",
@@ -1499,7 +1499,7 @@
       },
       {
         "English": "pants",
-        "Jaobon": "jao tak te"
+        "Jaobon": "jao xak te"
       },
       {
         "English": "suit",
@@ -1915,7 +1915,7 @@
       },
       {
         "English": "prison",
-        "Jaobon": "xak luk"
+        "Jaobon": "gun luk"
       },
       {
         "English": "technology",
@@ -1975,11 +1975,11 @@
       },
       {
         "English": "sport",
-        "Jaobon": "tuk hu"
+        "Jaobon": "koi hu"
       },
       {
         "English": "exercise",
-        "Jaobon": "xek tuk"
+        "Jaobon": "xek koi"
       },
       {
         "English": "ball",
@@ -2219,15 +2219,15 @@
     "entries": [
       {
         "English": "knife",
-        "Jaobon": "kok gun, kin kos"
+        "Jaobon": "kok gan, kin kos"
       },
       {
         "English": "spoon",
-        "Jaobon": "tas gun"
+        "Jaobon": "tas gan"
       },
       {
         "English": "fork",
-        "Jaobon": "pin gun"
+        "Jaobon": "pin gan"
       },
       {
         "English": "chopsticks",
@@ -2251,7 +2251,7 @@
       },
       {
         "English": "bottle",
-        "Jaobon": "xak tas"
+        "Jaobon": "gun tas"
       },
       {
         "English": "napkin",
@@ -2453,7 +2453,7 @@
       },
       {
         "English": "handle",
-        "Jaobon": "ba gun"
+        "Jaobon": "ba gan"
       },
       {
         "English": "bucket",
@@ -2583,7 +2583,7 @@
       },
       {
         "English": "sky",
-        "Jaobon": "ten, win"
+        "Jaobon": "ten"
       },
       {
         "English": "Earth",
@@ -2644,11 +2644,11 @@
       },
       {
         "English": "air",
-        "Jaobon": "gas, win"
+        "Jaobon": "gas"
       },
       {
         "English": "wind",
-        "Jaobon": "win, win lu"
+        "Jaobon": "gas lu"
       },
       {
         "English": "heat",
@@ -2878,7 +2878,7 @@
       },
       {
         "English": "lead",
-        "Jaobon": "gun jin"
+        "Jaobon": "tuk jin"
       }
     ]
   },
@@ -2891,7 +2891,7 @@
       },
       {
         "English": "consonant",
-        "Jaobon": "xak bos"
+        "Jaobon": "gun bos"
       },
       {
         "English": "vowel",
@@ -3220,12 +3220,12 @@
         "Jaobon": "ai nes"
       },
       {
-        "English": "afraid",
-        "Jaobon": "koi"
+        "English": "afraid, fear",
+        "Jaobon": "tak"
       },
       {
         "English": "fear",
-        "Jaobon": "koi nes"
+        "Jaobon": "tak nes"
       },
       {
         "English": "surprised, amazed",
@@ -3494,7 +3494,7 @@
       },
       {
         "English": "win",
-        "Jaobon": "gan"
+        "Jaobon": "win"
       },
       {
         "English": "lose",
@@ -3522,7 +3522,7 @@
       },
       {
         "English": "close",
-        "Jaobon": "as xak"
+        "Jaobon": "as gun"
       },
       {
         "English": "write",
@@ -3618,7 +3618,7 @@
       },
       {
         "English": "defeat",
-        "Jaobon": "gan"
+        "Jaobon": "win"
       },
       {
         "English": "lift",
