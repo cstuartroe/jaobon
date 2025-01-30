@@ -431,6 +431,45 @@ const texts = new Map<string, Text>([
         },
       ],
     }],
+    ["lcc11", {
+      title: "LCC11 Conlang Relay Prose Ring",
+      description: <>
+        I participated in the{' '}
+        <a href="https://conlang.org/language-creation-conference/lcc11/lcc11-relay/" target="_blank">
+          LCC11 Conlang Relay
+        </a>!
+      </>,
+      lines: [
+        {
+          jaobon: "duk pen lak an es gi to de gik guk nis mak des we!",
+          translation: "",
+        },
+        {
+          jaobon: "ta as hao kus don des we de ek.",
+          translation: "",
+        },
+        {
+          jaobon: "men bes ta as pas me son pis kan lek nao ne, i hen yo pao nis en je luk mai jek pis.",
+          translation: "",
+        },
+        {
+          jaobon: "ta duk pen yo ton we nis ki de wes pi lak an: juk es da hai no es soi.",
+          translation: "",
+        },
+        {
+          jaobon: "yo xas ki je duk pen lak an pas as mak des we ki mas hao de me.",
+          translation: "",
+        },
+        {
+          jaobon: "me xas je gik guk yak no yo gi to ki je we pek en me nao.",
+          translation: "",
+        },
+        {
+          jaobon: "jai je duk pen lak an!",
+          translation: "",
+        },
+      ],
+    }],
 ]);
 
 export default texts;
