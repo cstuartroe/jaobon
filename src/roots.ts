@@ -2344,7 +2344,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "won",
-        "ask, request, problem, issue",
+        "ask, request, question, problem, issue",
         ["intransitive verb"],
         "问",
         [["Chinese", "问"]],

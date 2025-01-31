@@ -1265,6 +1265,10 @@
       {
         "English": "wing",
         "Jaobon": "bo xo"
+      },
+      {
+        "English": "tail",
+        "Jaobon": "bek cao"
       }
     ]
   },
@@ -1584,7 +1588,7 @@
       },
       {
         "English": "parent",
-        "Jaobon": "gen jen"
+        "Jaobon": "ma"
       },
       {
         "English": "brother",

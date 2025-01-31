@@ -520,13 +520,39 @@ export default class Syntax extends Component<Props, State> {
                     regions, including being ubiquitous in Mandarin. They basically refer to some location relative
                     to a noun, carrying much of the semantic information that would be carried by prepositions in
                     English, so that fewer prepositional distinctions can be made: {text('en kas den')} "in the
-                    house" vs. {text('en kas bon')} "under the house."
+                    house" vs. {text('en kas bon')} "under the house".
                 </p>
 
                 <p>
                     As seen in the previous example sentences, positionals simply come after the nominal that they
                     denote a position relative to, with that nominal syntactically being a left-branching modifier
                     of the positional.
+                </p>
+
+                <p>
+                    The nominal can also come after the positional linked by {text('de')}, which can be clearer
+                    when dealing with complex nominals: {text('en bon de kas ki gin')} "under the green house".
+                </p>
+
+                <h3>Number</h3>
+
+                <p>
+                    Jaobon has an optional plural suffix {text('men')} which can be used for any noun:{' '}
+                    {text('jen men')} "people", {text('co luk men')} "restaurants".
+                    Syntactically, {text('men')} is behaving as the head of the noun phrase,
+                    with the pluralized noun being a left-branching modifier.
+                    Note that {text('men')} as a modifier, rather than a head, means "many".
+                </p>
+
+                <p>
+                    Nouns without the plural suffix should not be taken to be necessarily plural, but rather of
+                    indeterminate number. A bare noun may refer to multiple referents if other cues make that clear:{' '}
+                    {text('mas bes dok yo bek cao')} "dogs usually have tails".
+                </p>
+
+                <p>
+                    A special case of this is nouns modified by a numeral, which should never also have a plural suffix:{' '}
+                    {text('san dok')} "three dogs", not *{text('san dok men')}.
                 </p>
 
                 <h2>Non-indicative sentences</h2>
@@ -542,6 +568,13 @@ export default class Syntax extends Component<Props, State> {
                     eat?") or a free relative clause (e.g., {text('ke es ki ni co?')} "what did you eat?").
                     This is not mandatory, though: {text('ni co ke?')} may be a less usual, though perhaps more
                     informal, way to ask "what did you eat?"
+                </p>
+
+                <p>
+                    For polar questions, a sentence-final particle {text('o')} is used:{' '}
+                    {text('ni xi ta o?')} "do you like it?" {text('o')} is also a conjunction meaning
+                    "or"; the implication of utterance-final {text('o')} is an implicit negative clause, i.e.{' '}
+                    {text('ni xi ta o no xi ta?')} "do you like it or not"?
                 </p>
 
                 <h3>Imperatives and hortatives</h3>
@@ -679,7 +712,7 @@ export default class Syntax extends Component<Props, State> {
                     (which need not be for actual blood relatives)
                 </p>
                 <p>
-                    The least formal and even humorous titles include physical attributes like {text('gao')},
+                    The least formal and even humorous titles include physical attributes like {text('gao')},{' '}
                     {text('lo')}, animals like {text('mus')}, {text('hus')}, {text('pak')}, {text('os')},
                     or any descriptor that feels appropriate, like {text('kin')}, {text('ao')}.
                 </p>
