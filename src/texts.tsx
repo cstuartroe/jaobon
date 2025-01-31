@@ -246,7 +246,7 @@ const texts = new Map<string, Text>([
           translation: "A little girl with a kitten sat near me.",
         },
         {
-          jaobon: "ik pas as sen en ko yak wek ta pa.",
+          jaobon: "ik pas as sen en ko yak wek ta nan ma.",
           translation: "The child waited at the door for her father.",
         },
         {
@@ -286,7 +286,7 @@ const texts = new Map<string, Text>([
           translation: "Are you going with us to the concert?",
         },
         {
-          jaobon: "yo xas ki ni as bis xen ju tu o?",
+          jaobon: "yo xas ki ni as bis xen mu tu o?",
           translation: "Have you ever travelled in the jungle?",
         },
         {
@@ -402,7 +402,7 @@ const texts = new Map<string, Text>([
           translation: "The little girl seemed lonely.",
         },
         {
-          jaobon: "yo bes ki pa de je xao nan ik as wok en wa ce.",
+          jaobon: "yo bes ki nan ma de je xao nan ik as wok en wa ce.",
           translation: "The little boy's father had once been a sailor.",
         },
         {
@@ -410,7 +410,7 @@ const texts = new Map<string, Text>([
           translation: "I have lost my blanket.",
         },
         {
-          jaobon: "yo hon xon pak ki pas mak do luk en ju de hos gos.",
+          jaobon: "yo hon xon pak ki pas mak do luk en mu de hos gos.",
           translation: "A robin has built his nest in the apple tree.",
         },
         {

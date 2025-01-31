@@ -923,7 +923,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "in",
-        "pull, stretch, extend",
+        "pull, stretch, extend, exaggerate",
         ["transitive verb"],
         "引",
         [["Chinese", "引"]],
@@ -958,10 +958,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "jan",
-        "flat, sheet, surface, platform, straight, stand",
-        ["intransitive verb"],
+        "flat, sheet, surface, platform",
+        ["adjective"],
         "张",
-        [["Chinese", "张"], ["Chinese", "站"]],
+        [["Chinese", "张"]],
     ),
     root(
         "jao",
@@ -1070,10 +1070,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "ju",
-        "tree, plant",
-        ["noun"],
-        "株",
-        [["Chinese", "株"], ["Chinese", "植物"]],
+        "raise, lift, cite, demonstrate",
+        ["transitive verb"],
+        "举",
+        [["Chinese", "举"]],
     ),
     root(
         "juk",
@@ -1420,10 +1420,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "ma",
-        "mother",
+        "parent, older relative",
         ["noun"],
-        "妈",
-        [["English", "ma"], ["Spanish", "mamá"], ["Chinese", "妈妈"]],
+        "亲",
+        [["English", "ma"], ["Spanish", "mamá"], ["Chinese", "妈妈"], ["Hindi", "मामा"]],
     ),
     root(
         "mai",
@@ -1735,7 +1735,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "nuk",
-        "nut, bead",
+        "nut, bead, pearl",
         ["noun"],
         "珠",
         [["Latin", "nux"], ["English", "nut"]],
@@ -1743,7 +1743,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "o",
         "or, other",
-        ["coordinating conjunction"],
+        ["adjective", "coordinating conjunction"],
         "另",
         [["English", "or"], ["Spanish", "otro"]],
     ),
@@ -1777,10 +1777,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "pa",
-        "father",
-        ["noun"],
-        "父",
-        [["English", "pa"], ["Spanish", "papá"]],
+        "stand up, stop, halt, be still",
+        ["intransitive verb"],
+        "站",
+        [["Spanish", "parar"]],
     ),
     root(
         "pai",
@@ -2148,7 +2148,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "toi",
-        "push, extend, postpone, publish, promote",
+        "push, extend, postpone, publish, promote, spread, distribute",
         ["transitive verb"],
         "推",
         [["Chinese", "推"]],

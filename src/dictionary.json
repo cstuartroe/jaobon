@@ -603,7 +603,7 @@
       },
       {
         "English": "straight",
-        "Jaobon": "jan"
+        "Jaobon": "cen"
       }
     ]
   },
@@ -707,7 +707,7 @@
       },
       {
         "English": "rectangle",
-        "Jaobon": "jan poi huk jan"
+        "Jaobon": "poi mes huk jan"
       },
       {
         "English": "square",
@@ -727,7 +727,7 @@
       },
       {
         "English": "right angle",
-        "Jaobon": "jan huk"
+        "Jaobon": "mes huk"
       },
       {
         "English": "dot, point",
@@ -1576,11 +1576,11 @@
       },
       {
         "English": "mother",
-        "Jaobon": "ma"
+        "Jaobon": "nus ma"
       },
       {
         "English": "father",
-        "Jaobon": "pa"
+        "Jaobon": "nan ma"
       },
       {
         "English": "parent",
@@ -1600,11 +1600,11 @@
       },
       {
         "English": "grandmother",
-        "Jaobon": "xan ma"
+        "Jaobon": "nus xan ma"
       },
       {
         "English": "grandfather",
-        "Jaobon": "xan pa"
+        "Jaobon": "nan xan ma"
       },
       {
         "English": "husband",
@@ -1624,11 +1624,11 @@
       },
       {
         "English": "uncle",
-        "Jaobon": "ek pa"
+        "Jaobon": "ma nan kek"
       },
       {
         "English": "aunt",
-        "Jaobon": "ek ma"
+        "Jaobon": "ma nus kek"
       },
       {
         "English": "niece",
@@ -1648,11 +1648,11 @@
       },
       {
         "English": "stepfather",
-        "Jaobon": "hun pa"
+        "Jaobon": "nan hun ma"
       },
       {
         "English": "stepmother",
-        "Jaobon": "hun ma"
+        "Jaobon": "nus hun ma"
       },
       {
         "English": "brother-in-law",
@@ -1664,11 +1664,11 @@
       },
       {
         "English": "mother-in-law",
-        "Jaobon": "hun ma"
+        "Jaobon": "nus hun ma"
       },
       {
         "English": "father-in-law",
-        "Jaobon": "hun pa"
+        "Jaobon": "nan hun ma"
       }
     ]
   },
@@ -2591,7 +2591,7 @@
       },
       {
         "English": "forest",
-        "Jaobon": "ju luk"
+        "Jaobon": "mu tu"
       },
       {
         "English": "beach",
@@ -2636,7 +2636,7 @@
       },
       {
         "English": "tree",
-        "Jaobon": "ju"
+        "Jaobon": "mu sai"
       },
       {
         "English": "flower",
@@ -3462,7 +3462,7 @@
       },
       {
         "English": "stand",
-        "Jaobon": "jan"
+        "Jaobon": "pa"
       },
       {
         "English": "lie",

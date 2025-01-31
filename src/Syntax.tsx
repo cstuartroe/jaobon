@@ -268,7 +268,7 @@ export default class Syntax extends Component<Props, State> {
                         the other being imperatives. This{' '}
                         {text('yo')}...{text('ki')} pattern in particular is used like an indefinite article, to
                         introduce a subject which has not previously been mentioned:{' '}
-                        {text('yo jen ki pas as en pu jan')} "a person was standing in the street."
+                        {text('yo jen ki pas as pa en pu')} "a person was standing in the street."
                     </li>
                 </ul>
 
@@ -354,8 +354,8 @@ export default class Syntax extends Component<Props, State> {
                     Jaobon does not have indirect objects as a syntactic position. Recipients are the direct object
                     of the verb {text('ge')} "give," with the thing being given being the object of a verb like{' '}
                     {text('ba')} "hold" in a separate predicate: {text('ta pas ba li kos ge mi')} "she gave me a gift."
-                    Benefactors are similarly direct objects of the verb {text('he')} "help":{' '}
-                    {text('mi pas he ni dai ta lai')} "I brought it for you."
+                    Benefactors are similarly direct objects of the verb {text('yuk')} "help":{' '}
+                    {text('mi pas yuk ni dai ta lai')} "I brought it for you."
                 </p>
 
                 <p>
@@ -675,7 +675,7 @@ export default class Syntax extends Component<Props, State> {
                 <p>
                     Less formal but still common titles
                     include {text('mik')} or {text('be')} for friends and
-                    kinship terms like {text('ik')}, {text('kek')}, {text('ma')}, {text('pa')}{' '}
+                    kinship terms like {text('ik')}, {text('kek')}, {text('ma')}{' '}
                     (which need not be for actual blood relatives)
                 </p>
                 <p>
