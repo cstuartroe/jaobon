@@ -461,27 +461,27 @@
     "entries": [
       {
         "English": "monday",
-        "Jaobon": "xin cek dos, xin cek mun"
+        "Jaobon": "xin cek mun"
       },
       {
         "English": "tuesday",
-        "Jaobon": "xin cek san, xin cek wo"
+        "Jaobon": "xin cek jin"
       },
       {
         "English": "wednesday",
-        "Jaobon": "xin cek poi, xin cek wa"
+        "Jaobon": "xin cek wa"
       },
       {
         "English": "thursday",
-        "Jaobon": "xin cek u, xin cek mu"
+        "Jaobon": "xin cek mu"
       },
       {
         "English": "friday",
-        "Jaobon": "xin cek ses, xin cek jin"
+        "Jaobon": "xin cek wo"
       },
       {
         "English": "saturday",
-        "Jaobon": "xin cek ci, xin cek tu"
+        "Jaobon": "xin cek tu"
       },
       {
         "English": "sunday",
@@ -2705,7 +2705,12 @@
       {
         "English": "quiet/silence",
         "Jaobon": "no bos"
-      },
+      }
+    ]
+  },
+  {
+    "title": "Astronomy",
+    "entries": [
       {
         "English": "moon",
         "Jaobon": "mun"
@@ -2717,6 +2722,26 @@
       {
         "English": "star",
         "Jaobon": "xin"
+      },
+      {
+        "English": "mercury",
+        "Jaobon": "wa xin"
+      },
+      {
+        "English": "venus",
+        "Jaobon": "wo xin"
+      },
+      {
+        "English": "mars",
+        "Jaobon": "jin xin"
+      },
+      {
+        "English": "jupiter",
+        "Jaobon": "mu xin"
+      },
+      {
+        "English": "saturn",
+        "Jaobon": "tu xin"
       }
     ]
   },
