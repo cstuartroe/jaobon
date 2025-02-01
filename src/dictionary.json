@@ -1329,7 +1329,7 @@
       },
       {
         "English": "brake",
-        "Jaobon": "mo su mek"
+        "Jaobon": "pa su mek"
       }
     ]
   },
@@ -3089,7 +3089,7 @@
       },
       {
         "English": "dead",
-        "Jaobon": "mo"
+        "Jaobon": "pas mo"
       },
       {
         "English": "alive",
@@ -3371,7 +3371,7 @@
       },
       {
         "English": "stop",
-        "Jaobon": "mo, xos"
+        "Jaobon": "pa, xos"
       },
       {
         "English": "follow",

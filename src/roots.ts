@@ -1518,8 +1518,8 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "mo",
-        "die, stop, halt, pause, end",
-        ["intransitive verb", "aspect particle"],
+        "die, end, ending",
+        ["intransitive verb"],
         "末",
         [["Spanish", "morir"], ["Chinese", "末"]],
     ),
@@ -1778,7 +1778,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "pa",
         "stand up, stop, halt, be still",
-        ["intransitive verb"],
+        ["intransitive verb", "aspect particle"],
         "站",
         [["Spanish", "parar"]],
     ),

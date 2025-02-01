@@ -118,7 +118,7 @@ export default class Syntax extends Component<Props, State> {
                     that clear: {text('xas ki mi en wok, ta pas des a mi')} "When I was working, she spoke to me."{' '}
                     {text('kai')} "open" indicates an inchoative/inceptive aspect: {text('ni kai su wak')}{' '}
                     "you start to run."{' '}
-                    {text('mo')} "die" indicates a cessative aspect: {text('ni mo su wak')} "you stop running."{' '}
+                    {text('pa')} "stop" indicates a cessative aspect: {text('ni pa su wak')} "you stop running."{' '}
                     {text('sen')} "sit" indicates a continuative aspect: {text('ni sen su wak')} "you continue
                     running."
                 </p>
@@ -130,7 +130,7 @@ export default class Syntax extends Component<Props, State> {
                 </p>
 
                 <p>
-                    Aspect particles can be chained according to logical order: {text('ni a mo su wak')} "you will
+                    Aspect particles can be chained according to logical order: {text('ni a pa su wak')} "you will
                     stop running." {text('mi pas kai as xes')} "I have started studying."
                 </p>
 

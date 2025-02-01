@@ -29,7 +29,7 @@ const texts = new Map<string, Text>([
           translation: "Then the North Wind blew as hard as he could, but the more he blew the more closely did the traveler fold his cloak around him.",
         },
         {
-          jaobon: "jo yo xas ki [yok gas lu] mo kao.",
+          jaobon: "jo yo xas ki [yok gas lu] pa kao.",
           translation: "At last the North Wind gave up the attempt. ",
         },
         {
@@ -130,15 +130,15 @@ const texts = new Map<string, Text>([
           translation: "The kitten is playing in the rain.",
         },
         {
-          jaobon: "ten wa pas mo ka.",
+          jaobon: "ten wa pas pa ka.",
           translation: "The rain has stopped.",
         },
         {
-          jaobon: "ten wa a mo ka yak xas.",
+          jaobon: "ten wa a pa ka yak xas.",
           translation: "Soon the rain will stop.",
         },
         {
-          jaobon: "mi yao ke ten wa mo ka yak xas.",
+          jaobon: "mi yao ke ten wa pa ka yak xas.",
           translation: "I hope the rain stops soon.",
         },
         {
@@ -326,7 +326,7 @@ const texts = new Map<string, Text>([
           translation: "The cover of the basket fell to the floor.",
         },
         {
-          jaobon: "nan ik ki mas cen en jen pai pas as mo wak en ko cen.",
+          jaobon: "nan ik ki mas cen en jen pai pas as pa wak en ko cen.",
           translation: "The first boy in the line stopped at the entrance.",
         },
         {
@@ -342,7 +342,7 @@ const texts = new Map<string, Text>([
           translation: "When will your guests from the city arrive?",
         },
         {
-          jaobon: "pis de wa lu ki en mo lu luk yak hen su ben wak a son bek.",
+          jaobon: "pis de wa lu ki en mo yak ben wak a son bek hen su we.",
           translation: "Near the mouth of the river, its course turns sharply towards the East.",
         },
         {
