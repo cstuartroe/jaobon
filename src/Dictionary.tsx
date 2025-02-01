@@ -63,9 +63,9 @@ export default class Dictionary extends Component<Props, State> {
       const matchingEntries: DictionaryEntry[] = [];
       dictionarySections.forEach(section => {
         section.entries.forEach((entry) => {
-          if (entry.Jaobon.includes(search_term)) {
+          if (entry.Jaobon.toLowerCase().includes(search_term.toLowerCase())) {
             matchingEntries.push(entry);
-          } else if (entry.English.includes(search_term)) {
+          } else if (entry.English.toLowerCase().includes(search_term.toLowerCase())) {
             matchingEntries.push(entry);
           }
         })
