@@ -26,7 +26,7 @@ export default class Syntax extends Component<Props, State> {
             root.pos.map(pos => posCounts[pos] = (posCounts[pos] || 0) + 1);
         });
 
-        const nominals: PartOfSpeech[] = ["noun", "positional", "numeral", "pronoun", "determiner", "nominalizer", "diminutive"];
+        const nominals: PartOfSpeech[] = ["noun", "positional", "numeral", "pronoun", "determiner", "nominalizer"];
         const intransitives: PartOfSpeech[] = ["intransitive verb", "adjective", "number particle"];
         const transitives: PartOfSpeech[] = ["transitive verb", "preposition", "existential"];
         const otherPoss = partsOfSpeech.filter(pos => !(
@@ -496,14 +496,13 @@ export default class Syntax extends Component<Props, State> {
                     A noun phrase may be headed by any nominal root. Nouns, numerals, positionals, demonstratives,
                     and pronouns
                     are unambiguously nominal and can easily be a complete noun phrase on their own. Pronouns, in fact,
-                    cannot take modifiers. On the other hand, the nominalizer {text('nes')} and the diminutive{' '}
-                    {text('cek')} must have left-branching modifiers: {text('bik nes')} "size" and{' '}
-                    {text('dus cek')} "town."
+                    cannot take modifiers. On the other hand, the nominalizer {text('nes')}
+                    must have left-branching modifiers: {text('bik nes')} "size."
                 </p>
 
                 <p>
                     Any intransitive may also be the head of a noun phrase. Adjectives and intransitive verbs can
-                    stand on their own as the head of a noun phrase, but like the nominalizer and diminutive, the
+                    stand on their own as the head of a noun phrase, but like the nominalizer {text('nes')}, the
                     number suffix {text('men')} must have left-branching modifiers: {text('jen men')} "people".
                     The actual meaning of adjectives and intransitive verbs when they behave as nouns varies, with
                     the tendency being for adjectives to refer to some entity described by the adjective, and

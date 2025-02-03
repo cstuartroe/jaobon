@@ -28,7 +28,6 @@ export const partsOfSpeech = [
     "numeral",
     "determiner",
     "nominalizer",
-    "diminutive",
 
     "intransitive verb",
     "adjective",
