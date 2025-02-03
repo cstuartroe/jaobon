@@ -180,7 +180,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "bek",
-        "back, behind, after",
+        "back, behind",
         ["positional"],
         "后",
         [["English", "back"]],
@@ -188,7 +188,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "ben",
         "bend, change, become",
-        ["transitive verb"],
+        ["transitive verb", "aspect particle"],
         "变",
         [["Chinese", "变"], ["English", "bend"]],
     ),
@@ -250,7 +250,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "bon",
-        "under, bottom, bum",
+        "under, bottom, bum, after",
         ["positional"],
         "下",
         [["English", "bottom"], ["Chinese", "本"]],
@@ -348,7 +348,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "cen",
-        "front, face, before",
+        "front, face",
         ["positional"],
         "前",
         [["Chinese", "前"]],
@@ -1412,7 +1412,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "lus",
-        "light, intelligence, clarity, upbeat",
+        "light, intelligence, clarity, perspective",
         ["noun"],
         "光",
         [["Spanish", "luz"]],
@@ -2231,7 +2231,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "wa",
-        "water, liquid",
+        "water",
         ["noun"],
         "水",
         [["English", "water"], ["Spanish", "agua"]],
@@ -2385,7 +2385,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "xan",
-        "top, over, above, up",
+        "top, over, above, up, before",
         ["positional"],
         "上",
         [["Chinese", "上"]],

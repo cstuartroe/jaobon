@@ -323,7 +323,7 @@
       },
       {
         "English": "month",
-        "Jaobon": "mun xas"
+        "Jaobon": "mun, mun xas"
       },
       {
         "English": "week",
@@ -331,7 +331,7 @@
       },
       {
         "English": "day (24 hours)",
-        "Jaobon": "son xas"
+        "Jaobon": "son, son xas"
       },
       {
         "English": "hour",
@@ -420,6 +420,14 @@
       {
         "English": "time",
         "Jaobon": "xas"
+      },
+      {
+        "English": "before",
+        "Jaobon": "~ xan"
+      },
+      {
+        "English": "after",
+        "Jaobon": "~ bon"
       }
     ]
   },
@@ -543,6 +551,51 @@
       {
         "English": "december",
         "Jaobon": "mun xas das dos"
+      }
+    ]
+  },
+  {
+    "title": "Holidays",
+    "entries": [
+      {
+        "English": "holiday",
+        "Jaobon": "xos son"
+      },
+      {
+        "English": "New Years' Day",
+        "Jaobon": "kai nen son"
+      },
+      {
+        "English": "Imbolc",
+        "Jaobon": "kai cun son, lus son"
+      },
+      {
+        "English": "Valentine's Day",
+        "Jaobon": "ai son"
+      },
+      {
+        "English": "Beltane, May Day",
+        "Jaobon": "kai hok son, sai so son"
+      },
+      {
+        "English": "Midsummer, summer solstice",
+        "Jaobon": "hok mes son"
+      },
+      {
+        "English": "Lunasa",
+        "Jaobon": "kai wos son, pan son"
+      },
+      {
+        "English": "Mid-autumn",
+        "Jaobon": "wos mes son"
+      },
+      {
+        "English": "Samhain, Halloween",
+        "Jaobon": "kai bin son, ao son"
+      },
+      {
+        "English": "Midwinter, Yule, Christmas",
+        "Jaobon": "bin mes son"
       }
     ]
   },
@@ -716,6 +769,10 @@
       {
         "English": "triangle",
         "Jaobon": "san huk jan"
+      },
+      {
+        "English": "polygon",
+        "Jaobon": "la jan"
       },
       {
         "English": "edge",
@@ -2610,16 +2667,8 @@
         "Jaobon": "ten"
       },
       {
-        "English": "Earth",
-        "Jaobon": "tu cok"
-      },
-      {
         "English": "world",
         "Jaobon": "cok man"
-      },
-      {
-        "English": "outer space",
-        "Jaobon": "cok ek"
       }
     ]
   },
@@ -2732,6 +2781,10 @@
         "Jaobon": "ik xin"
       },
       {
+        "English": "Earth",
+        "Jaobon": "tu cok"
+      },
+      {
         "English": "mars",
         "Jaobon": "jin xin"
       },
@@ -2742,6 +2795,10 @@
       {
         "English": "saturn",
         "Jaobon": "tu xin"
+      },
+      {
+        "English": "outer space",
+        "Jaobon": "cok ek"
       }
     ]
   },

@@ -14,6 +14,7 @@ import Sourcing from "./Sourcing";
 import TextReader, {TextList} from "./TextReader";
 import WritingSystems from "./WritingSystems";
 import Syntax from "./Syntax";
+import DailyWords from "./DailyWords";
 
 type AppState = {
     displaySettings: DisplaySettings,
@@ -66,6 +67,9 @@ class App extends Component<{}, AppState> {
                                   </Route>
                                   <Route path={"/texts/:textId"}>
                                       <Route index element={<TextReader displaySettings={this.state.displaySettings}/>}/>
+                                  </Route>
+                                  <Route path={"/daily_words"}>
+                                      <Route index element={<DailyWords/>}/>
                                   </Route>
                               </Route>
                           </Routes>

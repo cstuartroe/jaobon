@@ -4,6 +4,10 @@ import {stringToSyllable, syllableToDots} from "./syllables";
 import classNames from "classnames";
 import {WritingSystem, DisplaySettings} from "./DisplaySettings";
 
+function capitalize(s: string): string {
+    return s[0].toUpperCase() + s.slice(1);
+}
+
 type ACProps = {
     root: Root,
     displaySettings: DisplaySettings,
@@ -26,7 +30,7 @@ export class AnnotatedCharacter extends Component<ACProps, ACState> {
       switch (this.props.displaySettings.writingSystem) {
           case "roman":
               if (this.props.capitalize) {
-                  return this.props.root.syllable[0].toUpperCase() + this.props.root.syllable.slice(1);
+                  return capitalize(this.props.root.syllable);
               } else {
                   return this.props.root.syllable;
               }
@@ -114,7 +118,7 @@ const charMappings = new Map<string, [string, string]>([
     // [Original, [CJK, Dots]]
     [' ', ["\u200b", "\u200b"]],
     ['!', ['！', '!']],
-    [',', ['、', '']],
+    [',', ['，', '']],
     ['~', ['〜', '.']],
     ['.', ['。', '.']],
     ['?', ['？', '?']],
@@ -188,6 +192,45 @@ export function parseJaobon(sentence: string): (Root | ProperNoun | string)[] {
     }
 
     return pieces;
+}
+
+export type MultiscriptText = {roman: string, CJK: string}
+
+export function multiscriptText(sentence: string): MultiscriptText {
+    let roman = "";
+    let CJK = "";
+
+    parseJaobon(sentence).forEach(piece => {
+        if (typeof piece === "string") {
+            const pair = charMappings.get(piece);
+            if (pair === undefined) {
+                console.error(`Unknown char: ${piece}`);
+            } else {
+                roman += piece;
+                if (piece != " ") {
+                    const [cjkPunct, dotsPunct] = pair;
+                    CJK += cjkPunct;
+                }
+            }
+        } else if (isPN(piece)) {
+            let romanPn = ""
+            CJK += ProperNounBrackets["cjk"][0];
+            piece.roots.forEach(root => {
+                romanPn += root.syllable;
+                CJK += root.CJK;
+            });
+            CJK += ProperNounBrackets["cjk"][1];
+            roman += capitalize(romanPn);
+        } else {
+            roman += piece.syllable;
+            CJK += piece.CJK;
+        }
+    })
+
+    return {
+        roman,
+        CJK,
+    }
 }
 
 type Props = {

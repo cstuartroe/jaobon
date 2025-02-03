@@ -1,4 +1,5 @@
 import React from "react";
+import {DAILY_ROOTS} from "./DailyWords";
 
 type TextLine = {
   jaobon: string,
@@ -470,6 +471,20 @@ const texts = new Map<string, Text>([
         },
       ],
     }],
+    [
+      "rootaday", {
+      title: "Jaobon Root A Day",
+      description: <>
+        Follow along over on{' '}
+        <a href="https://bsky.app/profile/jaobon.bsky.social" target="_blank">
+          Bluesky
+        </a>!
+      </>,
+      lines: DAILY_ROOTS.map(dr => ({
+        jaobon: `${dr.root.syllable}: ${dr.example_sentence.Jaobon.roman}`,
+        translation: `${dr.root.definition}: ${dr.example_sentence.English}`,
+      }))
+    }]
 ]);
 
 export default texts;

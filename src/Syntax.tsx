@@ -94,7 +94,7 @@ export default class Syntax extends Component<Props, State> {
                 </p>
 
                 <p>
-                    [subordinating conjunction] [oblique phrases] subject [aspect particles] [adverbs]
+                    [subordinating conjunction] [topic] subject [aspect particles] [adverbs]
                     predicates [oblique phrases]
                 </p>
 
@@ -116,11 +116,17 @@ export default class Syntax extends Component<Props, State> {
                     a default present-tense interpretation, but can certainly be used for past and future times if
                     context makes
                     that clear: {text('xas ki mi en wok, ta pas des a mi')} "When I was working, she spoke to me."{' '}
-                    {text('kai')} "open" indicates an inchoative/inceptive aspect: {text('ni kai su wak')}{' '}
-                    "you start to run."{' '}
                     {text('pa')} "stop" indicates a cessative aspect: {text('ni pa su wak')} "you stop running."{' '}
                     {text('sen')} "sit" indicates a continuative aspect: {text('ni sen su wak')} "you continue
-                    running."
+                    running."{' '}
+                    {text('kai')} "open" indicates an inchoative/inceptive aspect: {text('ni kai su wak')}{' '}
+                    "you start to run."{' '}
+                    {text('ben')} "change" also indicates an inceptive aspect, but is preferred for adjectives or states,
+                    while {text('kai')} is preferred for verbs, or predicates conveying more dynamic action:{' '}
+                    {text('ta ben hon')} "it turns red."{' '}
+                    {text('kai')} vs. {text('ben')} may be used for the same predicate, to lend a sense of action
+                    vs. state change respectively: {text('yos kai lu')} "the oil begins flowing (as though poured etc.)"
+                    vs. {text('yos ben lu')} "the fat melts."{' '}
                 </p>
 
                 <p>
@@ -337,15 +343,23 @@ export default class Syntax extends Component<Props, State> {
                 </p>
 
                 <p>
-                    In general, only up to one oblique phrase should appear in the pre-subject position, with others
-                    coming at the end of the clause; if there is an interrogative oblique phrase, it should be in the
-                    pre-subject position.
-                </p>
-
-                <p>
                     Note that clause-level prepositional phrases are not classed as oblique phrases, but as predicates,
                     and may come before or after other predicates: {text('ta as sen en bi kas')} or{' '}
                     {text('ta as en bi kas sen')} "she sits in the house."
+                </p>
+
+                <h3>Topics</h3>
+
+                <p>
+                    A single prepositional or oblique phrase may come at the beginning of a clause, functioning as a
+                    topic: {text('je xas xan mi jek ke ni mas gao de mi')} "before now I thought
+                    you were taller than me", {text('en kas den ja jen sen co wan')} "inside the house, the family
+                    is eating dinner".
+                </p>
+
+                <p>
+                    Ability to topicalize in this way is the only robust syntactic test to distinguish prepositions
+                    from verbs in Jaobon.
                 </p>
 
                 <h3>Recipients and benefactors</h3>
@@ -402,7 +416,8 @@ export default class Syntax extends Component<Props, State> {
                 <h3>Genitives and linking particles</h3>
 
                 <p>
-                    Jaobon has a linking genitive particle {text('de')} which can be used similarly to Spanish <i>de</i> to
+                    Jaobon has a linking genitive particle {text('de')} which can be used similarly to
+                    Spanish <i>de</i> to
                     mark possession or any other relationship between two nouns. For example, {text('buk de ta')} can
                     mean "his book" as in "the book he owns" or "the book he wrote."
                 </p>
@@ -434,7 +449,8 @@ export default class Syntax extends Component<Props, State> {
                 <h3>Relative clauses</h3>
 
                 <p>
-                    Branching rightward also happens via relative clauses, marked with the relativizer particle {text('ki')}.
+                    Branching rightward also happens via relative clauses, marked with the relativizer
+                    particle {text('ki')}.
                     Relative clauses occur more frequently in Jaobon than in English or Spanish, but less often than
                     Mandarin noun modifiers in 的. Jaobon relative clauses may have other nominal arguments, and
                     the head noun may be a subject, direct object, or oblique role in the relative clause. An example
@@ -546,12 +562,14 @@ export default class Syntax extends Component<Props, State> {
 
                 <p>
                     Nouns without the plural suffix should not be taken to be necessarily plural, but rather of
-                    indeterminate number. A bare noun may refer to multiple referents if other cues make that clear:{' '}
+                    indeterminate number. A bare noun may refer to multiple referents if other cues make that
+                    clear:{' '}
                     {text('mas bes dok yo bek cao')} "dogs usually have tails".
                 </p>
 
                 <p>
-                    A special case of this is nouns modified by a numeral, which should never also have a plural suffix:{' '}
+                    A special case of this is nouns modified by a numeral, which should never also have a plural
+                    suffix:{' '}
                     {text('san dok')} "three dogs", not *{text('san dok men')}.
                 </p>
 
