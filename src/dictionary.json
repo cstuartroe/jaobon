@@ -61,7 +61,7 @@
       },
       {
         "English": "4",
-        "Jaobon": "poi"
+        "Jaobon": "cak"
       },
       {
         "English": "5",
@@ -101,7 +101,7 @@
       },
       {
         "English": "14",
-        "Jaobon": "das poi"
+        "Jaobon": "das cak"
       },
       {
         "English": "15",
@@ -141,7 +141,7 @@
       },
       {
         "English": "40",
-        "Jaobon": "poi das"
+        "Jaobon": "cak das"
       },
       {
         "English": "50",
@@ -221,7 +221,7 @@
       },
       {
         "English": "fourth",
-        "Jaobon": "ji poi"
+        "Jaobon": "ji cak"
       },
       {
         "English": "fifth",
@@ -241,7 +241,7 @@
       },
       {
         "English": "1/4",
-        "Jaobon": "un de poi pis"
+        "Jaobon": "un de cak pis"
       },
       {
         "English": "1/5",
@@ -277,7 +277,7 @@
       },
       {
         "English": "divided by",
-        "Jaobon": "kok"
+        "Jaobon": "cek"
       },
       {
         "English": "to the power of",
@@ -339,7 +339,7 @@
       },
       {
         "English": "minute",
-        "Jaobon": "kok xas"
+        "Jaobon": "cek xas"
       },
       {
         "English": "second",
@@ -461,31 +461,31 @@
     "entries": [
       {
         "English": "monday",
-        "Jaobon": "xin cek mun"
+        "Jaobon": "xin cik mun"
       },
       {
         "English": "tuesday",
-        "Jaobon": "xin cek jin"
+        "Jaobon": "xin cik jin"
       },
       {
         "English": "wednesday",
-        "Jaobon": "xin cek wa"
+        "Jaobon": "xin cik wa"
       },
       {
         "English": "thursday",
-        "Jaobon": "xin cek mu"
+        "Jaobon": "xin cik mu"
       },
       {
         "English": "friday",
-        "Jaobon": "xin cek wo"
+        "Jaobon": "xin cik ik"
       },
       {
         "English": "saturday",
-        "Jaobon": "xin cek tu"
+        "Jaobon": "xin cik tu"
       },
       {
         "English": "sunday",
-        "Jaobon": "xin cek son"
+        "Jaobon": "xin cik son"
       },
       {
         "English": "weekend",
@@ -510,7 +510,7 @@
       },
       {
         "English": "april",
-        "Jaobon": "mun xas poi"
+        "Jaobon": "mun xas cak"
       },
       {
         "English": "may",
@@ -657,7 +657,7 @@
       },
       {
         "English": "centimeter",
-        "Jaobon": "ek pis bai kok"
+        "Jaobon": "ek pis bai cek"
       },
       {
         "English": "kilometer",
@@ -707,11 +707,11 @@
       },
       {
         "English": "rectangle",
-        "Jaobon": "poi mes huk jan"
+        "Jaobon": "cak mes huk jan"
       },
       {
         "English": "square",
-        "Jaobon": "ton la poi huk jan"
+        "Jaobon": "ton la cak huk jan"
       },
       {
         "English": "triangle",
@@ -885,11 +885,11 @@
       },
       {
         "English": "finger",
-        "Jaobon": "xo cek"
+        "Jaobon": "xo cik"
       },
       {
         "English": "thumb",
-        "Jaobon": "ho xo cek"
+        "Jaobon": "ho xo cik"
       },
       {
         "English": "leg",
@@ -901,7 +901,7 @@
       },
       {
         "English": "toe",
-        "Jaobon": "jao cek"
+        "Jaobon": "jao cik"
       },
       {
         "English": "shoulder",
@@ -1111,15 +1111,15 @@
       },
       {
         "English": "chicken",
-        "Jaobon": "cik"
+        "Jaobon": "poi"
       },
       {
         "English": "duck",
-        "Jaobon": "wa cik"
+        "Jaobon": "wa poi"
       },
       {
         "English": "goose",
-        "Jaobon": "wa cik"
+        "Jaobon": "wa poi"
       },
       {
         "English": "owl",
@@ -1167,7 +1167,7 @@
       },
       {
         "English": "dragon",
-        "Jaobon": "wo xis"
+        "Jaobon": "ik xis"
       },
       {
         "English": "fish",
@@ -1183,7 +1183,7 @@
       },
       {
         "English": "insect",
-        "Jaobon": "kok con"
+        "Jaobon": "cek con"
       },
       {
         "English": "butterfly",
@@ -1207,7 +1207,7 @@
       },
       {
         "English": "cricket",
-        "Jaobon": "cak yon con"
+        "Jaobon": "can yon con"
       },
       {
         "English": "fly",
@@ -1342,7 +1342,7 @@
       },
       {
         "English": "town",
-        "Jaobon": "dus cek"
+        "Jaobon": "dus cik"
       },
       {
         "English": "house",
@@ -1358,7 +1358,7 @@
       },
       {
         "English": "room",
-        "Jaobon": "kas pis, can den"
+        "Jaobon": "kas pis, wo den"
       },
       {
         "English": "ground",
@@ -1454,7 +1454,7 @@
       },
       {
         "English": "church",
-        "Jaobon": "cak ten luk"
+        "Jaobon": "can ten luk"
       },
       {
         "English": "market",
@@ -1555,11 +1555,11 @@
       },
       {
         "English": "pocket",
-        "Jaobon": "bao cek"
+        "Jaobon": "bao cik"
       },
       {
         "English": "stain",
-        "Jaobon": "sus cek"
+        "Jaobon": "sus cik"
       },
       {
         "English": "clothing",
@@ -1572,11 +1572,11 @@
     "entries": [
       {
         "English": "son",
-        "Jaobon": "nan ik"
+        "Jaobon": "nan cik"
       },
       {
         "English": "daughter",
-        "Jaobon": "nus ik"
+        "Jaobon": "nus cik"
       },
       {
         "English": "mother",
@@ -1636,11 +1636,11 @@
       },
       {
         "English": "niece",
-        "Jaobon": "nus ek ik"
+        "Jaobon": "nus ek cik"
       },
       {
         "English": "nephew",
-        "Jaobon": "nan ek ik"
+        "Jaobon": "nan ek cik"
       },
       {
         "English": "stepbrother",
@@ -1713,7 +1713,7 @@
       },
       {
         "English": "baby",
-        "Jaobon": "cu cek"
+        "Jaobon": "cu cik"
       },
       {
         "English": "king",
@@ -1895,7 +1895,7 @@
       },
       {
         "English": "coin",
-        "Jaobon": "jin cek"
+        "Jaobon": "jin cik"
       },
       {
         "English": "cash",
@@ -2056,7 +2056,7 @@
       },
       {
         "English": "song",
-        "Jaobon": "cak"
+        "Jaobon": "can"
       },
       {
         "English": "instrument",
@@ -2130,7 +2130,7 @@
     "entries": [
       {
         "English": "egg",
-        "Jaobon": "cik gos, pak gos"
+        "Jaobon": "poi gos, pak gos"
       },
       {
         "English": "butter",
@@ -2162,7 +2162,7 @@
       },
       {
         "English": "chicken",
-        "Jaobon": "cik nik"
+        "Jaobon": "poi nik"
       },
       {
         "English": "pork",
@@ -2243,7 +2243,7 @@
     "entries": [
       {
         "English": "knife",
-        "Jaobon": "kok gan, kin kos"
+        "Jaobon": "cek gan, cek kos, kin kos"
       },
       {
         "English": "spoon",
@@ -2312,11 +2312,11 @@
       },
       {
         "English": "window",
-        "Jaobon": "can las"
+        "Jaobon": "wo las"
       },
       {
         "English": "door",
-        "Jaobon": "can ko"
+        "Jaobon": "wo ko"
       },
       {
         "English": "bedroom",
@@ -2332,7 +2332,7 @@
       },
       {
         "English": "ceiling",
-        "Jaobon": "xan can"
+        "Jaobon": "xan wo"
       },
       {
         "English": "roof",
@@ -2340,7 +2340,7 @@
       },
       {
         "English": "wall",
-        "Jaobon": "can"
+        "Jaobon": "wo"
       },
       {
         "English": "staircase",
@@ -2401,7 +2401,7 @@
       },
       {
         "English": "note",
-        "Jaobon": "xe cek"
+        "Jaobon": "xe cik"
       },
       {
         "English": "paint",
@@ -2437,7 +2437,7 @@
       },
       {
         "English": "ring",
-        "Jaobon": "xo cek lun"
+        "Jaobon": "xo cik lun"
       },
       {
         "English": "tool",
@@ -2510,11 +2510,11 @@
       },
       {
         "English": "cell phone",
-        "Jaobon": "ek des cek"
+        "Jaobon": "ek des cik"
       },
       {
         "English": "smartphone",
-        "Jaobon": "lek nao cek"
+        "Jaobon": "lek nao cik"
       },
       {
         "English": "computer",
@@ -2546,11 +2546,11 @@
       },
       {
         "English": "post",
-        "Jaobon": "xe cek"
+        "Jaobon": "xe cik"
       },
       {
         "English": "message",
-        "Jaobon": "des cek"
+        "Jaobon": "des cik"
       },
       {
         "English": "wifi",
@@ -2558,7 +2558,7 @@
       },
       {
         "English": "data",
-        "Jaobon": "des cek"
+        "Jaobon": "des cik"
       },
       {
         "English": "hotspot",
@@ -2587,7 +2587,7 @@
       },
       {
         "English": "hill",
-        "Jaobon": "mon cek"
+        "Jaobon": "mon cik"
       },
       {
         "English": "valley",
@@ -2680,7 +2680,7 @@
       },
       {
         "English": "fire",
-        "Jaobon": "wo"
+        "Jaobon": "ik"
       },
       {
         "English": "ice",
@@ -2729,7 +2729,7 @@
       },
       {
         "English": "venus",
-        "Jaobon": "wo xin"
+        "Jaobon": "ik xin"
       },
       {
         "English": "mars",
@@ -2851,7 +2851,7 @@
       },
       {
         "English": "sulphur",
-        "Jaobon": "wo us"
+        "Jaobon": "ik us"
       },
       {
         "English": "chlorine",
@@ -2936,7 +2936,7 @@
     "entries": [
       {
         "English": "letter",
-        "Jaobon": "xe cek"
+        "Jaobon": "xe cik"
       },
       {
         "English": "consonant",
@@ -3411,7 +3411,7 @@
       },
       {
         "English": "cry",
-        "Jaobon": "doi cak"
+        "Jaobon": "doi can"
       },
       {
         "English": "buy",
@@ -3471,11 +3471,11 @@
       },
       {
         "English": "burn",
-        "Jaobon": "ca, wo co"
+        "Jaobon": "ik"
       },
       {
         "English": "melt",
-        "Jaobon": "ben wa"
+        "Jaobon": "ben lu"
       },
       {
         "English": "dig",
@@ -3507,7 +3507,7 @@
       },
       {
         "English": "cut",
-        "Jaobon": "kok"
+        "Jaobon": "cek"
       },
       {
         "English": "fight",
@@ -3519,7 +3519,7 @@
       },
       {
         "English": "sing",
-        "Jaobon": "cak"
+        "Jaobon": "can"
       },
       {
         "English": "sleep",
@@ -3687,7 +3687,7 @@
       },
       {
         "English": "smoke",
-        "Jaobon": "co wo"
+        "Jaobon": "co ik"
       },
       {
         "English": "appear",

@@ -5,7 +5,6 @@ type SourceLanguage =
     | "Spanish"
     | "English"
     | "Arabic"
-    | "Polish"
     | "Latin"
     | "French"
     | "Turkish"
@@ -307,17 +306,17 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "cak",
-        "sing, praise",
-        ["intransitive verb"],
-        "歌",
-        [["Chinese", "唱歌"]],
+        "four",
+        ["numeral"],
+        "四",
+        [["Hindi", "चार"]],
     ),
     root(
         "can",
-        "wall, barrier, block",
-        ["noun"],
-        "墙",
-        [["Chinese", "墙"]],
+        "sing, praise",
+        ["intransitive verb"],
+        "唱",
+        [["Chinese", "唱"], ["French", "chanter"]],
     ),
     root(
         "cao",
@@ -342,10 +341,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "cek",
-        "(diminutive suffix)",
-        ["diminutive"],
-        "子",
-        [["Polish", "-czek"]],
+        "cut, slice, spearate",
+        ["transitive verb"],
+        "切",
+        [["Chinese", "切割"]],
     ),
     root(
         "cen",
@@ -370,10 +369,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "cik",
-        "fowl, chicken",
+        "child, offspring, (diminutive)",
         ["noun"],
-        "鸡",
-        [["English", "chicken"]],
+        "子",
+        [["Spanish", "chico"], ["Russian", "-чик"]],
     ),
     root(
         "cin",
@@ -916,10 +915,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "ik",
-        "child, offshoot",
-        ["noun"],
-        "儿",
-        [["Spanish", "hijo"]],
+        "burn, fire",
+        ["intransitive verb"],
+        "火",
+        [["Latin", "ignis"], ["English", "ignite"]],
     ),
     root(
         "in",
@@ -1210,10 +1209,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "kok",
-        "cut, separate, short, restrict",
-        ["transitive verb"],
+        "short",
+        ["adjective"],
         "刻",
-        [["English", "cut"], ["Spanish", "cortar"], ["Spanish", "corto"]],
+        [["Spanish", "corto"]],
     ),
     root(
         "kon",
@@ -1882,10 +1881,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "poi",
-        "four",
-        ["numeral"],
-        "四",
-        [["English", "four"]],
+        "chicken, fowl",
+        ["noun"],
+        "鸡",
+        [["Spanish", "pollo"]],
     ),
     root(
         "pok",
@@ -2330,10 +2329,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "wo",
-        "fire",
+        "wall, barrier",
         ["noun"],
-        "火",
-        [["Chinese", "火"]],
+        "墙",
+        [["English", "wall"]],
     ),
     root(
         "wok",

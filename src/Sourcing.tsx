@@ -80,15 +80,14 @@ export default class Sourcing extends Component<Props, State> {
         <p>The counts sum to more than 366, since many roots have more than one source language.</p>
 
         <p>
-          The only languages among this set without a large number of speakers ({'>'} 80 million)
-          and/or international significance are
-          Dutch and Polish. The inclusion of Polish I justify with the fact that
-          the <Link to="/roots#cek"><i>-czek</i></Link> diminutive shares cognates in many Slavic languages, and has
-          great sound symbolism to my ear. The inclusion of Dutch was because of my personal
-          familiarity with the language that led me to spot some chances to use Dutch etymologies that felt too
-          fitting to pass up; also, none of the Dutch-derived roots comes solely from Dutch;
+          The only language among this set without a large number of speakers ({'>'} 80 million)
+          and/or international significance is Dutch, though it's worth noting that none of the Dutch-derived roots
+          comes solely from Dutch;
           they're only there to reinforce and add adjacent semantic space to English/German sources.
-          Lastly, I'll point out that for Japanese,
+          The inclusion of Dutch was because of my personal
+          familiarity with the language that led me to spot some chances to use Dutch etymologies that felt too
+          fitting to pass up.
+          I'll also point out that for Japanese,
           some of those are Sino-Japanese readings of characters which are especially recognizable cognates
           to the many widely-spoken Chinese varieties which preserve final stops.
         </p>

@@ -278,9 +278,9 @@ export default class Syntax extends Component<Props, State> {
                     {text('mi sen i co pan')} or {text('mi sen co pan')} "I sit and eat."
                     A direct object can be shared between two or more predicates, appearing only in the last one:{' '}
                     {text('ta ba co cai')} "she grabbed the tea and drank it." Voice particles apply to subsequent
-                    predicates until a new voice particle is included: {text('wak xis pas as co i mo kok con')} "the
+                    predicates until a new voice particle is included: {text('wak xis pas as co i mo cek con')} "the
                     lizard ate the insect, which killed the insect",
-                    but {text('wak xis pas as co kok con i es mo')}{' '}
+                    but {text('wak xis pas as co cek con i es mo')}{' '}
                     "the lizard ate the insect, and the lizard died."
                 </p>
 
@@ -308,7 +308,7 @@ export default class Syntax extends Component<Props, State> {
 
                 <p>
                     {text('xas')} is the head root of many lexicalized combinations referring to units or periods
-                    of time: {text('son xas')} "day," {text('kok xas')} "minute," {text('sao xas')} "morning."
+                    of time: {text('son xas')} "day," {text('cek xas')} "minute," {text('sao xas')} "morning."
                     Some lexicalized terms for time have other head roots: {text('nen')} "year,"{' '}
                     {text('nun mes')} "noon," {text('xas gok')} "second." Units of time can be prefixed with{' '}
                     {text('je')} "this" to refer to the current one: {text('je son xas')}, and {text('xan')}{' '}
@@ -708,7 +708,7 @@ export default class Syntax extends Component<Props, State> {
                 <p>
                     Less formal but still common titles
                     include {text('mik')} or {text('be')} for friends and
-                    kinship terms like {text('ik')}, {text('kek')}, {text('ma')}{' '}
+                    kinship terms like {text('cik')}, {text('kek')}, {text('ma')}{' '}
                     (which need not be for actual blood relatives)
                 </p>
                 <p>
