@@ -263,10 +263,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "bu",
-        "section, department",
-        ["noun"],
-        "部",
-        [["Chinese", "部"]],
+        "repair, recompense, compensate, fill in",
+        ["transitive verb"],
+        "补",
+        [["Chinese", "补"]],
     ),
     root(
         "buk",
@@ -340,7 +340,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "cek",
-        "cut, slice, spearate",
+        "cut, slice, separate",
         ["transitive verb"],
         "切",
         [["Chinese", "切割"]],
@@ -2272,8 +2272,8 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "we",
-        "way, state, manner, function, reason, in order to",
-        ["noun", "subordinating conjunction"],
+        "way, state, manner, function, reason",
+        ["noun"],
         "为",
         [["English", "way"], ["Chinese", "为"]],
     ),
@@ -2377,7 +2377,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "xak",
-        "branch, department, arm, tributary",
+        "branch, department, section, arm, tributary",
         ["noun"],
         "支",
         [["Hindi", "शाखा"]],

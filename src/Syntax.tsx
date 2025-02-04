@@ -293,7 +293,7 @@ export default class Syntax extends Component<Props, State> {
                 <h3>Subordinating conjunction</h3>
 
                 <p>
-                    The subordinating conjunctions are {text('juk')} "if" and {text('we')} "in order to."
+                    The subordinating conjunctions are {text('juk')} "if" and {text('we ki')} "in order to."
                     They appear at the beginning of a clause and
                     make the clause subordinate; it may come before or after the corresponding
                     main clause.

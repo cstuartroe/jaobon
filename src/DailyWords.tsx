@@ -41,6 +41,20 @@ export const DAILY_ROOTS: DailyRoot[] = [
     dr("dos", "jao pao ce yo dos lun.", "Bicycles have two wheels."),
     dr("san", "san huk jan es la jan ki mas duk.", "Triangles are the strongest shape."),
     dr("cak", "cun xas es un de cak pis de nen.", "Spring is one quarter of the year."),
+
+    dr("u", "mi xo yo u xo cik. ki mas kok es min nis ho xo cik.", "My hand has five fingers. The shortest is called the thumb."),
+    dr("ses", "cun us gok yo ses sun gok.", "A carbon atom has six protons."),
+    dr("ci", "jen men des ke ci es ji ki se mas xi mas bes de me o ji.", "People say that seven is their favorite number more often than any other number."),
+    dr("ok", "en lek nao de je xas des guk yo ok yes o no.", "In modern computers, a byte has eight bits."),
+    dr("nai", "ji xe cik ki en bek de goi nes es nai hen men bes.", "The last digit of a price is very often nine."),
+    dr("das", "mi men gai yus das o das dos nis ji gen?", "Should we use ten or twelve as a numerical base?"),
+
+    dr("gas", "mi ce yo gas lun ki ca.", "My car has bad tires."),
+    dr("mu", "mu es yus we ki mak mu pen.", "Wood is used to make paper."),
+    dr("ik", "ik hoi mek as ik xok yos.", "An engine burns gasoline."),
+    dr("jin", "mi pas no yo jin ki go nis mai tek je to te.", "I didn't have enough money to buy the hat."),
+    dr("wa", "ni yao bin wa i sun gos pon a ni wa o?", "Do you want ice and lemon to put in your water?"),
+    dr("tu", "mi men ken ba tu pik de gon tu ge ni.", "We can give you a map of the park."),
 ];
 
 type Props = {
