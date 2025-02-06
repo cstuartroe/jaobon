@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 
 import {Root, ROOTS} from "./roots";
-import {MultiscriptText, multiscriptText} from "./AnnotatedText";
+import AnnotatedText, {MultiscriptText, multiscriptText} from "./AnnotatedText";
+import {DisplaySettings} from "./DisplaySettings";
 
 type DailyRoot = {
   root: Root,
@@ -58,6 +59,7 @@ export const DAILY_ROOTS: DailyRoot[] = [
 ];
 
 type Props = {
+  displaySettings: DisplaySettings,
 }
 
 type State = {
@@ -73,15 +75,34 @@ export default class DailyWords extends Component<Props, State> {
 
   render() {
     const json = JSON.stringify(DAILY_ROOTS, null, 2);
+
+    const usedRoots: Set<string> = new Set();
+    DAILY_ROOTS.forEach(root => {
+      usedRoots.add(root.root.syllable);
+    })
+    const unusedRoots: [number, Root][] = [];
+    ROOTS.forEach(root => {
+      if (!usedRoots.has(root.syllable)) {
+        unusedRoots.push([Math.random(), root]);
+      }
+    });
+    unusedRoots.sort();
+
     return (
-        <>
-          <p onClick={() => navigator.clipboard.writeText(json)} style={{cursor: "pointer"}}>Copy</p>
-          <p>
-            <pre>
-              {json}
-            </pre>
-          </p>
-        </>
+      <>
+        <p style={{paddingTop: "10px"}}>
+          {unusedRoots.length} unused roots:{' '}
+          <AnnotatedText
+            sentence={unusedRoots.map(([_, root]) => root.syllable).join(' ')}
+            displaySettings={this.props.displaySettings}
+            inline={true}
+          />
+        </p>
+        <p onClick={() => navigator.clipboard.writeText(json)} style={{cursor: "pointer"}}>Copy</p>
+        <pre>
+          {json}
+        </pre>
+      </>
     );
   }
 }

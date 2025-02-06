@@ -69,7 +69,7 @@ class App extends Component<{}, AppState> {
                                       <Route index element={<TextReader displaySettings={this.state.displaySettings}/>}/>
                                   </Route>
                                   <Route path={"/daily_words"}>
-                                      <Route index element={<DailyWords/>}/>
+                                      <Route index element={<DailyWords displaySettings={this.state.displaySettings}/>}/>
                                   </Route>
                               </Route>
                           </Routes>
