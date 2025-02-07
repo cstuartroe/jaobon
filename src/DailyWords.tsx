@@ -56,6 +56,13 @@ export const DAILY_ROOTS: DailyRoot[] = [
     dr("jin", "mi pas no yo jin ki go nis mai tek je to te.", "I didn't have enough money to buy the hat."),
     dr("wa", "ni yao bin wa i sun gos pon a ni wa o?", "Do you want ice and lemon to put in your water?"),
     dr("tu", "mi men ken ba tu pik de gon tu ge ni.", "We can give you a map of the park."),
+
+    dr("wai", "je hun wa ki yo wai yun sai es mas xi nis mi.", "The soup with cauliflower is my favorite."),
+    dr("gin", "sai gos ki no lis es gin mas bes.", "Unripe fruit is usually green."),
+    dr("kun", "gu xas jen men as yus kun jin mak mai jin.", "In old times people made money from gold."),
+    dr("hon", "pi de jin xin es jus jin sun hun, loi es hon.", "The surface of Mars is iron oxide, that's why it's red."),
+    dr("lan", "juk yek de nus ma i nan ma es lan, yek de cik mos ye lan.", "If the eyes of the mother and father are both blue, the eyes of their child must also be blue."),
+    dr("dak", "xok bok den es mas dak de me o luk ki mi pas bis.", "The inside of the cave is the darkest place I've ever been."),
 ];
 
 type Props = {

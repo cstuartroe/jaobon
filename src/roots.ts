@@ -781,7 +781,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "hai",
-        "still, yet, additional, surplus, also",
+        "still, yet, additional, surplus",
         ["adverb"],
         "还",
         [["Chinese", "还"]],
@@ -907,7 +907,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "i",
-        "and, also, add, again",
+        "and, add, again",
         ["coordinating conjunction"],
         "又",
         [["Spanish", "y"]],

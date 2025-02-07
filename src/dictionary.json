@@ -854,11 +854,11 @@
       },
       {
         "English": "pink",
-        "Jaobon": "wai hon"
+        "Jaobon": "wai hon, lan hon"
       },
       {
         "English": "purple",
-        "Jaobon": "lan hon"
+        "Jaobon": "hon lan"
       },
       {
         "English": "orange",
@@ -1969,7 +1969,7 @@
       },
       {
         "English": "money",
-        "Jaobon": "jin"
+        "Jaobon": "jin, mai jin"
       },
       {
         "English": "bill",
@@ -1977,7 +1977,7 @@
       },
       {
         "English": "coin",
-        "Jaobon": "jin cik"
+        "Jaobon": "jin pis"
       },
       {
         "English": "cash",
@@ -2704,6 +2704,10 @@
         "Jaobon": "lon tu"
       },
       {
+        "English": "cave",
+        "Jaobon": "xok bok"
+      },
+      {
         "English": "sky",
         "Jaobon": "ten"
       },
@@ -2814,11 +2818,11 @@
         "Jaobon": "xin"
       },
       {
-        "English": "mercury",
+        "English": "Mercury",
         "Jaobon": "wa xin"
       },
       {
-        "English": "venus",
+        "English": "Venus",
         "Jaobon": "ik xin"
       },
       {
@@ -2826,15 +2830,15 @@
         "Jaobon": "tu cok"
       },
       {
-        "English": "mars",
+        "English": "Mars",
         "Jaobon": "jin xin"
       },
       {
-        "English": "jupiter",
+        "English": "Jupiter",
         "Jaobon": "mu xin"
       },
       {
-        "English": "saturn",
+        "English": "Saturn",
         "Jaobon": "tu xin"
       },
       {
@@ -2914,6 +2918,18 @@
       {
         "English": "neutron",
         "Jaobon": "mes gok"
+      },
+      {
+        "English": "acid",
+        "Jaobon": "sun"
+      },
+      {
+        "English": "alkali",
+        "Jaobon": "ku"
+      },
+      {
+        "English": "oxide",
+        "Jaobon": "~ sun hun"
       }
     ]
   },
