@@ -1213,7 +1213,7 @@
       },
       {
         "English": "reptile",
-        "Jaobon": "xis, xis an, xis le"
+        "Jaobon": "sek gos xis"
       },
       {
         "English": "dinosaur",
@@ -1252,12 +1252,16 @@
         "Jaobon": "as tak yu"
       },
       {
+        "English": "arthropod",
+        "Jaobon": "cek con"
+      },
+      {
         "English": "spider",
         "Jaobon": "ok jao con"
       },
       {
         "English": "insect",
-        "Jaobon": "cek con"
+        "Jaobon": "ses jao con"
       },
       {
         "English": "butterfly",
@@ -1310,6 +1314,10 @@
       {
         "English": "crab",
         "Jaobon": "uk wa con"
+      },
+      {
+        "English": "amphibian",
+        "Jaobon": "wa gos xis"
       },
       {
         "English": "frog",

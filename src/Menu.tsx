@@ -56,6 +56,7 @@ export default class Menu extends Component<Props, State> {
                     <MenuItem label={'Syntax'} destination={'/syntax'}/>
                     <MenuItem label={'Dictionary'} destination={'/dictionary'}/>
                     <MenuItem label={'Texts'} destination={'/texts'}/>
+                    <MenuItem label={'Musings'} destination={'/musings'}/>
                 </div>
             </div>
         );

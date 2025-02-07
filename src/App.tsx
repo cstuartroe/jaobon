@@ -15,6 +15,9 @@ import TextReader, {TextList} from "./TextReader";
 import WritingSystems from "./WritingSystems";
 import Syntax from "./Syntax";
 import DailyWords from "./DailyWords";
+import Musings from "./Musings";
+import BasicSemanticSets from "./BasicSemanticSets";
+import TokiPonaCognates from "./TokiPonaCognates";
 
 type AppState = {
     displaySettings: DisplaySettings,
@@ -70,6 +73,15 @@ class App extends Component<{}, AppState> {
                                   </Route>
                                   <Route path={"/daily_words"}>
                                       <Route index element={<DailyWords displaySettings={this.state.displaySettings}/>}/>
+                                  </Route>
+                                  <Route path={"/musings"}>
+                                      <Route index element={<Musings/>}/>
+                                  </Route>
+                                  <Route path={"/musings/basic_semantic_sets"}>
+                                      <Route index element={<BasicSemanticSets displaySettings={this.state.displaySettings}/>}/>
+                                  </Route>
+                                  <Route path={"/musings/toki_pona_cognates"}>
+                                      <Route index element={<TokiPonaCognates/>}/>
                                   </Route>
                               </Route>
                           </Routes>

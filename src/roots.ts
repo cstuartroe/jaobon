@@ -16,6 +16,8 @@ type SourceLanguage =
     | "German"
     | "Vietnamese";
 
+export const NON_LATIN_LANGUAGES: SourceLanguage[] = ["Chinese", "Arabic", "Japanese", "Hindi", "Russian"];
+
 type Etymology = {
     language: SourceLanguage,
     word: string,
