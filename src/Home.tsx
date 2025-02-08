@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from "react-router-dom";
 
 type Props = {
 }
@@ -83,7 +84,7 @@ export default class Home extends Component<Props, State> {
               If you look at the root list, you may soon realize that <i>jao bon</i> means "foot-bottom"
               (<i>bon</i> being a relational noun), or, logically,
               the sole of the foot. Why would I name the language something so random?
-              In the <a href="https://app.memrise.com/course/409937/basic-jaobon/">first iteration of Jaobon</a>,{' '}
+              In the <Link to="/history">first iteration of Jaobon</Link>,{' '}
               <i>jao bon</i> was a direct calque of the name of Toki Pona, coming from Mandarin 叫 and Spanish{' '}
               <i>bueno</i>. In the next version, the meanings of most syllables were reassigned, and <i>jao bon</i>{' '}
               happened to now mean "foot-bottom"; I was charmed by the new semantics and decided not to rename the
