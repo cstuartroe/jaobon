@@ -18,6 +18,7 @@ import DailyWords from "./DailyWords";
 import Musings from "./Musings";
 import BasicSemanticSets from "./BasicSemanticSets";
 import TokiPonaCognates from "./TokiPonaCognates";
+import TextingSlang from "./TextingSlang";
 
 type AppState = {
     displaySettings: DisplaySettings,
@@ -82,6 +83,9 @@ class App extends Component<{}, AppState> {
                                   </Route>
                                   <Route path={"/musings/toki_pona_cognates"}>
                                       <Route index element={<TokiPonaCognates/>}/>
+                                  </Route>
+                                  <Route path={"/musings/texting_slang"}>
+                                      <Route index element={<TextingSlang displaySettings={this.state.displaySettings}/>}/>
                                   </Route>
                               </Route>
                           </Routes>

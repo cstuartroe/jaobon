@@ -271,6 +271,7 @@ export default class TokiPonaCognates extends Component<Props, State> {
         <p>
           By virtue of their similarly eclectic lexeme sourcing strategies, Jaobon and Toki Pona actually share a
           number of cognates - I've identified {COGNATES.length} pairs, many of which happen to be extremely common words.
+          A full one-eighth of <i>pu</i> words have a cognate in Jaobon!
           I developed Jaobon before I learned any
           Toki Pona, so all of these cognates are purely coincidence and/or convergent evolution, rather than
           conscious or subconscious influence from Toki Pona on Jaobon. I've split the cognate pairs up by

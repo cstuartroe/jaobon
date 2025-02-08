@@ -57,11 +57,12 @@ export type Root = {
     pos: PartOfSpeech[],
     etymologies: Etymology[],
     CJK: string,
+    singleConsonant?: string,
 }
 
 const usedCJK = new Set<string>();
 
-function root(syllable: string, definition: string, pos: PartOfSpeech[], CJK: string, etymologies: [SourceLanguage, string][]): [string, Root] {
+function root(syllable: string, definition: string, pos: PartOfSpeech[], CJK: string, etymologies: [SourceLanguage, string][], singleConsonant: string | undefined = undefined): [string, Root] {
     if (!validSyllableString(syllable)) {
         throw `Invalid syllable: ${syllable}`
     }
@@ -83,6 +84,7 @@ function root(syllable: string, definition: string, pos: PartOfSpeech[], CJK: st
             pos,
             CJK,
             etymologies: etymologies.map(([language, word], _) => ({language, word})),
+            singleConsonant,
         },
     ];
 }
@@ -129,6 +131,7 @@ export const ROOTS = new Map<string, Root>([
         ["voice particle"],
         "使",
         [["Spanish", "hacer"]],
+        "z",
     ),
     root(
         "ba",
@@ -136,6 +139,7 @@ export const ROOTS = new Map<string, Root>([
         ["transitive verb"],
         "把",
         [["Chinese", "把"]],
+        "b",
     ),
     root(
         "bai",
@@ -199,6 +203,7 @@ export const ROOTS = new Map<string, Root>([
         ["noun"],
         "次",
         [["Spanish", "vez"]],
+        "v",
     ),
     root(
         "bi",
@@ -381,6 +386,7 @@ export const ROOTS = new Map<string, Root>([
         ["transitive verb"],
         "请",
         [["Chinese", "请"]],
+        "c",
     ),
     root(
         "cis",
@@ -500,6 +506,7 @@ export const ROOTS = new Map<string, Root>([
         ["preposition", "linking particle"],
         "从",
         [["Spanish", "de"]],
+        "d",
     ),
     root(
         "dek",
@@ -605,6 +612,7 @@ export const ROOTS = new Map<string, Root>([
         ["preposition", "aspect particle"],
         "在",
         [["Spanish", "en"]],
+        "n",
     ),
     root(
         "es",
@@ -612,6 +620,7 @@ export const ROOTS = new Map<string, Root>([
         ["voice particle"],
         "是",
         [["Spanish", "es"], ["Spanish", "estar"]],
+        "s",
     ),
     root(
         "ga",
@@ -626,6 +635,7 @@ export const ROOTS = new Map<string, Root>([
         ["adverb"],
         "该",
         [["Chinese", "该"]],
+        "g",
     ),
     root(
         "gak",
@@ -836,6 +846,7 @@ export const ROOTS = new Map<string, Root>([
         ["adverb"],
         "很",
         [["Chinese", "很"]],
+        "h",
     ),
     root(
         "hes",
@@ -983,6 +994,7 @@ export const ROOTS = new Map<string, Root>([
         ["determiner"],
         "这",
         [["Chinese", "这"]],
+        "j",
     ),
     root(
         "jek",
@@ -1144,6 +1156,7 @@ export const ROOTS = new Map<string, Root>([
         ["determiner"],
         "何",
         [["Spanish", "qué"]],
+        "k",
     ),
     root(
         "kek",
@@ -1172,6 +1185,7 @@ export const ROOTS = new Map<string, Root>([
         ["relativizer"],
         "者",
         [["French", "qui"]],
+        "q",
     ),
     root(
         "kik",
@@ -1270,6 +1284,7 @@ export const ROOTS = new Map<string, Root>([
         ["intransitive verb"],
         "来",
         [["Chinese", "来"]],
+        "l",
     ),
     root(
         "lak",
@@ -1494,6 +1509,7 @@ export const ROOTS = new Map<string, Root>([
         ["pronoun"],
         "我",
         [["English", "me"], ["Spanish", "mí"]],
+        "m",
     ),
     root(
         "mik",
@@ -1816,6 +1832,7 @@ export const ROOTS = new Map<string, Root>([
         ["preposition", "aspect particle"],
         "过",
         [["English", "pass"], ["Spanish", "pasar"]],
+        "p",
     ),
     root(
         "pe",
@@ -2075,6 +2092,7 @@ export const ROOTS = new Map<string, Root>([
         ["pronoun"],
         "他",
         [["Chinese", "他"], ["Chinese", "她"], ["Chinese", "它"]],
+        "t",
     ),
     root(
         "tai",
@@ -2278,6 +2296,7 @@ export const ROOTS = new Map<string, Root>([
         ["noun"],
         "为",
         [["English", "way"], ["Chinese", "为"]],
+        "w",
     ),
     root(
         "wek",
@@ -2369,6 +2388,7 @@ export const ROOTS = new Map<string, Root>([
         ["noun"],
         "时",
         [["Chinese", "时间"], ["Chinese", "小时"]],
+        "x",
     ),
     root(
         "xai",
@@ -2593,6 +2613,7 @@ export const ROOTS = new Map<string, Root>([
         ["existential"],
         "有",
         [["Chinese", "有"]],
+        "y",
     ),
     root(
         "yoi",

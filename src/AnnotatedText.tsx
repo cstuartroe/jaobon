@@ -8,6 +8,13 @@ function capitalize(s: string): string {
     return s[0].toUpperCase() + s.slice(1);
 }
 
+function languageClassName(writingSystem: WritingSystem) {
+    if (writingSystem === "texting") {
+        return "roman";
+    }
+    return writingSystem;
+}
+
 type ACProps = {
     root: Root,
     displaySettings: DisplaySettings,
@@ -34,6 +41,8 @@ export class AnnotatedCharacter extends Component<ACProps, ACState> {
               } else {
                   return this.props.root.syllable;
               }
+          case "texting":
+              return this.props.root.singleConsonant || this.props.root.syllable;
           case "cjk":
               return this.props.root.CJK;
           case "dots":
@@ -51,7 +60,7 @@ export class AnnotatedCharacter extends Component<ACProps, ACState> {
           <span
               className={classNames([
                   "annotated",
-                  this.props.displaySettings.writingSystem,
+                  languageClassName(this.props.displaySettings.writingSystem),
                   {"tooltip-shown": this.state.tooltipShown}
               ])}
               onMouseEnter={() => this.setState({tooltipShown: true})}
@@ -86,6 +95,7 @@ const ProperNounBrackets: {[key in WritingSystem]: [string, string]} = {
     "cjk": ["《", "》"],
     "dots": ["<", ">"],
     "roman": ["", ""],
+    "texting": ["", ""],
 }
 
 type APNProps = {
@@ -99,16 +109,20 @@ class AnnotatedPN extends Component<APNProps, {}> {
     }
 
     render() {
-        const {displaySettings, pn} = this.props;
+        let {displaySettings, pn} = this.props;
         const [lbr, rbr] = ProperNounBrackets[displaySettings.writingSystem];
+
+        if (displaySettings.writingSystem === "texting") {
+            displaySettings = {...displaySettings, writingSystem: "roman"}
+        }
 
         return (
             <span className="proper-noun">
-                <span className={displaySettings.writingSystem}>{lbr}</span>
+                <span className={languageClassName(displaySettings.writingSystem)}>{lbr}</span>
                 {pn.roots.map((root, i) => (
                     <AnnotatedCharacter root={root} displaySettings={displaySettings} key={i} capitalize={i === 0}/>
                 ))}
-                <span className={displaySettings.writingSystem}>{rbr}</span>
+                <span className={languageClassName(displaySettings.writingSystem)}>{rbr}</span>
             </span>
         );
     }
@@ -251,6 +265,7 @@ export default function AnnotatedText(props: Props) {
                     let punct: string = "";
                     switch (props.displaySettings.writingSystem) {
                         case "roman":
+                        case "texting":
                             punct = piece;
                             break;
                         case "cjk":

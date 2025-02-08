@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {ROOTS} from "./roots";
 import {stringToSyllable, Syllable, syllableToDots} from "./syllables";
 
-export type WritingSystem = "roman" | "cjk" | "dots";
+export type WritingSystem = "roman" | "cjk" | "dots" | "texting";
 
 export type DisplaySettings = {
   writingSystem: WritingSystem,
