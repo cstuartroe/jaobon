@@ -1355,6 +1355,39 @@
     ]
   },
   {
+    "title": "Biology",
+    "entries": [
+      {
+        "English": "biology",
+        "Jaobon": "cun xes"
+      },
+      {
+        "English": "cell",
+        "Jaobon": "cun bao"
+      },
+      {
+        "English": "cell wall",
+        "Jaobon": "cun bao wo"
+      },
+      {
+        "English": "DNA/RNA",
+        "Jaobon": "jon xe"
+      },
+      {
+        "English": "chromosome",
+        "Jaobon": "jon buk"
+      },
+      {
+        "English": "bacteria, microorganism",
+        "Jaobon": "cun jun"
+      },
+      {
+        "English": "virus",
+        "Jaobon": "pek jon cik"
+      }
+    ]
+  },
+  {
     "title": "Transit",
     "entries": [
       {
@@ -2575,7 +2608,7 @@
       },
       {
         "English": "umbrella ",
-        "Jaobon": "han wa mek, to xan mek"
+        "Jaobon": "han wa gan"
       }
     ]
   },
@@ -2899,6 +2932,10 @@
   {
     "title": "Chemistry",
     "entries": [
+      {
+        "English": "chemistry",
+        "Jaobon": "us xes"
+      },
       {
         "English": "atom",
         "Jaobon": "us gok"
@@ -3738,7 +3775,7 @@
       },
       {
         "English": "turn, spin",
-        "Jaobon": "hoi, ces lun"
+        "Jaobon": "hoi, wis lun"
       },
       {
         "English": "build",

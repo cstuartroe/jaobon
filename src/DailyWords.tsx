@@ -63,6 +63,12 @@ export const DAILY_ROOTS: DailyRoot[] = [
     dr("hon", "pi de jin xin es jus jin sun hun, loi es hon.", "The surface of Mars is iron oxide, that's why it's red."),
     dr("lan", "juk yek de nus ma i nan ma es lan, yek de cik mos ye lan.", "If the eyes of the mother and father are both blue, the eyes of their child must also be blue."),
     dr("dak", "xok bok den es mas dak de me o luk ki mi pas bis.", "The inside of the cave is the darkest place I've ever been."),
+
+    dr("non", "en non tu mi men as non yan i wa poi.", "On the farm we raise goats and ducks."),
+    dr("wi", "juk tak, je an no as wi - jas we ta ak we ki pas mo.", "When it's afraid, the animal doesn't run away - it actually pretends to be dead."),
+    dr("bus", "ni jo bus as ca mi han wa gan o?", "Did you just break my umbrella on purpose?"),
+    dr("hoi", "me dos das nai ban son xas, mun hoi wis man lun.", "Every twenty-nine days, the moon completes an orbit."),
+    dr("nek", "je pek jon cik as ke mi nek den yo doi.", "This virus makes my throat hurt."),
 ];
 
 type Props = {

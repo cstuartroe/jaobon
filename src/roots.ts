@@ -291,7 +291,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "bus",
-        "seek, search, look for, want, aim, goal",
+        "seek, search, look for, want, aim, intentionally",
         ["transitive verb"],
         "找",
         [["Spanish", "buscar"]],
