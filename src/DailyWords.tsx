@@ -12,7 +12,11 @@ type DailyRoot = {
   }
 }
 
-function dr(rootStr: string, Jaobon: string, English: string): DailyRoot {
+function dr(rootStr: string, Jaobon: string, English: string): DailyRoot | null {
+  if (rootStr === "") {
+    return null;
+  }
+
   const root = ROOTS.get(rootStr);
 
   if (root === undefined) {
@@ -28,7 +32,7 @@ function dr(rootStr: string, Jaobon: string, English: string): DailyRoot {
   }
 }
 
-export const DAILY_ROOTS: DailyRoot[] = [
+export const DAILY_ROOTS: (DailyRoot | null)[] = [
     // NYD
     dr("nu", "je son kai nu nen!", "Today begins a new year!"),
 
@@ -69,6 +73,412 @@ export const DAILY_ROOTS: DailyRoot[] = [
     dr("bus", "ni jo bus as ca mi han wa gan o?", "Did you just break my umbrella on purpose?"),
     dr("hoi", "me dos das nai ban son xas, mun hoi wis man lun.", "Every twenty-nine days, the moon completes an orbit."),
     dr("nek", "je pek jon cik as ke mi nek den yo doi.", "This virus makes my throat hurt."),
+    dr("an", "mas men lak an yo cu cik ki cun.", "Most mammals give birth to live young."),
+
+    // Rabbit
+    dr("yon", "gak cik pas as yon a jos xan.", "The kitten jumped onto the table."),
+    dr("xek", "xek koi as he.", "Exercising is healthy."),
+    dr("jao", "mi men pas jao sen en cai luk co jon cai.", "We sat in the cafe drinking coffee."),
+    dr("tan", "mi cao xi tan en do jan.", "I really love lying in bed."),
+    dr("hai", "ji das un son pis mi pas hai tan en do jan.", "At 11:00 am I was still lying in bed."),
+    dr("yes", "mi pas yes mak ki ni won!", "I did do what you asked!"),
+
+    dr("li", "ta hun li a es en ke luk?", "Where will their wedding be?"),
+    dr("sun", "mas bes mi sao co poi gos i sun lak.", "I usually have eggs and yogurt for breakfast."),
+    dr("nao", "dak nao pak yo nao nik ki bik.", "Crows have large brains."),
+    dr("lao", "mi ma men no as lao ke mi sen en pai ce lon we.", "My parents don't allow me to ride the train alone."),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("ton", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    // Dragon
+    dr("cao", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    // Beltane
+    dr("so", "", ""),
+
+    // Snake
+    dr("xis", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("bai", "", ""),
+    dr("tao", "", ""),
+    dr("ban", "", ""),
+    dr("ji", "", ""),
+    dr("pai", "", ""),
+    dr("han", "", ""),
+
+    dr("i", "", ""),
+    dr("ca", "", ""),
+    dr("mon", "", ""),
+    dr("cek", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    // Horse
+    dr("hos", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("son", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    // Goat
+    dr("yan", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    // Lunasa
+    dr("pan", "", ""),
+
+    // Monkey
+    dr("hus", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    // Rooster
+    dr("poi", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    // Dog
+    dr("dok", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    // Samhain
+    dr("ao", "", ""),
+
+    // Pig
+    dr("pok", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    // Rat
+    dr("mus", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("nok", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    // Ox
+    dr("bak", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
+    dr("", "", ""),
 ];
 
 type Props = {
@@ -91,7 +501,12 @@ export default class DailyWords extends Component<Props, State> {
 
     const usedRoots: Set<string> = new Set();
     DAILY_ROOTS.forEach(root => {
-      usedRoots.add(root.root.syllable);
+      if (root !== null) {
+        if (usedRoots.has(root.root.syllable)) {
+          throw `Root used twice: ${root.root.syllable}`;
+        }
+        usedRoots.add(root.root.syllable);
+      }
     })
     const unusedRoots: [number, Root][] = [];
     ROOTS.forEach(root => {

@@ -327,7 +327,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "cao",
         "long, string, strip, ribbon, extreme",
-        ["adjective"],
+        ["adjective", "adverb"],
         "条",
         [["Chinese", "条"], ["Chinese", "超"]],
     ),
@@ -1302,7 +1302,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "lao",
-        "allow, let",
+        "allow, let, open",
         ["transitive verb"],
         "许",
         [["English", "allow"]],
@@ -1747,7 +1747,7 @@ export const ROOTS = new Map<string, Root>([
         "feminine, female",
         ["adjective"],
         "女",
-        [["Chinese", "女性"]],
+        [["Chinese", "女性"], ["Chinese", "女生"], ["Chinese", "女子"]],
     ),
     root(
         "nuk",
@@ -2364,7 +2364,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "won",
         "ask, request, question, problem, issue",
-        ["intransitive verb"],
+        ["transitive verb"],
         "问",
         [["Chinese", "问"]],
     ),

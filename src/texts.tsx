@@ -480,10 +480,10 @@ const texts = new Map<string, Text>([
           Bluesky
         </a>!
       </>,
-      lines: DAILY_ROOTS.map(dr => ({
+      lines: DAILY_ROOTS.map(dr => dr && ({
         jaobon: `${dr.root.syllable}: ${dr.example_sentence.Jaobon.roman}`,
         translation: `${dr.root.definition}: ${dr.example_sentence.English}`,
-      }))
+      })).filter(l => l !== null) as TextLine[],
     }]
 ]);
 

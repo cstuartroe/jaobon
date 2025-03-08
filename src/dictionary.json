@@ -403,6 +403,14 @@
         "Jaobon": "nok mes"
       },
       {
+        "English": "6:00 am",
+        "Jaobon": "ji ses son pis"
+      },
+      {
+        "English": "6:00 pm",
+        "Jaobon": "ji das ok son pis"
+      },
+      {
         "English": "now",
         "Jaobon": "je xas"
       },
@@ -547,7 +555,7 @@
       },
       {
         "English": "july",
-        "Jaobon": "mun xas xek"
+        "Jaobon": "mun xas ci"
       },
       {
         "English": "august",
@@ -1212,6 +1220,18 @@
         "Jaobon": "des pak"
       },
       {
+        "English": "corvid",
+        "Jaobon": "nao pak"
+      },
+      {
+        "English": "crow, raven",
+        "Jaobon": "dak nao pak"
+      },
+      {
+        "English": "magpie",
+        "Jaobon": "tek nao pak"
+      },
+      {
         "English": "reptile",
         "Jaobon": "sek gos xis"
       },
@@ -1538,6 +1558,10 @@
       {
         "English": "bar",
         "Jaobon": "sak luk"
+      },
+      {
+        "English": "cafe",
+        "Jaobon": "cai luk"
       },
       {
         "English": "park",
@@ -3731,7 +3755,7 @@
       },
       {
         "English": "pray",
-        "Jaobon": "won ten"
+        "Jaobon": "won a ten"
       },
       {
         "English": "win",
@@ -3759,7 +3783,7 @@
       },
       {
         "English": "open",
-        "Jaobon": "as lao"
+        "Jaobon": "as ke ~ lao"
       },
       {
         "English": "close",
@@ -3892,6 +3916,10 @@
       {
         "English": "climb",
         "Jaobon": "wak a ~ xan, ba ~ wak a xan"
+      },
+      {
+        "English": "steal",
+        "Jaobon": "gis tek"
       }
     ]
   },
