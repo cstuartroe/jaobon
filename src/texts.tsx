@@ -472,6 +472,17 @@ const texts = new Map<string, Text>([
       ],
     }],
     [
+      "turtle", {
+  title: "LCC11 Shirt Contribution",
+      description: "I contributed a phrase to the LCC11 shirt.",
+      lines: [
+        {
+          jaobon: "yo bes ki mi jek ton we de dun xis ki tan yo bon en xan, i mi yao ke o jen as yuk pon mi hao we.",
+          translation: "Sometimes I feel like a turtle on its back, and I need someone to help put me the right way up.",
+        }
+      ],
+    }],
+    [
       "rootaday", {
       title: "Jaobon Root A Day",
       description: <>
