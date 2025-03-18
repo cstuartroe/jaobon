@@ -1224,9 +1224,9 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "kok",
-        "short",
+        "short (in length, distance, duration)",
         ["adjective"],
-        "刻",
+        "短",
         [["Spanish", "corto"]],
     ),
     root(
@@ -2175,7 +2175,7 @@ export const ROOTS = new Map<string, Root>([
         "tok",
         "touch, feel, play (instrument)",
         ["transitive verb"],
-        "着",
+        "摸",
         [["Spanish", "tocar"]],
     ),
     root(
