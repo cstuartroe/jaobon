@@ -380,7 +380,7 @@
       },
       {
         "English": "morning",
-        "Jaobon": "sao xas, nun xan"
+        "Jaobon": "sao xas, nun cen"
       },
       {
         "English": "noon",
@@ -388,7 +388,7 @@
       },
       {
         "English": "afternoon",
-        "Jaobon": "nun bon"
+        "Jaobon": "nun bek"
       },
       {
         "English": "evening",
@@ -416,15 +416,15 @@
       },
       {
         "English": "later",
-        "Jaobon": "bon, loi"
+        "Jaobon": "bek, loi"
       },
       {
         "English": "day before yesterday",
-        "Jaobon": "xan xan son"
+        "Jaobon": "cen cen son"
       },
       {
         "English": "yesterday",
-        "Jaobon": "xan son"
+        "Jaobon": "cen son"
       },
       {
         "English": "today",
@@ -432,11 +432,11 @@
       },
       {
         "English": "tomorrow",
-        "Jaobon": "bon son"
+        "Jaobon": "bek son"
       },
       {
         "English": "day after tomorrow",
-        "Jaobon": "bon bon son"
+        "Jaobon": "bek bek son"
       },
       {
         "English": "date",
@@ -448,11 +448,11 @@
       },
       {
         "English": "before",
-        "Jaobon": "~ xan"
+        "Jaobon": "~ cen"
       },
       {
         "English": "after",
-        "Jaobon": "~ bon"
+        "Jaobon": "~ bek"
       }
     ]
   },

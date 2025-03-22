@@ -185,7 +185,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "bek",
-        "back, behind",
+        "back, behind, after",
         ["positional"],
         "后",
         [["English", "back"]],
@@ -256,7 +256,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "bon",
-        "under, bottom, bum, after",
+        "under, bottom, bum",
         ["positional"],
         "下",
         [["English", "bottom"], ["Chinese", "本"]],
@@ -354,7 +354,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "cen",
-        "front, face",
+        "front, face, before",
         ["positional"],
         "前",
         [["Chinese", "前"]],
@@ -2406,7 +2406,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "xan",
-        "top, over, above, up, before",
+        "top, over, above, up",
         ["positional"],
         "上",
         [["Chinese", "上"]],

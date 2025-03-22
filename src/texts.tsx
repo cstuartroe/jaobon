@@ -75,7 +75,7 @@ const texts = new Map<string, Text>([
           translation: "The sun is shining again.",
         },
         {
-          jaobon: "son tos lus bon son.",
+          jaobon: "son tos lus bek son.",
           translation: "The sun will shine tomorrow.",
         },
         {
@@ -223,7 +223,7 @@ const texts = new Map<string, Text>([
           translation: "The children ran after Jack.",
         },
         {
-          jaobon: "mi ken as hu xes bon.",
+          jaobon: "mi ken as hu xes bek.",
           translation: "I can play after school.",
         },
         {
@@ -251,7 +251,7 @@ const texts = new Map<string, Text>([
           translation: "The child waited at the door for her father.",
         },
         {
-          jaobon: "xan son nus cik ki es ki mas bik en dus cik pas ben no ken bus dao ta gak cik.",
+          jaobon: "cen son nus cik ki es ki mas bik en dus cik pas ben no ken bus dao ta gak cik.",
           translation: "Yesterday the oldest girl in the village lost her kitten.",
         },
         {
@@ -271,7 +271,7 @@ const texts = new Map<string, Text>([
           translation: "Is your sister coming for you?",
         },
         {
-          jaobon: "ni ken lai xan son o?",
+          jaobon: "ni ken lai bek son o?",
           translation: "Can you come tomorrow?",
         },
         {
@@ -299,7 +299,7 @@ const texts = new Map<string, Text>([
           translation: "Everybody knows about hunting.",
         },
         {
-          jaobon: "sao xas ki en lus ton bon ki hen yo son, mi men as cu wak a mon ga.",
+          jaobon: "sao xas ki en lus ton bek ki hen yo son, mi men as cu wak a mon ga.",
           translation: "On a sunny morning after the solstice we started for the mountains.",
         },
         {
@@ -315,7 +315,7 @@ const texts = new Map<string, Text>([
           translation: "The squirrel's nest was hidden by drooping boughs.",
         },
         {
-          jaobon: "xao sai jon pas sen en ten bin wa bon i hao wek xas ki cun son ki cun a lai.",
+          jaobon: "xao sai jon pas sen en ten bin wa bon i hao wek nis xas ki cun son ki cun a lai.",
           translation: "The little seeds waited patiently under the snow for the warm spring sun.",
         },
         {
@@ -467,7 +467,7 @@ const texts = new Map<string, Text>([
           translation: "Sit here by me.",
         },
         {
-          jaobon: "no des je gis cik a jen bon son xan.",
+          jaobon: "no des je gis cik a jen bek son cen.",
           translation: "Keep this secret until tomorrow.",
         },
         {

@@ -317,12 +317,12 @@ export default class Syntax extends Component<Props, State> {
                     of time: {text('son xas')} "day," {text('cek xas')} "minute," {text('sao xas')} "morning."
                     Some lexicalized terms for time have other head roots: {text('nen')} "year,"{' '}
                     {text('nun mes')} "noon," {text('xas gok')} "second." Units of time can be prefixed with{' '}
-                    {text('je')} "this" to refer to the current one: {text('je son xas')}, and {text('xan')}{' '}
-                    "above" and {text('bon')} "below" for the previous and next: {text('xan xin xas')} "last week,"{' '}
-                    {text('bon son xas')} "tomorrow." Two periods before or after can be expressed by doubling{' '}
-                    {text('xan')} or {text('bon')}, while two or more periods away can be expressed by inserting
-                    a number in between {text('xan')} or {text('bon')} and the time word:{' '}
-                    {text('xan xan son xas')} or {text('xan dos son xas')} "the day before yesterday, two days ago."
+                    {text('je')} "this" to refer to the current one: {text('je son xas')}, and {text('cen')}{' '}
+                    "in front" and {text('bek')} "behind" for the previous and next: {text('cen xin xas')} "last week,"{' '}
+                    {text('bek son xas')} "tomorrow." Two periods before or after can be expressed by doubling{' '}
+                    {text('cen')} or {text('bek')}, while two or more periods away can be expressed by inserting
+                    a number in between {text('cen')} or {text('bek')} and the time word:{' '}
+                    {text('cen cen son xas')} or {text('cen dos son xas')} "the day before yesterday, two days ago."
                     Time words can also be prefixed with {text('ke')} "what, which" to form an interrogative:{' '}
                     {text('ke nen')} "which year." Note also simply {text('ke xas')} "when."
                     Time words ending in {text('xas')} may have the {text('xas')} dropped when they are prefixed:{' '}
@@ -352,7 +352,7 @@ export default class Syntax extends Component<Props, State> {
 
                 <p>
                     A single prepositional or oblique phrase may come at the beginning of a clause, functioning as a
-                    topic: {text('je xas xan mi jek ke ni mas gao de mi')} "before now I thought
+                    topic: {text('je xas cen mi jek ke ni mas gao de mi')} "before now I thought
                     you were taller than me", {text('en kas den ja jen sen co wan')} "inside the house, the family
                     is eating dinner".
                 </p>
