@@ -430,6 +430,50 @@ const texts = new Map<string, Text>([
           jaobon: "je son es xin cik mun o?",
           translation: "Is today Monday?",
         },
+        {
+          jaobon: "me sai pen pas ka de mu sai o?",
+          translation: "Have all the leaves fallen from the tree?",
+        },
+        {
+          jaobon: "ni a ben lis jas xas o?",
+          translation: "Will you be ready on time?",
+        },
+        {
+          jaobon: "ni ken he mi as cu je des cik o?",
+          translation: "Will you send this message for me?",
+        },
+        {
+          jaobon: "ni wek nis mi o?",
+          translation: "Are you waiting for me?",
+        },
+        {
+          jaobon: "je es ji un gak cik de cu cik guk o?",
+          translation: "Is this the first kitten of the litter?",
+        },
+        {
+          jaobon: "je xu men es cao bik nis ni o?",
+          translation: "Are these shoes too big for you?",
+        },
+        {
+          jaobon: "wa lu es ke ji ho?",
+          translation: "How wide is the river?",
+        },
+        {
+          jaobon: "kus.",
+          translation: "Listen.",
+        },
+        {
+          jaobon: "lai sen en mi yak.",
+          translation: "Sit here by me.",
+        },
+        {
+          jaobon: "no des je gis cik a jen bon son xan.",
+          translation: "Keep this secret until tomorrow.",
+        },
+        {
+          jaobon: "lai wis mi men.",
+          translation: "Come with us.",
+        },
       ],
     }],
     ["lcc11", {

@@ -326,7 +326,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "cao",
-        "long, string, strip, ribbon, extreme",
+        "long, string, strip, ribbon, extreme, too",
         ["adjective", "adverb"],
         "条",
         [["Chinese", "条"], ["Chinese", "超"]],
