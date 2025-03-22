@@ -48,15 +48,15 @@ function corpusStats(texts: Text[]) {
     return out;
 }
 
-function getTotalRoots(frequencies: Map<Root, number>) {
+export function getTotalRoots(frequencies: Map<Root, number>) {
     return Array.from(frequencies.values()).reduce((a, b) => a + b, 0);
 }
 
-function sortedEntries<T>(map: Map<T, number>) {
+export function sortedEntries<T>(map: Map<T, number>) {
     return Array.from(map.entries()).sort((a, b) => b[1] - a[1])
 }
 
-function percent(count: number, total: number) {
+export function percent(count: number, total: number) {
     return Math.round(10000 * count / total)/100
 }
 
@@ -226,6 +226,8 @@ export default function TextReader(props: Props) {
     );
 }
 
+export const CORPUS_STATS = corpusStats(Array.from(texts.values()));
+
 type TLProps = {
     displaySettings: DisplaySettings,
 };
@@ -243,7 +245,7 @@ export class TextList extends Component<TLProps, {}> {
             <>
                 <h1>Texts</h1>
 
-                <FrequenciesTally stats={corpusStats(Array.from(texts.values()))}
+                <FrequenciesTally stats={CORPUS_STATS}
                                   collectionType={'corpus'} displaySettings={this.props.displaySettings}/>
 
                 {Array.from(texts.entries()).map(([textId, text], _) => (

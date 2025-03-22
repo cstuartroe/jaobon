@@ -21,6 +21,7 @@ import TokiPonaCognates from "./TokiPonaCognates";
 import TextingSlang from "./TextingSlang";
 import History from "./History";
 import Transliterate from "./Transliterate";
+import Zipf from "./Zipf";
 
 type AppState = {
     displaySettings: DisplaySettings,
@@ -91,6 +92,9 @@ class App extends Component<{}, AppState> {
                                   </Route>
                                   <Route path={"/musings/texting_slang"}>
                                       <Route index element={<TextingSlang displaySettings={this.state.displaySettings}/>}/>
+                                  </Route>
+                                  <Route path={"/musings/zipf"}>
+                                      <Route index element={<Zipf/>}/>
                                   </Route>
                                   <Route path={"/transliterate"}>
                                       <Route index element={<Transliterate/>}/>
