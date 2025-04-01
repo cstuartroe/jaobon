@@ -8,6 +8,7 @@ type DailyRoot = {
   root: Root,
   example_sentence: {
     English: string,
+    Jaobon_source: string,
     Jaobon: MultiscriptText,
   }
 }
@@ -27,6 +28,7 @@ function dr(rootStr: string, Jaobon: string, English: string): DailyRoot | null 
     root,
     example_sentence: {
       English,
+      Jaobon_source: Jaobon,
       Jaobon: multiscriptText(Jaobon),
     }
   }
@@ -100,16 +102,16 @@ export const DAILY_ROOTS: (DailyRoot | null)[] = [
     dr("las", "mi nus kek mos yus yek las.", "My sister needs glasses."),
     dr("puk", "hai no puk!", "No more war!"),
     dr("xo", "en je koi hu ni no es lao yus xo tok hu cok.", "In this sport you're not allowed to touch the ball with your hands."),
-    dr("bas", "", ""),
-    dr("wik", "", ""),
-    dr("pa", "", ""),
+    dr("bas", "bis xos kas no yo do luk ki bas je nok.", "The hotel doesn't have any vacant rooms for tonight."),
+    dr("wik", "bin coi bek, mi jao jek wik.", "My legs feel tired after skiing."),
+    dr("pa", "pa bos!", "Shush!"),
 
-    dr("", "", ""),
-    dr("", "", ""),
-    dr("", "", ""),
-    dr("", "", ""),
-    dr("", "", ""),
-    dr("", "", ""),
+    dr("gok", "xas gok pas i las xa gok ka.", "As seconds are passing, grains of sand are falling."),
+    dr("jai", "jai hon jao te guk de [bos ton] dus!", "Go Boston Red Sox!"),
+    dr("pos", "ta pos nis je wok guk hen yo pes.", "His position at that company is very important."),
+    dr("cas", "wes ki en mi xo cik pas cas i hen yo doi je xas.", "A bone in my finger broke and really hurts now."),
+    dr("co", "mi men lai nun co en je co kas.", "Let's go eat lunch in that restaurant."),
+    dr("goi", "yo jek pis ki hen goi.", "Some ideas are very valuable."),
 
     // Dragon
     dr("cao", "", ""),

@@ -536,7 +536,7 @@ const texts = new Map<string, Text>([
         </a>!
       </>,
       lines: DAILY_ROOTS.map(dr => dr && ({
-        jaobon: `${dr.root.syllable}: ${dr.example_sentence.Jaobon.roman}`,
+        jaobon: `${dr.root.syllable}: ${dr.example_sentence.Jaobon_source}`,
         translation: `${dr.root.definition}: ${dr.example_sentence.English}`,
       })).filter(l => l !== null) as TextLine[],
     }]

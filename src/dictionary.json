@@ -431,6 +431,10 @@
         "Jaobon": "je son"
       },
       {
+        "English": "tonight",
+        "Jaobon": "je nok"
+      },
+      {
         "English": "tomorrow",
         "Jaobon": "bek son"
       },
@@ -746,8 +750,8 @@
         "Jaobon": "pes pis tao ga, tao pes pis"
       },
       {
-        "English": "degree",
-        "Jaobon": "ji gok"
+        "English": "degree of temperature",
+        "Jaobon": "hok pis"
       }
     ]
   },
@@ -764,7 +768,7 @@
       },
       {
         "English": "weight",
-        "Jaobon": "pes nes"
+        "Jaobon": "pes"
       },
       {
         "English": "temperature",
@@ -773,6 +777,10 @@
       {
         "English": "length (spatial or duration)",
         "Jaobon": "cao nes"
+      },
+      {
+        "English": "distance",
+        "Jaobon": "ek nes"
       }
     ]
   },
@@ -1529,11 +1537,11 @@
       },
       {
         "English": "hotel",
-        "Jaobon": "bis xos luk"
+        "Jaobon": "bis xos kas"
       },
       {
         "English": "restaurant",
-        "Jaobon": "co luk"
+        "Jaobon": "co kas"
       },
       {
         "English": "farm",
@@ -1552,20 +1560,28 @@
         "Jaobon": "wok luk"
       },
       {
+        "English": "primary school",
+        "Jaobon": "xao xes luk"
+      },
+      {
+        "English": "secondary school",
+        "Jaobon": "mes xes luk"
+      },
+      {
         "English": "university",
         "Jaobon": "bik xes luk"
       },
       {
         "English": "nightclub",
-        "Jaobon": "nok uk luk"
+        "Jaobon": "nok uk kas"
       },
       {
         "English": "bar",
-        "Jaobon": "sak luk"
+        "Jaobon": "sak kas"
       },
       {
         "English": "cafe",
-        "Jaobon": "cai luk"
+        "Jaobon": "cai kas"
       },
       {
         "English": "park",
@@ -1585,18 +1601,18 @@
       },
       {
         "English": "cinema",
-        "Jaobon": "lus pik luk"
+        "Jaobon": "lus pik kas"
       },
       {
         "English": "library",
-        "Jaobon": "gon buk luk"
+        "Jaobon": "gon buk kas"
       },
       {
         "English": "hospital",
         "Jaobon": "he luk"
       },
       {
-        "English": "church",
+        "English": "church, temple",
         "Jaobon": "can ten luk"
       },
       {
@@ -2345,11 +2361,27 @@
       },
       {
         "English": "corn",
-        "Jaobon": "kun pan"
+        "Jaobon": "gan pan"
       },
       {
         "English": "rice",
         "Jaobon": "wa pan"
+      },
+      {
+        "English": "wheat, Triticeae",
+        "Jaobon": "bin pan"
+      },
+      {
+        "English": "barley",
+        "Jaobon": "duk bin pan"
+      },
+      {
+        "English": "rye",
+        "Jaobon": "dak bin pan"
+      },
+      {
+        "English": "oat",
+        "Jaobon": "hos pan"
       },
       {
         "English": "oil",
@@ -3321,7 +3353,7 @@
       },
       {
         "English": "heavy",
-        "Jaobon": "pes"
+        "Jaobon": "yo pes"
       },
       {
         "English": "light",
@@ -3433,7 +3465,7 @@
       },
       {
         "English": "important",
-        "Jaobon": "pes"
+        "Jaobon": "yo pes"
       },
       {
         "English": "famous",
@@ -3932,6 +3964,10 @@
       {
         "English": "await",
         "Jaobon": "wek nis"
+      },
+      {
+        "English": "ski",
+        "Jaobon": "bin coi"
       }
     ]
   },

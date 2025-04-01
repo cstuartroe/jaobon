@@ -404,7 +404,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "coi",
-        "float, drift",
+        "float, drift, slide, glide, smooth, effortless",
         ["intransitive verb"],
         "漂",
         [["Vietnamese", "trôi"]],
@@ -1857,7 +1857,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "pes",
-        "weight, mass, importance, heavy",
+        "weight, mass, importance",
         ["noun"],
         "重",
         [["Spanish", "peso"]],
