@@ -140,6 +140,8 @@ const charMappings = new Map<string, [string, string]>([
     [')', ['）', ')']],
     [':', ['：', ':']],
     ['-', ['—', '-']],
+    ['“', ['「', '"']],
+    ['”', ['」', '"']],
 ]);
 
 export function parseJaobon(sentence: string): (Root | ProperNoun | string)[] {
@@ -214,9 +216,14 @@ export type MultiscriptText = {roman: string, CJK: string}
 export function multiscriptText(sentence: string): MultiscriptText {
     let roman = "";
     let CJK = "";
+    const parsed = parseJaobon(sentence);
 
-    parseJaobon(sentence).forEach(piece => {
+    parsed.forEach((piece, i) => {
         if (typeof piece === "string") {
+            if (piece === '"') {
+                piece = (i > 0 && typeof parsed[i - 1] !== "string") ? "”" : "“"
+            }
+
             const pair = charMappings.get(piece);
             if (pair === undefined) {
                 console.error(`Unknown char: ${piece}`);
@@ -255,9 +262,15 @@ type Props = {
 }
 
 export default function AnnotatedText(props: Props) {
+    const parsed = parseJaobon(props.sentence);
+
     return <span className={props.inline ? "inline" : ""}>
-        {parseJaobon(props.sentence).map((piece, i)=> {
+        {parsed.map((piece, i)=> {
             if (typeof piece === "string") {
+                if (piece === '"') {
+                    piece = (i > 0 && typeof parsed[i - 1] !== "string") ? "”" : "“"
+                }
+
                 const pair = charMappings.get(piece);
                 if (pair === undefined) {
                     console.error(`Unknown char: ${piece}`);
