@@ -487,31 +487,31 @@ const texts = new Map<string, Text>([
       lines: [
         {
           jaobon: "duk pen lak an es gi to de gik guk nis mak des we!",
-          translation: "",
+          translation: "The pangolin is the leader of a language creation club!",
         },
         {
           jaobon: "ta as hao kus don des we de ek.",
-          translation: "",
+          translation: "It can listen to and understand foreign languages well.",
         },
         {
           jaobon: "men bes ta as pas me son pis kan lek nao ne, i hen yo pao nis en je luk mai jek pis.",
-          translation: "",
+          translation: "It often spends every hour looking at the internet, and is very skilled at exchanging ideas there.",
         },
         {
           jaobon: "ta duk pen yo ton we nis ki de wes pi lak an: juk es da hai no es soi.",
-          translation: "",
+          translation: "Its scales have the same purpose as those of the armadillo: if struck, they will not be wounded.",
         },
         {
           jaobon: "yo un bes ki je duk pen lak an pas as mak des we ki mas hao de me.",
-          translation: "",
+          translation: "Once, the pangolin made a language which was the best.",
         },
         {
           jaobon: "me xas je gik guk yak no yo gi to ki je we pek en me nao.",
-          translation: "",
+          translation: "The club has almost never had a leader who is so memorable.",
         },
         {
           jaobon: "jai duk pen lak an!",
-          translation: "",
+          translation: "Long live the pangolin!",
         },
       ],
     }],
