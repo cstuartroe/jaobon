@@ -2093,8 +2093,12 @@
         "Jaobon": "jon le"
       },
       {
-        "English": "gender, sexual orientation",
+        "English": "gender",
         "Jaobon": "jon hak"
+      },
+      {
+        "English": "sexual orientation",
+        "Jaobon": "jon yao"
       },
       {
         "English": "murder",
@@ -2211,6 +2215,14 @@
       {
         "English": "idea",
         "Jaobon": "jek pis"
+      },
+      {
+        "English": "meeting, conference",
+        "Jaobon": "jen ga"
+      },
+      {
+        "English": "postal service",
+        "Jaobon": "cu jik"
       }
     ]
   },
@@ -2560,11 +2572,11 @@
       },
       {
         "English": "pencil",
-        "Jaobon": "xok xe kos"
+        "Jaobon": "xok xe tuk"
       },
       {
         "English": "pen",
-        "Jaobon": "tus xe kos"
+        "Jaobon": "tus xe tuk"
       },
       {
         "English": "paper",
@@ -2741,7 +2753,7 @@
       },
       {
         "English": "post",
-        "Jaobon": "xe cik"
+        "Jaobon": "xe pis"
       },
       {
         "English": "message",
@@ -3918,7 +3930,7 @@
         "Jaobon": "xek"
       },
       {
-        "English": "sign",
+        "English": "sign (write signature)",
         "Jaobon": "xe min"
       },
       {
@@ -3968,6 +3980,14 @@
       {
         "English": "ski",
         "Jaobon": "bin coi"
+      },
+      {
+        "English": "attend",
+        "Jaobon": "sen en"
+      },
+      {
+        "English": "send",
+        "Jaobon": "cu"
       }
     ]
   },
