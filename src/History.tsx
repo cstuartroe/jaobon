@@ -210,7 +210,7 @@ export default class History extends Component<Props, State> {
         </p>
 
         <p>
-          Now Jaobon has a dictionary exceeding 1000 entries and a corpus of translations exceeding 1500 roots,
+          Now Jaobon has a dictionary exceeding 1000 entries and a corpus of translations exceeding 2000 roots,
           and is finally feeling like a mature, convincing, and presentable project.
           I think I accomplished the original goal of finding the number of roots that makes an oligoanalytic
           language "click" for me - where any fewer would feel cramped, but where I can't think of any root I'd like

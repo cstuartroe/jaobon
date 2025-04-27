@@ -625,6 +625,10 @@
       {
         "English": "Midwinter, Yule, Christmas",
         "Jaobon": "bin mes son"
+      },
+      {
+        "English": "birthday",
+        "Jaobon": "cu son"
       }
     ]
   },
@@ -1304,8 +1308,12 @@
         "Jaobon": "hon gok con"
       },
       {
+        "English": "hymenopteran",
+        "Jaobon": "sos con"
+      },
+      {
         "English": "bee",
-        "Jaobon": "sos pin con"
+        "Jaobon": "pin sos con"
       },
       {
         "English": "wasp",
@@ -1313,7 +1321,7 @@
       },
       {
         "English": "ant",
-        "Jaobon": "sos tu con"
+        "Jaobon": "tu son con"
       },
       {
         "English": "cricket",
@@ -1492,8 +1500,12 @@
         "Jaobon": "dus cik"
       },
       {
+        "English": "neighborhood",
+        "Jaobon": "kas yak, kas guk"
+      },
+      {
         "English": "house",
-        "Jaobon": "bi kas"
+        "Jaobon": "bi kas, ja kas"
       },
       {
         "English": "apartment",
@@ -2069,6 +2081,10 @@
         "Jaobon": "kos jin"
       },
       {
+        "English": "business",
+        "Jaobon": "mai nes"
+      },
+      {
         "English": "marriage",
         "Jaobon": "hun nes"
       },
@@ -2218,7 +2234,11 @@
       },
       {
         "English": "meeting, conference",
-        "Jaobon": "jen ga"
+        "Jaobon": "jen ga, des ga"
+      },
+      {
+        "English": "party, recreational event",
+        "Jaobon": "hu ga"
       },
       {
         "English": "postal service",
@@ -2284,7 +2304,7 @@
       },
       {
         "English": "beer",
-        "Jaobon": "pan sak"
+        "Jaobon": "gas sak"
       },
       {
         "English": "wine",
@@ -2332,7 +2352,7 @@
         "Jaobon": "pan bao"
       },
       {
-        "English": "pasta",
+        "English": "noodle",
         "Jaobon": "pan cao"
       },
       {
@@ -2685,6 +2705,10 @@
       {
         "English": "umbrella ",
         "Jaobon": "han wa gan"
+      },
+      {
+        "English": "hammer",
+        "Jaobon": "da gan"
       }
     ]
   },
@@ -2778,6 +2802,19 @@
       {
         "English": "byte",
         "Jaobon": "des guk"
+      }
+    ]
+  },
+  {
+    "title": "Musical instruments",
+    "entries": [
+      {
+        "English": "music instrument",
+        "Jaobon": "tun mek, tun kos"
+      },
+      {
+        "English": "piano, keyboard",
+        "Jaobon": "pai da tun mek"
       }
     ]
   },
@@ -3099,7 +3136,7 @@
       },
       {
         "English": "sodium",
-        "Jaobon": "sao jin"
+        "Jaobon": "yen jin"
       },
       {
         "English": "magnesium",
@@ -3385,7 +3422,7 @@
       },
       {
         "English": "bad",
-        "Jaobon": "ca"
+        "Jaobon": "ca, noi"
       },
       {
         "English": "pretty, handsome",

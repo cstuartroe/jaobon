@@ -351,7 +351,7 @@ const texts = new Map<string, Text>([
           translation: "Between the two lofty mountains lay a fertile valley.",
         },
         {
-          jaobon: "len nao sai so ki hon i gao pas kes en mes de hos pan sai.",
+          jaobon: "len nao sai so ki hon i gao pas kes en mes de bin pan sai.",
           translation: "Among the wheat grew tall red poppies.",
         },
         {

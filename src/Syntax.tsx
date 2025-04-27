@@ -353,7 +353,7 @@ export default class Syntax extends Component<Props, State> {
                 <p>
                     A single prepositional or oblique phrase may come at the beginning of a clause, functioning as a
                     topic: {text('je xas cen mi jek ke ni mas gao de mi')} "before now I thought
-                    you were taller than me", {text('en kas den ja jen sen co wan')} "inside the house, the family
+                    you were taller than me", {text('en kas den ja jen sen wan co')} "inside the house, the family
                     is eating dinner".
                 </p>
 

@@ -107,7 +107,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "ak",
         "act, behave, appear, seem, express",
-        ["intransitive verb"],
+        ["intransitive verb", "adverb"],
         "表",
         [["English", "act"]],
     ),
@@ -814,7 +814,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "hao",
-        "good, beneficial, pleasant, beautiful, just",
+        "good, beneficial, pleasant, just",
         ["adjective", "adverb"],
         "好",
         [["Chinese", "好"]],
@@ -1541,7 +1541,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "moi",
-        "soft, smooth, mild, easy, slight, relaxed",
+        "soft, smooth, mild",
         ["adjective"],
         "软",
         [["Spanish", "muelle"]],
@@ -2532,7 +2532,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "xus",
-        "comfortable, cozy, snug, relax",
+        "comfortable, cozy, snug, relaxed",
         ["adjective"],
         "舒",
         [["Chinese", "舒适"]],
