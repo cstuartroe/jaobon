@@ -1,9 +1,12 @@
 import React, { Component } from "react";
+import {Link} from "react-router-dom";
 import {BarElement, CategoryScale, Chart as ChartJS, Legend, LinearScale, LogarithmicScale, PointElement, Title, Tooltip} from "chart.js";
 import {Bar, Scatter} from "react-chartjs-2";
 
+import {ROOTS} from "./roots";
 import {CORPUS_STATS, getTotalRoots, sortedEntries} from "./TextReader";
-import {Link} from "react-router-dom";
+import AnnotatedText from "./AnnotatedText";
+import {DisplaySettings} from "./DisplaySettings";
 
 ChartJS.register(
   CategoryScale,
@@ -30,6 +33,7 @@ const options = {
 } as const;
 
 type Props = {
+  displaySettings: DisplaySettings,
 }
 
 type State = {
@@ -136,6 +140,16 @@ export default class Zipf extends Component<Props, State> {
             </li>
           ))}
         </ul>
+
+        <h2>Unused roots</h2>
+
+        <p>The following roots are as yet unused in texts on this site:</p>
+
+        <AnnotatedText
+          sentence={Array.from(ROOTS.values()).filter(root => !CORPUS_STATS.frequencies.has(root)).map(root => root.syllable).join(' ')}
+          displaySettings={this.props.displaySettings}
+          inline={false}
+        />
       </>
     );
   }

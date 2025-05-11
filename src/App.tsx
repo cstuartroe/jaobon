@@ -94,7 +94,7 @@ class App extends Component<{}, AppState> {
                                       <Route index element={<TextingSlang displaySettings={this.state.displaySettings}/>}/>
                                   </Route>
                                   <Route path={"/musings/zipf"}>
-                                      <Route index element={<Zipf/>}/>
+                                      <Route index element={<Zipf displaySettings={this.state.displaySettings}/>}/>
                                   </Route>
                                   <Route path={"/transliterate"}>
                                       <Route index element={<Transliterate/>}/>
