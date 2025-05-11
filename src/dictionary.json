@@ -53,7 +53,7 @@
       },
       {
         "English": "numeral/digit",
-        "Jaobon": "ji xe cik"
+        "Jaobon": "ji xe pis"
       },
       {
         "English": "0",
@@ -271,6 +271,10 @@
       {
         "English": "1/5",
         "Jaobon": "un de u pis"
+      },
+      {
+        "English": "3.14",
+        "Jaobon": "san gok un cak"
       },
       {
         "English": "percent",
@@ -2154,7 +2158,7 @@
       },
       {
         "English": "government",
-        "Jaobon": "gi jik"
+        "Jaobon": "gi jik, nas gi jik"
       },
       {
         "English": "parliament",
@@ -3241,7 +3245,7 @@
     "entries": [
       {
         "English": "letter",
-        "Jaobon": "xe cik"
+        "Jaobon": "xe pis"
       },
       {
         "English": "consonant",
@@ -4130,6 +4134,10 @@
       {
         "English": "suddenly",
         "Jaobon": "su we"
+      },
+      {
+        "English": "halfway, partially",
+        "Jaobon": "ban we"
       }
     ]
   },
