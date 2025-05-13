@@ -793,6 +793,51 @@
     ]
   },
   {
+    "title": "Fields of study",
+    "entries": [
+      {
+        "English": "mathematics",
+        "Jaobon": "ji xes"
+      },
+      {
+        "English": "physics",
+        "Jaobon": "kos xes"
+      },
+      {
+        "English": "chemistry",
+        "Jaobon": "us xes"
+      },
+      {
+        "English": "biology",
+        "Jaobon": "cun xes"
+      },
+      {
+        "English": "medicine, medical science",
+        "Jaobon": "he xes, koi xes"
+      },
+      {
+        "English": "linguistics, semiotics",
+        "Jaobon": "des xes"
+      },
+      {
+        "English": "geography",
+        "Jaobon": "tu cok xes"
+      },
+      {
+        "English": "economics",
+        "Jaobon": "mai xes"
+      },
+      {
+        "English": "literature studies",
+        "Jaobon": "gus les"
+      },
+      {
+        "English": "history",
+        "Jaobon": "gu gus xes"
+      }
+    ]
+  },
+  {
     "title": "Geometry",
     "entries": [
       {
@@ -1439,7 +1484,7 @@
         "Jaobon": "pai ce"
       },
       {
-        "English": "plane",
+        "English": "airplane",
         "Jaobon": "bo ce"
       },
       {
@@ -2158,7 +2203,7 @@
       },
       {
         "English": "government",
-        "Jaobon": "gi jik, nas gi jik"
+        "Jaobon": "gon jik, nas gi jik"
       },
       {
         "English": "parliament",
@@ -2292,6 +2337,23 @@
       {
         "English": "art",
         "Jaobon": "be jis"
+      }
+    ]
+  },
+  {
+    "title": "Sports",
+    "entries": [
+      {
+        "English": "soccer",
+        "Jaobon": "jao cok hu"
+      },
+      {
+        "English": "baseball",
+        "Jaobon": "gan cok hu"
+      },
+      {
+        "English": "golf",
+        "Jaobon": "tu cok hu"
       }
     ]
   },
@@ -2878,6 +2940,10 @@
   {
     "title": "Nature",
     "entries": [
+      {
+        "English": "nature",
+        "Jaobon": "nak ne"
+      },
       {
         "English": "rain",
         "Jaobon": "ten wa"
@@ -4109,11 +4175,11 @@
       },
       {
         "English": "because",
-        "Jaobon": "de we ki"
+        "Jaobon": "de ke"
       },
       {
         "English": "in order to",
-        "Jaobon": "we"
+        "Jaobon": "bus ke, bus"
       },
       {
         "English": "therefore",

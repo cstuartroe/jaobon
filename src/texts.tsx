@@ -4,6 +4,7 @@ import {DAILY_ROOTS} from "./DailyWords";
 type TextLine = {
   jaobon: string,
   translation: string,
+  image?: string,
 }
 
 export type Text = {
@@ -539,7 +540,107 @@ const texts = new Map<string, Text>([
         jaobon: `${dr.root.syllable}: ${dr.example_sentence.Jaobon_source}`,
         translation: `${dr.root.definition}: ${dr.example_sentence.English}`,
       })).filter(l => l !== null) as TextLine[],
-    }]
+    }],
+    [
+      "littleprince", {
+      title: "The Little Prince",
+      description: "by Antoine de Saint-Exupéry",
+      lines: [
+        {
+          jaobon: "xao gi cik",
+          translation: "The Little Prince",
+        },
+        {
+          jaobon: "un",
+          translation: "1"
+        },
+        {
+          jaobon: "xas ki mi yo ses nen, yo bes ki mi kan pik ki cao be ki en buk ki es min \"jas gus de nak ne\" ki " +
+            "nis mu tu de gen nak nes. je pik yo bao cao xis ki en co an. je bon mok pik de buk.",
+          translation: "Once when I was six years old I saw a magnificent picture in a book, called True Stories from Nature, " +
+            "about the primeval forest. It was a picture of a boa constrictor in the act of swallowing an animal. Here is a " +
+            "copy of the drawing.",
+          image: "littleprince/001.jpg",
+        },
+        {
+          jaobon: "buk des: bao cao xis as co an man we, no yus bok soi. loi ta no ken wak, i do pas ses mun xas ki mos " +
+            "yus tek us de an koi.",
+          translation: "In the book it said: \"Boa constrictors swallow their prey whole, without chewing it. After that " +
+            "they are not able to move, and they sleep through the six months that they need for digestion.\"",
+        },
+        {
+          jaobon: "loi mi sen jek xen we nis je jas gus de xen mu tu. i yus so xok xe tuk bek mi dao mak pik un bes. " +
+            "mi ji un pik. je bon mok je pik:",
+          translation: "I pondered deeply, then, over the adventures of the jungle. And after some work with a colored " +
+            "pencil I succeeded in making my first drawing. My Drawing Number One. It looked something like this:",
+          image: "littleprince/002.jpg",
+        },
+        {
+          jaobon: "mi as ke kes jen kan mi be pik, i won nis ke je pik as ke ta men tak o no.",
+          translation: "I showed my masterpiece to the grown-ups, and asked them whether the drawing frightened them.",
+        },
+        {
+          jaobon: "loi ta men han des: tak? ke we yo jen ki tak to te?",
+          translation: "But they answered: \"Frighten? Why should any one be frightened by a hat?\"",
+        },
+        {
+          jaobon: "mi pik no yo to te. je pik yo bao cao xis ki yo cao nos an en du. de ke kes jen no ken kan don ta, mi mak " +
+            "pik nu bes: mi xe pik nis bao cao xis den, bus ke kes jen ken kan don ta dan we. me bes mos yuk des nis gus a ta men. " +
+            "je bon mok mi ji dos pik:",
+          translation: "My drawing was not a picture of a hat. It was a picture of a boa constrictor digesting an elephant. But since\n" +
+            "the grown-ups were not able to understand it, I made another drawing: I drew the inside of a boa\n" +
+            "constrictor, so that the grown-ups could see it clearly. They always need to have things explained. My\n" +
+            "Drawing Number Two looked like this:",
+          image: "littleprince/003.jpg",
+        },
+        {
+          jaobon: "je bes kes jen han jes ke mi gai pon pik nis bao cao xis, nis pi o nis den, a la, i o we joi tu cok xes, " +
+            "gu gus xes, pun ji xes, i des ges. de je mi ki yo ses nen cu de wok pu de xe pik ki ken ben cao be. mi pe " +
+            "cos nes de ke mi ji un pik i ji dos pik dao ca. me bes kes jen no don gus lon we, i me bes me xas yuk des " +
+            "nis gus a kes jen hen as wik xao jen.",
+          translation: "The grown-ups' response, this time, was to advise me to lay aside my drawings of boa constrictors, " +
+            "whether from the inside or the outside, and devote myself instead to geography, history, arithmetic, and grammar. " +
+            "That is why, at the age of six, I gave up what might have been a magnificent career as a painter. I had been " +
+            "disheartened by the failure of my Drawing Number One and my Drawing Number Two. Grown-ups never understand " +
+            "anything by themselves, and it is tiresome for children to be always and forever explaining things to them.",
+        },
+        {
+          jaobon: "loi mi cus o wok pu i xes gi bo ce. me luk de cok man yo bes ki mi bo pas, i jas we " +
+            "tu cok xes hen yuk mi. mi ken su kan kon cek [mes tu nas] i [a li jo na pis]. juk nok xas no sa la ki gai " +
+            "a, je le sa nes hen yuk.",
+          translation: "So then I chose another profession, and learned to pilot airplanes. I have flown a little over " +
+            "all parts of the world; and it is true that geography has been very useful to me. At a glance I can " +
+            "distinguish China from Arizona. If one gets lost in the night, such knowledge is valuable.",
+        },
+        {
+          jaobon: "hen men bes de mi bi xas den mi kai kon hen men jen ki ak nis gus ki hen yo pes. men xas mi bi en mes " +
+            "de kes jen. mi pas kan ta men de hen yak, kon gus ki gis. i je no as gao ki mi jek nis ta men.",
+          translation: "In the course of this life I have had a great many encounters with a great many people who have " +
+            "been concerned with matters of consequence. I have lived a great deal among grown-ups. I have seen them " +
+            "intimately, close at hand. And that hasn't much improved my opinion of them.",
+        },
+        {
+          jaobon: "bes ki mi kai kon kes jen ki mi jek ke ta kan kos lin we, mi kao as ke ta kan mi ji un pik, ki mi " +
+            "man xas cuk. je we mi bus dao sa ke je jen kon gus jas we o no. i me bes me jen des je:",
+          translation: "Whenever I met one of them who seemed to me at all clear-sighted, I tried the experiment of " +
+            "showing him my Drawing Number One, which I have always kept. I would try to find out, so, if this was a " +
+            "person of true understanding. But, whoever it was, he, or she, would always say:",
+        },
+        {
+          jaobon: "je es to te.",
+          translation: "\"That is a hat.\"",
+        },
+        {
+          jaobon: "loi me bes mi no des a je jen nis bao cao xis o nis mu tu de gen nak nes o nis xin. mi pon se a los de " +
+            "ta. mi des a ta nis tek guk pen hu, i nis tu cok hu, i nis gon gi, i nis nek te. i je kes jen hen xi kai kon " +
+            "jen ki je we lis.",
+          translation: "Then I would never talk to that person about boa constrictors, or primeval forests, or stars. " +
+            "I would bring myself down to his level. I would talk to him about bridge, and golf, and politics, and " +
+            "neckties. And the grown-up would be greatly pleased to have met such a sensible man.",
+        },
+      ],
+    },
+    ],
 ]);
 
 export default texts;

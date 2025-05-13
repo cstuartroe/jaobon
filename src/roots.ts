@@ -488,8 +488,8 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "dao",
-        "arrive, until, up to",
-        ["preposition"],
+        "arrive, until, up to, succeed",
+        ["preposition", "adverb"],
         "到",
         [["Chinese", "到"]],
     ),

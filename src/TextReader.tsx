@@ -218,10 +218,13 @@ export default function TextReader(props: Props) {
 
             <FrequenciesTally stats={stats} collectionType={'text'} displaySettings={props.displaySettings}/>
 
-            {text.lines.map((line, i) => (
+            {text.lines.map((line, i) => <>
                 <TranslatedLine key={i} jaobon={line.jaobon} translation={line.translation} number={i+1}
                                 displaySettings={props.displaySettings}/>
-            ))}
+                {line.image && (
+                  <img className="inline-image" src={`/static/img/${line.image}`}/>
+                )}
+            </>)}
         </>
     );
 }
