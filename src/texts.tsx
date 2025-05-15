@@ -10,6 +10,7 @@ type TextLine = {
 export type Text = {
   title: string,
   description?: string | JSX.Element,
+  show_numbers?: boolean,
   lines: TextLine[],
 }
 
@@ -50,6 +51,7 @@ const texts = new Map<string, Text>([
         This is a translation of fiziwig's{' '}
         <a href="https://cofl.github.io/conlang/resources/mirror/conlang-syntax-test-cases.html">Conlang Syntax Test Cases</a>.
       </>,
+      show_numbers: true,
       lines: [
         {
           jaobon: "son tos lus.",
