@@ -292,7 +292,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "bus",
         "seek, search, look for, want, aim, intentionally",
-        ["transitive verb"],
+        ["transitive verb", "adverb"],
         "找",
         [["Spanish", "buscar"]],
     ),
@@ -453,7 +453,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "cus",
-        "choose, select",
+        "choose, select, decide",
         ["transitive verb"],
         "选",
         [["English", "choose"]],
@@ -2039,7 +2039,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "sok",
-        "lock, latch, secure",
+        "lock, latch, secure, certain",
         ["transitive verb"],
         "锁",
         [["Chinese", "锁定"], ["English", "secure"]],
@@ -2547,7 +2547,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "yai",
         "surprised, amazed, be surprised by",
-        ["transitive verb"],
+        ["intransitive verb"],
         "讶",
         [["Chinese", "讶异"]],
     ),

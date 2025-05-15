@@ -139,9 +139,10 @@ const charMappings = new Map<string, [string, string]>([
     ['(', ['（ ', '(']],
     [')', ['）', ')']],
     [':', ['：', ':']],
-    ['-', ['—', '-']],
+    ['-', ['–', '-']],
     ['“', ['「', '"']],
     ['”', ['」', '"']],
+    ['…', ['…', '...']],
 ]);
 
 export function parseJaobon(sentence: string): (Root | ProperNoun | string)[] {
@@ -221,7 +222,7 @@ export function multiscriptText(sentence: string): MultiscriptText {
     parsed.forEach((piece, i) => {
         if (typeof piece === "string") {
             if (piece === '"') {
-                piece = (i > 0 && typeof parsed[i - 1] !== "string") ? "”" : "“"
+                piece = (i > 0 && parsed[i - 1] !== " ") ? "”" : "“"
             }
 
             const pair = charMappings.get(piece);
@@ -268,7 +269,7 @@ export default function AnnotatedText(props: Props) {
         {parsed.map((piece, i)=> {
             if (typeof piece === "string") {
                 if (piece === '"') {
-                    piece = (i > 0 && typeof parsed[i - 1] !== "string") ? "”" : "“"
+                    piece = (i > 0 && parsed[i - 1] !== " ") ? "”" : "“"
                 }
 
                 const pair = charMappings.get(piece);
