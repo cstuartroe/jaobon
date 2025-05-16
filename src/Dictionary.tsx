@@ -32,8 +32,12 @@ export default class Dictionary extends Component<Props, State> {
     super(props);
     this.state = {
       open_sections: [],
-      search_term: "",
+      search_term: this.searchTerm(),
     };
+  }
+
+  searchTerm(): string {
+    return (new URLSearchParams(window.location.search)).get("q") || "";
   }
 
   searchBar() {
@@ -42,8 +46,17 @@ export default class Dictionary extends Component<Props, State> {
           <div className="col-12 col-md-8 offset-md-2" style={{position: "relative"}}>
             <input
                 type="text"
-                value={this.state.search_term}
-                onChange={(e) => this.setState({search_term: e.target.value})}
+                value={this.searchTerm()}
+                onChange={(e) => {
+                  const url = new URL(window.location.href);
+                  if (e.target.value == "") {
+                    url.searchParams.delete("q");
+                  } else {
+                    url.searchParams.set("q", e.target.value);
+                  }
+                  window.history.replaceState({}, "", url.toString());
+                  this.setState({search_term: e.target.value});
+                }}
                 style={{
                   width: "100%",
                 }}
@@ -57,7 +70,8 @@ export default class Dictionary extends Component<Props, State> {
   }
 
   body() {
-    const {open_sections, search_term} = this.state;
+    const {open_sections} = this.state;
+    const search_term = this.searchTerm();
 
     if (search_term.length > 0) {
       return dictionarySections.map(section => {
