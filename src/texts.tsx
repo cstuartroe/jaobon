@@ -587,7 +587,7 @@ const texts = new Map<string, Text>([
         },
         {
           jaobon: "mi pik no yo to te. je pik yo bao cao xis ki yo cao nos an en du. de ke kes jen men hai no ken kan don ta, mi mak " +
-            "pik nu bes: mi xe pik nis bao cao xis den, bus ke kes jen ken men kan don ta dan we. me bes mos yuk des nis gus a ta men. " +
+            "pik nu bes: mi xe pik nis bao cao xis den, bus ke kes jen men ken kan don ta dan we. me bes mos yuk des nis gus a ta men. " +
             "je bon mok mi ji dos pik:",
           translation: "My drawing was not a picture of a hat. It was a picture of a boa constrictor digesting an elephant. But since\n" +
             "the grown-ups were not able to understand it, I made another drawing: I drew the inside of a boa\n" +
@@ -597,7 +597,7 @@ const texts = new Map<string, Text>([
         },
         {
           jaobon: "je bes kes jen men han jes ke mi gai pon pik nis bao cao xis, nis pi o nis den, a la, i o we joi tu cok xes, " +
-            "gu gus xes, pun ji xes, i des ges. de je mi ki yo ses nen cu de wok pu nis xe pik ki ken ben cao be. mi pe " +
+            "gu gus xes, pun ji xes, i des ges. de je mi ki yo ses nen cu de wok pu nis tus pik ki ken ben cao be. mi pe " +
             "cos nes de ke mi ji un pik i ji dos pik dao ca. me bes kes jen no don gus lon we, i me bes me xas yuk des " +
             "nis gus a kes jen hen as wik xao jen.",
           translation: "The grown-ups' response, this time, was to advise me to lay aside my drawings of boa constrictors, " +
@@ -646,7 +646,7 @@ const texts = new Map<string, Text>([
         },
         {
           jaobon: "de je mi sen bi lon we i no yo jen ki jas we ken des a. je we mi sen cen de ke ses nen cen mi bo ce " +
-            "ben ca ka en [sa ha la] sek luk. yo kos ki ca en ik pao mek. de ke mi yak no yo bu mek jen i no yo sen ce jen, " +
+            "ben ca ka en [sa ha la] sek luk. yo kos ki ca en ik hoi mek. de ke mi yak no yo bu mek jen i no yo sen ce jen, " +
             "lon we mi kai bus bu ki pus. je es gus nis sen bi o mo: mi no yo wa ki go nis ses xin xas co.",
           translation: "So I lived my life alone, without anyone that I could really talk to, until I had an accident " +
             "with my plane in the Desert of Sahara, six years ago. Something was broken in my engine. And as I had with " +
@@ -684,7 +684,7 @@ const texts = new Map<string, Text>([
           image: "littleprince/004.gif",
         },
         {
-          jaobon: "i je hai no lai de ke mi ca. kes jen des ke mi gai pa wis wok pu nis mak pik xas ki yo ses nen, i mi pas " +
+          jaobon: "i je hai no lai de ke mi ca. kes jen des ke mi gai pa wis wok pu nis tus pik xas ki yo ses nen, i mi pas " +
             "no xes xe pik nis kos ki o nis bao cao xis pi i bao cao xis den.",
           translation: "That, however, is not my fault. The grown-ups discouraged me in my painter's career when I was " +
             "six years old, and I never learned to draw anything, except boas from the outside and boas from the inside.",
@@ -780,7 +780,7 @@ const texts = new Map<string, Text>([
           translation: "\"This one is too old. I want a sheep that will live a long time.\"",
         },
         {
-          jaobon: "je xas mi jo no yao hai mak, de ke mi yao su kai pon pis de ik pao mek a ek bus don. de je mi jo su mak je pik.",
+          jaobon: "je xas mi jo no yao hai mak, de ke mi yao su kai pon pis de ik hoi mek a ek bus don. de je mi jo su mak je pik.",
           translation: "By this time my patience was exhausted, because I was in a hurry to start taking my engine apart. " +
             "So I tossed off this drawing.",
           image: "littleprince/008.jpg",

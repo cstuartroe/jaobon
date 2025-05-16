@@ -461,6 +461,10 @@
       {
         "English": "after",
         "Jaobon": "~ bek"
+      },
+      {
+        "English": "ago",
+        "Jaobon": "~ bek"
       }
     ]
   },
@@ -800,6 +804,14 @@
         "Jaobon": "ji xes"
       },
       {
+        "English": "arithmetic",
+        "Jaobon": "pun ji xes"
+      },
+      {
+        "English": "calculus",
+        "Jaobon": "ben ji xes"
+      },
+      {
         "English": "physics",
         "Jaobon": "kos xes"
       },
@@ -825,7 +837,7 @@
       },
       {
         "English": "economics",
-        "Jaobon": "mai xes"
+        "Jaobon": "mai ne xes"
       },
       {
         "English": "literature studies",
@@ -1440,6 +1452,10 @@
       {
         "English": "tail",
         "Jaobon": "bek cao"
+      },
+      {
+        "English": "horn",
+        "Jaobon": "to pin"
       }
     ]
   },
@@ -1489,7 +1505,7 @@
       },
       {
         "English": "car",
-        "Jaobon": "ce, pu ce"
+        "Jaobon": "ce, pu ce, lun ce"
       },
       {
         "English": "truck",
@@ -1506,6 +1522,10 @@
       {
         "English": "boat, ship",
         "Jaobon": "wa ce"
+      },
+      {
+        "English": "raft",
+        "Jaobon": "coi kos"
       },
       {
         "English": "tire",
@@ -1770,6 +1790,10 @@
         "Jaobon": "xu"
       },
       {
+        "English": "scarf, necktie",
+        "Jaobon": "nek te"
+      },
+      {
         "English": "uniform",
         "Jaobon": "ton te"
       },
@@ -1989,7 +2013,11 @@
       },
       {
         "English": "crowd",
-        "Jaobon": "jen mon"
+        "Jaobon": "jen mon, jen guk"
+      },
+      {
+        "English": "passenger",
+        "Jaobon": "sen ce jen"
       }
     ]
   },
@@ -2085,8 +2113,12 @@
         "Jaobon": "lek nao xe jen"
       },
       {
-        "English": "job",
-        "Jaobon": "wok"
+        "English": "mechanic",
+        "Jaobon": "bu mek jen"
+      },
+      {
+        "English": "sailor",
+        "Jaobon": "wa ce jen"
       }
     ]
   },
@@ -2198,6 +2230,10 @@
         "Jaobon": "da"
       },
       {
+        "English": "politics",
+        "Jaobon": "gon gi, guk gi"
+      },
+      {
         "English": "election",
         "Jaobon": "cus bes"
       },
@@ -2219,7 +2255,7 @@
       },
       {
         "English": "news",
-        "Jaobon": "nu cu"
+        "Jaobon": "nu gus"
       },
       {
         "English": "advertisement",
@@ -2250,6 +2286,26 @@
         "Jaobon": "hu"
       },
       {
+        "English": "card game",
+        "Jaobon": "pen hu"
+      },
+      {
+        "English": "trick-taking card game",
+        "Jaobon": "tek guk pen hu"
+      },
+      {
+        "English": "job",
+        "Jaobon": "wok"
+      },
+      {
+        "English": "career",
+        "Jaobon": "wok pu"
+      },
+      {
+        "English": "occupation, job title",
+        "Jaobon": "wok le"
+      },
+      {
         "English": "contract",
         "Jaobon": "ton ges pen"
       },
@@ -2270,7 +2326,7 @@
         "Jaobon": "des pen"
       },
       {
-        "English": "science",
+        "English": "science, knowledge",
         "Jaobon": "sa nes"
       },
       {
@@ -2298,6 +2354,10 @@
   {
     "title": "Arts",
     "entries": [
+      {
+        "English": "art",
+        "Jaobon": "be jis"
+      },
       {
         "English": "music",
         "Jaobon": "tun"
@@ -2333,10 +2393,6 @@
       {
         "English": "pattern",
         "Jaobon": "pai nes"
-      },
-      {
-        "English": "art",
-        "Jaobon": "be jis"
       }
     ]
   },
@@ -2650,12 +2706,21 @@
     ]
   },
   {
-    "title": "Everyday nouns",
+    "title": "Abstract nouns",
     "entries": [
       {
         "English": "dream",
         "Jaobon": "do jek"
       },
+      {
+        "English": "mystery, secret",
+        "Jaobon": "gis gus"
+      }
+    ]
+  },
+  {
+    "title": "Everyday nouns",
+    "entries": [
       {
         "English": "pencil",
         "Jaobon": "xok xe tuk"
@@ -2663,6 +2728,14 @@
       {
         "English": "pen",
         "Jaobon": "tus xe tuk"
+      },
+      {
+        "English": "fountain pen",
+        "Jaobon": "ka tus xe tuk"
+      },
+      {
+        "English": "ballpoint pen",
+        "Jaobon": "cok tus xe tuk"
       },
       {
         "English": "paper",
@@ -2690,7 +2763,7 @@
       },
       {
         "English": "paint",
-        "Jaobon": "tus us, so us"
+        "Jaobon": "tus so"
       },
       {
         "English": "key",
@@ -2717,7 +2790,7 @@
         "Jaobon": "li kos, ge kos"
       },
       {
-        "English": "card",
+        "English": "greeting card",
         "Jaobon": "xe pen"
       },
       {
@@ -2922,6 +2995,10 @@
       {
         "English": "island",
         "Jaobon": "lon tu"
+      },
+      {
+        "English": "desert",
+        "Jaobon": "sek luk"
       },
       {
         "English": "cave",
@@ -3334,6 +3411,10 @@
         "Jaobon": "des pai"
       },
       {
+        "English": "grammar",
+        "Jaobon": "des ges"
+      },
+      {
         "English": "noun",
         "Jaobon": "min des pis"
       },
@@ -3371,7 +3452,7 @@
       },
       {
         "English": "conversation",
-        "Jaobon": "des lu"
+        "Jaobon": "des mai"
       }
     ]
   },
@@ -3981,6 +4062,10 @@
         "Jaobon": "xe pik"
       },
       {
+        "English": "paint",
+        "Jaobon": "tus co, tus pik"
+      },
+      {
         "English": "feed",
         "Jaobon": "ge co"
       },
@@ -4095,6 +4180,18 @@
       {
         "English": "send",
         "Jaobon": "cu"
+      },
+      {
+        "English": "explain",
+        "Jaobon": "yuk des"
+      },
+      {
+        "English": "reply",
+        "Jaobon": "han des"
+      },
+      {
+        "English": "meet, encounter, get to know",
+        "Jaobon": "kai kon"
       }
     ]
   },
@@ -4204,6 +4301,10 @@
       {
         "English": "halfway, partially",
         "Jaobon": "ban we"
+      },
+      {
+        "English": "carefully, seriously",
+        "Jaobon": "pes we"
       }
     ]
   },
