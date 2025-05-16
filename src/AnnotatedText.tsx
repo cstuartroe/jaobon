@@ -325,7 +325,7 @@ export function TranslatedLine(props: TLProps) {
                 )}
                 <AnnotatedText sentence={props.jaobon} displaySettings={props.displaySettings} inline={false}/>
             </p>
-            <p>{props.translation}</p>
+            <p>{(props.displaySettings.showTranslation === "show") && props.translation}</p>
         </div>
     );
 }

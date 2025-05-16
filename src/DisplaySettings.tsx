@@ -3,15 +3,18 @@ import {ROOTS} from "./roots";
 import {stringToSyllable, Syllable, syllableToDots} from "./syllables";
 
 export type WritingSystem = "roman" | "cjk" | "dots" | "texting";
+export type TranslationDisplay = "show" | "hide";
 
 export type DisplaySettings = {
   writingSystem: WritingSystem,
+  showTranslation: TranslationDisplay,
 }
 
-const displaySettingsKeys = ["writingSystem"] as const;
+const displaySettingsKeys = ["writingSystem", "showTranslation"] as const;
 
 const defaultDisplaySettings: DisplaySettings = {
   writingSystem: "roman",
+  showTranslation: "show",
 }
 
 function assignDisplaySetting<T extends keyof DisplaySettings>(key: T, value: DisplaySettings[T], settings: DisplaySettings) {
@@ -82,10 +85,18 @@ export class DisplaySettingsWidget extends Component<Props, State> {
     return (
       <div className="display-settings-widget">
         {this.radioButtons(
+          "showTranslation",
+          "Translations",
+          [
+            ["show", "show"],
+            ["hide", "hide"],
+          ]
+        )}
+        {this.radioButtons(
             "writingSystem",
             "Writing System",
             [
-              [<span className="roman">jao</span>, "roman"],
+                [<span className="roman">jao</span>, "roman"],
                 [<span className="cjk">{ROOTS.get('jao')?.CJK}</span>, "cjk"],
                 [<span className="dots">{syllableToDots(stringToSyllable('jao') as Syllable)}</span>, "dots"],
             ]

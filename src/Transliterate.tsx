@@ -37,7 +37,7 @@ export default class Transliterate extends Component<Props, State> {
 
             <div style={{height: "5vh"}}/>
 
-            <AnnotatedText sentence={this.state.latin_text} displaySettings={{writingSystem: "cjk"}} inline={false}/>
+            <AnnotatedText sentence={this.state.latin_text} displaySettings={{writingSystem: "cjk", showTranslation: "show"}} inline={false}/>
 
             <p
               onClick={() => navigator.clipboard.writeText(multiscriptText(this.state.latin_text).CJK)}
