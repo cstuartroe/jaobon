@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import {Root, ROOTS} from "./roots";
-import AnnotatedText, {MultiscriptText, multiscriptText} from "./AnnotatedText";
+import AnnotatedText, {isError, MultiscriptText, multiscriptText} from "./AnnotatedText";
 import {DisplaySettings} from "./DisplaySettings";
 
 type DailyRoot = {
@@ -24,12 +24,17 @@ function dr(rootStr: string, Jaobon: string, English: string): DailyRoot | null 
     throw "root not found";
   }
 
+  const text = multiscriptText(Jaobon);
+  if (isError(text)) {
+      throw text.message;
+  }
+
   return {
     root,
     example_sentence: {
       English,
       Jaobon_source: Jaobon,
-      Jaobon: multiscriptText(Jaobon),
+      Jaobon: text,
     }
   }
 }

@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import AnnotatedText, {multiscriptText} from "./AnnotatedText";
+import AnnotatedText, {isError, multiscriptText} from "./AnnotatedText";
 
 type Props = {}
 
@@ -40,7 +40,12 @@ export default class Transliterate extends Component<Props, State> {
             <AnnotatedText sentence={this.state.latin_text} displaySettings={{writingSystem: "cjk", showTranslation: "show"}} inline={false}/>
 
             <p
-              onClick={() => navigator.clipboard.writeText(multiscriptText(this.state.latin_text).CJK)}
+              onClick={() => {
+                const text = multiscriptText(this.state.latin_text);
+                if (!isError(text)) {
+                  navigator.clipboard.writeText(text.CJK)
+                }
+              }}
               style={{cursor: "pointer"}}
             >
               Copy

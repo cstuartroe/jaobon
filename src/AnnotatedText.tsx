@@ -4,6 +4,14 @@ import {stringToSyllable, syllableToDots} from "./syllables";
 import classNames from "classnames";
 import {WritingSystem, DisplaySettings} from "./DisplaySettings";
 
+type ParsingError = {
+    message: string;
+}
+
+export function isError(x: any): x is ParsingError {
+    return x.message !== undefined;
+}
+
 function capitalize(s: string): string {
     return s[0].toUpperCase() + s.slice(1);
 }
@@ -145,7 +153,7 @@ const charMappings = new Map<string, [string, string]>([
     ['…', ['…', '...']],
 ]);
 
-export function parseJaobon(sentence: string): (Root | ProperNoun | string)[] {
+export function parseJaobon(sentence: string): ParsingError | (Root | ProperNoun | string)[] {
     sentence = sentence.toLocaleLowerCase();
 
     const pieces: (Root | ProperNoun | string)[] = [];
@@ -159,7 +167,7 @@ export function parseJaobon(sentence: string): (Root | ProperNoun | string)[] {
         } else {
             if (typeof piece === "string") {
                 if (piece !== " ") {
-                    throw "Tried to include punctuation in proper noun";
+                    return {message: "Tried to include punctuation in proper noun"};
                 }
             } else {
                 currentProperNoun.roots.push(piece);
@@ -186,7 +194,7 @@ export function parseJaobon(sentence: string): (Root | ProperNoun | string)[] {
             currentWord += c;
         } else if (c === '[') {
             if (currentProperNoun !== undefined) {
-                throw "Nested brackets";
+                return {message: "Nested brackets"};
             }
             currentProperNoun = {
                 roots: [],
@@ -194,7 +202,7 @@ export function parseJaobon(sentence: string): (Root | ProperNoun | string)[] {
             pieces.push(currentProperNoun);
         } else if (c === ']') {
             if (currentProperNoun === undefined) {
-                throw "Unmatched bracket";
+                return {message: "Unmatched bracket"};
             }
             popWord();
             currentProperNoun = undefined;
@@ -206,7 +214,7 @@ export function parseJaobon(sentence: string): (Root | ProperNoun | string)[] {
     popWord();
 
     if (currentProperNoun !== undefined) {
-        throw "Unmatched brackets";
+        return {message: "Unmatched brackets"};
     }
 
     return pieces;
@@ -214,10 +222,13 @@ export function parseJaobon(sentence: string): (Root | ProperNoun | string)[] {
 
 export type MultiscriptText = {roman: string, CJK: string}
 
-export function multiscriptText(sentence: string): MultiscriptText {
+export function multiscriptText(sentence: string): ParsingError | MultiscriptText {
     let roman = "";
     let CJK = "";
     const parsed = parseJaobon(sentence);
+    if (isError(parsed)) {
+        return parsed;
+    }
 
     parsed.forEach((piece, i) => {
         if (typeof piece === "string") {
@@ -262,8 +273,11 @@ type Props = {
     inline: boolean,
 }
 
-export default function AnnotatedText(props: Props) {
+export default function AnnotatedText(props: Props): JSX.Element {
     const parsed = parseJaobon(props.sentence);
+    if (isError(parsed)) {
+        return <span style={{color: "red"}}>{parsed.message}</span>;
+    }
 
     return <span className={props.inline ? "inline" : ""}>
         {parsed.map((piece, i)=> {
