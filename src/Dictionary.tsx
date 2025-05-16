@@ -60,8 +60,8 @@ export default class Dictionary extends Component<Props, State> {
     const {open_sections, search_term} = this.state;
 
     if (search_term.length > 0) {
-      const matchingEntries: DictionaryEntry[] = [];
-      dictionarySections.forEach(section => {
+      return dictionarySections.map(section => {
+        const matchingEntries: DictionaryEntry[] = [];
         section.entries.forEach((entry) => {
           if (entry.Jaobon.toLowerCase().includes(search_term.toLowerCase())) {
             matchingEntries.push(entry);
@@ -69,11 +69,18 @@ export default class Dictionary extends Component<Props, State> {
             matchingEntries.push(entry);
           }
         })
-      })
 
-      return matchingEntries.map((entry, i) => (
-          <TranslatedLine key={i} jaobon={entry.Jaobon} translation={entry.English} displaySettings={this.props.displaySettings}/>
-      ));
+        if (matchingEntries.length == 0) {
+          return null;
+        }
+
+        return <div key={section.title}>
+          <h2>{section.title}</h2>
+          {matchingEntries.map((entry, i) => (
+            <TranslatedLine key={i} jaobon={entry.Jaobon} translation={entry.English} displaySettings={this.props.displaySettings}/>
+          ))}
+        </div>
+      });
     }
 
     return dictionarySections.map(s => (
