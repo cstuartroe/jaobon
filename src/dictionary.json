@@ -1989,7 +1989,7 @@
       },
       {
         "English": "friend",
-        "Jaobon": "mik jen"
+        "Jaobon": "mik, mik jen"
       },
       {
         "English": "boyfriend",
@@ -2332,10 +2332,6 @@
       {
         "English": "god",
         "Jaobon": "ten to"
-      },
-      {
-        "English": "idea",
-        "Jaobon": "jek pis"
       },
       {
         "English": "meeting, conference",
@@ -2702,6 +2698,10 @@
       {
         "English": "furniture",
         "Jaobon": "kas den kos"
+      },
+      {
+        "English": "string, rope",
+        "Jaobon": "cao, cao kos, in cao, tai cao"
       }
     ]
   },
@@ -2710,11 +2710,19 @@
     "entries": [
       {
         "English": "dream",
-        "Jaobon": "do jek"
+        "Jaobon": "do pik"
       },
       {
         "English": "mystery, secret",
         "Jaobon": "gis gus"
+      },
+      {
+        "English": "example, demonstration",
+        "Jaobon": "ju gus"
+      },
+      {
+        "English": "idea",
+        "Jaobon": "jek pis"
       }
     ]
   },
@@ -3117,6 +3125,10 @@
       {
         "English": "star",
         "Jaobon": "xin"
+      },
+      {
+        "English": "planet",
+        "Jaobon": "wak xin"
       },
       {
         "English": "Mercury",
@@ -3678,6 +3690,10 @@
       {
         "English": "dull",
         "Jaobon": "no kin"
+      },
+      {
+        "English": "funny",
+        "Jaobon": "yo jok, hao yo jok"
       }
     ]
   },
@@ -4211,7 +4227,7 @@
         "Jaobon": "no ken no"
       },
       {
-        "English": "actually",
+        "English": "actually, truly, honestly",
         "Jaobon": "jas we"
       },
       {

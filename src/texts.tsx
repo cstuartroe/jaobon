@@ -825,6 +825,147 @@ const texts = new Map<string, Text>([
           jaobon: "i je we mi kai kon xao gi cik.",
           translation: "And that is how I made the acquaintance of the little prince.",
         },
+        {
+          jaobon: "san",
+          translation: "3",
+        },
+        {
+          jaobon: "mi pas men xas cen de ke dao sa ke luk ki ta lai de. me bes xao gi cik, ki men bes won a mi, no ak " +
+            "we ki ta kus ki mi won a ta. de des pis ki no bus we cu, gok we len we mi dao sa me gus.",
+          translation: "It took me a long time to learn where he came from. The little prince, who asked me so many " +
+            "questions, never seemed to hear the ones I asked him. It was from words dropped by chance that, little by " +
+            "little, everything was revealed to me.",
+        },
+        {
+          jaobon: "un ju gus es ke ji un bes ki ta kan mi bo ce (mi no a xe pik nis mi bo ce; je cao pus nis mi), ta won a mi:",
+          translation: "The first time he saw my airplane, for instance (I shall not draw my airplane; that would be " +
+            "much too complicated for me), he asked me:",
+        },
+        {
+          jaobon: "\"je kos es ke?\"",
+          translation: "\"What is that object?\"",
+        },
+        {
+          jaobon: "\"je no jo es kos. je ken bo. je es mi bo ce.\"",
+          translation: "\"That is not an object. It flies. It is an airplane. It is my airplane.\"",
+        },
+        {
+          jaobon: "i mi yo gao hak nis ke ta sa ke mi ken bo.",
+          translation: "And I was proud to have him learn that I could fly.",
+        },
+        {
+          jaobon: "ta loi boi:",
+          translation: "He cried out, then:",
+        },
+        {
+          jaobon: "\"ke! ni pas ka de ten?\"",
+          translation: "\"What! You dropped down from the sky?\"",
+        },
+        {
+          jaobon: "\"yes.\" mi han des lo we.",
+          translation: "\"Yes,\" I answered, modestly.",
+        },
+        {
+          jaobon: "\"oi! je hao yo jok!\"",
+          translation: "\"Oh! That is funny!\"",
+        },
+        {
+          jaobon: "i xao gi cik kai ha be we, i je hen noi mi. mi yao ke mi doi es don pes we.",
+          translation: "And the little prince broke into a lovely peal of laughter, which irritated me very much. " +
+            "I like my misfortunes to be taken seriously.",
+        },
+        {
+          jaobon: "ta loi pon:",
+          translation: "Then he added:",
+        },
+        {
+          jaobon: "\"loi ni ye pas lai de ten! ke es wak xin de ni?\"",
+          translation: "\"So you, too, come from the sky! Which is your planet?\"",
+        },
+        {
+          jaobon: "je xas mi jo kan lus cik en je man gis nes de ta jen; i mi won, su bes:",
+          translation: "At that moment I caught a gleam of light in the impenetrable mystery of his presence; and I demanded, abruptly:",
+        },
+        {
+          jaobon: "\"ni pas lai de o wak xin o?\"",
+          translation: "\"Do you come from another planet?\"",
+        },
+        {
+          jaobon: "ta hai no han des. ta as yon ta to wen we, hai sen kan mi bo ce:",
+          translation: "But he did not reply. He tossed his head gently, without taking his eyes from my plane:",
+        },
+        {
+          jaobon: "\"jas we ni mos no pas lai de cao ek luk…\"",
+          translation: "\"It is true that on that you can't have come from very far away…\"",
+        },
+        {
+          jaobon: "i ta ben sen jek pas men xas. loi ta ba mi non yan de ta bao cik, i sen jek nis je bun hao pes we.",
+          translation: "And he sank into a reverie, which lasted a long time. Then, taking my sheep out of his pocket, " +
+            "he buried himself in the contemplation of his treasure.",
+        },
+        {
+          jaobon: "ni ken don ke we ki mi ben yao sa nis je ban cos nes nis \"o wak xin\". pao we mi loi bus mas sa nis je gus.",
+          translation: "You can imagine how my curiosity was aroused by this half-confidence about the \"other planets.\" " +
+            "I made a great effort, therefore, to find out more on this subject.",
+        },
+        {
+          jaobon: "\"mi xao cik, ni pas lai de ke luk? ke es je ki ni des \"mi bi luk\" nis? ni yao dai ni non yan a ke luk?\"",
+          translation: "\"My little man, where do you come from? What is this 'where I live,' of which you speak? " +
+            "Where do you want to take your sheep?\"",
+        },
+        {
+          jaobon: "yo xas ki ta no bos ak we ki jek, loi ta han des:",
+          translation: "After a reflective silence he answered:",
+        },
+        {
+          jaobon: "\"ki hao nis je jan bao ki ni pas ba ge mi es ke nok xas ta ken yus je nis bi kas.\"",
+          translation: "\"The thing that is so good about the box you have given me is that at night he can use it as his house.\"",
+        },
+        {
+          jaobon: "\"jas we. i juk ni hao mi a ba tai cao ye ge ni bus ke lus xas ni ken tai non yan, i ye mu ki ni ken tai ta en.\"",
+          translation: "\"That is so. And if you are good I will give you a string, too, so that you can tie him during " +
+            "the day, and a post to tie him to.\"",
+        },
+        {
+          jaobon: "xao gi cik hai ak we ki ta yai nis je ju gus.",
+          translation: "But the little prince seemed shocked by this offer:",
+        },
+        {
+          jaobon: "\"tai ta! je jek pis hao ao!\"",
+          translation: "\"Tie him! What a queer idea!\"",
+        },
+        {
+          jaobon: "mi des: \"juk ni no tai ta, ta no bus lu a o luk, i no ken hoi.\"",
+          translation: "\"But if you don't tie him,\" I said, \"he will wander off somewhere, and get lost.\"",
+        },
+        {
+          jaobon: "nu bes mi mik jen kai ha su we.",
+          translation: "My friend broke into another peal of laughter:",
+        },
+        {
+          jaobon: "\"i ni jek ke ta lu a ke luk?\"",
+          translation: "\"But where do you think he would go?\"",
+        },
+        {
+          jaobon: "\"me luk. a ta cen.\"",
+          translation: "\"Anywhere. Straight ahead of him.\"",
+        },
+        {
+          jaobon: "xao gi cik loi des jas we:",
+          translation: "Then the little prince said, earnestly:",
+        },
+        {
+          jaobon: "\"no yo pes. en mi bi luk, me kos hao xao.\"",
+          translation: "\"That doesn't matter. Where I live, everything is so small!\"",
+        },
+        {
+          jaobon: "i ta loi des we ki ken yo xao doi:",
+          translation: "And, with perhaps a hint of sadness, he added:",
+        },
+        {
+          jaobon: "\"a ta cen no ken wak a cao ek…\"",
+          translation: "\"Straight ahead of him, nobody can go very far…\"",
+        },
       ],
     },
     ],

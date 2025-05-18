@@ -653,7 +653,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "gao",
-        "tall, high, noble",
+        "tall, high, noble, proud",
         ["adjective"],
         "高",
         [["Chinese", "高"]],
@@ -793,7 +793,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "hai",
-        "still, yet, additional, surplus",
+        "still, yet, additional, surplus, but",
         ["adverb"],
         "还",
         [["Chinese", "还"]],
@@ -1372,7 +1372,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "lo",
-        "low, short",
+        "low, short, modest",
         ["adjective"],
         "矮",
         [["English", "low"]],
