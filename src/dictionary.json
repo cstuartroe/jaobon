@@ -1417,6 +1417,10 @@
         "Jaobon": "uk wa con"
       },
       {
+        "English": "starfish",
+        "Jaobon": "wa xin, u xo wa con"
+      },
+      {
         "English": "amphibian",
         "Jaobon": "wa gos xis"
       },
@@ -2542,8 +2546,16 @@
         "Jaobon": "sai jon"
       },
       {
+        "English": "Allium",
+        "Jaobon": "kin gen"
+      },
+      {
         "English": "onion",
-        "Jaobon": "kin sai"
+        "Jaobon": "cok kin gen"
+      },
+      {
+        "English": "garlic",
+        "Jaobon": "bao kin gen"
       },
       {
         "English": "carrot",
@@ -2552,6 +2564,10 @@
       {
         "English": "potato",
         "Jaobon": "tu gos"
+      },
+      {
+        "English": "cauliflower",
+        "Jaobon": "yun sai"
       },
       {
         "English": "tomato",
@@ -3060,6 +3076,10 @@
       {
         "English": "grass",
         "Jaobon": "mao sai"
+      },
+      {
+        "English": "mushroom",
+        "Jaobon": "on gos"
       },
       {
         "English": "soil",
@@ -4442,7 +4462,7 @@
       },
       {
         "English": "South Korea",
-        "Jaobon": "[yok ko li nas]"
+        "Jaobon": "[is ko li nas]"
       },
       {
         "English": "Spain",

@@ -1352,7 +1352,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "lik",
         "lightweight, fragile, weak, slight, minor",
-        ["adjective"],
+        ["adjective", "adverb"],
         "轻",
         [["Spanish", "ligero"]],
     ),
