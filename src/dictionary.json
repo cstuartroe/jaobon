@@ -2976,6 +2976,10 @@
       {
         "English": "candle",
         "Jaobon": "ik yos gan"
+      },
+      {
+        "English": "ladder",
+        "Jaobon": "xoi gan"
       }
     ]
   },
@@ -3000,7 +3004,7 @@
       },
       {
         "English": "television",
-        "Jaobon": "ek lus mek"
+        "Jaobon": "ek pik mek"
       },
       {
         "English": "telephone",
@@ -4319,7 +4323,7 @@
       },
       {
         "English": "lift",
-        "Jaobon": "ba ~ a xan"
+        "Jaobon": "ju, as xoi"
       },
       {
         "English": "strike/hit",
@@ -4347,7 +4351,7 @@
       },
       {
         "English": "climb",
-        "Jaobon": "wak a ~ xan, ba ~ wak a xan"
+        "Jaobon": "xoi, wak a ~ xan"
       },
       {
         "English": "steal",

@@ -3,7 +3,8 @@ import {AnnotatedCharacter, isError, isLiteral, isPN, parseJaobon, TranslatedLin
 import {DisplaySettings} from "./DisplaySettings";
 import {Link, useParams} from "react-router-dom";
 import React, {Component, useState} from "react";
-import texts, {Text} from "./texts";
+import {Text, Collection} from "./texts/types";
+import collections from "./texts/collections";
 import {Coda, Onset, stringToSyllable, Vowel} from "./syllables";
 
 type TextStats = {
@@ -200,14 +201,18 @@ type Props = {
 }
 
 export default function TextReader(props: Props) {
-    const { textId } = useParams();
+    const { textId, collectionId } = useParams();
 
-    if (textId === undefined) {
+    if (textId === undefined || collectionId === undefined) {
         return null;
     }
 
-    const text = texts.get(textId);
+    const collection = collections.find(c => c.slug == collectionId);
+    if (collection === undefined) {
+        return null;
+    }
 
+    const text = collection.texts.find(t => t.slug == textId);
     if (text === undefined) {
         return null;
     }
@@ -235,7 +240,7 @@ export default function TextReader(props: Props) {
     );
 }
 
-export const CORPUS_STATS = corpusStats(Array.from(texts.values()));
+export const CORPUS_STATS = corpusStats(Array.from(collections.reduce((l: Text[], c: Collection) => l.concat(c.texts), [])));
 
 type TLProps = {
     displaySettings: DisplaySettings,
@@ -257,8 +262,13 @@ export class TextList extends Component<TLProps, {}> {
                 <FrequenciesTally stats={CORPUS_STATS}
                                   collectionType={'corpus'} displaySettings={this.props.displaySettings}/>
 
-                {Array.from(texts.entries()).map(([textId, text], _) => (
-                    <h2 key={textId}><Link to={`/texts/${textId}`}>{text.title}</Link></h2>
+                {collections.map((collection, _) => (
+                  <>
+                      <h2 key={collection.slug}>{collection.title}</h2>
+                      {collection.texts.map(text => (
+                        <h3 key={text.slug}><Link to={`/texts/${collection.slug}/${text.slug}`}>{text.title}</Link></h3>
+                      ))}
+                  </>
                 ))}
             </>
         );

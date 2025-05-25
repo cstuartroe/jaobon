@@ -1223,7 +1223,7 @@ const triplets: [string, string, string | null][] = [
   ["block.minecraft.chiseled_stone_bricks", "Chiseled Stone Bricks", null],
   ["block.minecraft.chorus_flower", "Chorus Flower", null],
   ["block.minecraft.chorus_plant", "Chorus Plant", null],
-  ["block.minecraft.clay", "Clay", null],
+  ["block.minecraft.clay", "Clay", "moi tu"],
   ["block.minecraft.coal_block", "Block of Coal", null],
   ["block.minecraft.coal_ore", "Coal Ore", null],
   ["block.minecraft.coarse_dirt", "Coarse Dirt", "xa tu"],
@@ -1448,7 +1448,7 @@ const triplets: [string, string, string | null][] = [
   ["block.minecraft.jukebox", "Jukebox", null],
   ["block.minecraft.kelp", "Kelp", null],
   ["block.minecraft.kelp_plant", "Kelp Plant", null],
-  ["block.minecraft.ladder", "Ladder", "ba wo gan"],
+  ["block.minecraft.ladder", "Ladder", "xoi gan"],
   ["block.minecraft.lantern", "Lantern", null],
   ["block.minecraft.lapis_block", "Block of Lapis Lazuli", null],
   ["block.minecraft.lapis_ore", "Lapis Lazuli Ore", null],
@@ -3103,7 +3103,7 @@ const triplets: [string, string, string | null][] = [
   ["item.minecraft.bowl", "Bowl", "tas"],
   ["item.minecraft.bread", "Bread", "pan bao"],
   ["item.minecraft.brewing_stand", "Brewing Stand", null],
-  ["item.minecraft.brick", "Brick", null],
+  ["item.minecraft.brick", "Brick", "tan pis"],
   ["item.minecraft.brown_dye", "Brown Dye", null],
   ["item.minecraft.bucket", "Bucket", "bik tas"],
   ["item.minecraft.bundle", "Bundle", "te bao"],
@@ -3118,7 +3118,7 @@ const triplets: [string, string, string | null][] = [
   ["item.minecraft.chicken", "Raw Chicken", "poi nik ki no es kuk"],
   ["item.minecraft.chicken_spawn_egg", "Chicken Spawn Egg", "non gos de tu poi"],
   ["item.minecraft.chorus_fruit", "Chorus Fruit", null],
-  ["item.minecraft.clay_ball", "Clay Ball", null],
+  ["item.minecraft.clay_ball", "Clay Ball", "cok de moi tu"],
   ["item.minecraft.clock", "Clock", "xas mek"],
   ["item.minecraft.coal", "Coal", "cun xok"],
   ["item.minecraft.cocoa_beans", "Cocoa Beans", null],
@@ -3693,7 +3693,7 @@ const triplets: [string, string, string | null][] = [
   ["menu.returnToGame", "Back to Game", "hoi a hu"],
   ["menu.returnToMenu", "Save and Quit to Title", "cuk hu i hoi a cen pen"],
   ["menu.savingChunks", "Saving chunks", null],
-  ["menu.savingLevel", "Saving world", null],
+  ["menu.savingLevel", "Saving world", "en cuk je luk"],
   ["menu.sendFeedback", "Give Feedback", "han jes"],
   ["menu.shareToLan", "Open to LAN", "lao yak ne hu"],
   ["menu.singleplayer", "Singleplayer", "lon hu"],
@@ -4153,6 +4153,7 @@ const triplets: [string, string, string | null][] = [
   ["selectWorld.recreate.customized.title", "Customized worlds are no longer supported", null],
   ["selectWorld.recreate.error.text", "Something went wrong while trying to recreate a world.", null],
   ["selectWorld.recreate.error.title", "An error occurred!", null],
+  ["selectWorld.resource_load", "Preparing resources...", "en as lis bun gen…"],
   ["selectWorld.resultFolder", "Will be saved in:", null],
   ["selectWorld.search", "search for worlds", null],
   ["selectWorld.seedInfo", "Leave blank for a random seed", null],
@@ -5116,8 +5117,17 @@ const translations: Translation[] = triplets.filter(t => t[2] !== null).map(t =>
   Jaobon: t[2]!,
 }))
 
-const splashes: string[] = [
-  "cao xik!",
+const splashes: [string, string][] = [
+  ["As seen on TV!", "es kan en ek pik mek!"],
+  ["Awesome!", "cao xik!"],
+  ["100% pure!", "bai de bai pis es lin!"],
+  ["May contain nuts!", "ken yo nuk!"],
+  ["More polygons!", "men ji de la jan!"],
+  ["Less polygons!", "po ji de la jan!"],
+  ["Limited edition!", "toi guk ki a pa!"],
+  ["Flashing letters!", "xe ki xek!"],
+  ["It's here!", "pas dao!"],
+  ["Spiders everywhere!", "me luk yo ok jao con!"],
 ];
 
 export {translations, splashes};

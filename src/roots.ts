@@ -1358,7 +1358,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "lin",
-        "clean, clear",
+        "clean, clear, pure",
         ["adjective"],
         "洁",
         [["Spanish", "limpio"]],
@@ -2483,10 +2483,10 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "xoi",
-        "taxation, rent, revenue, cost",
-        ["noun"],
-        "税",
-        [["Chinese", "税"]],
+        "climb, ascend, rise, mount",
+        ["transitive verb"],
+        "升",
+        [["Japanese", "昇"], ["Spanish", "subir"]],
     ),
     root(
         "xok",

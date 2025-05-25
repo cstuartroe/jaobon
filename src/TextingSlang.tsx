@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {ROOTS} from "./roots";
 import {DisplaySettings} from "./DisplaySettings";
 import {AnnotatedCharacter, TranslatedLine} from "./AnnotatedText";
-import texts from "./texts";
+import collections from "./texts/collections";
 
 type Props = {
   displaySettings: DisplaySettings;
@@ -52,7 +52,7 @@ export default class TextingSlang extends Component<Props, State> {
           Here's what some text looks like using the abbreviations:
         </p>
 
-        {texts.get("lcc11")!.lines.map(((line, i) => (
+        {collections.find(c => c.slug === "lcc11")!.texts.find(t => t.slug === "prose_ring")!.lines.map(((line, i) => (
           <TranslatedLine
             key={i}
             jaobon={line.jaobon}

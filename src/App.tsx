@@ -72,7 +72,7 @@ class App extends Component<{}, AppState> {
                                   <Route path={"/texts"}>
                                       <Route index element={<TextList displaySettings={this.state.displaySettings}/>}/>
                                   </Route>
-                                  <Route path={"/texts/:textId"}>
+                                  <Route path={"/texts/:collectionId/:textId"}>
                                       <Route index element={<TextReader displaySettings={this.state.displaySettings}/>}/>
                                   </Route>
                                   <Route path={"/daily_words"}>

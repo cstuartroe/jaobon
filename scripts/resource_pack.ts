@@ -46,14 +46,14 @@ const mcmetaContent = {
 
 fs.mkdirSync(packDir, { recursive: true });
 fs.writeFileSync(packDir + "/pack.mcmeta", JSON.stringify(mcmetaContent, null, 2));
-fs.copyFileSync("./static/img/pack.png", packDir + "/pack.png")
+fs.copyFileSync("./static/img/minecraft/pack.png", packDir + "/pack.png");
 
 fs.mkdirSync(langDir, { recursive: true });
 fs.writeFileSync(langDir + "/jb_la.json", pairsJson(translations.map(t => [t.key, multiscriptTextRaiseError(t.Jaobon).roman.replace("…", "...")])));
 fs.writeFileSync(langDir + "/jb_zh.json", pairsJson(translations.map(t => [t.key, multiscriptTextRaiseError(t.Jaobon).CJK])));
 
 fs.mkdirSync(textsDir, { recursive: true });
-fs.writeFileSync(textsDir + "/splashes.txt", splashes.map(splash => {
+fs.writeFileSync(textsDir + "/splashes.txt", splashes.map(([translation, splash]) => {
     const mt = multiscriptTextRaiseError(splash);
     return `${mt.roman}\n${mt.CJK}\n`
-}).join(''))
+}).join(''));
