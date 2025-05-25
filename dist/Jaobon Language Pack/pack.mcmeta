@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 55,
+    "description": "Add Jaobon as a translation option"
+  },
+  "language": {
+    "jb_la": {
+      "name": "jao bon",
+      "region": "bos pis xe",
+      "bidirectional": false
+    },
+    "jb_zh": {
+      "name": "脚下",
+      "region": "言块写",
+      "bidirectional": false
+    }
+  }
+}

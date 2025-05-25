@@ -1,5 +1,6 @@
 import React from "react";
 import {DAILY_ROOTS} from "./DailyWords";
+import {translations} from "./minecraft";
 
 type TextLine = {
   jaobon: string,
@@ -15,7 +16,9 @@ export type Text = {
 }
 
 const texts = new Map<string, Text>([
-    ["north_wind", {
+  [
+    "north_wind",
+    {
       title: "The North Wind and the Sun",
       description: "A classic conlanger's translation.",
       lines: [
@@ -45,11 +48,14 @@ const texts = new Map<string, Text>([
         },
       ],
     }],
-    ["syntax_test", {
+  [
+    "syntax_test",
+    {
       title: "Syntax Test Cases",
       description: <>
         This is a translation of fiziwig's{' '}
-        <a href="https://cofl.github.io/conlang/resources/mirror/conlang-syntax-test-cases.html">Conlang Syntax Test Cases</a>.
+        <a href="https://cofl.github.io/conlang/resources/mirror/conlang-syntax-test-cases.html">Conlang Syntax Test
+          Cases</a>.
       </>,
       show_numbers: true,
       lines: [
@@ -97,7 +103,7 @@ const texts = new Map<string, Text>([
           jaobon: "me jen pas as bik bos.",
           translation: "All the people shouted.",
         },
-            {
+        {
           jaobon: "ji jen pas as bik bos.",
           translation: "Some of the people shouted.",
         },
@@ -105,7 +111,7 @@ const texts = new Map<string, Text>([
           jaobon: "men de je jen pas as bik bos dos bes.",
           translation: "Many of the people shouted twice.",
         },
-            {
+        {
           jaobon: "jen ki xi as bik bos men bes.",
           translation: "Happy people often shout.",
         },
@@ -479,7 +485,9 @@ const texts = new Map<string, Text>([
         },
       ],
     }],
-    ["lcc11", {
+  [
+    "lcc11",
+    {
       title: "LCC11 Conlang Relay Prose Ring",
       description: <>
         I participated in the{' '}
@@ -518,9 +526,10 @@ const texts = new Map<string, Text>([
         },
       ],
     }],
-    [
-      "turtle", {
-  title: "LCC11 Shirt Contribution",
+  [
+    "turtle",
+    {
+      title: "LCC11 Shirt Contribution",
       description: "I contributed a phrase to the LCC11 shirt.",
       lines: [
         {
@@ -529,8 +538,9 @@ const texts = new Map<string, Text>([
         }
       ],
     }],
-    [
-      "rootaday", {
+  [
+    "rootaday",
+    {
       title: "Jaobon Root A Day",
       description: <>
         Follow along over on{' '}
@@ -543,8 +553,9 @@ const texts = new Map<string, Text>([
         translation: `${dr.root.definition}: ${dr.example_sentence.English}`,
       })).filter(l => l !== null) as TextLine[],
     }],
-    [
-      "littleprince", {
+  [
+    "littleprince",
+    {
       title: "The Little Prince",
       description: "by Antoine de Saint-Exupéry",
       lines: [
@@ -655,7 +666,7 @@ const texts = new Map<string, Text>([
         },
         {
           jaobon: "ji un nok xas mi loi kai do en xa xan en tao tao ek pis de jen bi luk. mi es mas lon de wa ce jen ki " +
-            "pe ce i sen en coi kos ki en bik wa mes. de je ni ken jek nis pik nis mi yai nes nis ke son wak a xan xas " +
+            "pe ce i sen en coi kos ki en bik wa mes. de je ni ken jek nis pik nis mi yai nes nis ke xas ki son a xan " +
             "mi ben wek nis bos ki xao i ao. je bos des:",
           translation: "The first night, then, I went to sleep on the sand, a thousand miles from any human habitation. " +
             "I was more isolated than a shipwrecked sailor on a raft in the middle of the ocean. Thus you can imagine my " +
@@ -968,7 +979,19 @@ const texts = new Map<string, Text>([
         },
       ],
     },
-    ],
+  ],
+  [
+    "minecraft",
+    {
+      title: "Minecraft",
+      description: "Translations of Minecraft in-game text",
+      lines: (
+        translations
+          .filter(t => !t.key.startsWith("language."))
+          .map(t => ({jaobon: t.Jaobon, translation: t.English}))
+      ),
+    },
+  ],
 ]);
 
 export default texts;

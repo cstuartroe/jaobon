@@ -95,8 +95,16 @@ type ProperNoun = {
     roots: Root[],
 }
 
+type Literal = {
+    literal: string;
+}
+
 export function isPN(x: ProperNoun | Root): x is ProperNoun {
     return (x as ProperNoun).roots !== undefined;
+}
+
+export function isLiteral(x: any): x is Literal {
+    return (x as Literal).literal !== undefined;
 }
 
 const ProperNounBrackets: {[key in WritingSystem]: [string, string]} = {
@@ -153,15 +161,14 @@ const charMappings = new Map<string, [string, string]>([
     ['…', ['…', '...']],
 ]);
 
-export function parseJaobon(sentence: string): ParsingError | (Root | ProperNoun | string)[] {
-    sentence = sentence.toLocaleLowerCase();
-
-    const pieces: (Root | ProperNoun | string)[] = [];
+export function parseJaobon(sentence: string): ParsingError | (Root | ProperNoun | Literal | string)[] {
+    const pieces: (Root | ProperNoun | Literal | string)[] = [];
 
     let currentWord = "";
     let currentProperNoun: ProperNoun | undefined = undefined;
+    let inLiteral = false;
 
-    function pushPiece(piece: Root | string) {
+    function pushPiece(piece: Root | Literal | string) {
         if (currentProperNoun === undefined) {
             pieces.push(piece);
         } else {
@@ -169,6 +176,8 @@ export function parseJaobon(sentence: string): ParsingError | (Root | ProperNoun
                 if (piece !== " ") {
                     return {message: "Tried to include punctuation in proper noun"};
                 }
+            } else if (isLiteral(piece)) {
+                throw new Error("Proper noun cannot contain literal")
             } else {
                 currentProperNoun.roots.push(piece);
             }
@@ -177,20 +186,28 @@ export function parseJaobon(sentence: string): ParsingError | (Root | ProperNoun
 
     function popWord() {
         if (currentWord !== "") {
-            const root = ROOTS.get(currentWord);
-            if (root === undefined) {
-                console.error(`Unrecognized syllable: ${currentWord}`)
+            if (inLiteral) {
+                pushPiece({literal: currentWord});
             } else {
-                pushPiece(root);
+                const root = ROOTS.get(currentWord);
+                if (root === undefined) {
+                    console.error(`Unrecognized syllable: ${currentWord}`)
+                } else {
+                    pushPiece(root);
+                }
             }
-
             currentWord = "";
         }
     }
 
     for (let i = 0; i < sentence.length; i++) {
         const c = sentence[i];
-        if (c.match(/[a-z]/) !== null) {
+        if (c === '`') {
+            popWord();
+            inLiteral = !inLiteral;
+        } else if (inLiteral) {
+            currentWord += c;
+        } else if (c.match(/[a-z]/) !== null) {
             currentWord += c;
         } else if (c === '[') {
             if (currentProperNoun !== undefined) {
@@ -246,6 +263,9 @@ export function multiscriptText(sentence: string): ParsingError | MultiscriptTex
                     CJK += cjkPunct;
                 }
             }
+        } else if (isLiteral(piece)) {
+            roman += piece.literal;
+            CJK += piece.literal;
         } else if (isPN(piece)) {
             let romanPn = ""
             CJK += ProperNounBrackets["cjk"][0];
@@ -306,6 +326,8 @@ export default function AnnotatedText(props: Props): JSX.Element {
                     }
                     return <span className={props.displaySettings.writingSystem} key={i}>{punct}</span>;
                 }
+            } else if (isLiteral(piece)) {
+                return <span className={props.displaySettings.writingSystem} key={i}>{piece.literal}</span>;
             } else if (isPN(piece)) {
                 return <AnnotatedPN pn={piece} displaySettings={props.displaySettings} key={i}/>;
             } else {

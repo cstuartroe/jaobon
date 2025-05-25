@@ -164,7 +164,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "bao",
-        "bag, package, bundle; to cover, to wrap",
+        "bag, package, bundle, container; to cover, to wrap",
         ["transitive verb"],
         "包",
         [["Chinese", "包"]],
@@ -510,7 +510,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "dek",
-        "thin, slender",
+        "thin, slender, narrow",
         ["adjective"],
         "细",
         [["Spanish", "delgado"]],
@@ -920,7 +920,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "i",
-        "and, add, again",
+        "and",
         ["coordinating conjunction"],
         "又",
         [["Spanish", "y"]],
@@ -1075,7 +1075,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "jos",
-        "table, desk",
+        "table, desk, horizontal",
         ["noun"],
         "桌",
         [["Chinese", "桌子"]],
@@ -1217,7 +1217,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "koi",
-        "body, torso, corpse",
+        "body, torso, corpse, form, shape, three-dimensional object",
         ["noun"],
         "身",
         [["Spanish", "cuerpo"]]
@@ -2159,7 +2159,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "to",
-        "head, individual, chief",
+        "head, individual, chief, main",
         ["noun"],
         "头",
         [["Chinese", "头"]],

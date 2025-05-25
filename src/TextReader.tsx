@@ -1,5 +1,5 @@
 import {Root, ROOTS} from "./roots";
-import {AnnotatedCharacter, isError, isPN, parseJaobon, TranslatedLine} from "./AnnotatedText";
+import {AnnotatedCharacter, isError, isLiteral, isPN, parseJaobon, TranslatedLine} from "./AnnotatedText";
 import {DisplaySettings} from "./DisplaySettings";
 import {Link, useParams} from "react-router-dom";
 import React, {Component, useState} from "react";
@@ -26,6 +26,8 @@ function addText(stats: TextStats, text: Text) {
         }
         text.forEach(piece => {
             if (typeof piece === "string") {
+                return;
+            } else if (isLiteral(piece)) {
                 return;
             } else if (isPN(piece)) {
                 roots.push(...piece.roots);

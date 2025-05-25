@@ -303,6 +303,10 @@
       {
         "English": "numerical base, radix",
         "Jaobon": "ji gen"
+      },
+      {
+        "English": "infinity",
+        "Jaobon": "no mo ji"
       }
     ]
   },
@@ -776,7 +780,7 @@
       },
       {
         "English": "amount",
-        "Jaobon": "ji nes"
+        "Jaobon": "ji, men nes"
       },
       {
         "English": "weight",
@@ -810,6 +814,10 @@
       {
         "English": "calculus",
         "Jaobon": "ben ji xes"
+      },
+      {
+        "English": "statistics",
+        "Jaobon": "ga ji xes"
       },
       {
         "English": "physics",
@@ -885,8 +893,16 @@
         "Jaobon": "huk"
       },
       {
+        "English": "acute angle",
+        "Jaobon": "dek huk"
+      },
+      {
         "English": "right angle",
         "Jaobon": "mes huk"
+      },
+      {
+        "English": "obtuse angle",
+        "Jaobon": "ho huk"
       },
       {
         "English": "dot, point",
@@ -899,6 +915,10 @@
       {
         "English": "whole",
         "Jaobon": "man"
+      },
+      {
+        "English": "cube",
+        "Jaobon": "mes huk koi"
       }
     ]
   },
@@ -1270,7 +1290,7 @@
       },
       {
         "English": "chicken",
-        "Jaobon": "poi"
+        "Jaobon": "poi, tu poi"
       },
       {
         "English": "duck",
@@ -1382,7 +1402,7 @@
       },
       {
         "English": "ant",
-        "Jaobon": "tu son con"
+        "Jaobon": "tu sos con"
       },
       {
         "English": "cricket",
@@ -1449,6 +1469,10 @@
   {
     "title": "Animal body parts",
     "entries": [
+      {
+        "English": "feather",
+        "Jaobon": "mao gan"
+      },
       {
         "English": "wing",
         "Jaobon": "bo xo"
@@ -2319,7 +2343,7 @@
       },
       {
         "English": "price",
-        "Jaobon": "jin ji, goi nes"
+        "Jaobon": "xoi, jin ji, goi nes"
       },
       {
         "English": "psychoactive drug",
@@ -2454,6 +2478,30 @@
     "title": "Food",
     "entries": [
       {
+        "English": "food",
+        "Jaobon": "co kos"
+      },
+      {
+        "English": "oil",
+        "Jaobon": "yos"
+      },
+      {
+        "English": "starch, carbohydrate",
+        "Jaobon": "pan, pan us"
+      },
+      {
+        "English": "protein",
+        "Jaobon": "nik us"
+      },
+      {
+        "English": "salt",
+        "Jaobon": "yen"
+      },
+      {
+        "English": "sugar",
+        "Jaobon": "suk"
+      },
+      {
         "English": "egg",
         "Jaobon": "poi gos, pak gos"
       },
@@ -2483,7 +2531,11 @@
       },
       {
         "English": "cake",
-        "Jaobon": "suk pan"
+        "Jaobon": "gas suk pan"
+      },
+      {
+        "English": "pastry",
+        "Jaobon": "los suk pan"
       },
       {
         "English": "chicken",
@@ -2496,6 +2548,10 @@
       {
         "English": "beef",
         "Jaobon": "bak nik"
+      },
+      {
+        "English": "fruit",
+        "Jaobon": "sai gos"
       },
       {
         "English": "apple",
@@ -2512,6 +2568,10 @@
       {
         "English": "lemon",
         "Jaobon": "kun sun gos"
+      },
+      {
+        "English": "melon",
+        "Jaobon": "wa cok gos"
       },
       {
         "English": "corn",
@@ -2538,12 +2598,24 @@
         "Jaobon": "hos pan"
       },
       {
-        "English": "oil",
-        "Jaobon": "yos"
-      },
-      {
         "English": "seed",
         "Jaobon": "sai jon"
+      },
+      {
+        "English": "bean",
+        "Jaobon": "cao sai jon"
+      },
+      {
+        "English": "soybean",
+        "Jaobon": "nik us jon"
+      },
+      {
+        "English": "tofu",
+        "Jaobon": "jon cis"
+      },
+      {
+        "English": "tempeh",
+        "Jaobon": "on jon"
       },
       {
         "English": "Allium",
@@ -2559,7 +2631,7 @@
       },
       {
         "English": "carrot",
-        "Jaobon": "cao tu sai"
+        "Jaobon": "suk cao gen"
       },
       {
         "English": "potato",
@@ -2578,16 +2650,8 @@
         "Jaobon": "hok gos"
       },
       {
-        "English": "salt",
-        "Jaobon": "yen"
-      },
-      {
-        "English": "sugar",
-        "Jaobon": "suk"
-      },
-      {
-        "English": "food",
-        "Jaobon": "co kos"
+        "English": "pumpkin",
+        "Jaobon": "kun cok gos"
       }
     ]
   },
@@ -2668,8 +2732,12 @@
         "Jaobon": "wo las"
       },
       {
-        "English": "door",
+        "English": "doorway",
         "Jaobon": "wo ko"
+      },
+      {
+        "English": "door",
+        "Jaobon": "ko jan"
       },
       {
         "English": "bedroom",
@@ -2681,7 +2749,7 @@
       },
       {
         "English": "bathroom",
-        "Jaobon": "tos luk"
+        "Jaobon": "was luk"
       },
       {
         "English": "ceiling",
@@ -2739,11 +2807,23 @@
       {
         "English": "idea",
         "Jaobon": "jek pis"
+      },
+      {
+        "English": "resource",
+        "Jaobon": "bun gen"
+      },
+      {
+        "English": "permission",
+        "Jaobon": "lao nes"
+      },
+      {
+        "English": "information",
+        "Jaobon": "des nes"
       }
     ]
   },
   {
-    "title": "Everyday nouns",
+    "title": "Objects and tools",
     "entries": [
       {
         "English": "pencil",
@@ -2872,6 +2952,30 @@
       {
         "English": "hammer",
         "Jaobon": "da gan"
+      },
+      {
+        "English": "sword",
+        "Jaobon": "kin da gan"
+      },
+      {
+        "English": "shovel",
+        "Jaobon": "ju tu gan"
+      },
+      {
+        "English": "pickaxe",
+        "Jaobon": "soi xok gan"
+      },
+      {
+        "English": "axe",
+        "Jaobon": "cek mu gan"
+      },
+      {
+        "English": "hoe",
+        "Jaobon": "cek tu gan"
+      },
+      {
+        "English": "candle",
+        "Jaobon": "ik yos gan"
       }
     ]
   },
@@ -2965,6 +3069,18 @@
       {
         "English": "byte",
         "Jaobon": "des guk"
+      },
+      {
+        "English": "file",
+        "Jaobon": "des bun"
+      },
+      {
+        "English": "folder, directory",
+        "Jaobon": "bun bao"
+      },
+      {
+        "English": "font",
+        "Jaobon": "xe koi"
       }
     ]
   },
@@ -3072,6 +3188,10 @@
       {
         "English": "leaf",
         "Jaobon": "sai pen"
+      },
+      {
+        "English": "stick",
+        "Jaobon": "mu gan"
       },
       {
         "English": "grass",
@@ -3184,8 +3304,12 @@
     "title": "Materials",
     "entries": [
       {
+        "English": "material, substance",
+        "Jaobon": "us"
+      },
+      {
         "English": "glass",
-        "Jaobon": "las"
+        "Jaobon": "las, xa las"
       },
       {
         "English": "metal",
@@ -3209,15 +3333,35 @@
       },
       {
         "English": "clay",
-        "Jaobon": "wa tu"
+        "Jaobon": "moi tu"
       },
       {
-        "English": "dust",
+        "English": "dust, sand",
         "Jaobon": "xa"
       },
       {
-        "English": "material",
-        "Jaobon": "us"
+        "English": "charcoal",
+        "Jaobon": "kuk mu"
+      },
+      {
+        "English": "coal",
+        "Jaobon": "cun xok"
+      },
+      {
+        "English": "crystal",
+        "Jaobon": "las xok, pai xok"
+      },
+      {
+        "English": "diamond",
+        "Jaobon": "cun las"
+      },
+      {
+        "English": "leather",
+        "Jaobon": "an pi"
+      },
+      {
+        "English": "ceramic",
+        "Jaobon": "kuk tu"
       }
     ]
   },
@@ -3358,6 +3502,10 @@
         "Jaobon": "pao jin"
       },
       {
+        "English": "chromium",
+        "Jaobon": "so jin"
+      },
+      {
         "English": "iron",
         "Jaobon": "jus jin"
       },
@@ -3421,6 +3569,10 @@
       {
         "English": "letter",
         "Jaobon": "xe pis"
+      },
+      {
+        "English": "phoneme",
+        "Jaobon": "bos pis"
       },
       {
         "English": "consonant",
@@ -3903,7 +4055,7 @@
       },
       {
         "English": "cry",
-        "Jaobon": "doi can"
+        "Jaobon": "doi boi"
       },
       {
         "English": "buy",
@@ -4495,7 +4647,7 @@
     ]
   },
   {
-    "title": "Interjections",
+    "title": "Interjections and phrases",
     "entries": [
       {
         "English": "hey!",
@@ -4520,6 +4672,10 @@
       {
         "English": "what a pity!",
         "Jaobon": "yai ca!"
+      },
+      {
+        "English": "etc.",
+        "Jaobon": "i o"
       }
     ]
   }

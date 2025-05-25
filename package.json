@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "./node_modules/webpack-cli/bin/cli.js --mode development ./src/index.tsx",
-    "build": "./node_modules/webpack-cli/bin/cli.js --mode production ./src/index.tsx "
+    "build": "./node_modules/webpack-cli/bin/cli.js --mode production ./src/index.tsx",
+    "minecraft": "npx tsx scripts/resource_pack.ts"
   },
   "repository": {
     "type": "git",
@@ -47,6 +48,7 @@
   },
   "devDependencies": {
     "file-loader": "^6.2.0",
+    "tsx": "^4.19.4",
     "webpack-dev-server": "^5.2.1"
   }
 }
