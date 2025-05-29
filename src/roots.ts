@@ -467,7 +467,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "dai",
-        "support, carry, bring",
+        "support, carry, bring, wear",
         ["transitive verb"],
         "带",
         [["Chinese", "带"]],
