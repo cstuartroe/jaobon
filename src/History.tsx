@@ -54,7 +54,7 @@ export default class History extends Component<Props, State> {
           </a>{' '}
           of The North Wind and the Sun shows this off well: the roots which are more or less the same as their current
           versions include <i>bin</i>, <i>i</i>, <i>ke</i>, and <i>lai</i>, but overall the text is very different from
-          an <Link to="/texts/north_wind">up-to-date translation</Link>.
+          an <Link to="/texts/classics/north_wind">up-to-date translation</Link>.
         </p>
 
         <p>
@@ -210,7 +210,7 @@ export default class History extends Component<Props, State> {
         </p>
 
         <p>
-          Now Jaobon has a dictionary exceeding 1000 entries and a corpus of translations exceeding 2000 roots,
+          Now Jaobon has a dictionary exceeding 1000 entries and a corpus of translations exceeding 7000 roots,
           and is finally feeling like a mature, convincing, and presentable project.
           I think I accomplished the original goal of finding the number of roots that makes an oligoanalytic
           language "click" for me - where any fewer would feel cramped, but where I can't think of any root I'd like

@@ -934,7 +934,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "in",
-        "pull, stretch, extend, exaggerate",
+        "pull, stretch, extend, exaggerate, attract, tempt",
         ["transitive verb"],
         "引",
         [["Chinese", "引"]],
@@ -1138,7 +1138,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "kao",
-        "test, inspect, consider, try",
+        "test, inspect, consider, try, evaluate",
         ["transitive verb"],
         "考",
         [["Chinese", "考"]],
@@ -1217,7 +1217,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "koi",
-        "body, torso, corpse, form, shape, three-dimensional object",
+        "body, torso, corpse, form, (3D) shape",
         ["noun"],
         "身",
         [["Spanish", "cuerpo"]]
@@ -1386,7 +1386,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "lok",
-        "crazy",
+        "crazy, risky, imprudent, chaotic",
         ["adjective"],
         "狂",
         [["Spanish", "loco"]],
@@ -1457,7 +1457,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "man",
         "full, satisfied, complete, whole, entire",
-        ["adjective"],
+        ["adjective", "adverb"],
         "满",
         [["Chinese", "满"]],
     ),
@@ -2483,7 +2483,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "xoi",
-        "climb, ascend, rise, mount",
+        "climb, ascend, rise, mount, improve",
         ["transitive verb"],
         "升",
         [["Japanese", "昇"], ["Spanish", "subir"]],

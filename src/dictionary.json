@@ -372,15 +372,15 @@
       },
       {
         "English": "decade",
-        "Jaobon": "das nen"
+        "Jaobon": "nen das"
       },
       {
         "English": "century",
-        "Jaobon": "bai nen"
+        "Jaobon": "nen bai"
       },
       {
         "English": "millennium",
-        "Jaobon": "tao nen"
+        "Jaobon": "nen tao"
       },
       {
         "English": "daytime",
@@ -433,6 +433,10 @@
       {
         "English": "yesterday",
         "Jaobon": "cen son"
+      },
+      {
+        "English": "last night",
+        "Jaobon": "cen wan, cen nok"
       },
       {
         "English": "today",
@@ -878,7 +882,7 @@
       },
       {
         "English": "triangle",
-        "Jaobon": "san huk jan"
+        "Jaobon": "san huk jan, san la jan"
       },
       {
         "English": "polygon",
@@ -1552,6 +1556,10 @@
         "Jaobon": "wa ce"
       },
       {
+        "English": "spaceship",
+        "Jaobon": "xin ce"
+      },
+      {
         "English": "raft",
         "Jaobon": "coi kos"
       },
@@ -2147,6 +2155,10 @@
       {
         "English": "sailor",
         "Jaobon": "wa ce jen"
+      },
+      {
+        "English": "astronaut",
+        "Jaobon": "xin ce jen"
       }
     ]
   },
@@ -2372,6 +2384,10 @@
       {
         "English": "postal service",
         "Jaobon": "cu jik"
+      },
+      {
+        "English": "flag",
+        "Jaobon": "so te, gus so te, nas so te"
       }
     ]
   },
@@ -2393,10 +2409,6 @@
       {
         "English": "song",
         "Jaobon": "can"
-      },
-      {
-        "English": "instrument",
-        "Jaobon": "tun kos"
       },
       {
         "English": "movie",
@@ -2574,6 +2586,10 @@
         "Jaobon": "wa cok gos"
       },
       {
+        "English": "mango",
+        "Jaobon": "hak gos"
+      },
+      {
         "English": "corn",
         "Jaobon": "gan pan"
       },
@@ -2668,7 +2684,7 @@
       },
       {
         "English": "fork",
-        "Jaobon": "pin gan"
+        "Jaobon": "pai pin gan"
       },
       {
         "English": "chopsticks",
@@ -2765,7 +2781,7 @@
       },
       {
         "English": "staircase",
-        "Jaobon": "wak pai"
+        "Jaobon": "xoi pai"
       },
       {
         "English": "floor (ground)",
@@ -2819,6 +2835,14 @@
       {
         "English": "information",
         "Jaobon": "des nes"
+      },
+      {
+        "English": "desire, plan",
+        "Jaobon": "yao gus"
+      },
+      {
+        "English": "review, appraisal",
+        "Jaobon": "kao jes"
       }
     ]
   },
@@ -2958,6 +2982,10 @@
         "Jaobon": "kin da gan"
       },
       {
+        "English": "spear",
+        "Jaobon": "pin gan"
+      },
+      {
         "English": "shovel",
         "Jaobon": "ju tu gan"
       },
@@ -2980,6 +3008,10 @@
       {
         "English": "ladder",
         "Jaobon": "xoi gan"
+      },
+      {
+        "English": "wallet, money purse",
+        "Jaobon": "jin bao"
       }
     ]
   },
@@ -3085,6 +3117,14 @@
       {
         "English": "font",
         "Jaobon": "xe koi"
+      },
+      {
+        "English": "credit/debit card",
+        "Jaobon": "lek jin pen"
+      },
+      {
+        "English": "elevator",
+        "Jaobon": "xoi mek"
       }
     ]
   },
@@ -3637,6 +3677,10 @@
       {
         "English": "language",
         "Jaobon": "des we"
+      },
+      {
+        "English": "mother tongue, native/heritage language",
+        "Jaobon": "ma des we"
       },
       {
         "English": "conversation",
@@ -4384,11 +4428,15 @@
       {
         "English": "meet, encounter, get to know",
         "Jaobon": "kai kon"
+      },
+      {
+        "English": "fish, go fishing",
+        "Jaobon": "in yu"
       }
     ]
   },
   {
-    "title": "Adverbs",
+    "title": "Adverbs and conjunctions",
     "entries": [
       {
         "English": "probably",
@@ -4459,8 +4507,16 @@
         "Jaobon": "dao"
       },
       {
-        "English": "soon",
+        "English": "soon, recently",
         "Jaobon": "yak xas"
+      },
+      {
+        "English": "recently",
+        "Jaobon": "je kok cen"
+      },
+      {
+        "English": "soon",
+        "Jaobon": "je kok bek"
       },
       {
         "English": "because",
@@ -4497,6 +4553,10 @@
       {
         "English": "carefully, seriously",
         "Jaobon": "pes we"
+      },
+      {
+        "English": "so ... that",
+        "Jaobon": "go ~ jo"
       }
     ]
   },
