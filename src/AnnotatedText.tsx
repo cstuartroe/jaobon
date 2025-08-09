@@ -107,6 +107,8 @@ type APNProps = {
   displaySettings: DisplaySettings,
 }
 
+const vowels = ["a", "e", "i", "o", "u"];
+
 function AnnotatedPN({pn, displaySettings}: APNProps) {
   const [lbr, rbr] = ProperNounBrackets[displaySettings.writingSystem];
 
@@ -114,12 +116,19 @@ function AnnotatedPN({pn, displaySettings}: APNProps) {
     displaySettings = {...displaySettings, writingSystem: "roman"}
   }
 
+  const roots: (JSX.Element | string)[] = [];
+  pn.roots.forEach((root, i) => {
+    if (displaySettings.writingSystem === "roman" && i !== 0 && vowels.includes(root.syllable[0])) {
+      roots.push(<i key={i - .5}>'</i>);
+    }
+    roots.push(<AnnotatedCharacter root={root} displaySettings={displaySettings} key={i} capitalize={i === 0}/>);
+  })
+
+
   return (
     <span className="proper-noun">
             <span className={languageClassName(displaySettings.writingSystem)}>{lbr}</span>
-      {pn.roots.map((root, i) => (
-        <AnnotatedCharacter root={root} displaySettings={displaySettings} key={i} capitalize={i === 0}/>
-      ))}
+      {roots}
       <span className={languageClassName(displaySettings.writingSystem)}>{rbr}</span>
         </span>
   );

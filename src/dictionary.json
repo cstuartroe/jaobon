@@ -2326,6 +2326,18 @@
         "Jaobon": "jik jen"
       },
       {
+        "English": "monarchy, kingdom",
+        "Jaobon": "lon gi tu"
+      },
+      {
+        "English": "republic",
+        "Jaobon": "gon nas"
+      },
+      {
+        "English": "democracy",
+        "Jaobon": "guk cus"
+      },
+      {
         "English": "magazine",
         "Jaobon": "xi pen"
       },
@@ -4661,6 +4673,10 @@
         "Jaobon": "[a pu li ka]"
       },
       {
+        "English": "Algeria",
+        "Jaobon": "[ja sai li]"
+      },
+      {
         "English": "Antarctica",
         "Jaobon": "is bin tu"
       },
@@ -4669,8 +4685,12 @@
         "Jaobon": "[a me li ka]"
       },
       {
+        "English": "Argentina",
+        "Jaobon": "[a hen ci na]"
+      },
+      {
         "English": "Asia",
-        "Jaobon": "[a ji ya]"
+        "Jaobon": "[a ji]"
       },
       {
         "English": "Austria",
@@ -4697,6 +4717,14 @@
         "Jaobon": "[jon go]"
       },
       {
+        "English": "Czechia",
+        "Jaobon": "[ces ko]"
+      },
+      {
+        "English": "Democratic Republic of the Congo",
+        "Jaobon": "guk cus gon nas nis [kon go] tu"
+      },
+      {
         "English": "Denmark",
         "Jaobon": "[dan mak]"
       },
@@ -4707,6 +4735,10 @@
       {
         "English": "England",
         "Jaobon": "[en li]"
+      },
+      {
+        "English": "Ethiopia",
+        "Jaobon": "[i co pi]"
       },
       {
         "English": "Europe",
@@ -4741,6 +4773,10 @@
         "Jaobon": "[i lan]"
       },
       {
+        "English": "Iraq",
+        "Jaobon": "[i lak]"
+      },
+      {
         "English": "Ireland",
         "Jaobon": "[e le]"
       },
@@ -4753,12 +4789,40 @@
         "Jaobon": "[son gen]"
       },
       {
+        "English": "Kazakhstan",
+        "Jaobon": "[ka jak]"
+      },
+      {
+        "English": "Kenya",
+        "Jaobon": "[ken ya]"
+      },
+      {
+        "English": "Malaysia",
+        "Jaobon": "[ma lai xa]"
+      },
+      {
         "English": "Mexico",
         "Jaobon": "[mek xik]"
       },
       {
+        "English": "Morocco",
+        "Jaobon": "[ma lok]"
+      },
+      {
         "English": "Netherlands",
-        "Jaobon": "[lo tu], [ne de lan]"
+        "Jaobon": "lo tu, [ne de lan]"
+      },
+      {
+        "English": "New Zealand",
+        "Jaobon": "[nu ji lan]"
+      },
+      {
+        "English": "Nigeria",
+        "Jaobon": "[nai ji li]"
+      },
+      {
+        "English": "North America",
+        "Jaobon": "[a me li ka] yok"
       },
       {
         "English": "North Korea",
@@ -4777,6 +4841,10 @@
         "Jaobon": "[pi li pin]"
       },
       {
+        "English": "Poland",
+        "Jaobon": "[po les ka]"
+      },
+      {
         "English": "Portugal",
         "Jaobon": "[po tu gao]"
       },
@@ -4789,12 +4857,24 @@
         "Jaobon": "[sao ji]"
       },
       {
+        "English": "South Africa",
+        "Jaobon": "gon nas nis [a pu li ka] is"
+      },
+      {
+        "English": "South America",
+        "Jaobon": "[a me li ka] is"
+      },
+      {
         "English": "South Korea",
         "Jaobon": "[han guk]"
       },
       {
         "English": "Spain",
         "Jaobon": "[es pan]"
+      },
+      {
+        "English": "Sudan",
+        "Jaobon": "[su dan]"
       },
       {
         "English": "Sweden",
@@ -4805,20 +4885,69 @@
         "Jaobon": "[tai wan]"
       },
       {
+        "English": "Tanzania",
+        "Jaobon": "[tan ja ni]"
+      },
+      {
+        "English": "Thailand",
+        "Jaobon": "[man tai]"
+      },
+      {
         "English": "Turkey",
         "Jaobon": "[tu ki]"
       },
       {
-        "English": "United Kingdom",
-        "Jaobon": "ton ga lon gi nas"
+        "English": "Uganda",
+        "Jaobon": "[u gan da]"
       },
       {
-        "English": "United States",
+        "English": "Ukraine",
+        "Jaobon": "[uk lai na]"
+      },
+      {
+        "English": "United Kingdom",
+        "Jaobon": "ton ga lon gi tu"
+      },
+      {
+        "English": "United States of America",
         "Jaobon": "ton ga tu jik nis [a me li ka] tu"
       },
       {
         "English": "Vietnam",
         "Jaobon": "[bi yek]"
+      }
+    ]
+  },
+  {
+    "title": "U.S. states",
+    "entries": [
+      {
+        "English": "Arizona",
+        "Jaobon": "[a li jo na] pis"
+      },
+      {
+        "English": "California",
+        "Jaobon": "[ka li po ni] pis"
+      },
+      {
+        "English": "Hawaii",
+        "Jaobon": "[ha wai i] pis"
+      },
+      {
+        "English": "Minnesota",
+        "Jaobon": "[mi ne so ta] pis"
+      },
+      {
+        "English": "New Jersey",
+        "Jaobon": "[nu ja ji] pis"
+      },
+      {
+        "English": "New York",
+        "Jaobon": "[nu yok] pis"
+      },
+      {
+        "English": "North Carolina",
+        "Jaobon": "yok [ka lo lai na] pis"
       }
     ]
   },
