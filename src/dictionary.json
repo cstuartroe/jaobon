@@ -2899,6 +2899,10 @@
       {
         "English": "goal, objective",
         "Jaobon": "bus gus"
+      },
+      {
+        "English": "standard",
+        "Jaobon": "gon to"
       }
     ]
   },
@@ -4701,6 +4705,10 @@
         "Jaobon": "[os ta li]"
       },
       {
+        "English": "Bangladesh",
+        "Jaobon": "[ban la]"
+      },
+      {
         "English": "Belgium",
         "Jaobon": "[be le ji]"
       },
@@ -4714,7 +4722,7 @@
       },
       {
         "English": "China",
-        "Jaobon": "[jon go]"
+        "Jaobon": "[mes tu], [jon wa]"
       },
       {
         "English": "Czechia",
@@ -4734,7 +4742,7 @@
       },
       {
         "English": "England",
-        "Jaobon": "[en li]"
+        "Jaobon": "[en le]"
       },
       {
         "English": "Ethiopia",
@@ -4810,7 +4818,7 @@
       },
       {
         "English": "Netherlands",
-        "Jaobon": "lo tu, [ne de lan]"
+        "Jaobon": "[lo tu], [ne de lan]"
       },
       {
         "English": "New Zealand",
@@ -4948,6 +4956,123 @@
       {
         "English": "North Carolina",
         "Jaobon": "yok [ka lo lai na] pis"
+      }
+    ]
+  },
+  {
+    "title": "Languages",
+    "entries": [
+      {
+        "English": "Mandarin Chinese",
+        "Jaobon": "gon to [jon wa] des we"
+      },
+      {
+        "English": "Spanish",
+        "Jaobon": "[es pan] des we"
+      },
+      {
+        "English": "English",
+        "Jaobon": "[en le] des we"
+      },
+      {
+        "English": "Hindi",
+        "Jaobon": "[xin ji] des we"
+      },
+      {
+        "English": "Arabic",
+        "Jaobon": "[a la bi] des we"
+      },
+      {
+        "English": "Portuguese",
+        "Jaobon": "[po tu gao] des we"
+      },
+      {
+        "English": "Bengali",
+        "Jaobon": "[ban la] des we"
+      },
+      {
+        "English": "Russian",
+        "Jaobon": "[los xi] des we"
+      },
+      {
+        "English": "Japanese",
+        "Jaobon": "[son gen] des we"
+      },
+      {
+        "English": "Punjabi",
+        "Jaobon": "[pan ja bi] des we"
+      },
+      {
+        "English": "Vietnamese",
+        "Jaobon": "[bi yek] des we"
+      },
+      {
+        "English": "Cantonese, Yue Chinese",
+        "Jaobon": "[gon bek] des we, [yu we] des we"
+      },
+      {
+        "English": "Turkish",
+        "Jaobon": "[tu ki] des we"
+      },
+      {
+        "English": "Marathi",
+        "Jaobon": "[ma la ci] des we"
+      },
+      {
+        "English": "Telugu",
+        "Jaobon": "[te lu gu] des we"
+      },
+      {
+        "English": "Korean",
+        "Jaobon": "[han guk] des we, [jo son] des we"
+      },
+      {
+        "English": "Tamil",
+        "Jaobon": "[ta mi lu] des we"
+      },
+      {
+        "English": "Urdu",
+        "Jaobon": "[u du] des we"
+      },
+      {
+        "English": "German",
+        "Jaobon": "[doi ce] des we"
+      },
+      {
+        "English": "Indonesian",
+        "Jaobon": "[in do] des we"
+      },
+      {
+        "English": "French",
+        "Jaobon": "[pu lan se] des we"
+      },
+      {
+        "English": "Javanese",
+        "Jaobon": "[ja wa] des we"
+      },
+      {
+        "English": "Persian, Farsi",
+        "Jaobon": "[pa xi] des we"
+      },
+      {
+        "English": "Italian",
+        "Jaobon": "[i ta li] des we"
+      },
+      {
+        "English": "Jaobon",
+        "Jaobon": "[jao bon] des we"
+      },
+      {
+        "English": "Esperanto",
+        "Jaobon": "[es pe lan to] des we"
+      },
+      {
+        "English": "Toki Pona",
+        "Jaobon": "[to ki po na] des we, [hao des] des we"
+      },
+      {
+        "English": "Viossa",
+        "Jaobon": "[wi o sa] des we"
       }
     ]
   },
