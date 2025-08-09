@@ -260,17 +260,17 @@ export const DAILY_ROOTS: (DailyRoot | null)[] = [
 
   dr("cis", "lak cis ki duk ken es cuk i no wos hen cao xas.", "Hard cheese can be stored for a long time without spoiling."),
   dr("len", "mas len! pu xan yo xao an.", "Slow down! There's a little critter in the road."),
-  dr("", "", ""),
-  dr("", "", ""),
-  dr("", "", ""),
-  dr("", "", ""),
+  dr("duk", "duk pen de duk pen lak an es hen duk.", "The scales of the armadillo are very hard."),
+  dr("soi", "duk pen de duk pen lak an es go duk, juk es da jo hai no es soi.", "The scales of the armadillo are so hard that if struck they will not be wounded."),
+  dr("huk", "yus huk ho nes i pi ek nes ken ji dao ek nes de lun pi pis.", "The arc length can be calculated using the angle and the radius."),
+  dr("tek", "bus gus de je hu es gis tek so te de o guk.", "The objective of this game is to steal the other team's flags."),
 
   // Lunasa
-  dr("pan", "", ""),
+  dr("pan", "je xas es xas nis kai tek pan sai de tu.", "Now it's time to begin harvesting the grain."),
 
   // Monkey
-  dr("hus", "", ""),
-  dr("", "", ""),
+  dr("hus", "pa es hus!", "Stop fooling around!"),
+  dr("gai", "je son mi gai xe ke le des pai? oi, mi jo ken xe je!", "What kind of sentence should I write today? Oh, I can just write this!"),
   dr("", "", ""),
   dr("", "", ""),
   dr("", "", ""),

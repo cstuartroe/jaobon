@@ -739,6 +739,49 @@ export default class Syntax extends Component<Props, State> {
                     Such occupational titles may obviate the need for a name prefix:{' '}
                     {text('[a li] ki as he')} or {text('gu [a li] ki as he')} "Dr. Ali".
                 </p>
+
+                <h3>Names of countries and languages</h3>
+
+                <p>
+                  Countries, languages, ethnic groups and the like are named with proper nouns much like personal
+                  names, with a single proper noun referring to the language, nation, etc., and being used as a modifier
+                  to terms like {text('nas tu')} "country" or {text('des we')} "language" to specify category.
+                  For example, {text('[doi ce]')} means "German/Germany", and on its own can refer to the country,
+                  the ethnicity, or the language, but would more commonly modify another term.
+                </p>
+
+                <p>
+                  The term {text('nas')} refers to a nation in all senses - a place, a polity, a group of people sharing
+                  a national identity - and is the most common term to use for countries generically:{' '}
+                  {text('[doi ce] nas')} "Germany", {text('[mes tu] nas')} "China", etc. To more explicitly refer
+                  to only one of these sentence, {text('tu')} or {text('nas tu')} may refer to the location,{' '}
+                  {text('jik')}, {text('tu jik')}, or {text('nas gi jik')} to refer to the state or government,
+                  and {text('guk')} to refer to an ethnic group or national populace.
+                </p>
+
+                <p>
+                  Subnational divisions (provinces/states) use the term {text('pis')} or {text('nas tu pis')}:{' '}
+                  {text('[nu yok] pis')} "New York state".
+                  Even smaller divisions (counties, townships, etc.) should use {text('luk')}: {text('[ko ki] luk')}{' '}
+                  "County Cork". Cities and towns use {text('dus')}: {text('[nu yok] dus')} "New York City".{' '}
+                  {text('tu')} also refers to continents: {text('[a ji ya] tu')}.
+                </p>
+
+                <p>
+                  {text('jen')} can refer to
+                  a person with a particular ethnic or national identity: {text('[doi ce] jen')} "German person",
+                  with {text('jik jen')} referring specifically to a legal citizen.
+                </p>
+
+                <p>
+                  {text('des we')} means "language" and is used to form a term for a specific
+                  language: {text('[doi ce] des we')} "German language".
+                </p>
+
+                <p>
+                  Geographical terms like cardinal directions and "new" may be translated rather than phonetically rendered:{' '}
+                  {text('yok [ka lo lai na] pis')} "North Carolina", {text('is [a me li ka] tu')} "South America".
+                </p>
             </>
         );
     }

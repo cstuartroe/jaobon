@@ -307,6 +307,14 @@
       {
         "English": "infinity",
         "Jaobon": "no mo ji"
+      },
+      {
+        "English": "tau",
+        "Jaobon": "man hoi ji"
+      },
+      {
+        "English": "pi",
+        "Jaobon": "ban hoi ji"
       }
     ]
   },
@@ -772,6 +780,14 @@
       {
         "English": "degree of temperature",
         "Jaobon": "hok pis"
+      },
+      {
+        "English": "arc degree",
+        "Jaobon": "huk pis"
+      },
+      {
+        "English": "radian",
+        "Jaobon": "pi ek huk"
       }
     ]
   },
@@ -801,6 +817,14 @@
       {
         "English": "distance",
         "Jaobon": "ek nes"
+      },
+      {
+        "English": "arc length",
+        "Jaobon": "ek nes de lun pi pis"
+      },
+      {
+        "English": "measure of angle",
+        "Jaobon": "huk ho nes"
       }
     ]
   },
@@ -878,7 +902,7 @@
       },
       {
         "English": "square",
-        "Jaobon": "ton la cak huk jan"
+        "Jaobon": "ton la mes huk jan"
       },
       {
         "English": "triangle",
@@ -922,7 +946,19 @@
       },
       {
         "English": "cube",
-        "Jaobon": "mes huk koi"
+        "Jaobon": "ton la mes huk koi"
+      },
+      {
+        "English": "radius",
+        "Jaobon": "pi ek nes"
+      },
+      {
+        "English": "diameter",
+        "Jaobon": "jan ho nes"
+      },
+      {
+        "English": "arc",
+        "Jaobon": "lun pi pis"
       }
     ]
   },
@@ -1757,10 +1793,6 @@
         "Jaobon": "nas tu"
       },
       {
-        "English": "state, polity",
-        "Jaobon": "tu jik"
-      },
-      {
         "English": "province",
         "Jaobon": "nas tu pis"
       },
@@ -2282,8 +2314,16 @@
         "Jaobon": "gon jik, nas gi jik"
       },
       {
+        "English": "state, polity",
+        "Jaobon": "tu jik"
+      },
+      {
         "English": "parliament",
         "Jaobon": "gi jik"
+      },
+      {
+        "English": "citizen",
+        "Jaobon": "jik jen"
       },
       {
         "English": "magazine",
@@ -2843,6 +2883,10 @@
       {
         "English": "review, appraisal",
         "Jaobon": "kao jes"
+      },
+      {
+        "English": "goal, objective",
+        "Jaobon": "bus gus"
       }
     ]
   },
@@ -4226,6 +4270,10 @@
         "Jaobon": "ji"
       },
       {
+        "English": "calculate",
+        "Jaobon": "ji dao"
+      },
+      {
         "English": "marry",
         "Jaobon": "hun"
       },
@@ -4606,107 +4654,171 @@
     ]
   },
   {
-    "title": "Countries",
+    "title": "Toponyms",
     "entries": [
       {
+        "English": "Africa",
+        "Jaobon": "[a pu li ka]"
+      },
+      {
+        "English": "Antarctica",
+        "Jaobon": "is bin tu"
+      },
+      {
+        "English": "America (continent)",
+        "Jaobon": "[a me li ka]"
+      },
+      {
+        "English": "Asia",
+        "Jaobon": "[a ji ya]"
+      },
+      {
+        "English": "Austria",
+        "Jaobon": "[os te lai]"
+      },
+      {
         "English": "Australia",
-        "Jaobon": "[os tai nas]"
+        "Jaobon": "[os ta li]"
+      },
+      {
+        "English": "Belgium",
+        "Jaobon": "[be le ji]"
       },
       {
         "English": "Brazil",
-        "Jaobon": "[ba ju nas]"
+        "Jaobon": "[bu la ju]"
       },
       {
         "English": "Canada",
-        "Jaobon": "[kan na nas]"
+        "Jaobon": "[ka na da]"
       },
       {
         "English": "China",
-        "Jaobon": "[mes tu nas]"
+        "Jaobon": "[jon go]"
+      },
+      {
+        "English": "Denmark",
+        "Jaobon": "[dan mak]"
       },
       {
         "English": "Egypt",
-        "Jaobon": "[mes lu nas]"
+        "Jaobon": "[mes lu]"
+      },
+      {
+        "English": "England",
+        "Jaobon": "[en li]"
+      },
+      {
+        "English": "Europe",
+        "Jaobon": "[oi lo pa]"
+      },
+      {
+        "English": "Finland",
+        "Jaobon": "[so mi]"
       },
       {
         "English": "France",
-        "Jaobon": "[pa lan nas]"
+        "Jaobon": "[pu lan se]"
       },
       {
         "English": "Germany",
-        "Jaobon": "[doi ce nas]"
+        "Jaobon": "[doi ce]"
+      },
+      {
+        "English": "Greece",
+        "Jaobon": "[e la da]"
       },
       {
         "English": "India",
-        "Jaobon": "[ba lak nas]"
+        "Jaobon": "[ba la ta]"
       },
       {
         "English": "Indonesia",
-        "Jaobon": "[in don nas]"
+        "Jaobon": "[in do]"
       },
       {
         "English": "Iran",
-        "Jaobon": "[i lan nas]"
+        "Jaobon": "[i lan]"
+      },
+      {
+        "English": "Ireland",
+        "Jaobon": "[e le]"
       },
       {
         "English": "Italy",
-        "Jaobon": "[i tao nas]"
+        "Jaobon": "[i ta li]"
       },
       {
         "English": "Japan",
-        "Jaobon": "[son gen nas]"
+        "Jaobon": "[son gen]"
       },
       {
         "English": "Mexico",
-        "Jaobon": "[mek xi nas]"
+        "Jaobon": "[mek xik]"
       },
       {
         "English": "Netherlands",
-        "Jaobon": "[lo tu nas]"
+        "Jaobon": "[lo tu], [ne de lan]"
+      },
+      {
+        "English": "North Korea",
+        "Jaobon": "[jo son]"
+      },
+      {
+        "English": "Norway",
+        "Jaobon": "[no ge]"
       },
       {
         "English": "Pakistan",
-        "Jaobon": "[pa ki nas]"
+        "Jaobon": "[pa ki]"
       },
       {
         "English": "Philippines",
-        "Jaobon": "[pi li nas]"
+        "Jaobon": "[pi li pin]"
+      },
+      {
+        "English": "Portugal",
+        "Jaobon": "[po tu gao]"
       },
       {
         "English": "Russia",
-        "Jaobon": "[los xi nas]"
-      },
-      {
-        "English": "South Korea",
-        "Jaobon": "[is ko li nas]"
-      },
-      {
-        "English": "Spain",
-        "Jaobon": "[is pa nas]"
+        "Jaobon": "[los xi]"
       },
       {
         "English": "Saudi Arabia",
-        "Jaobon": "[sao ji nas]"
+        "Jaobon": "[sao ji]"
+      },
+      {
+        "English": "South Korea",
+        "Jaobon": "[han guk]"
+      },
+      {
+        "English": "Spain",
+        "Jaobon": "[es pan]"
+      },
+      {
+        "English": "Sweden",
+        "Jaobon": "[su wen]"
       },
       {
         "English": "Taiwan",
-        "Jaobon": "[tai wan nas]"
+        "Jaobon": "[tai wan]"
       },
       {
         "English": "Turkey",
-        "Jaobon": "[tu ki nas]"
+        "Jaobon": "[tu ki]"
       },
       {
         "English": "United Kingdom",
-        "Jaobon": "[ton ga lon gi nas]"
+        "Jaobon": "ton ga lon gi nas"
       },
       {
         "English": "United States",
-        "Jaobon": "[ton ga tu jik nis be lik nas]"
+        "Jaobon": "ton ga tu jik nis [a me li ka] tu"
       },
       {
         "English": "Vietnam",
-        "Jaobon": "[bi yek nas]"
+        "Jaobon": "[bi yek]"
       }
     ]
   },
