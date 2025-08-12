@@ -22,6 +22,7 @@ import TextingSlang from "./TextingSlang";
 import History from "./History";
 import Transliterate from "./Transliterate";
 import Zipf from "./Zipf";
+import Elements from "./Elements";
 
 type AppState = {
     displaySettings: DisplaySettings,
@@ -95,6 +96,9 @@ class App extends Component<{}, AppState> {
                                   </Route>
                                   <Route path={"/musings/zipf"}>
                                       <Route index element={<Zipf displaySettings={this.state.displaySettings}/>}/>
+                                  </Route>
+                                  <Route path={"/musings/elements"}>
+                                      <Route index element={<Elements displaySettings={this.state.displaySettings}/>}/>
                                   </Route>
                                   <Route path={"/transliterate"}>
                                       <Route index element={<Transliterate/>}/>

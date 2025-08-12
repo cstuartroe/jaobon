@@ -1047,7 +1047,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "jo",
-        "just, only, already, as soon as",
+        "just, only, already, as soon as, own",
         ["adverb"],
         "就",
         [["Chinese", "就"]],

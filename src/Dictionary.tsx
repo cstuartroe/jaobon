@@ -72,6 +72,7 @@ export default class Dictionary extends Component<Props, State> {
   body() {
     const {open_sections} = this.state;
     const search_term = this.searchTerm();
+    const displaySettings: DisplaySettings = {...this.props.displaySettings, showTranslation: "show"};
 
     if (search_term.length > 0) {
       return dictionarySections.map(section => {
@@ -91,7 +92,7 @@ export default class Dictionary extends Component<Props, State> {
         return <div key={section.title}>
           <h2>{section.title}</h2>
           {matchingEntries.map((entry, i) => (
-            <TranslatedLine key={i} jaobon={entry.Jaobon} translation={entry.English} displaySettings={this.props.displaySettings}/>
+            <TranslatedLine key={i} jaobon={entry.Jaobon} translation={entry.English} displaySettings={displaySettings}/>
           ))}
         </div>
       });
@@ -126,7 +127,7 @@ export default class Dictionary extends Component<Props, State> {
           </h2>
 
           {open_sections.includes(s.title) && s.entries.map((e, i) => (
-              <TranslatedLine key={i} jaobon={e.Jaobon} translation={e.English} displaySettings={this.props.displaySettings}/>
+              <TranslatedLine key={i} jaobon={e.Jaobon} translation={e.English} displaySettings={displaySettings}/>
           ))}
         </div>
     ))

@@ -61,7 +61,7 @@ const littleprince: Collection = {
         },
         {
           jaobon: "loi mi cus o wok pu i xes gi bo ce. me luk de cok man yo bes ki mi bo pas, i jas we " +
-            "tu cok xes hen yuk mi. mi ken su kan kon cek [mes tu nas] i [a li jo na pis]. juk nok xas no sa la ki gai " +
+            "tu cok xes hen yuk mi. mi ken su kan kon cek [mes tu] nas i [a li jo na] pis. juk nok xas no sa la ki gai " +
             "a, je le sa nes hen yuk.",
           translation: "So then I chose another profession, and learned to pilot airplanes. I have flown a little over " +
             "all parts of the world; and it is true that geography has been very useful to me. At a glance I can " +

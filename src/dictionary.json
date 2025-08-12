@@ -1151,10 +1151,6 @@
         "Jaobon": "du"
       },
       {
-        "English": "chest",
-        "Jaobon": "xon"
-      },
-      {
         "English": "bone",
         "Jaobon": "wes"
       },
@@ -1789,6 +1785,10 @@
         "Jaobon": "cuk an luk"
       },
       {
+        "English": "laboratory",
+        "Jaobon": "kao luk"
+      },
+      {
         "English": "country",
         "Jaobon": "nas tu"
       },
@@ -2407,7 +2407,7 @@
       },
       {
         "English": "price",
-        "Jaobon": "xoi, jin ji, goi nes"
+        "Jaobon": "jin ji, goi nes"
       },
       {
         "English": "psychoactive drug",
@@ -2416,10 +2416,6 @@
       {
         "English": "sign",
         "Jaobon": "des pen"
-      },
-      {
-        "English": "science, knowledge",
-        "Jaobon": "sa nes"
       },
       {
         "English": "god",
@@ -2440,6 +2436,10 @@
       {
         "English": "flag",
         "Jaobon": "so te, gus so te, nas so te"
+      },
+      {
+        "English": "economy",
+        "Jaobon": "mai ne"
       }
     ]
   },
@@ -2885,6 +2885,10 @@
         "Jaobon": "lao nes"
       },
       {
+        "English": "knowledge",
+        "Jaobon": "sa nes"
+      },
+      {
         "English": "information",
         "Jaobon": "des nes"
       },
@@ -2903,6 +2907,10 @@
       {
         "English": "standard",
         "Jaobon": "gon to"
+      },
+      {
+        "English": "experiment",
+        "Jaobon": "kao bes, kao pai"
       }
     ]
   },
@@ -2955,7 +2963,11 @@
       },
       {
         "English": "key",
-        "Jaobon": "han sok kos"
+        "Jaobon": "sok mek"
+      },
+      {
+        "English": "key",
+        "Jaobon": "han sok gan"
       },
       {
         "English": "soap",
@@ -3140,7 +3152,7 @@
       },
       {
         "English": "post",
-        "Jaobon": "xe pis"
+        "Jaobon": "xe cik"
       },
       {
         "English": "message",
@@ -3527,7 +3539,7 @@
       },
       {
         "English": "helium",
-        "Jaobon": "son us"
+        "Jaobon": "son gas"
       },
       {
         "English": "lithium",
@@ -3539,7 +3551,7 @@
       },
       {
         "English": "boron",
-        "Jaobon": "suk us"
+        "Jaobon": "suk jin"
       },
       {
         "English": "carbon",
@@ -3559,7 +3571,7 @@
       },
       {
         "English": "neon",
-        "Jaobon": "nu us"
+        "Jaobon": "nu gas"
       },
       {
         "English": "sodium",
@@ -3570,19 +3582,19 @@
         "Jaobon": "wai jin"
       },
       {
-        "English": "aluminum",
-        "Jaobon": "tu jin"
+        "English": "aluminium",
+        "Jaobon": "ku jin"
       },
       {
         "English": "silicon",
-        "Jaobon": "las us"
+        "Jaobon": "las jin"
       },
       {
         "English": "phosphorus",
         "Jaobon": "lus us"
       },
       {
-        "English": "sulphur",
+        "English": "sulfur",
         "Jaobon": "ik us"
       },
       {
@@ -3591,7 +3603,7 @@
       },
       {
         "English": "argon",
-        "Jaobon": "xos us"
+        "Jaobon": "xos gas"
       },
       {
         "English": "potassium",
@@ -3604,6 +3616,10 @@
       {
         "English": "titanium",
         "Jaobon": "pao jin"
+      },
+      {
+        "English": "vanadium",
+        "Jaobon": "nus jin"
       },
       {
         "English": "chromium",
@@ -3630,20 +3646,56 @@
         "Jaobon": "he jin"
       },
       {
+        "English": "arsenic",
+        "Jaobon": "mo jin"
+      },
+      {
+        "English": "selenium",
+        "Jaobon": "mun us"
+      },
+      {
         "English": "bromine",
         "Jaobon": "hon us"
+      },
+      {
+        "English": "krypton",
+        "Jaobon": "gis gas"
+      },
+      {
+        "English": "palladium",
+        "Jaobon": "xek jin"
       },
       {
         "English": "silver",
         "Jaobon": "lin jin"
       },
       {
+        "English": "cadmium",
+        "Jaobon": "cen jin"
+      },
+      {
+        "English": "indium",
+        "Jaobon": "moi jin"
+      },
+      {
         "English": "tin",
-        "Jaobon": "wen jin"
+        "Jaobon": "cas jin"
       },
       {
         "English": "iodine",
         "Jaobon": "dak us"
+      },
+      {
+        "English": "tellurium",
+        "Jaobon": "tu jin"
+      },
+      {
+        "English": "xenon",
+        "Jaobon": "ek gas"
+      },
+      {
+        "English": "barium",
+        "Jaobon": "pes jin"
       },
       {
         "English": "tungsten",
@@ -3664,6 +3716,26 @@
       {
         "English": "lead",
         "Jaobon": "tuk jin"
+      },
+      {
+        "English": "bismuth",
+        "Jaobon": "du jin"
+      },
+      {
+        "English": "radium",
+        "Jaobon": "tos jin"
+      },
+      {
+        "English": "uranium",
+        "Jaobon": "ten jin"
+      },
+      {
+        "English": "neptunium",
+        "Jaobon": "yun jin"
+      },
+      {
+        "English": "plutonium",
+        "Jaobon": "bon jin"
       }
     ]
   },
@@ -4496,6 +4568,10 @@
       {
         "English": "fish, go fishing",
         "Jaobon": "in yu"
+      },
+      {
+        "English": "translate",
+        "Jaobon": "ben des we, ben a ~ des we"
       }
     ]
   },

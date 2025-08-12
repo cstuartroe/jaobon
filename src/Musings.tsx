@@ -28,6 +28,7 @@ export default class Musings extends Component<Props, State> {
         <h3><Link to="/musings/toki_pona_cognates">Toki Pona cognates</Link></h3>
         <h3><Link to="/musings/texting_slang">Texting in Jaobon</Link></h3>
         <h3><Link to="/musings/zipf">Frequency statistics</Link></h3>
+        <h3><Link to="/musings/elements">Chemical elements in Jaobon</Link></h3>
       </>
     );
   }
