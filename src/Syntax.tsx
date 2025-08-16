@@ -764,7 +764,7 @@ export default class Syntax extends Component<Props, State> {
                   {text('[nu yok] pis')} "New York state".
                   Even smaller divisions (counties, townships, etc.) should use {text('luk')}: {text('[ko ki] luk')}{' '}
                   "County Cork". Cities and towns use {text('dus')}: {text('[nu yok] dus')} "New York City".{' '}
-                  {text('tu')} also refers to continents: {text('[a ji ya] tu')}.
+                  {text('tu')} also refers to continents: {text('[a ji] tu')}.
                 </p>
 
                 <p>

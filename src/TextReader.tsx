@@ -49,7 +49,7 @@ function singleTextStats(text: Text) {
     return out
 }
 
-function corpusStats(texts: Text[]) {
+export function corpusStats(texts: Text[]) {
     const out = newTextStats();
     texts.forEach(text => addText(out, text));
     return out;

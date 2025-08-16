@@ -23,6 +23,7 @@ import History from "./History";
 import Transliterate from "./Transliterate";
 import Zipf from "./Zipf";
 import Elements from "./Elements";
+import IthacaPixels from "./IthacaPixels";
 
 type AppState = {
     displaySettings: DisplaySettings,
@@ -102,6 +103,9 @@ class App extends Component<{}, AppState> {
                                   </Route>
                                   <Route path={"/transliterate"}>
                                       <Route index element={<Transliterate/>}/>
+                                  </Route>
+                                  <Route path={"/ithaca"}>
+                                      <Route index element={<IthacaPixels/>}/>
                                   </Route>
                               </Route>
                           </Routes>
