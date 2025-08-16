@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import AnnotatedText, {isError, multiscriptText} from "./AnnotatedText";
+import {DisplaySettingsContext} from "./DisplaySettings";
 
 type Props = {}
 
@@ -37,7 +38,9 @@ export default class Transliterate extends Component<Props, State> {
 
             <div style={{height: "5vh"}}/>
 
-            <AnnotatedText sentence={this.state.latin_text} displaySettings={{writingSystem: "cjk", showTranslation: "show"}} inline={false}/>
+            <DisplaySettingsContext.Provider value={{writingSystem: "cjk", showTranslation: "show"}}>
+              <AnnotatedText sentence={this.state.latin_text} inline={false}/>
+            </DisplaySettingsContext.Provider>
 
             <p
               onClick={() => {

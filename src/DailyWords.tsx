@@ -2,7 +2,6 @@ import React from "react";
 
 import {Root, ROOTS} from "./roots";
 import AnnotatedText, {isError, MultiscriptText, multiscriptText} from "./AnnotatedText";
-import {DisplaySettings} from "./DisplaySettings";
 
 type DailyRoot = {
   root: Root,
@@ -488,11 +487,7 @@ export const DAILY_ROOTS: (DailyRoot | null)[] = [
   dr("", "", ""),
 ];
 
-type Props = {
-  displaySettings: DisplaySettings,
-}
-
-export default function DailyWords({displaySettings}: Props) {
+export default function DailyWords(props: {}) {
   const json = JSON.stringify(DAILY_ROOTS, null, 2);
 
   const usedRoots: Set<string> = new Set();
@@ -518,7 +513,6 @@ export default function DailyWords({displaySettings}: Props) {
         {unusedRoots.length} unused roots:{' '}
         <AnnotatedText
           sentence={unusedRoots.map(([_, root]) => root.syllable).join(' ')}
-          displaySettings={displaySettings}
           inline={true}
         />
       </p>

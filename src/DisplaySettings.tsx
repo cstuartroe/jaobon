@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {createContext, useContext} from "react";
 import {ROOTS} from "./roots";
 import {stringToSyllable, Syllable, syllableToDots} from "./syllables";
 
@@ -34,74 +34,63 @@ export function getStartingDisplaySettings(): DisplaySettings {
   return out;
 }
 
-type Props = {
-  displaySettings: DisplaySettings,
-  setDisplaySettings: (d: DisplaySettings) => void,
-}
+export const DisplaySettingsContext = createContext(defaultDisplaySettings);
 
-type State = {
-}
+function radioButtons<T extends keyof DisplaySettings>(key: T, title: string, options: [string | JSX.Element, DisplaySettings[T]][], setDisplaySettings: (ds: DisplaySettings) => void) {
+  const displaySettings = useContext(DisplaySettingsContext);
 
-export class DisplaySettingsWidget extends Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-    this.state = {
-    };
-  }
+  return (
+    <div>
+      <p style={{marginBottom: "5px"}}><b>{title}</b></p>
 
-  radioButtons<T extends keyof DisplaySettings>(key: T, title: string, options: [string | JSX.Element, DisplaySettings[T]][]) {
-    return (
-        <div>
-          <p style={{marginBottom: "5px"}}><b>{title}</b></p>
-
-          <div className="display-radio-buttons">
-            {options.map(([label, value], i) => (
-                <div key={i} className="display-radio-option">
-                  <input
-                      type="radio"
-                      value={value}
-                      name={key}
-                      checked={this.props.displaySettings[key] == value}
-                      onChange={e => {
-                        localStorage.setItem(`displaySettings:${key}`, value)
-                        this.props.setDisplaySettings({
-                          ...this.props.displaySettings,
-                          [key]: e.target.value,
-                        });
-                      }}
-                  />
-                  <div>
-                    <p style={{marginBottom: 0}}>{label}</p>
-                  </div>
-                </div>
-            ))}
+      <div className="display-radio-buttons">
+        {options.map(([label, value], i) => (
+          <div key={i} className="display-radio-option">
+            <input
+              type="radio"
+              value={value}
+              name={key}
+              checked={displaySettings[key] == value}
+              onChange={e => {
+                localStorage.setItem(`displaySettings:${key}`, value)
+                setDisplaySettings({
+                  ...displaySettings,
+                  [key]: e.target.value,
+                });
+              }}
+            />
+            <div>
+              <p style={{marginBottom: 0}}>{label}</p>
+            </div>
           </div>
-        </div>
-    );
-  }
-
-
-  render() {
-    return (
-      <div className="display-settings-widget">
-        {this.radioButtons(
-          "showTranslation",
-          "Translations",
-          [
-            ["show", "show"],
-            ["hide", "hide"],
-          ]
-        )}
-        {this.radioButtons(
-            "writingSystem",
-            "Writing System",
-            [
-                [<span className="roman">jao</span>, "roman"],
-                [<span className="cjk">{ROOTS.get('jao')?.CJK}</span>, "cjk"],
-                [<span className="dots">{syllableToDots(stringToSyllable('jao') as Syllable)}</span>, "dots"],
-            ]
-        )}
+        ))}
       </div>
-    );
-  }
+    </div>
+  );
+}
+
+export function DisplaySettingsWidget(props: { setDisplaySettings: (ds: DisplaySettings) => void }) {
+  return (
+    <div className="display-settings-widget">
+      {radioButtons(
+        "showTranslation",
+        "Translations",
+        [
+          ["show", "show"],
+          ["hide", "hide"],
+        ],
+        props.setDisplaySettings,
+      )}
+      {radioButtons(
+        "writingSystem",
+        "Writing System",
+        [
+          [<span className="roman">jao</span>, "roman"],
+          [<span className="cjk">{ROOTS.get('jao')?.CJK}</span>, "cjk"],
+          [<span className="dots">{syllableToDots(stringToSyllable('jao') as Syllable)}</span>, "dots"],
+        ],
+        props.setDisplaySettings,
+      )}
+    </div>
+  );
 }

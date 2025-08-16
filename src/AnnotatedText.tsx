@@ -1,8 +1,8 @@
-import React, {useState} from "react";
+import React, {useContext, useState} from "react";
 import {Root, ROOTS} from "./roots";
 import {stringToSyllable, syllableToDots} from "./syllables";
 import classNames from "classnames";
-import {WritingSystem, DisplaySettings} from "./DisplaySettings";
+import {WritingSystem, DisplaySettingsContext} from "./DisplaySettings";
 
 type ParsingError = {
   message: string;
@@ -25,11 +25,12 @@ function languageClassName(writingSystem: WritingSystem) {
 
 type ACProps = {
   root: Root,
-  displaySettings: DisplaySettings,
   capitalize?: boolean,
 }
 
-function annotated({root, displaySettings, capitalize}: ACProps) {
+function annotated({root, capitalize}: ACProps) {
+  const displaySettings = useContext(DisplaySettingsContext);
+
   switch (displaySettings.writingSystem) {
     case "roman":
       if (capitalize) {
@@ -52,12 +53,13 @@ function annotated({root, displaySettings, capitalize}: ACProps) {
 
 export function AnnotatedCharacter(props: ACProps) {
   const [tooltipShown, setTooltipShown] = useState(false);
+  const displaySettings = useContext(DisplaySettingsContext);
 
   return (
     <span
       className={classNames([
         "annotated",
-        languageClassName(props.displaySettings.writingSystem),
+        languageClassName(displaySettings.writingSystem),
         {"tooltip-shown": tooltipShown}
       ])}
       onMouseEnter={() => setTooltipShown(true)}
@@ -104,12 +106,13 @@ const ProperNounBrackets: { [key in WritingSystem]: [string, string] } = {
 
 type APNProps = {
   pn: ProperNoun,
-  displaySettings: DisplaySettings,
 }
 
 const vowels = ["a", "e", "i", "o", "u"];
 
-function AnnotatedPN({pn, displaySettings}: APNProps) {
+function AnnotatedPN({pn}: APNProps) {
+  let displaySettings = useContext(DisplaySettingsContext);
+
   const [lbr, rbr] = ProperNounBrackets[displaySettings.writingSystem];
 
   if (displaySettings.writingSystem === "texting") {
@@ -121,7 +124,7 @@ function AnnotatedPN({pn, displaySettings}: APNProps) {
     if (displaySettings.writingSystem === "roman" && i !== 0 && vowels.includes(root.syllable[0])) {
       roots.push(<i key={i - .5}>'</i>);
     }
-    roots.push(<AnnotatedCharacter root={root} displaySettings={displaySettings} key={i} capitalize={i === 0}/>);
+    roots.push(<AnnotatedCharacter root={root} key={i} capitalize={i === 0}/>);
   })
 
 
@@ -279,7 +282,6 @@ export function multiscriptText(sentence: string): ParsingError | MultiscriptTex
 
 type Props = {
   sentence: string,
-  displaySettings: DisplaySettings,
   inline: boolean,
 }
 
@@ -288,6 +290,8 @@ export default function AnnotatedText(props: Props): JSX.Element {
   if (isError(parsed)) {
     return <span style={{color: "red"}}>{parsed.message}</span>;
   }
+
+  const displaySettings = useContext(DisplaySettingsContext);
 
   return <span className={props.inline ? "inline" : ""}>
         {parsed.map((piece, i) => {
@@ -302,7 +306,7 @@ export default function AnnotatedText(props: Props): JSX.Element {
             } else {
               const [cjkPunct, dotsPunct] = pair;
               let punct: string = "";
-              switch (props.displaySettings.writingSystem) {
+              switch (displaySettings.writingSystem) {
                 case "roman":
                 case "texting":
                   punct = piece;
@@ -314,14 +318,14 @@ export default function AnnotatedText(props: Props): JSX.Element {
                   punct = dotsPunct;
                   break;
               }
-              return <span className={props.displaySettings.writingSystem} key={i}>{punct}</span>;
+              return <span className={displaySettings.writingSystem} key={i}>{punct}</span>;
             }
           } else if (isLiteral(piece)) {
-            return <span className={props.displaySettings.writingSystem} key={i}>{piece.literal}</span>;
+            return <span className={displaySettings.writingSystem} key={i}>{piece.literal}</span>;
           } else if (isPN(piece)) {
-            return <AnnotatedPN pn={piece} displaySettings={props.displaySettings} key={i}/>;
+            return <AnnotatedPN pn={piece} key={i}/>;
           } else {
-            return <AnnotatedCharacter root={piece} displaySettings={props.displaySettings} key={i}/>;
+            return <AnnotatedCharacter root={piece} key={i}/>;
           }
         })}
     </span>
@@ -331,10 +335,11 @@ type TLProps = {
   number?: number,
   jaobon: string,
   translation: string,
-  displaySettings: DisplaySettings,
 }
 
 export function TranslatedLine(props: TLProps) {
+  const displaySettings = useContext(DisplaySettingsContext);
+
   return (
     <div className="translated-line">
       <p style={{position: "relative", marginBottom: ".5vh"}}>
@@ -349,9 +354,9 @@ export function TranslatedLine(props: TLProps) {
                         {props.number}.
                     </span>
         )}
-        <AnnotatedText sentence={props.jaobon} displaySettings={props.displaySettings} inline={false}/>
+        <AnnotatedText sentence={props.jaobon} inline={false}/>
       </p>
-      <p>{(props.displaySettings.showTranslation === "show") && props.translation}</p>
+      <p>{(displaySettings.showTranslation === "show") && props.translation}</p>
     </div>
   );
 }

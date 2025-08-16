@@ -1,9 +1,13 @@
-import React, { Component } from "react";
+import React, {Component, useContext, useState} from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "../static/scss/main.scss";
 
-import {getStartingDisplaySettings, DisplaySettings, DisplaySettingsWidget} from "./DisplaySettings";
+import {
+    getStartingDisplaySettings,
+    DisplaySettingsWidget,
+    DisplaySettingsContext
+} from "./DisplaySettings";
 import Menu from "./Menu";
 import Home from "./Home";
 import Phonology from "./Phonology";
@@ -25,21 +29,11 @@ import Zipf from "./Zipf";
 import Elements from "./Elements";
 import IthacaPixels from "./IthacaPixels";
 
-type AppState = {
-    displaySettings: DisplaySettings,
-}
+function App(props: {}) {
+    const [displaySettings, setDisplaySettings] = useState(getStartingDisplaySettings);
 
-class App extends Component<{}, AppState> {
-    constructor(props: {}) {
-        super(props);
-
-        this.state = {
-            displaySettings: getStartingDisplaySettings(),
-        }
-    }
-
-  render() {
       return (
+        <DisplaySettingsContext.Provider value={displaySettings}>
           <Router>
               <div id="main-container" className="container-fluid">
                   <div className="row main-row">
@@ -63,22 +57,22 @@ class App extends Component<{}, AppState> {
                                       <Route index element={<RootList/>}/>
                                   </Route>
                                   <Route path={"/syntax"}>
-                                      <Route index element={<Syntax displaySettings={this.state.displaySettings}/>}/>
+                                      <Route index element={<Syntax/>}/>
                                   </Route>
                                   <Route path={"/verify"}>
                                       <Route index element={<Verifier/>}/>
                                   </Route>
                                   <Route path={"/dictionary"}>
-                                      <Route index element={<Dictionary displaySettings={this.state.displaySettings}/>}/>
+                                      <Route index element={<Dictionary/>}/>
                                   </Route>
                                   <Route path={"/texts"}>
-                                      <Route index element={<TextList displaySettings={this.state.displaySettings}/>}/>
+                                      <Route index element={<TextList/>}/>
                                   </Route>
                                   <Route path={"/texts/:collectionId/:textId"}>
-                                      <Route index element={<TextReader displaySettings={this.state.displaySettings}/>}/>
+                                      <Route index element={<TextReader/>}/>
                                   </Route>
                                   <Route path={"/daily_words"}>
-                                      <Route index element={<DailyWords displaySettings={this.state.displaySettings}/>}/>
+                                      <Route index element={<DailyWords/>}/>
                                   </Route>
                                   <Route path={"/history"}>
                                       <Route index element={<History/>}/>
@@ -87,19 +81,19 @@ class App extends Component<{}, AppState> {
                                       <Route index element={<Musings/>}/>
                                   </Route>
                                   <Route path={"/musings/basic_semantic_sets"}>
-                                      <Route index element={<BasicSemanticSets displaySettings={this.state.displaySettings}/>}/>
+                                      <Route index element={<BasicSemanticSets/>}/>
                                   </Route>
                                   <Route path={"/musings/toki_pona_cognates"}>
                                       <Route index element={<TokiPonaCognates/>}/>
                                   </Route>
                                   <Route path={"/musings/texting_slang"}>
-                                      <Route index element={<TextingSlang displaySettings={this.state.displaySettings}/>}/>
+                                      <Route index element={<TextingSlang/>}/>
                                   </Route>
                                   <Route path={"/musings/zipf"}>
-                                      <Route index element={<Zipf displaySettings={this.state.displaySettings}/>}/>
+                                      <Route index element={<Zipf/>}/>
                                   </Route>
                                   <Route path={"/musings/elements"}>
-                                      <Route index element={<Elements displaySettings={this.state.displaySettings}/>}/>
+                                      <Route index element={<Elements/>}/>
                                   </Route>
                                   <Route path={"/transliterate"}>
                                       <Route index element={<Transliterate/>}/>
@@ -112,15 +106,12 @@ class App extends Component<{}, AppState> {
                           <div style={{height: "10vh"}}/>
                       </div>
 
-                      <DisplaySettingsWidget
-                          displaySettings={this.state.displaySettings}
-                          setDisplaySettings={(d: DisplaySettings) => this.setState({displaySettings: d})}
-                      />
+                      <DisplaySettingsWidget setDisplaySettings={setDisplaySettings}/>
                   </div>
               </div>
           </Router>
+        </DisplaySettingsContext.Provider>
       );
-  }
 }
 
 export default App;
