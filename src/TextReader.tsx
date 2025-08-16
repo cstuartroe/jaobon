@@ -233,7 +233,7 @@ export default function TextReader(props: Props) {
                 <TranslatedLine jaobon={line.jaobon} translation={line.translation} number={text.show_numbers ? i+1 : undefined}
                                 displaySettings={props.displaySettings}/>
                 {line.image && (
-                  <img className="inline-image" src={`/static/img/${line.image}`}/>
+                  <img className="inline-image" src={`/static/img/${line.image}`} style={{maxWidth: "50%"}}/>
                 )}
             </div>)}
         </>

@@ -15,7 +15,7 @@ const littleprince: Collection = {
           translation: "Once when I was six years old I saw a magnificent picture in a book, called True Stories from Nature, " +
             "about the primeval forest. It was a picture of a boa constrictor in the act of swallowing an animal. Here is a " +
             "copy of the drawing.",
-          image: "littleprince/001.jpg",
+          image: "littleprince/001.png",
         },
         {
           jaobon: "buk des: \"bao cao xis as co an man we, no yus bok soi. loi ta no ken wak, i do pas ses mun xas ki mos " +
@@ -28,7 +28,7 @@ const littleprince: Collection = {
             "mi ji un pik. je bon mok je pik:",
           translation: "I pondered deeply, then, over the adventures of the jungle. And after some work with a colored " +
             "pencil I succeeded in making my first drawing. My Drawing Number One. It looked something like this:",
-          image: "littleprince/002.jpg",
+          image: "littleprince/002.png",
         },
         {
           jaobon: "mi as ke kes jen men kan mi be pik, i won nis ke je pik as ke ta men tak o no.",
@@ -46,7 +46,7 @@ const littleprince: Collection = {
             "the grown-ups were not able to understand it, I made another drawing: I drew the inside of a boa\n" +
             "constrictor, so that the grown-ups could see it clearly. They always need to have things explained. My\n" +
             "Drawing Number Two looked like this:",
-          image: "littleprince/003.jpg",
+          image: "littleprince/003.png",
         },
         {
           jaobon: "je bes kes jen men han jes ke mi gai pon pik nis bao cao xis, nis pi o nis den, a la, i o we joi tu cok xes, " +
@@ -136,7 +136,7 @@ const littleprince: Collection = {
             "around me. And I saw a most extraordinary small person, who stood there examining me with great seriousness. " +
             "Here you may see the best portrait that, later, I was able to make of him. But my drawing is certainly very " +
             "much less charming than its model.",
-          image: "littleprince/004.gif",
+          image: "littleprince/004.png",
         },
         {
           jaobon: "i je hai no lai de ke mi ca. kes jen des ke mi gai pa wis wok pu nis tus pik xas ki yo ses nen, i mi pas " +
@@ -198,7 +198,7 @@ const littleprince: Collection = {
         {
           jaobon: "de je mi loi xe un pik.",
           translation: "So then I made a drawing.",
-          image: "littleprince/005.jpg",
+          image: "littleprince/005.png",
         },
         {
           jaobon: "pes we ta kan pik, loi ta des:",
@@ -211,7 +211,7 @@ const littleprince: Collection = {
         {
           jaobon: "de je mi mak nu pik.",
           translation: "So I made another drawing.",
-          image: "littleprince/006.jpg",
+          image: "littleprince/006.png",
         },
         {
           jaobon: "mi mik as lik ha wen we i lao we",
@@ -224,7 +224,7 @@ const littleprince: Collection = {
         {
           jaobon: "de je mi hai xe pik nu bes.",
           translation: "So then I did my drawing over once more.",
-          image: "littleprince/007.jpg",
+          image: "littleprince/007.png",
         },
         {
           jaobon: "i je pik ye no es tek, ton we de o pik.",
@@ -238,7 +238,7 @@ const littleprince: Collection = {
           jaobon: "je xas mi jo no yao hai mak, de ke mi yao su kai pon pis de ik hoi mek a ek bus don. de je mi jo su mak je pik.",
           translation: "By this time my patience was exhausted, because I was in a hurry to start taking my engine apart. " +
             "So I tossed off this drawing.",
-          image: "littleprince/008.jpg",
+          image: "littleprince/008.png",
         },
         {
           jaobon: "i ton xas mi su yuk des nis je.",
