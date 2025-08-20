@@ -1405,6 +1405,10 @@
         "Jaobon": "as tak yu"
       },
       {
+        "English": "goldfish",
+        "Jaobon": "kun yu"
+      },
+      {
         "English": "arthropod",
         "Jaobon": "cek con"
       },
@@ -2582,6 +2586,10 @@
         "Jaobon": "sun lak"
       },
       {
+        "English": "ice cream",
+        "Jaobon": "bin lak"
+      },
+      {
         "English": "bread",
         "Jaobon": "pan bao"
       },
@@ -2720,6 +2728,14 @@
       {
         "English": "pumpkin",
         "Jaobon": "kun cok gos"
+      },
+      {
+        "English": "vegetarian",
+        "Jaobon": "nin nik"
+      },
+      {
+        "English": "vegan",
+        "Jaobon": "nin an"
       }
     ]
   },
@@ -2911,6 +2927,14 @@
       {
         "English": "experiment",
         "Jaobon": "kao bes, kao pai"
+      },
+      {
+        "English": "observation",
+        "Jaobon": "kan gus, ki es kan"
+      },
+      {
+        "English": "truth",
+        "Jaobon": "jas gus, jas nes"
       }
     ]
   },
@@ -2971,7 +2995,7 @@
       },
       {
         "English": "soap",
-        "Jaobon": "lin yos"
+        "Jaobon": "lin yos, ku yos"
       },
       {
         "English": "needle",
@@ -3635,7 +3659,7 @@
       },
       {
         "English": "nickel",
-        "Jaobon": "hun jin"
+        "Jaobon": "mai jin"
       },
       {
         "English": "copper",
@@ -4572,6 +4596,10 @@
       {
         "English": "translate",
         "Jaobon": "ben des we, ben a ~ des we"
+      },
+      {
+        "English": "plagiarize",
+        "Jaobon": "gis mok"
       }
     ]
   },

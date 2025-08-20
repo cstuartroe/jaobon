@@ -984,7 +984,7 @@ export const ROOTS = new Map<string, Root>([
     root(
         "jas",
         "true, real, genuine, correct, serious",
-        ["adjective"],
+        ["adjective", "adverb"],
         "真",
         [["Chinese", "真实"]],
     ),
