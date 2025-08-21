@@ -83,6 +83,9 @@ export default function Elements(props: {}) {
         cry"</a>)
         or biological property (e.g. bismuth for the gastrointestinal soothing provided by bismuth subsalicylate, and
         arsenic for its toxicity).
+        Roots which have other important meanings in chemical terminology, including the roots {text('jin gas us sun ku yen hun lon')},
+        are avoided as the identifying roots of elements; for example, my original term for oxygen {text('sun us')} which
+        was coined by analogy with German <i>Sauerstoff</i> has been abandoned in favor of {text('kin us')}.
         Many elements have not yet been named, and I am open to suggestions. Overall, there are {numElements} described
         elements at time of writing, and 366 Jaobon roots, so there should be plenty of headroom to pick fitting element
         names.{' '}
@@ -110,7 +113,7 @@ export default function Elements(props: {}) {
       </table>
 
       <p>
-        In the names of compounds, this suffix is dropped, e.g. {text('cun dos sun hun')} "carbon dioxide".
+        In the names of compounds, this suffix is dropped, e.g. {text('cun dos kin hun')} "carbon dioxide".
       </p>
     </>
   );

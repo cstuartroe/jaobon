@@ -2285,7 +2285,7 @@ export const ROOTS = new Map<string, Root>([
     ),
     root(
         "was",
-        "wash",
+        "wash, bathe, erase",
         ["transitive verb"],
         "洗",
         [["English", "wash"]],
