@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "./node_modules/webpack-cli/bin/cli.js --mode development ./src/index.tsx",
     "build": "./node_modules/webpack-cli/bin/cli.js --mode production ./src/index.tsx",
-    "minecraft": "npx tsx scripts/resource_pack.ts"
+    "minecraft": "npx tsx scripts/resource_pack.ts",
+    "md": "npx tsx scripts/compile_md.ts"
   },
   "repository": {
     "type": "git",
