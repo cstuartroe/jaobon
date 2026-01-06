@@ -215,7 +215,7 @@ const classics: Collection = {
           translation: "I usually sleep soundly.",
         },
         {
-          jaobon: "cik men pas as su ces xao jak.",
+          jaobon: "cik men pas as su ces xao [jak].",
           translation: "The children ran after Jack.",
         },
         {
@@ -287,7 +287,7 @@ const classics: Collection = {
           translation: "Have you ever travelled in the jungle?",
         },
         {
-          jaobon: "mi men pas as sen wa ce ces dao lu pas ji tao ek pis.",
+          jaobon: "mi men pas sen en wa ce wis dao wa lu pas ji tao ek pis.",
           translation: "We sailed down the river for several miles.",
         },
         {
