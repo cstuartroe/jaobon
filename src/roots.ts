@@ -378,7 +378,7 @@ export const ROOTS = new Map<string, Root>([
         "child, offspring, (diminutive)",
         ["noun"],
         "子",
-        [["Spanish", "chico"], ["Russian", "-чик"]],
+        [["Spanish", "chico"], ["Russian", "-чик"], ["Turkish", "-çik"]],
     ),
     root(
         "cin",
