@@ -263,6 +263,9 @@ export function multiscriptText(sentence: string): ParsingError | MultiscriptTex
       let romanPn = ""
       CJK += ProperNounBrackets["cjk"][0];
       piece.roots.forEach(root => {
+        if (vowels.includes(root.syllable[0])) {
+          romanPn += "'";
+        }
         romanPn += root.syllable;
         CJK += root.CJK;
       });
