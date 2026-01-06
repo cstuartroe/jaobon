@@ -1330,11 +1330,19 @@
       },
       {
         "English": "duck",
-        "Jaobon": "wa poi"
+        "Jaobon": "wa poi, xao wa poi"
       },
       {
         "English": "goose",
-        "Jaobon": "wa poi"
+        "Jaobon": "mes wa poi"
+      },
+      {
+        "English": "swan",
+        "Jaobon": "bik wa poi"
+      },
+      {
+        "English": "quail",
+        "Jaobon": "xao tu poi"
       },
       {
         "English": "owl",
@@ -2464,7 +2472,7 @@
       },
       {
         "English": "song",
-        "Jaobon": "can"
+        "Jaobon": "can, tun"
       },
       {
         "English": "movie",
@@ -2610,6 +2618,10 @@
         "Jaobon": "los suk pan"
       },
       {
+        "English": "sandwich",
+        "Jaobon": "ba pan, pan den ~"
+      },
+      {
         "English": "chicken",
         "Jaobon": "poi nik"
       },
@@ -2648,6 +2660,10 @@
       {
         "English": "mango",
         "Jaobon": "hak gos"
+      },
+      {
+        "English": "cranberry",
+        "Jaobon": "coi sun gos"
       },
       {
         "English": "corn",
@@ -2728,6 +2744,18 @@
       {
         "English": "pumpkin",
         "Jaobon": "kun cok gos"
+      },
+      {
+        "English": "walnut",
+        "Jaobon": "nao nuk"
+      },
+      {
+        "English": "spice",
+        "Jaobon": "tes sai"
+      },
+      {
+        "English": "curry",
+        "Jaobon": "tes hun"
       },
       {
         "English": "vegetarian",
@@ -2935,6 +2963,10 @@
       {
         "English": "truth",
         "Jaobon": "jas gus, jas nes"
+      },
+      {
+        "English": "opinion, view",
+        "Jaobon": "jek we"
       }
     ]
   },
@@ -3344,6 +3376,10 @@
       {
         "English": "soil",
         "Jaobon": "tu us, tu xa"
+      },
+      {
+        "English": "compost",
+        "Jaobon": "wos tu, wos us"
       },
       {
         "English": "sand",
@@ -4070,6 +4106,10 @@
       {
         "English": "funny",
         "Jaobon": "yo jok, hao yo jok"
+      },
+      {
+        "English": "skilled",
+        "Jaobon": "yo jis"
       }
     ]
   },
@@ -4600,6 +4640,10 @@
       {
         "English": "plagiarize",
         "Jaobon": "gis mok"
+      },
+      {
+        "English": "remember",
+        "Jaobon": "cuk jek, cuk ~ en nao"
       }
     ]
   },
@@ -4616,7 +4660,7 @@
       },
       {
         "English": "definitely",
-        "Jaobon": "no ken no"
+        "Jaobon": "mos, no ken no"
       },
       {
         "English": "actually, truly, honestly",
@@ -5040,6 +5084,10 @@
       {
         "English": "California",
         "Jaobon": "[ka li po ni] pis"
+      },
+      {
+        "English": "Georgia",
+        "Jaobon": "[jo ja] pis"
       },
       {
         "English": "Hawaii",
