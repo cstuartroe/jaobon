@@ -4,14 +4,13 @@ export type MOA = "nasal" | "unvoiced stop" | "voiced stop" | "fricative" | "app
 export type Onset = {
     poa: POA,
     moa: MOA,
-    falavayLetter: string,
     transcriptionLetter: string,
 }
 
-function onsetKV(letter: string, poa: POA, moa: MOA, falavayLetter?: string): [string, Onset] {
+function onsetKV(letter: string, poa: POA, moa: MOA): [string, Onset] {
     return [
         letter,
-        {poa, moa, falavayLetter: falavayLetter || letter, transcriptionLetter: letter},
+        {poa, moa, transcriptionLetter: letter},
     ];
 }
 
@@ -20,7 +19,7 @@ const ONSETS = new Map<string, Onset | undefined>([
     onsetKV("m", "labial", "nasal"),
     onsetKV("p", "labial", "unvoiced stop"),
     onsetKV("b", "labial", "voiced stop"),
-    onsetKV("w", "labial", "approximant", "v"),
+    onsetKV("w", "labial", "approximant"),
     onsetKV("n", "alveolar", "nasal"),
     onsetKV("t", "alveolar", "unvoiced stop"),
     onsetKV("d", "alveolar", "voiced stop"),
@@ -31,7 +30,7 @@ const ONSETS = new Map<string, Onset | undefined>([
     onsetKV("x", "palatal", "fricative"),
     onsetKV("y", "palatal", "approximant"),
     onsetKV("k", "velar", "unvoiced stop"),
-    onsetKV("g","velar", "voiced stop", "G"),
+    onsetKV("g","velar", "voiced stop"),
     onsetKV("h", "velar", "fricative"),
 ]);
 
@@ -175,63 +174,6 @@ export function stringToSyllable(s: string): (Syllable | null) {
 export function validSyllableString(s: string): boolean {
     const syll = stringToSyllable(s);
     return !!syll && validSyllable(syll);
-}
-
-export function allSyllables(): string[] {
-    const out: string[] = [];
-
-    ONSETS.forEach((_, onsetLetter) => {
-        VOWELS.forEach((_, vowelLetter) => {
-            [...CODAS, ""].forEach(coda => {
-                const syllString = onsetLetter + vowelLetter + coda;
-                if (validSyllableString(syllString)) {
-                    out.push(syllString);
-                }
-            })
-        })
-    })
-
-    out.sort();
-
-    return out;
-}
-
-const serifInitials: (string | undefined)[] = ["b", "G", "h", "k", "t", "x"];
-const serifBlockingVowels: string[] = ["a", "o", "u", "Z"];
-const wideInitials: (string | undefined)[] = ["h", "k", "l", "m", "t", "x", "y"];
-
-export function syllableToFalavay(syll: Syllable): string {
-    let beforeVowel: string = "";
-    let initialLetter: string | undefined = syll.onset?.falavayLetter;
-    let afterVowel: string = "";
-    let finalLetter: string = "";
-
-    if (syll.coda == "o") {
-        afterVowel = "W";
-    } else if (syll.coda == "i") {
-        afterVowel = "Y";
-    } else if (initialLetter === undefined) {
-        afterVowel = syll.vowel.standaloneLetter;
-    } else {
-        beforeVowel = syll.vowel.beforeLetter || "";
-        afterVowel = syll.vowel.afterLetter || "";
-
-        if (syll.vowel.wideAfterLetter !== undefined && wideInitials.includes(initialLetter)) {
-            afterVowel = syll.vowel.wideAfterLetter;
-        }
-    }
-
-    if (syll.coda == "n") {
-        finalLetter = "M";
-    } else if (syll.coda == "s") {
-        finalLetter = "S";
-    } else if (syll.coda == "k") {
-        finalLetter = "K";
-    }
-
-    const useSerif = serifInitials.includes(initialLetter) && !serifBlockingVowels.includes(afterVowel);
-
-    return beforeVowel + (initialLetter || "") + (useSerif ? "q" : "") + afterVowel + finalLetter;
 }
 
 export function syllableToDots(syllable: Syllable): string {

@@ -634,7 +634,7 @@ export const SyntaxDocument: Document = [
   h3("As ... as possible"),
 
   p(
-    "This adverbial concept is expressed in Lauvinko with an oblique phrase ",
+    "This adverbial concept is expressed in Jaobon with an oblique phrase ",
     ijb('mas ... we ki ken'), ": ", ijb("cin mak je mas su we ki ken"), " \"please do it ASAP.\" ",
   ),
 

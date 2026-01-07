@@ -410,7 +410,7 @@ The similar phrase structure in English "more and more..." and in Mandarin "越�
 
 ### As ... as possible
 
-This adverbial concept is expressed in Lauvinko with an oblique phrase 更。。。为者能 *mas ... we ki ken*: 请作这更速为者能 *cin mak je mas su we ki ken* "please do it ASAP." 
+This adverbial concept is expressed in Jaobon with an oblique phrase 更。。。为者能 *mas ... we ki ken*: 请作这更速为者能 *cin mak je mas su we ki ken* "please do it ASAP." 
 
 ### Preposition support
 

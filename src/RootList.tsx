@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {PartOfSpeech, ROOTS} from "./roots";
-import {stringToSyllable, Syllable, syllableToDots, syllableToFalavay} from "./syllables";
+import {stringToSyllable, Syllable, syllableToDots} from "./syllables";
 
 type Props = {
 }

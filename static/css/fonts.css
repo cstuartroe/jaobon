@@ -1,18 +1,4 @@
 @font-face {
-  font-family: "Lauvinko Smooth Serif";
-  src: url("/static/font/lavvinko-smooth-serif.ttf") format('truetype'),
-       url("/static/font/lavvinko-smooth-serif.otf") format('opentype');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Lauvinko Bubble";
-  src: url("/static/font/lauvinko-bubble.ttf") format('truetype'),
-       url("/static/font/lauvinko-bubble.otf") format('opentype');
-  font-weight: normal;
-}
-
-@font-face {
     font-family: "Kanit";
     src: url("/static/font/Kanit-Light.ttf") format('truetype'),
          url("/static/font/Kanit-Light.otf") format('opentype');
