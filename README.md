@@ -67,7 +67,7 @@ Jaobon has 17 initial consonants:
 | **Nasal** | m | n |  |  |  |
 | **Fortis stop/affricate<sup>2</sup>** | p | t | t͡ʃ <sup>3</sup> | k | ʔ |
 | **Lenis stop/affricate<sup>2</sup>** | b | d | d͡ʒ <sup>3</sup> | g |  |
-| **Fricative<sup>4</sup>** |  | s | ʃ <sup>5</sup> <td colspan=2>h <sup>6</sup> |
+| **Fricative<sup>4</sup>** |  | s | ʃ <sup>5</sup> |  | h <sup>6</sup> |
 | **Approximant** | w | l <sup>7</sup> | j |  |  |
 
 - <sup>1</sup> In free variation with dental place of articulation.
@@ -129,7 +129,7 @@ Jaobon uses a purely phonemic romanization scheme, that hopefully largely satisf
 | **Nasal** | /m/ ⟨m⟩ | /n/ ⟨n⟩ |  |  |  |
 | **Fortis stop/affricate** | /p/ ⟨p⟩ | /t/ ⟨t⟩ | /t͡ʃ/ ⟨c⟩ | /k/ ⟨k⟩ | /ʔ/ ⟨⟩<sup>1</sup> |
 | **Lenis stop/affricate** | /b/ ⟨b⟩ | /d/ ⟨d⟩ | /d͡ʒ/ ⟨j⟩ | /g/ ⟨g⟩ |  |
-| **Fricative** |  | /s/ ⟨s⟩ | /ʃ/ ⟨x⟩ <td colspan=2>/h/ ⟨h⟩ |
+| **Fricative** |  | /s/ ⟨s⟩ | /ʃ/ ⟨x⟩ |  | /h/ ⟨h⟩ |
 | **Lenis stop/affricate** | /w/ ⟨w⟩ | /l/ ⟨l⟩ | /j/ ⟨y⟩ |  |  |
 
 - <sup>1</sup> The glottal stop is not written in romanization.

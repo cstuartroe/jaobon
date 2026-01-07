@@ -43,11 +43,16 @@ const format_level_prefixes: {[key in FormatLevel]: string} = {
 function cellString(cell: TableCell): string {
   let out = "";
 
-  if (cell.colspan === undefined) {
-    out += "| ";
-  } else {
-    out += `<td colspan=${cell.colspan}>`;
+  if (cell.colspan !== undefined) {
+    for (let i = 0; i < cell.colspan - 1; i++) {
+      out += cellString({
+        th: cell.th,
+        children: [],
+      })
+    }
   }
+
+  out += "| ";
 
   const bold = cell.th && cell.children.length > 0;
 
