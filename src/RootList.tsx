@@ -1,15 +1,30 @@
 import React, { Component } from "react";
-import {PartOfSpeech, ROOTS} from "./roots";
+import {ROOTS} from "./roots";
 import {stringToSyllable, Syllable, syllableToDots} from "./syllables";
+import {Document, h1, h3, p, ul, a} from "./formatting";
 
-type Props = {
-}
+export const RootListDocument: Document = [
+  h1("Root List"),
+];
 
-type State = {
-}
+Array.from(ROOTS.values()).forEach(rootInfo => {
+  RootListDocument.push(
+    h3(
+      a(`https://en.wiktionary.org/wiki/${rootInfo.CJK}`, rootInfo.CJK), " ",
+      rootInfo.syllable,
+    ),
+    p(rootInfo.pos.join(", "), " - ", rootInfo.definition),
+    p("From"),
+    ul(
+      ...rootInfo.etymologies.map((e, i) => (
+        [a(`https://en.wiktionary.org/wiki/${e.word}#${e.language}`, `${e.language} ${e.word}`)]
+      ))
+    ),
+  );
+});
 
-export default class RootList extends Component<Props, State> {
-  constructor(props: Props) {
+export default class RootList extends Component<{}, {}> {
+  constructor(props: {}) {
     super(props);
     this.state = {
     };

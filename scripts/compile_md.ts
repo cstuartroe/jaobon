@@ -17,6 +17,7 @@ import {PhonologyDocument} from "../src/Phonology";
 import {WritingSystemsMarkdownDocument} from "../src/WritingSystems";
 import {SyntaxDocument} from "../src/Syntax";
 import {SourcingDocument} from "../src/Sourcing";
+import {RootListDocument} from "../src/RootList";
 
 function chunkToMarkdown(chunk: TextualChunk): string {
   if (typeof chunk === "string") {
@@ -139,6 +140,7 @@ const document = [
   ...PhonologyDocument,
   ...WritingSystemsMarkdownDocument,
   ...SourcingDocument,
+  ...RootListDocument,
   ...SyntaxDocument,
 ];
 

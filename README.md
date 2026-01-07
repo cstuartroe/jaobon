@@ -201,6 +201,3400 @@ In addition to phonetic fidelity, an effort was made to preserve semantic faithf
 
 In some cases, the principle of semantic fidelity has led to related sets of words having different syntax, e.g. emotion terms *xi* "like", *has* "anger": *mi xi Toma* "I like Tom" vs. *mi yo has nis Toma* "I'm angry with Tom". 
 
+# Root List
+
+### [向](https://en.wiktionary.org/wiki/向) a
+
+preposition, aspect particle - to, toward, at, for
+
+From
+
+
+- [Spanish a](https://en.wiktionary.org/wiki/a#Spanish)
+
+### [爱](https://en.wiktionary.org/wiki/爱) ai
+
+transitive verb - love
+
+From
+
+
+- [Chinese 爱](https://en.wiktionary.org/wiki/爱#Chinese)
+
+### [表](https://en.wiktionary.org/wiki/表) ak
+
+intransitive verb, adverb - act, behave, appear, seem, express
+
+From
+
+
+- [English act](https://en.wiktionary.org/wiki/act#English)
+
+### [兽](https://en.wiktionary.org/wiki/兽) an
+
+noun - animal, beast
+
+From
+
+
+- [English animal](https://en.wiktionary.org/wiki/animal#English)
+- [Spanish animal](https://en.wiktionary.org/wiki/animal#Spanish)
+
+### [奥](https://en.wiktionary.org/wiki/奥) ao
+
+adjective - strange, unknown, mysterious
+
+From
+
+
+- [Chinese 奥](https://en.wiktionary.org/wiki/奥#Chinese)
+
+### [使](https://en.wiktionary.org/wiki/使) as
+
+voice particle - make, cause, volitive
+
+From
+
+
+- [Spanish hacer](https://en.wiktionary.org/wiki/hacer#Spanish)
+
+### [把](https://en.wiktionary.org/wiki/把) ba
+
+transitive verb - hold, wield, handle
+
+From
+
+
+- [Chinese 把](https://en.wiktionary.org/wiki/把#Chinese)
+
+### [百](https://en.wiktionary.org/wiki/百) bai
+
+numeral - hundred
+
+From
+
+
+- [Chinese 百](https://en.wiktionary.org/wiki/百#Chinese)
+
+### [牛](https://en.wiktionary.org/wiki/牛) bak
+
+noun - cow, bovine
+
+From
+
+
+- [Spanish vaca](https://en.wiktionary.org/wiki/vaca#Spanish)
+
+### [半](https://en.wiktionary.org/wiki/半) ban
+
+numeral - half
+
+From
+
+
+- [Chinese 半](https://en.wiktionary.org/wiki/半#Chinese)
+
+### [包](https://en.wiktionary.org/wiki/包) bao
+
+transitive verb - bag, package, bundle, container; to cover, to wrap
+
+From
+
+
+- [Chinese 包](https://en.wiktionary.org/wiki/包#Chinese)
+
+### [空](https://en.wiktionary.org/wiki/空) bas
+
+adjective - empty, blank, vacant, hollow
+
+From
+
+
+- [Spanish vacío](https://en.wiktionary.org/wiki/vacío#Spanish)
+
+### [美](https://en.wiktionary.org/wiki/美) be
+
+adjective - beautiful, nice
+
+From
+
+
+- [Spanish bello](https://en.wiktionary.org/wiki/bello#Spanish)
+
+### [后](https://en.wiktionary.org/wiki/后) bek
+
+positional - back, behind, after, east
+
+From
+
+
+- [English back](https://en.wiktionary.org/wiki/back#English)
+
+### [变](https://en.wiktionary.org/wiki/变) ben
+
+transitive verb, aspect particle - bend, change, become
+
+From
+
+
+- [Chinese 变](https://en.wiktionary.org/wiki/变#Chinese)
+- [English bend](https://en.wiktionary.org/wiki/bend#English)
+
+### [次](https://en.wiktionary.org/wiki/次) bes
+
+noun - time, instance, action, turn, once
+
+From
+
+
+- [Spanish vez](https://en.wiktionary.org/wiki/vez#Spanish)
+
+### [活](https://en.wiktionary.org/wiki/活) bi
+
+intransitive verb - live, reside, life
+
+From
+
+
+- [Spanish vivir](https://en.wiktionary.org/wiki/vivir#Spanish)
+
+### [大](https://en.wiktionary.org/wiki/大) bik
+
+adjective - big, large, old
+
+From
+
+
+- [English big](https://en.wiktionary.org/wiki/big#English)
+
+### [冰](https://en.wiktionary.org/wiki/冰) bin
+
+adjective - freeze, cold
+
+From
+
+
+- [Chinese 冰](https://en.wiktionary.org/wiki/冰#Chinese)
+
+### [客](https://en.wiktionary.org/wiki/客) bis
+
+intransitive verb - visit, travel, tour, guest
+
+From
+
+
+- [Spanish visitar](https://en.wiktionary.org/wiki/visitar#Spanish)
+- [English visit](https://en.wiktionary.org/wiki/visit#English)
+
+### [飞](https://en.wiktionary.org/wiki/飞) bo
+
+intransitive verb - fly
+
+From
+
+
+- [Spanish volar](https://en.wiktionary.org/wiki/volar#Spanish)
+
+### [喊](https://en.wiktionary.org/wiki/喊) boi
+
+intransitive verb - yell, shout, howl, bark, moo, meow (etc., any animal sound)
+
+From
+
+
+- [French aboyer](https://en.wiktionary.org/wiki/aboyer#French)
+
+### [孔](https://en.wiktionary.org/wiki/孔) bok
+
+noun - mouth, hole open at one end
+
+From
+
+
+- [Spanish boca](https://en.wiktionary.org/wiki/boca#Spanish)
+
+### [下](https://en.wiktionary.org/wiki/下) bon
+
+positional - under, bottom, bum
+
+From
+
+
+- [English bottom](https://en.wiktionary.org/wiki/bottom#English)
+- [Chinese 本](https://en.wiktionary.org/wiki/本#Chinese)
+
+### [声](https://en.wiktionary.org/wiki/声) bos
+
+intransitive verb - voice, sound, noise, make noise
+
+From
+
+
+- [Spanish voz](https://en.wiktionary.org/wiki/voz#Spanish)
+
+### [补](https://en.wiktionary.org/wiki/补) bu
+
+transitive verb - repair, recompense, compensate, fill in
+
+From
+
+
+- [Chinese 补](https://en.wiktionary.org/wiki/补#Chinese)
+
+### [书](https://en.wiktionary.org/wiki/书) buk
+
+noun - book
+
+From
+
+
+- [English book](https://en.wiktionary.org/wiki/book#English)
+
+### [财](https://en.wiktionary.org/wiki/财) bun
+
+noun - boon, prize, accomplishment, asset
+
+From
+
+
+- [English boon](https://en.wiktionary.org/wiki/boon#English)
+
+### [找](https://en.wiktionary.org/wiki/找) bus
+
+transitive verb, adverb - seek, search, look for, want, aim, intentionally
+
+From
+
+
+- [Spanish buscar](https://en.wiktionary.org/wiki/buscar#Spanish)
+
+### [差](https://en.wiktionary.org/wiki/差) ca
+
+intransitive verb - fall short, different, minus, mistake, error, bad
+
+From
+
+
+- [Chinese 差](https://en.wiktionary.org/wiki/差#Chinese)
+
+### [茶](https://en.wiktionary.org/wiki/茶) cai
+
+intransitive verb - boil, tea
+
+From
+
+
+- [Chinese 茶](https://en.wiktionary.org/wiki/茶#Chinese)
+- [Hindi चाय](https://en.wiktionary.org/wiki/चाय#Hindi)
+
+### [四](https://en.wiktionary.org/wiki/四) cak
+
+numeral - four
+
+From
+
+
+- [Hindi चार](https://en.wiktionary.org/wiki/चार#Hindi)
+
+### [唱](https://en.wiktionary.org/wiki/唱) can
+
+intransitive verb - sing, praise
+
+From
+
+
+- [Chinese 唱](https://en.wiktionary.org/wiki/唱#Chinese)
+- [French chanter](https://en.wiktionary.org/wiki/chanter#French)
+
+### [条](https://en.wiktionary.org/wiki/条) cao
+
+adjective, adverb - long, string, strip, ribbon, extreme, too
+
+From
+
+
+- [Chinese 条](https://en.wiktionary.org/wiki/条#Chinese)
+- [Chinese 超](https://en.wiktionary.org/wiki/超#Chinese)
+
+### [咔](https://en.wiktionary.org/wiki/咔) cas
+
+intransitive verb - click, snap, pop
+
+From
+
+
+- [Spanish chasquear](https://en.wiktionary.org/wiki/chasquear#Spanish)
+
+### [车](https://en.wiktionary.org/wiki/车) ce
+
+noun - car, vehicle
+
+From
+
+
+- [Chinese 車](https://en.wiktionary.org/wiki/車#Chinese)
+
+### [切](https://en.wiktionary.org/wiki/切) cek
+
+transitive verb - cut, slice, separate
+
+From
+
+
+- [Chinese 切割](https://en.wiktionary.org/wiki/切割#Chinese)
+
+### [前](https://en.wiktionary.org/wiki/前) cen
+
+positional - front, face, before, west
+
+From
+
+
+- [Chinese 前](https://en.wiktionary.org/wiki/前#Chinese)
+
+### [追](https://en.wiktionary.org/wiki/追) ces
+
+transitive verb - chase, pursue, follow
+
+From
+
+
+- [English chase](https://en.wiktionary.org/wiki/chase#English)
+
+### [七](https://en.wiktionary.org/wiki/七) ci
+
+numeral - seven
+
+From
+
+
+- [Chinese 七](https://en.wiktionary.org/wiki/七#Chinese)
+
+### [子](https://en.wiktionary.org/wiki/子) cik
+
+noun - child, offspring, (diminutive)
+
+From
+
+
+- [Spanish chico](https://en.wiktionary.org/wiki/chico#Spanish)
+- [Russian -чик](https://en.wiktionary.org/wiki/-чик#Russian)
+- [Turkish -çik](https://en.wiktionary.org/wiki/-çik#Turkish)
+
+### [请](https://en.wiktionary.org/wiki/请) cin
+
+transitive verb - politely request, please
+
+From
+
+
+- [Chinese 请](https://en.wiktionary.org/wiki/请#Chinese)
+
+### [酪](https://en.wiktionary.org/wiki/酪) cis
+
+intransitive verb - cheese, form, coagulate, curdle
+
+From
+
+
+- [English cheese](https://en.wiktionary.org/wiki/cheese#English)
+
+### [吃](https://en.wiktionary.org/wiki/吃) co
+
+transitive verb - eat, drink, consume
+
+From
+
+
+- [Chinese 吃](https://en.wiktionary.org/wiki/吃#Chinese)
+
+### [漂](https://en.wiktionary.org/wiki/漂) coi
+
+intransitive verb - float, drift, slide, glide, smooth, effortless
+
+From
+
+
+- [Vietnamese trôi](https://en.wiktionary.org/wiki/trôi#Vietnamese)
+
+### [球](https://en.wiktionary.org/wiki/球) cok
+
+noun - ball, sphere
+
+From
+
+
+- [Chinese 球体](https://en.wiktionary.org/wiki/球体#Chinese)
+
+### [虫](https://en.wiktionary.org/wiki/虫) con
+
+noun - insect, worm, invertebrate, arthropod
+
+From
+
+
+- [Chinese 虫](https://en.wiktionary.org/wiki/虫#Chinese)
+
+### [信](https://en.wiktionary.org/wiki/信) cos
+
+transitive verb - trust, believe in, faith, confidence
+
+From
+
+
+- [English trust](https://en.wiktionary.org/wiki/trust#English)
+
+### [出](https://en.wiktionary.org/wiki/出) cu
+
+intransitive verb - out, send, happen, leave, quit, depart
+
+From
+
+
+- [Chinese 出](https://en.wiktionary.org/wiki/出#Chinese)
+
+### [储](https://en.wiktionary.org/wiki/储) cuk
+
+transitive verb - store, stockpile, preserve, save, keep
+
+From
+
+
+- [Chinese 储备](https://en.wiktionary.org/wiki/储备#Chinese)
+- [Chinese 储存](https://en.wiktionary.org/wiki/储存#Chinese)
+
+### [春](https://en.wiktionary.org/wiki/春) cun
+
+noun - vitality, life, lust, spring, alive
+
+From
+
+
+- [Chinese 春](https://en.wiktionary.org/wiki/春#Chinese)
+
+### [选](https://en.wiktionary.org/wiki/选) cus
+
+transitive verb - choose, select, decide
+
+From
+
+
+- [English choose](https://en.wiktionary.org/wiki/choose#English)
+
+### [打](https://en.wiktionary.org/wiki/打) da
+
+transitive verb - hit, strike
+
+From
+
+
+- [Chinese 打](https://en.wiktionary.org/wiki/打#Chinese)
+
+### [带](https://en.wiktionary.org/wiki/带) dai
+
+transitive verb - support, carry, bring, wear
+
+From
+
+
+- [Chinese 带](https://en.wiktionary.org/wiki/带#Chinese)
+
+### [黑](https://en.wiktionary.org/wiki/黑) dak
+
+adjective - dark, black
+
+From
+
+
+- [English dark](https://en.wiktionary.org/wiki/dark#English)
+
+### [单](https://en.wiktionary.org/wiki/单) dan
+
+adjective - simple, easy
+
+From
+
+
+- [Chinese 单](https://en.wiktionary.org/wiki/单#Chinese)
+
+### [到](https://en.wiktionary.org/wiki/到) dao
+
+preposition, adverb - arrive, until, up to, succeed
+
+From
+
+
+- [Chinese 到](https://en.wiktionary.org/wiki/到#Chinese)
+
+### [十](https://en.wiktionary.org/wiki/十) das
+
+numeral - ten
+
+From
+
+
+- [Hindi दस](https://en.wiktionary.org/wiki/दस#Hindi)
+
+### [从](https://en.wiktionary.org/wiki/从) de
+
+preposition, linking particle - from, off of, away from
+
+From
+
+
+- [Spanish de](https://en.wiktionary.org/wiki/de#Spanish)
+
+### [细](https://en.wiktionary.org/wiki/细) dek
+
+adjective - thin, slender, narrow
+
+From
+
+
+- [Spanish delgado](https://en.wiktionary.org/wiki/delgado#Spanish)
+
+### [内](https://en.wiktionary.org/wiki/内) den
+
+positional - inside
+
+From
+
+
+- [Spanish dentro](https://en.wiktionary.org/wiki/dentro#Spanish)
+
+### [言](https://en.wiktionary.org/wiki/言) des
+
+transitive verb - speak, say, mean, signify
+
+From
+
+
+- [Spanish decir](https://en.wiktionary.org/wiki/decir#Spanish)
+
+### [睡](https://en.wiktionary.org/wiki/睡) do
+
+intransitive verb - sleep
+
+From
+
+
+- [Spanish dormir](https://en.wiktionary.org/wiki/dormir#Spanish)
+
+### [悲](https://en.wiktionary.org/wiki/悲) doi
+
+noun - sorrow, sadness, pain
+
+From
+
+
+- [Spanish duelo](https://en.wiktionary.org/wiki/duelo#Spanish)
+
+### [犬](https://en.wiktionary.org/wiki/犬) dok
+
+noun - dog
+
+From
+
+
+- [English dog](https://en.wiktionary.org/wiki/dog#English)
+
+### [懂](https://en.wiktionary.org/wiki/懂) don
+
+transitive verb - understand
+
+From
+
+
+- [Chinese 懂](https://en.wiktionary.org/wiki/懂#Chinese)
+
+### [二](https://en.wiktionary.org/wiki/二) dos
+
+numeral - two, pair
+
+From
+
+
+- [Spanish dos](https://en.wiktionary.org/wiki/dos#Spanish)
+
+### [肚](https://en.wiktionary.org/wiki/肚) du
+
+noun - belly, stomach
+
+From
+
+
+- [Chinese 肚](https://en.wiktionary.org/wiki/肚#Chinese)
+
+### [市](https://en.wiktionary.org/wiki/市) dus
+
+noun - city
+
+From
+
+
+- [Chinese 都市](https://en.wiktionary.org/wiki/都市#Chinese)
+
+### [盾](https://en.wiktionary.org/wiki/盾) dun
+
+transitive verb - shield, guard, cover, protect
+
+From
+
+
+- [Chinese 盾](https://en.wiktionary.org/wiki/盾#Chinese)
+
+### [刚](https://en.wiktionary.org/wiki/刚) duk
+
+adjective - hard, strong, tough, stiff
+
+From
+
+
+- [Spanish duro](https://en.wiktionary.org/wiki/duro#Spanish)
+
+### [饿](https://en.wiktionary.org/wiki/饿) e
+
+adjective - hungry, greedy, starve
+
+From
+
+
+- [Chinese 饿](https://en.wiktionary.org/wiki/饿#Chinese)
+
+### [外](https://en.wiktionary.org/wiki/外) ek
+
+positional - far, distant, foreign, outside, apart
+
+From
+
+
+- [English ex-](https://en.wiktionary.org/wiki/ex-#English)
+- [Spanish ex-](https://en.wiktionary.org/wiki/ex-#Spanish)
+
+### [在](https://en.wiktionary.org/wiki/在) en
+
+preposition, aspect particle - in, on, continuous
+
+From
+
+
+- [Spanish en](https://en.wiktionary.org/wiki/en#Spanish)
+
+### [是](https://en.wiktionary.org/wiki/是) es
+
+voice particle - be, absolutive
+
+From
+
+
+- [Spanish es](https://en.wiktionary.org/wiki/es#Spanish)
+- [Spanish estar](https://en.wiktionary.org/wiki/estar#Spanish)
+
+### [集](https://en.wiktionary.org/wiki/集) ga
+
+intransitive verb - gather, assemble, condense, aggregate
+
+From
+
+
+- [English gather](https://en.wiktionary.org/wiki/gather#English)
+
+### [该](https://en.wiktionary.org/wiki/该) gai
+
+adverb - should, ought
+
+From
+
+
+- [Chinese 该](https://en.wiktionary.org/wiki/该#Chinese)
+
+### [猫](https://en.wiktionary.org/wiki/猫) gak
+
+noun - cat
+
+From
+
+
+- [Spanish gato](https://en.wiktionary.org/wiki/gato#Spanish)
+
+### [杆](https://en.wiktionary.org/wiki/杆) gan
+
+noun - stick, pole, rod, bar
+
+From
+
+
+- [Chinese 杆](https://en.wiktionary.org/wiki/杆#Chinese)
+- [Chinese 杠](https://en.wiktionary.org/wiki/杠#Chinese)
+- [Chinese 竿](https://en.wiktionary.org/wiki/竿#Chinese)
+
+### [高](https://en.wiktionary.org/wiki/高) gao
+
+adjective - tall, high, noble, proud
+
+From
+
+
+- [Chinese 高](https://en.wiktionary.org/wiki/高#Chinese)
+
+### [气](https://en.wiktionary.org/wiki/气) gas
+
+noun - gas, air, odor
+
+From
+
+
+- [English gas](https://en.wiktionary.org/wiki/gas#English)
+- [Spanish gas](https://en.wiktionary.org/wiki/gas#Spanish)
+
+### [给](https://en.wiktionary.org/wiki/给) ge
+
+transitive verb - give, offer
+
+From
+
+
+- [Chinese 给](https://en.wiktionary.org/wiki/给#Chinese)
+
+### [收](https://en.wiktionary.org/wiki/收) gek
+
+transitive verb - get, receive
+
+From
+
+
+- [English get](https://en.wiktionary.org/wiki/get#English)
+
+### [根](https://en.wiktionary.org/wiki/根) gen
+
+noun - root, source, origin
+
+From
+
+
+- [Chinese 根](https://en.wiktionary.org/wiki/根#Chinese)
+
+### [规](https://en.wiktionary.org/wiki/规) ges
+
+noun - rule, law
+
+From
+
+
+- [Chinese 规则](https://en.wiktionary.org/wiki/规则#Chinese)
+
+### [导](https://en.wiktionary.org/wiki/导) gi
+
+transitive verb - guide, steer, direct, lead, govern
+
+From
+
+
+- [Spanish guiar](https://en.wiktionary.org/wiki/guiar#Spanish)
+
+### [迷](https://en.wiktionary.org/wiki/迷) gik
+
+noun - geek, enthusiast, specialist
+
+From
+
+
+- [English geek](https://en.wiktionary.org/wiki/geek#English)
+
+### [秘](https://en.wiktionary.org/wiki/秘) gis
+
+transitive verb - hide, conceal, obscure, secret
+
+From
+
+
+- [Turkish giz](https://en.wiktionary.org/wiki/giz#Turkish)
+- [Turkish gizlemek](https://en.wiktionary.org/wiki/gizlemek#Turkish)
+
+### [绿](https://en.wiktionary.org/wiki/绿) gin
+
+adjective - green
+
+From
+
+
+- [English green](https://en.wiktionary.org/wiki/green#English)
+
+### [够](https://en.wiktionary.org/wiki/够) go
+
+adjective - enough, adequate, suffice
+
+From
+
+
+- [Chinese 够](https://en.wiktionary.org/wiki/够#Chinese)
+
+### [贵](https://en.wiktionary.org/wiki/贵) goi
+
+adjective - expensive, valuable, precious
+
+From
+
+
+- [Chinese 贵](https://en.wiktionary.org/wiki/贵#Chinese)
+
+### [点](https://en.wiktionary.org/wiki/点) gok
+
+noun - drop, bead, spot, point, grain
+
+From
+
+
+- [Spanish gota](https://en.wiktionary.org/wiki/gota#Spanish)
+
+### [公](https://en.wiktionary.org/wiki/公) gon
+
+adjective - public, shared, government
+
+From
+
+
+- [Chinese 公](https://en.wiktionary.org/wiki/公#Chinese)
+- [Chinese 共](https://en.wiktionary.org/wiki/共#Chinese)
+
+### [果](https://en.wiktionary.org/wiki/果) gos
+
+noun - fruit, egg, produce, results
+
+From
+
+
+- [Chinese 果实](https://en.wiktionary.org/wiki/果实#Chinese)
+
+### [故](https://en.wiktionary.org/wiki/故) gu
+
+adjective - old, tradition, ancient
+
+From
+
+
+- [Chinese 故](https://en.wiktionary.org/wiki/故#Chinese)
+
+### [组](https://en.wiktionary.org/wiki/组) guk
+
+noun - group, together
+
+From
+
+
+- [English group](https://en.wiktionary.org/wiki/group#English)
+- [Spanish grupo](https://en.wiktionary.org/wiki/grupo#Spanish)
+- [Chinese 共同](https://en.wiktionary.org/wiki/共同#Chinese)
+
+### [关](https://en.wiktionary.org/wiki/关) gun
+
+adjective - closed, shut
+
+From
+
+
+- [Chinese 关](https://en.wiktionary.org/wiki/关#Chinese)
+
+### [事](https://en.wiktionary.org/wiki/事) gus
+
+noun - story, narrative, matter
+
+From
+
+
+- [Chinese 故事](https://en.wiktionary.org/wiki/故事#Chinese)
+
+### [哈](https://en.wiktionary.org/wiki/哈) ha
+
+intransitive verb, interjection - laugh
+
+From
+
+
+- [Chinese 哈哈](https://en.wiktionary.org/wiki/哈哈#Chinese)
+- [English haha](https://en.wiktionary.org/wiki/haha#English)
+- [Spanish jaja](https://en.wiktionary.org/wiki/jaja#Spanish)
+
+### [还](https://en.wiktionary.org/wiki/还) hai
+
+adverb - still, yet, additional, surplus, but
+
+From
+
+
+- [Chinese 还](https://en.wiktionary.org/wiki/还#Chinese)
+
+### [心](https://en.wiktionary.org/wiki/心) hak
+
+noun - heart, emotion, feeling, center
+
+From
+
+
+- [English heart](https://en.wiktionary.org/wiki/heart#English)
+
+### [反](https://en.wiktionary.org/wiki/反) han
+
+transitive verb - reverse, oppose, opposite, against, respond, react
+
+From
+
+
+- [Chinese 返](https://en.wiktionary.org/wiki/返#Chinese)
+- [Chinese 反](https://en.wiktionary.org/wiki/反#Chinese)
+
+### [好](https://en.wiktionary.org/wiki/好) hao
+
+adjective, adverb - good, beneficial, pleasant, just
+
+From
+
+
+- [Chinese 好](https://en.wiktionary.org/wiki/好#Chinese)
+
+### [怒](https://en.wiktionary.org/wiki/怒) has
+
+noun - anger, wrath
+
+From
+
+
+- [French rage](https://en.wiktionary.org/wiki/rage#French)
+- [Hindi ख़श्म](https://en.wiktionary.org/wiki/ख़श्म#Hindi)
+
+### [健](https://en.wiktionary.org/wiki/健) he
+
+intransitive verb - heal, health, healthy
+
+From
+
+
+- [English health](https://en.wiktionary.org/wiki/health#English)
+
+### [恨](https://en.wiktionary.org/wiki/恨) hek
+
+transitive verb - hate, be disgusted by
+
+From
+
+
+- [English hate](https://en.wiktionary.org/wiki/hate#English)
+- [Dutch hekel](https://en.wiktionary.org/wiki/hekel#Dutch)
+
+### [很](https://en.wiktionary.org/wiki/很) hen
+
+adverb - very, intensely
+
+From
+
+
+- [Chinese 很](https://en.wiktionary.org/wiki/很#Chinese)
+
+### [吸](https://en.wiktionary.org/wiki/吸) hes
+
+intransitive verb - breathe, smell
+
+From
+
+
+- [Spanish respirar](https://en.wiktionary.org/wiki/respirar#Spanish)
+- [Chinese 呼吸](https://en.wiktionary.org/wiki/呼吸#Chinese)
+
+### [厚](https://en.wiktionary.org/wiki/厚) ho
+
+adjective - thick, ample, deep, wide, dense, fat
+
+From
+
+
+- [Chinese 厚](https://en.wiktionary.org/wiki/厚#Chinese)
+
+### [回](https://en.wiktionary.org/wiki/回) hoi
+
+intransitive verb - turn, revolve, rotate, turn back, return, orbit
+
+From
+
+
+- [Chinese 回](https://en.wiktionary.org/wiki/回#Chinese)
+
+### [热](https://en.wiktionary.org/wiki/热) hok
+
+adjective - hot, heat
+
+From
+
+
+- [English hot](https://en.wiktionary.org/wiki/hot#English)
+
+### [红](https://en.wiktionary.org/wiki/红) hon
+
+adjective - red
+
+From
+
+
+- [Chinese 红](https://en.wiktionary.org/wiki/红#Chinese)
+
+### [马](https://en.wiktionary.org/wiki/马) hos
+
+noun - horse, equine
+
+From
+
+
+- [English horse](https://en.wiktionary.org/wiki/horse#English)
+
+### [玩](https://en.wiktionary.org/wiki/玩) hu
+
+intransitive verb - game, play, have fun
+
+From
+
+
+- [Spanish jugar](https://en.wiktionary.org/wiki/jugar#Spanish)
+
+### [角](https://en.wiktionary.org/wiki/角) huk
+
+noun - hook, bend, curve, corner
+
+From
+
+
+- [English hook](https://en.wiktionary.org/wiki/hook#English)
+- [Dutch hoek](https://en.wiktionary.org/wiki/hoek#Dutch)
+
+### [混](https://en.wiktionary.org/wiki/混) hun
+
+intransitive verb - mix, mingle, together, marriage
+
+From
+
+
+- [Chinese 混](https://en.wiktionary.org/wiki/混#Chinese)
+- [Spanish junto](https://en.wiktionary.org/wiki/junto#Spanish)
+- [Chinese 婚](https://en.wiktionary.org/wiki/婚#Chinese)
+
+### [猴](https://en.wiktionary.org/wiki/猴) hus
+
+noun - monkey, ape, naughty, tricksy
+
+From
+
+
+- [Chinese 猴子](https://en.wiktionary.org/wiki/猴子#Chinese)
+
+### [又](https://en.wiktionary.org/wiki/又) i
+
+coordinating conjunction - and
+
+From
+
+
+- [Spanish y](https://en.wiktionary.org/wiki/y#Spanish)
+
+### [火](https://en.wiktionary.org/wiki/火) ik
+
+intransitive verb - burn, fire
+
+From
+
+
+- [Latin ignis](https://en.wiktionary.org/wiki/ignis#Latin)
+- [English ignite](https://en.wiktionary.org/wiki/ignite#English)
+
+### [引](https://en.wiktionary.org/wiki/引) in
+
+transitive verb - pull, stretch, extend, exaggerate, attract, tempt
+
+From
+
+
+- [Chinese 引](https://en.wiktionary.org/wiki/引#Chinese)
+
+### [左](https://en.wiktionary.org/wiki/左) is
+
+positional - left, south
+
+From
+
+
+- [Spanish izquierdo](https://en.wiktionary.org/wiki/izquierdo#Spanish)
+
+### [家](https://en.wiktionary.org/wiki/家) ja
+
+noun - family, household
+
+From
+
+
+- [Chinese 家](https://en.wiktionary.org/wiki/家#Chinese)
+
+### [胜](https://en.wiktionary.org/wiki/胜) jai
+
+noun - victory, glory, long live
+
+From
+
+
+- [Hindi जय](https://en.wiktionary.org/wiki/जय#Hindi)
+
+### [袄](https://en.wiktionary.org/wiki/袄) jak
+
+noun - coat, jacket
+
+From
+
+
+- [English jacket](https://en.wiktionary.org/wiki/jacket#English)
+
+### [张](https://en.wiktionary.org/wiki/张) jan
+
+adjective - flat, sheet, surface, platform
+
+From
+
+
+- [Chinese 张](https://en.wiktionary.org/wiki/张#Chinese)
+
+### [脚](https://en.wiktionary.org/wiki/脚) jao
+
+noun - foot, leg
+
+From
+
+
+- [Chinese 脚](https://en.wiktionary.org/wiki/脚#Chinese)
+
+### [真](https://en.wiktionary.org/wiki/真) jas
+
+adjective, adverb - true, real, genuine, correct, serious
+
+From
+
+
+- [Chinese 真实](https://en.wiktionary.org/wiki/真实#Chinese)
+
+### [这](https://en.wiktionary.org/wiki/这) je
+
+determiner - this, that
+
+From
+
+
+- [Chinese 这](https://en.wiktionary.org/wiki/这#Chinese)
+
+### [觉](https://en.wiktionary.org/wiki/觉) jek
+
+transitive verb - think, believe, feel
+
+From
+
+
+- [Chinese 觉得](https://en.wiktionary.org/wiki/觉得#Chinese)
+
+### [人](https://en.wiktionary.org/wiki/人) jen
+
+noun - person, human
+
+From
+
+
+- [Chinese 人](https://en.wiktionary.org/wiki/人#Chinese)
+
+### [介](https://en.wiktionary.org/wiki/介) jes
+
+transitive verb - introduce, bring up, advise, comment, suggest
+
+From
+
+
+- [Chinese 介紹](https://en.wiktionary.org/wiki/介紹#Chinese)
+- [English suggest](https://en.wiktionary.org/wiki/suggest#English)
+
+### [计](https://en.wiktionary.org/wiki/计) ji
+
+transitive verb - number, amount, some, ordinal, unit, count, calculate
+
+From
+
+
+- [Chinese 几](https://en.wiktionary.org/wiki/几#Chinese)
+- [Chinese 计](https://en.wiktionary.org/wiki/计#Chinese)
+- [Chinese 第](https://en.wiktionary.org/wiki/第#Chinese)
+
+### [机](https://en.wiktionary.org/wiki/机) jik
+
+noun - structure, organization, institution
+
+From
+
+
+- [Chinese 机关](https://en.wiktionary.org/wiki/机关#Chinese)
+- [Chinese 机构](https://en.wiktionary.org/wiki/机构#Chinese)
+
+### [金](https://en.wiktionary.org/wiki/金) jin
+
+noun - metal, money
+
+From
+
+
+- [Chinese 金](https://en.wiktionary.org/wiki/金#Chinese)
+
+### [术](https://en.wiktionary.org/wiki/术) jis
+
+noun - skill, craft, technology, technique, art
+
+From
+
+
+- [Chinese 技术](https://en.wiktionary.org/wiki/技术#Chinese)
+
+### [就](https://en.wiktionary.org/wiki/就) jo
+
+adverb - just, only, already, as soon as, own
+
+From
+
+
+- [Chinese 就](https://en.wiktionary.org/wiki/就#Chinese)
+
+### [注](https://en.wiktionary.org/wiki/注) joi
+
+transitive verb - watch out, pay attention, beware, nurture, guard
+
+From
+
+
+- [Chinese 注意](https://en.wiktionary.org/wiki/注意#Chinese)
+
+### [逗](https://en.wiktionary.org/wiki/逗) jok
+
+noun - humor, joke
+
+From
+
+
+- [English joke](https://en.wiktionary.org/wiki/joke#English)
+
+### [种](https://en.wiktionary.org/wiki/种) jon
+
+noun - seed, bean, gamete, gene, sexual, species
+
+From
+
+
+- [Chinese 种](https://en.wiktionary.org/wiki/种#Chinese)
+
+### [桌](https://en.wiktionary.org/wiki/桌) jos
+
+noun - table, desk, horizontal
+
+From
+
+
+- [Chinese 桌子](https://en.wiktionary.org/wiki/桌子#Chinese)
+
+### [举](https://en.wiktionary.org/wiki/举) ju
+
+transitive verb - raise, lift, cite, demonstrate
+
+From
+
+
+- [Chinese 举](https://en.wiktionary.org/wiki/举#Chinese)
+
+### [如](https://en.wiktionary.org/wiki/如) juk
+
+subordinating conjunction - if
+
+From
+
+
+- [Chinese 如果](https://en.wiktionary.org/wiki/如果#Chinese)
+
+### [菌](https://en.wiktionary.org/wiki/菌) jun
+
+noun - bacteria, mold
+
+From
+
+
+- [Chinese 菌](https://en.wiktionary.org/wiki/菌#Chinese)
+
+### [汁](https://en.wiktionary.org/wiki/汁) jus
+
+noun - juice, liquid, blood
+
+From
+
+
+- [English juice](https://en.wiktionary.org/wiki/juice#English)
+
+### [跌](https://en.wiktionary.org/wiki/跌) ka
+
+intransitive verb - fall, drop, down
+
+From
+
+
+- [Spanish caer](https://en.wiktionary.org/wiki/caer#Spanish)
+
+### [开](https://en.wiktionary.org/wiki/开) kai
+
+transitive verb, aspect particle - start, open, begin, operate
+
+From
+
+
+- [Chinese 开](https://en.wiktionary.org/wiki/开#Chinese)
+
+### [屎](https://en.wiktionary.org/wiki/屎) kak
+
+noun - feces
+
+From
+
+
+- [Spanish caca](https://en.wiktionary.org/wiki/caca#Spanish)
+
+### [看](https://en.wiktionary.org/wiki/看) kan
+
+transitive verb - see, read
+
+From
+
+
+- [Chinese 看](https://en.wiktionary.org/wiki/看#Chinese)
+
+### [考](https://en.wiktionary.org/wiki/考) kao
+
+transitive verb - test, inspect, consider, try, evaluate
+
+From
+
+
+- [Chinese 考](https://en.wiktionary.org/wiki/考#Chinese)
+
+### [房](https://en.wiktionary.org/wiki/房) kas
+
+noun - house, home, building
+
+From
+
+
+- [Spanish casa](https://en.wiktionary.org/wiki/casa#Spanish)
+
+### [何](https://en.wiktionary.org/wiki/何) ke
+
+determiner - what, which
+
+From
+
+
+- [Spanish qué](https://en.wiktionary.org/wiki/qué#Spanish)
+
+### [兄](https://en.wiktionary.org/wiki/兄) kek
+
+noun - sibling
+
+From
+
+
+- [Malay kakak](https://en.wiktionary.org/wiki/kakak#Malay)
+- [Arabic شقيق](https://en.wiktionary.org/wiki/شقيق#Arabic)
+
+### [能](https://en.wiktionary.org/wiki/能) ken
+
+adverb - can, may, possible, able
+
+From
+
+
+- [English can](https://en.wiktionary.org/wiki/can#English)
+- [Chinese 可能](https://en.wiktionary.org/wiki/可能#Chinese)
+
+### [增](https://en.wiktionary.org/wiki/增) kes
+
+intransitive verb - grow, increase
+
+From
+
+
+- [Spanish crecer](https://en.wiktionary.org/wiki/crecer#Spanish)
+
+### [者](https://en.wiktionary.org/wiki/者) ki
+
+relativizer - (relativizer)
+
+From
+
+
+- [French qui](https://en.wiktionary.org/wiki/qui#French)
+
+### [除](https://en.wiktionary.org/wiki/除) kik
+
+transitive verb - remove, take away, clean off
+
+From
+
+
+- [Spanish quitar](https://en.wiktionary.org/wiki/quitar#Spanish)
+
+### [锐](https://en.wiktionary.org/wiki/锐) kin
+
+adjective - keen, sharp, witty, clever, blade
+
+From
+
+
+- [English keen](https://en.wiktionary.org/wiki/keen#English)
+
+### [吻](https://en.wiktionary.org/wiki/吻) kis
+
+transitive verb - kiss
+
+From
+
+
+- [English kiss](https://en.wiktionary.org/wiki/kiss#English)
+
+### [口](https://en.wiktionary.org/wiki/口) ko
+
+noun - door, opening, hole open at both ends
+
+From
+
+
+- [Chinese 口](https://en.wiktionary.org/wiki/口#Chinese)
+
+### [身](https://en.wiktionary.org/wiki/身) koi
+
+noun - body, torso, corpse, form, (3D) shape
+
+From
+
+
+- [Spanish cuerpo](https://en.wiktionary.org/wiki/cuerpo#Spanish)
+
+### [短](https://en.wiktionary.org/wiki/短) kok
+
+adjective - short (in length, distance, duration)
+
+From
+
+
+- [Spanish corto](https://en.wiktionary.org/wiki/corto#Spanish)
+
+### [识](https://en.wiktionary.org/wiki/识) kon
+
+transitive verb - recognize, be familiar with
+
+From
+
+
+- [Spanish conocer](https://en.wiktionary.org/wiki/conocer#Spanish)
+
+### [物](https://en.wiktionary.org/wiki/物) kos
+
+noun - thing, object, tool
+
+From
+
+
+- [Spanish cosa](https://en.wiktionary.org/wiki/cosa#Spanish)
+
+### [苦](https://en.wiktionary.org/wiki/苦) ku
+
+adjective - bitter, suffering, unpleasant, alkali
+
+From
+
+
+- [Chinese 苦](https://en.wiktionary.org/wiki/苦#Chinese)
+
+### [烧](https://en.wiktionary.org/wiki/烧) kuk
+
+transitive verb - cook, burn, heat up
+
+From
+
+
+- [English cook](https://en.wiktionary.org/wiki/cook#English)
+
+### [黄](https://en.wiktionary.org/wiki/黄) kun
+
+adjective - yellow, orange, brown
+
+From
+
+
+- [Malay kuning](https://en.wiktionary.org/wiki/kuning#Malay)
+
+### [听](https://en.wiktionary.org/wiki/听) kus
+
+transitive verb - hear
+
+From
+
+
+- [Spanish escuchar](https://en.wiktionary.org/wiki/escuchar#Spanish)
+
+### [边](https://en.wiktionary.org/wiki/边) la
+
+positional - side, edge, direction
+
+From
+
+
+- [Spanish lado](https://en.wiktionary.org/wiki/lado#Spanish)
+
+### [来](https://en.wiktionary.org/wiki/来) lai
+
+intransitive verb - come, become, exhortative
+
+From
+
+
+- [Chinese 来](https://en.wiktionary.org/wiki/来#Chinese)
+
+### [奶](https://en.wiktionary.org/wiki/奶) lak
+
+noun - milk
+
+From
+
+
+- [Latin lac](https://en.wiktionary.org/wiki/lac#Latin)
+
+### [蓝](https://en.wiktionary.org/wiki/蓝) lan
+
+adjective - blue
+
+From
+
+
+- [Chinese 蓝](https://en.wiktionary.org/wiki/蓝#Chinese)
+
+### [许](https://en.wiktionary.org/wiki/许) lao
+
+transitive verb - allow, let, open
+
+From
+
+
+- [English allow](https://en.wiktionary.org/wiki/allow#English)
+
+### [玻](https://en.wiktionary.org/wiki/玻) las
+
+noun - glass, transparent
+
+From
+
+
+- [English glass](https://en.wiktionary.org/wiki/glass#English)
+
+### [类](https://en.wiktionary.org/wiki/类) le
+
+noun - type, kind, class
+
+From
+
+
+- [Chinese 类](https://en.wiktionary.org/wiki/类#Chinese)
+
+### [电](https://en.wiktionary.org/wiki/电) lek
+
+noun - electric, electricity
+
+From
+
+
+- [English electric](https://en.wiktionary.org/wiki/electric#English)
+- [Spanish eléctrico](https://en.wiktionary.org/wiki/eléctrico#Spanish)
+
+### [慢](https://en.wiktionary.org/wiki/慢) len
+
+adjective - slow
+
+From
+
+
+- [Spanish lento](https://en.wiktionary.org/wiki/lento#Spanish)
+
+### [读](https://en.wiktionary.org/wiki/读) les
+
+transitive verb - read, understand, interpret, study
+
+From
+
+
+- [German lesen](https://en.wiktionary.org/wiki/lesen#German)
+
+### [礼](https://en.wiktionary.org/wiki/礼) li
+
+noun - ritual, ceremony, etiquette, custom, gift
+
+From
+
+
+- [Chinese 礼](https://en.wiktionary.org/wiki/礼#Chinese)
+
+### [轻](https://en.wiktionary.org/wiki/轻) lik
+
+adjective, adverb - lightweight, fragile, weak, slight, minor
+
+From
+
+
+- [Spanish ligero](https://en.wiktionary.org/wiki/ligero#Spanish)
+
+### [洁](https://en.wiktionary.org/wiki/洁) lin
+
+adjective - clean, clear, pure
+
+From
+
+
+- [Spanish limpio](https://en.wiktionary.org/wiki/limpio#Spanish)
+
+### [备](https://en.wiktionary.org/wiki/备) lis
+
+adjective - ready, clever, ripe, alert
+
+From
+
+
+- [Spanish listo](https://en.wiktionary.org/wiki/listo#Spanish)
+
+### [矮](https://en.wiktionary.org/wiki/矮) lo
+
+adjective - low, short, modest
+
+From
+
+
+- [English low](https://en.wiktionary.org/wiki/low#English)
+
+### [而](https://en.wiktionary.org/wiki/而) loi
+
+adverb - then, next, later, so, therefore
+
+From
+
+
+- [Spanish luego](https://en.wiktionary.org/wiki/luego#Spanish)
+
+### [狂](https://en.wiktionary.org/wiki/狂) lok
+
+adjective - crazy, risky, imprudent, chaotic
+
+From
+
+
+- [Spanish loco](https://en.wiktionary.org/wiki/loco#Spanish)
+
+### [独](https://en.wiktionary.org/wiki/独) lon
+
+adjective - unique, alone, solitary
+
+From
+
+
+- [English lone](https://en.wiktionary.org/wiki/lone#English)
+
+### [层](https://en.wiktionary.org/wiki/层) los
+
+noun - level, floor, layer, stratum
+
+From
+
+
+- [Chinese 楼层](https://en.wiktionary.org/wiki/楼层#Chinese)
+
+### [流](https://en.wiktionary.org/wiki/流) lu
+
+intransitive verb - flow, pour, spill, move, circulate
+
+From
+
+
+- [Chinese 流](https://en.wiktionary.org/wiki/流#Chinese)
+- [Spanish fluir](https://en.wiktionary.org/wiki/fluir#Spanish)
+
+### [所](https://en.wiktionary.org/wiki/所) luk
+
+noun - place, location
+
+From
+
+
+- [Spanish lugar](https://en.wiktionary.org/wiki/lugar#Spanish)
+
+### [轮](https://en.wiktionary.org/wiki/轮) lun
+
+noun - round, circle, wheel, cycle
+
+From
+
+
+- [Chinese 轮](https://en.wiktionary.org/wiki/轮#Chinese)
+
+### [光](https://en.wiktionary.org/wiki/光) lus
+
+noun - light, intelligence, clarity, perspective
+
+From
+
+
+- [Spanish luz](https://en.wiktionary.org/wiki/luz#Spanish)
+
+### [亲](https://en.wiktionary.org/wiki/亲) ma
+
+noun - parent, older relative
+
+From
+
+
+- [English ma](https://en.wiktionary.org/wiki/ma#English)
+- [Spanish mamá](https://en.wiktionary.org/wiki/mamá#Spanish)
+- [Chinese 妈妈](https://en.wiktionary.org/wiki/妈妈#Chinese)
+- [Hindi मामा](https://en.wiktionary.org/wiki/मामा#Hindi)
+
+### [买](https://en.wiktionary.org/wiki/买) mai
+
+transitive verb - buy, sell, trade, exchange, swap, switch
+
+From
+
+
+- [Chinese 卖](https://en.wiktionary.org/wiki/卖#Chinese)
+- [Chinese 买](https://en.wiktionary.org/wiki/买#Chinese)
+
+### [作](https://en.wiktionary.org/wiki/作) mak
+
+transitive verb - make, construct, create, prepare
+
+From
+
+
+- [English make](https://en.wiktionary.org/wiki/make#English)
+- [Dutch maken](https://en.wiktionary.org/wiki/maken#Dutch)
+- [German machen](https://en.wiktionary.org/wiki/machen#German)
+
+### [满](https://en.wiktionary.org/wiki/满) man
+
+adjective, adverb - full, satisfied, complete, whole, entire
+
+From
+
+
+- [Chinese 满](https://en.wiktionary.org/wiki/满#Chinese)
+
+### [毛](https://en.wiktionary.org/wiki/毛) mao
+
+noun - hair, fur, feather, wool, bristle
+
+From
+
+
+- [Chinese 毛](https://en.wiktionary.org/wiki/毛#Chinese)
+
+### [更](https://en.wiktionary.org/wiki/更) mas
+
+adverb - more, most
+
+From
+
+
+- [Spanish más](https://en.wiktionary.org/wiki/más#Spanish)
+
+### [每](https://en.wiktionary.org/wiki/每) me
+
+determiner - all, each, every
+
+From
+
+
+- [Chinese 每](https://en.wiktionary.org/wiki/每#Chinese)
+
+### [器](https://en.wiktionary.org/wiki/器) mek
+
+noun - mechanism, device, tool, machine, contraption
+
+From
+
+
+- [English mechanism](https://en.wiktionary.org/wiki/mechanism#English)
+- [Spanish mecanismo](https://en.wiktionary.org/wiki/mecanismo#Spanish)
+
+### [们](https://en.wiktionary.org/wiki/们) men
+
+number particle - plural, many, much, a lot
+
+From
+
+
+- [English many](https://en.wiktionary.org/wiki/many#English)
+- [Chinese 们](https://en.wiktionary.org/wiki/们#Chinese)
+
+### [中](https://en.wiktionary.org/wiki/中) mes
+
+positional - middle, center, between, among
+
+From
+
+
+- [English meso-](https://en.wiktionary.org/wiki/meso-#English)
+- [Spanish medio](https://en.wiktionary.org/wiki/medio#Spanish)
+
+### [我](https://en.wiktionary.org/wiki/我) mi
+
+pronoun - 1st person
+
+From
+
+
+- [English me](https://en.wiktionary.org/wiki/me#English)
+- [Spanish mí](https://en.wiktionary.org/wiki/mí#Spanish)
+
+### [友](https://en.wiktionary.org/wiki/友) mik
+
+noun - friend, kind, amicable
+
+From
+
+
+- [Spanish amigo](https://en.wiktionary.org/wiki/amigo#Spanish)
+
+### [名](https://en.wiktionary.org/wiki/名) min
+
+transitive verb - name, word, call, refer
+
+From
+
+
+- [Chinese 名](https://en.wiktionary.org/wiki/名#Chinese)
+
+### [失](https://en.wiktionary.org/wiki/失) mis
+
+intransitive verb - miss, err, mistake
+
+From
+
+
+- [English miss](https://en.wiktionary.org/wiki/miss#English)
+- [English mistake](https://en.wiktionary.org/wiki/mistake#English)
+
+### [末](https://en.wiktionary.org/wiki/末) mo
+
+intransitive verb - die, end, ending
+
+From
+
+
+- [Spanish morir](https://en.wiktionary.org/wiki/morir#Spanish)
+- [Chinese 末](https://en.wiktionary.org/wiki/末#Chinese)
+
+### [软](https://en.wiktionary.org/wiki/软) moi
+
+adjective - soft, smooth, mild
+
+From
+
+
+- [Spanish muelle](https://en.wiktionary.org/wiki/muelle#Spanish)
+
+### [仿](https://en.wiktionary.org/wiki/仿) mok
+
+transitive verb - mock, copy, imitate, resemble
+
+From
+
+
+- [English mock](https://en.wiktionary.org/wiki/mock#English)
+
+### [山](https://en.wiktionary.org/wiki/山) mon
+
+noun - mountain, hill, mound, pile, heap, mass
+
+From
+
+
+- [English mound](https://en.wiktionary.org/wiki/mound#English)
+- [English mountain](https://en.wiktionary.org/wiki/mountain#English)
+- [Spanish montón](https://en.wiktionary.org/wiki/montón#Spanish)
+- [Spanish montaña](https://en.wiktionary.org/wiki/montaña#Spanish)
+
+### [必](https://en.wiktionary.org/wiki/必) mos
+
+adverb - must, have to (epistemic and deontic senses)
+
+From
+
+
+- [English must](https://en.wiktionary.org/wiki/must#English)
+
+### [木](https://en.wiktionary.org/wiki/木) mu
+
+noun - tree, post, column, wood
+
+From
+
+
+- [Chinese 木](https://en.wiktionary.org/wiki/木#Chinese)
+
+### [放](https://en.wiktionary.org/wiki/放) muk
+
+adjective - free, open, unencumbered, loose, relaxed, non-binary, gender-nonconforming
+
+From
+
+
+- [Hindi मुक्त](https://en.wiktionary.org/wiki/मुक्त#Hindi)
+
+### [月](https://en.wiktionary.org/wiki/月) mun
+
+noun - moon, month
+
+From
+
+
+- [English moon](https://en.wiktionary.org/wiki/moon#English)
+
+### [鼠](https://en.wiktionary.org/wiki/鼠) mus
+
+noun - mouse, rodent
+
+From
+
+
+- [English mouse](https://en.wiktionary.org/wiki/mouse#English)
+- [Latin mūs](https://en.wiktionary.org/wiki/mūs#Latin)
+
+### [泳](https://en.wiktionary.org/wiki/泳) na
+
+intransitive verb - swim
+
+From
+
+
+- [Spanish nadar](https://en.wiktionary.org/wiki/nadar#Spanish)
+
+### [九](https://en.wiktionary.org/wiki/九) nai
+
+numeral - nine
+
+From
+
+
+- [English nine](https://en.wiktionary.org/wiki/nine#English)
+
+### [露](https://en.wiktionary.org/wiki/露) nak
+
+adjective - nature, character, base, bare, naked
+
+From
+
+
+- [Spanish natural](https://en.wiktionary.org/wiki/natural#Spanish)
+- [English natural](https://en.wiktionary.org/wiki/natural#English)
+- [English naked](https://en.wiktionary.org/wiki/naked#English)
+
+### [男](https://en.wiktionary.org/wiki/男) nan
+
+adjective - male, masculine
+
+From
+
+
+- [Chinese 男](https://en.wiktionary.org/wiki/男#Chinese)
+
+### [脑](https://en.wiktionary.org/wiki/脑) nao
+
+noun - brain, mind
+
+From
+
+
+- [Chinese 脑](https://en.wiktionary.org/wiki/脑#Chinese)
+
+### [国](https://en.wiktionary.org/wiki/国) nas
+
+noun - nation, people, ethnicity
+
+From
+
+
+- [English nation](https://en.wiktionary.org/wiki/nation#English)
+- [Spanish nación](https://en.wiktionary.org/wiki/nación#Spanish)
+
+### [网](https://en.wiktionary.org/wiki/网) ne
+
+noun - system, network, economy, environment, internet
+
+From
+
+
+- [English net](https://en.wiktionary.org/wiki/net#English)
+
+### [颈](https://en.wiktionary.org/wiki/颈) nek
+
+noun - neck, stem
+
+From
+
+
+- [English neck](https://en.wiktionary.org/wiki/neck#English)
+
+### [年](https://en.wiktionary.org/wiki/年) nen
+
+noun - year
+
+From
+
+
+- [Chinese 年](https://en.wiktionary.org/wiki/年#Chinese)
+
+### [性](https://en.wiktionary.org/wiki/性) nes
+
+nominalizer - essence, concept, abstract noun
+
+From
+
+
+- [English -ness](https://en.wiktionary.org/wiki/-ness#English)
+
+### [你](https://en.wiktionary.org/wiki/你) ni
+
+pronoun - 2nd person
+
+From
+
+
+- [Chinese 你](https://en.wiktionary.org/wiki/你#Chinese)
+
+### [肉](https://en.wiktionary.org/wiki/肉) nik
+
+noun - meat, flesh, organ
+
+From
+
+
+- [Japanese 肉](https://en.wiktionary.org/wiki/肉#Japanese)
+
+### [无](https://en.wiktionary.org/wiki/无) nin
+
+numeral - none, nothing, zero
+
+From
+
+
+- [Spanish ninguno](https://en.wiktionary.org/wiki/ninguno#Spanish)
+
+### [于](https://en.wiktionary.org/wiki/于) nis
+
+preposition, linking particle - about, concerning, with regard to
+
+From
+
+
+- [Japanese について](https://en.wiktionary.org/wiki/について#Japanese)
+
+### [不](https://en.wiktionary.org/wiki/不) no
+
+adverb - no, not
+
+From
+
+
+- [English no](https://en.wiktionary.org/wiki/no#English)
+- [Spanish no](https://en.wiktionary.org/wiki/no#Spanish)
+
+### [烦](https://en.wiktionary.org/wiki/烦) noi
+
+transitive verb - nag, annoy, bother, harass, disturb
+
+From
+
+
+- [English annoy](https://en.wiktionary.org/wiki/annoy#English)
+
+### [夕](https://en.wiktionary.org/wiki/夕) nok
+
+noun - night
+
+From
+
+
+- [Spanish noche](https://en.wiktionary.org/wiki/noche#Spanish)
+- [Latin nox](https://en.wiktionary.org/wiki/nox#Latin)
+
+### [农](https://en.wiktionary.org/wiki/农) non
+
+transitive verb - farm, grow, raise, agriculture
+
+From
+
+
+- [Chinese 农](https://en.wiktionary.org/wiki/农#Chinese)
+
+### [鼻](https://en.wiktionary.org/wiki/鼻) nos
+
+noun - nose
+
+From
+
+
+- [English nose](https://en.wiktionary.org/wiki/nose#English)
+
+### [新](https://en.wiktionary.org/wiki/新) nu
+
+adjective - new, young
+
+From
+
+
+- [English new](https://en.wiktionary.org/wiki/new#English)
+
+### [午](https://en.wiktionary.org/wiki/午) nun
+
+noun - noon, daytime
+
+From
+
+
+- [English noon](https://en.wiktionary.org/wiki/noon#English)
+
+### [女](https://en.wiktionary.org/wiki/女) nus
+
+adjective - feminine, female
+
+From
+
+
+- [Chinese 女性](https://en.wiktionary.org/wiki/女性#Chinese)
+- [Chinese 女生](https://en.wiktionary.org/wiki/女生#Chinese)
+- [Chinese 女子](https://en.wiktionary.org/wiki/女子#Chinese)
+
+### [珠](https://en.wiktionary.org/wiki/珠) nuk
+
+noun - nut, bead, pearl
+
+From
+
+
+- [Latin nux](https://en.wiktionary.org/wiki/nux#Latin)
+- [English nut](https://en.wiktionary.org/wiki/nut#English)
+
+### [另](https://en.wiktionary.org/wiki/另) o
+
+adjective, coordinating conjunction - or, other
+
+From
+
+
+- [English or](https://en.wiktionary.org/wiki/or#English)
+- [Spanish otro](https://en.wiktionary.org/wiki/otro#Spanish)
+
+### [喂](https://en.wiktionary.org/wiki/喂) oi
+
+interjection - oh, hey
+
+From
+
+
+- [Chinese 喂](https://en.wiktionary.org/wiki/喂#Chinese)
+- [English oi](https://en.wiktionary.org/wiki/oi#English)
+- [Japanese おい](https://en.wiktionary.org/wiki/おい#Japanese)
+
+### [八](https://en.wiktionary.org/wiki/八) ok
+
+numeral - eight
+
+From
+
+
+- [Spanish ocho](https://en.wiktionary.org/wiki/ocho#Spanish)
+
+### [菇](https://en.wiktionary.org/wiki/菇) on
+
+noun - fungus, mushroom
+
+From
+
+
+- [Spanish hongo](https://en.wiktionary.org/wiki/hongo#Spanish)
+
+### [熊](https://en.wiktionary.org/wiki/熊) os
+
+noun - bear
+
+From
+
+
+- [Spanish oso](https://en.wiktionary.org/wiki/oso#Spanish)
+
+### [站](https://en.wiktionary.org/wiki/站) pa
+
+intransitive verb, aspect particle - stand up, stop, halt, be still
+
+From
+
+
+- [Spanish parar](https://en.wiktionary.org/wiki/parar#Spanish)
+
+### [排](https://en.wiktionary.org/wiki/排) pai
+
+transitive verb - arrange, put in order, oversee, row
+
+From
+
+
+- [Chinese 排](https://en.wiktionary.org/wiki/排#Chinese)
+
+### [鸟](https://en.wiktionary.org/wiki/鸟) pak
+
+noun - bird
+
+From
+
+
+- [Spanish pájaro](https://en.wiktionary.org/wiki/pájaro#Spanish)
+- [Hindi पक्षी](https://en.wiktionary.org/wiki/पक्षी#Hindi)
+
+### [饭](https://en.wiktionary.org/wiki/饭) pan
+
+noun - bread, rice, starch, grain
+
+From
+
+
+- [Spanish pan](https://en.wiktionary.org/wiki/pan#Spanish)
+- [Chinese 饭](https://en.wiktionary.org/wiki/饭#Chinese)
+
+### [力](https://en.wiktionary.org/wiki/力) pao
+
+noun - power, energy, strength
+
+From
+
+
+- [English power](https://en.wiktionary.org/wiki/power#English)
+
+### [过](https://en.wiktionary.org/wiki/过) pas
+
+preposition, aspect particle - pass, cross, across, on the other side of, experiential, spend time
+
+From
+
+
+- [English pass](https://en.wiktionary.org/wiki/pass#English)
+- [Spanish pasar](https://en.wiktionary.org/wiki/pasar#Spanish)
+
+### [损](https://en.wiktionary.org/wiki/损) pe
+
+transitive verb - lose, pay, suffer
+
+From
+
+
+- [English pay](https://en.wiktionary.org/wiki/pay#English)
+- [Spanish perder](https://en.wiktionary.org/wiki/perder#Spanish)
+- [Spanish pena](https://en.wiktionary.org/wiki/pena#Spanish)
+
+### [黏](https://en.wiktionary.org/wiki/黏) pek
+
+intransitive verb - sticky, adhere, glue, attach
+
+From
+
+
+- [Spanish pegar](https://en.wiktionary.org/wiki/pegar#Spanish)
+
+### [片](https://en.wiktionary.org/wiki/片) pen
+
+noun - slice, sheet, paper, card, leaf
+
+From
+
+
+- [Chinese 片](https://en.wiktionary.org/wiki/片#Chinese)
+
+### [重](https://en.wiktionary.org/wiki/重) pes
+
+noun - weight, mass, importance
+
+From
+
+
+- [Spanish peso](https://en.wiktionary.org/wiki/peso#Spanish)
+
+### [皮](https://en.wiktionary.org/wiki/皮) pi
+
+positional - skin, outside, edge, peel, surface
+
+From
+
+
+- [English peel](https://en.wiktionary.org/wiki/peel#English)
+- [Spanish piel](https://en.wiktionary.org/wiki/piel#Spanish)
+- [Chinese 皮](https://en.wiktionary.org/wiki/皮#Chinese)
+
+### [像](https://en.wiktionary.org/wiki/像) pik
+
+noun - picture, image, depiction, explanation
+
+From
+
+
+- [English picture](https://en.wiktionary.org/wiki/picture#English)
+
+### [刺](https://en.wiktionary.org/wiki/刺) pin
+
+transitive verb - prick, pierce, stab, pin, thorn
+
+From
+
+
+- [English pin](https://en.wiktionary.org/wiki/pin#English)
+- [Spanish pinchar](https://en.wiktionary.org/wiki/pinchar#Spanish)
+
+### [块](https://en.wiktionary.org/wiki/块) pis
+
+noun - piece, part, drop, singulative
+
+From
+
+
+- [English piece](https://en.wiktionary.org/wiki/piece#English)
+- [Spanish pieza](https://en.wiktionary.org/wiki/pieza#Spanish)
+
+### [乏](https://en.wiktionary.org/wiki/乏) po
+
+adjective - poor, helpless, forlorn, meager, sparse, few, scarce
+
+From
+
+
+- [English poor](https://en.wiktionary.org/wiki/poor#English)
+- [Spanish pobre](https://en.wiktionary.org/wiki/pobre#Spanish)
+- [Spanish poco](https://en.wiktionary.org/wiki/poco#Spanish)
+
+### [鸡](https://en.wiktionary.org/wiki/鸡) poi
+
+noun - chicken, fowl
+
+From
+
+
+- [Spanish pollo](https://en.wiktionary.org/wiki/pollo#Spanish)
+
+### [猪](https://en.wiktionary.org/wiki/猪) pok
+
+noun - pig
+
+From
+
+
+- [Spanish puerco](https://en.wiktionary.org/wiki/puerco#Spanish)
+
+### [加](https://en.wiktionary.org/wiki/加) pon
+
+transitive verb - put, place, add, set
+
+From
+
+
+- [Spanish poner](https://en.wiktionary.org/wiki/poner#Spanish)
+
+### [位](https://en.wiktionary.org/wiki/位) pos
+
+noun - position, role, place, status
+
+From
+
+
+- [English position](https://en.wiktionary.org/wiki/position#English)
+- [Spanish puesto](https://en.wiktionary.org/wiki/puesto#Spanish)
+- [Spanish posición](https://en.wiktionary.org/wiki/posición#Spanish)
+
+### [路](https://en.wiktionary.org/wiki/路) pu
+
+noun - way, road, path, direction
+
+From
+
+
+- [Russian путь](https://en.wiktionary.org/wiki/путь#Russian)
+
+### [争](https://en.wiktionary.org/wiki/争) puk
+
+intransitive verb - conflict, fight, war
+
+From
+
+
+- [Spanish pugnar](https://en.wiktionary.org/wiki/pugnar#Spanish)
+
+### [基](https://en.wiktionary.org/wiki/基) pun
+
+noun - fundamental, basic, basis
+
+From
+
+
+- [Spanish fundamental](https://en.wiktionary.org/wiki/fundamental#Spanish)
+- [English fundamental](https://en.wiktionary.org/wiki/fundamental#English)
+
+### [复](https://en.wiktionary.org/wiki/复) pus
+
+adjective - complex, difficult
+
+From
+
+
+- [Chinese 复杂](https://en.wiktionary.org/wiki/复杂#Chinese)
+
+### [知](https://en.wiktionary.org/wiki/知) sa
+
+transitive verb - know
+
+From
+
+
+- [Spanish saber](https://en.wiktionary.org/wiki/saber#Spanish)
+
+### [菜](https://en.wiktionary.org/wiki/菜) sai
+
+noun - vegetable, plant
+
+From
+
+
+- [Chinese 菜](https://en.wiktionary.org/wiki/菜#Chinese)
+
+### [酒](https://en.wiktionary.org/wiki/酒) sak
+
+noun - alcohol
+
+From
+
+
+- [Japanese 酒](https://en.wiktionary.org/wiki/酒#Japanese)
+
+### [三](https://en.wiktionary.org/wiki/三) san
+
+numeral - three
+
+From
+
+
+- [Chinese 三](https://en.wiktionary.org/wiki/三#Chinese)
+
+### [早](https://en.wiktionary.org/wiki/早) sao
+
+adjective - early, morning
+
+From
+
+
+- [Chinese 早](https://en.wiktionary.org/wiki/早#Chinese)
+
+### [酱](https://en.wiktionary.org/wiki/酱) sas
+
+noun - sauce, dressing
+
+From
+
+
+- [English sauce](https://en.wiktionary.org/wiki/sauce#English)
+- [Spanish salsa](https://en.wiktionary.org/wiki/salsa#Spanish)
+
+### [己](https://en.wiktionary.org/wiki/己) se
+
+pronoun - self, reflexive
+
+From
+
+
+- [Spanish se](https://en.wiktionary.org/wiki/se#Spanish)
+
+### [干](https://en.wiktionary.org/wiki/干) sek
+
+adjective - dry, thirsty
+
+From
+
+
+- [Spanish seco](https://en.wiktionary.org/wiki/seco#Spanish)
+
+### [坐](https://en.wiktionary.org/wiki/坐) sen
+
+intransitive verb, aspect particle - sit, stay, remain, continue
+
+From
+
+
+- [Spanish sentar](https://en.wiktionary.org/wiki/sentar#Spanish)
+
+### [六](https://en.wiktionary.org/wiki/六) ses
+
+numeral - six
+
+From
+
+
+- [Spanish seis](https://en.wiktionary.org/wiki/seis#Spanish)
+
+### [色](https://en.wiktionary.org/wiki/色) so
+
+noun - color
+
+From
+
+
+- [Chinese 色](https://en.wiktionary.org/wiki/色#Chinese)
+
+### [碎](https://en.wiktionary.org/wiki/碎) soi
+
+transitive verb - break, shatter, shred
+
+From
+
+
+- [Chinese 碎](https://en.wiktionary.org/wiki/碎#Chinese)
+
+### [锁](https://en.wiktionary.org/wiki/锁) sok
+
+transitive verb - lock, latch, secure, certain
+
+From
+
+
+- [Chinese 锁定](https://en.wiktionary.org/wiki/锁定#Chinese)
+- [English secure](https://en.wiktionary.org/wiki/secure#English)
+
+### [日](https://en.wiktionary.org/wiki/日) son
+
+noun - sun, day
+
+From
+
+
+- [English sun](https://en.wiktionary.org/wiki/sun#English)
+
+### [交](https://en.wiktionary.org/wiki/交) sos
+
+noun - social, society
+
+From
+
+
+- [English social](https://en.wiktionary.org/wiki/social#English)
+- [English society](https://en.wiktionary.org/wiki/society#English)
+- [Spanish social](https://en.wiktionary.org/wiki/social#Spanish)
+- [Spanish sociedad](https://en.wiktionary.org/wiki/sociedad#Spanish)
+
+### [速](https://en.wiktionary.org/wiki/速) su
+
+adjective - fast, quick
+
+From
+
+
+- [Chinese 速](https://en.wiktionary.org/wiki/速#Chinese)
+
+### [糖](https://en.wiktionary.org/wiki/糖) suk
+
+noun - sugar
+
+From
+
+
+- [Spanish azúcar](https://en.wiktionary.org/wiki/azúcar#Spanish)
+
+### [酸](https://en.wiktionary.org/wiki/酸) sun
+
+noun - sour, acid
+
+From
+
+
+- [Chinese 酸](https://en.wiktionary.org/wiki/酸#Chinese)
+
+### [污](https://en.wiktionary.org/wiki/污) sus
+
+adjective - dirty, gross, grubby, unwashed
+
+From
+
+
+- [Spanish sucio](https://en.wiktionary.org/wiki/sucio#Spanish)
+
+### [他](https://en.wiktionary.org/wiki/他) ta
+
+pronoun - 3rd person, thing
+
+From
+
+
+- [Chinese 他](https://en.wiktionary.org/wiki/他#Chinese)
+- [Chinese 她](https://en.wiktionary.org/wiki/她#Chinese)
+- [Chinese 它](https://en.wiktionary.org/wiki/它#Chinese)
+
+### [系](https://en.wiktionary.org/wiki/系) tai
+
+transitive verb - knot, tie, join, connect, relate
+
+From
+
+
+- [English tie](https://en.wiktionary.org/wiki/tie#English)
+
+### [怕](https://en.wiktionary.org/wiki/怕) tak
+
+transitive verb - fear, afraid
+
+From
+
+
+- [Malay takut](https://en.wiktionary.org/wiki/takut#Malay)
+
+### [躺](https://en.wiktionary.org/wiki/躺) tan
+
+intransitive verb - lie, recline
+
+From
+
+
+- [Chinese 躺](https://en.wiktionary.org/wiki/躺#Chinese)
+
+### [千](https://en.wiktionary.org/wiki/千) tao
+
+numeral - thousand
+
+From
+
+
+- [English thousand](https://en.wiktionary.org/wiki/thousand#English)
+
+### [杯](https://en.wiktionary.org/wiki/杯) tas
+
+noun - cup, bowl
+
+From
+
+
+- [Spanish taza](https://en.wiktionary.org/wiki/taza#Spanish)
+
+### [布](https://en.wiktionary.org/wiki/布) te
+
+noun - fabric, cloth, clothing
+
+From
+
+
+- [Spanish tela](https://en.wiktionary.org/wiki/tela#Spanish)
+
+### [拿](https://en.wiktionary.org/wiki/拿) tek
+
+transitive verb - take, buy
+
+From
+
+
+- [English take](https://en.wiktionary.org/wiki/take#English)
+
+### [天](https://en.wiktionary.org/wiki/天) ten
+
+noun - sky, weather, heaven, god, holy, sacred
+
+From
+
+
+- [Chinese 天](https://en.wiktionary.org/wiki/天#Chinese)
+
+### [味](https://en.wiktionary.org/wiki/味) tes
+
+noun - taste, smell, flavor, preference
+
+From
+
+
+- [English taste](https://en.wiktionary.org/wiki/taste#English)
+
+### [头](https://en.wiktionary.org/wiki/头) to
+
+noun - head, individual, chief, main
+
+From
+
+
+- [Chinese 头](https://en.wiktionary.org/wiki/头#Chinese)
+
+### [推](https://en.wiktionary.org/wiki/推) toi
+
+transitive verb - push, extend, postpone, publish, promote, spread, distribute
+
+From
+
+
+- [Chinese 推](https://en.wiktionary.org/wiki/推#Chinese)
+
+### [摸](https://en.wiktionary.org/wiki/摸) tok
+
+transitive verb - touch, feel, play (instrument)
+
+From
+
+
+- [Spanish tocar](https://en.wiktionary.org/wiki/tocar#Spanish)
+
+### [同](https://en.wiktionary.org/wiki/同) ton
+
+adjective - same, common, like, as
+
+From
+
+
+- [Chinese 同](https://en.wiktionary.org/wiki/同#Chinese)
+
+### [扔](https://en.wiktionary.org/wiki/扔) tos
+
+transitive verb - throw, throw out, reject, expel, emit, spew, cough
+
+From
+
+
+- [English toss](https://en.wiktionary.org/wiki/toss#English)
+- [Spanish tos](https://en.wiktionary.org/wiki/tos#Spanish)
+
+### [土](https://en.wiktionary.org/wiki/土) tu
+
+noun - ground, land, dirt, territory, earth
+
+From
+
+
+- [Chinese 土](https://en.wiktionary.org/wiki/土#Chinese)
+
+### [管](https://en.wiktionary.org/wiki/管) tuk
+
+noun - tube, pipe
+
+From
+
+
+- [Spanish tubo](https://en.wiktionary.org/wiki/tubo#Spanish)
+- [English tube](https://en.wiktionary.org/wiki/tube#English)
+
+### [乐](https://en.wiktionary.org/wiki/乐) tun
+
+noun - music, harmony
+
+From
+
+
+- [English tune](https://en.wiktionary.org/wiki/tune#English)
+
+### [涂](https://en.wiktionary.org/wiki/涂) tus
+
+transitive verb - paint, smear, wipe, coating, layer
+
+From
+
+
+- [Chinese 涂层](https://en.wiktionary.org/wiki/涂层#Chinese)
+- [Chinese 涂饰](https://en.wiktionary.org/wiki/涂饰#Chinese)
+
+### [五](https://en.wiktionary.org/wiki/五) u
+
+numeral - five
+
+From
+
+
+- [Chinese 五](https://en.wiktionary.org/wiki/五#Chinese)
+
+### [舞](https://en.wiktionary.org/wiki/舞) uk
+
+intransitive verb - dance
+
+From
+
+
+- [Chinese 舞蹈](https://en.wiktionary.org/wiki/舞蹈#Chinese)
+
+### [一](https://en.wiktionary.org/wiki/一) un
+
+numeral - one, a, some, any
+
+From
+
+
+- [Spanish un](https://en.wiktionary.org/wiki/un#Spanish)
+- [Spanish uno](https://en.wiktionary.org/wiki/uno#Spanish)
+
+### [质](https://en.wiktionary.org/wiki/质) us
+
+noun - substance, material, matter
+
+From
+
+
+- [Chinese 物质](https://en.wiktionary.org/wiki/物质#Chinese)
+
+### [水](https://en.wiktionary.org/wiki/水) wa
+
+noun - water
+
+From
+
+
+- [English water](https://en.wiktionary.org/wiki/water#English)
+- [Spanish agua](https://en.wiktionary.org/wiki/agua#Spanish)
+
+### [白](https://en.wiktionary.org/wiki/白) wai
+
+adjective - white, pale
+
+From
+
+
+- [English white](https://en.wiktionary.org/wiki/white#English)
+
+### [走](https://en.wiktionary.org/wiki/走) wak
+
+intransitive verb - walk, move
+
+From
+
+
+- [English walk](https://en.wiktionary.org/wiki/walk#English)
+
+### [晚](https://en.wiktionary.org/wiki/晚) wan
+
+noun - late, night, evening
+
+From
+
+
+- [Chinese 晚](https://en.wiktionary.org/wiki/晚#Chinese)
+
+### [哇](https://en.wiktionary.org/wiki/哇) wao
+
+interjection - wow, (exclamation)
+
+From
+
+
+- [English wow](https://en.wiktionary.org/wiki/wow#English)
+
+### [洗](https://en.wiktionary.org/wiki/洗) was
+
+transitive verb - wash, bathe, erase
+
+From
+
+
+- [English wash](https://en.wiktionary.org/wiki/wash#English)
+
+### [为](https://en.wiktionary.org/wiki/为) we
+
+noun - way, state, manner, function, reason
+
+From
+
+
+- [English way](https://en.wiktionary.org/wiki/way#English)
+- [Chinese 为](https://en.wiktionary.org/wiki/为#Chinese)
+
+### [醒](https://en.wiktionary.org/wiki/醒) wek
+
+intransitive verb - alert, awake, wait, anticipate
+
+From
+
+
+- [English wake](https://en.wiktionary.org/wiki/wake#English)
+- [English wait](https://en.wiktionary.org/wiki/wait#English)
+
+### [温](https://en.wiktionary.org/wiki/温) wen
+
+adjective - warm, tender, gentle
+
+From
+
+
+- [Chinese 温](https://en.wiktionary.org/wiki/温#Chinese)
+
+### [骨](https://en.wiktionary.org/wiki/骨) wes
+
+noun - bone
+
+From
+
+
+- [Spanish hueso](https://en.wiktionary.org/wiki/hueso#Spanish)
+
+### [逃](https://en.wiktionary.org/wiki/逃) wi
+
+intransitive verb - escape, avoid, flee
+
+From
+
+
+- [Spanish huir](https://en.wiktionary.org/wiki/huir#Spanish)
+
+### [弱](https://en.wiktionary.org/wiki/弱) wik
+
+adjective - weak, tired
+
+From
+
+
+- [English weak](https://en.wiktionary.org/wiki/weak#English)
+
+### [赢](https://en.wiktionary.org/wiki/赢) win
+
+transitive verb - win, gain, obtain, succeed
+
+From
+
+
+- [English win](https://en.wiktionary.org/wiki/win#English)
+
+### [跟](https://en.wiktionary.org/wiki/跟) wis
+
+transitive verb - follow, with, in accompaniment
+
+From
+
+
+- [English with](https://en.wiktionary.org/wiki/with#English)
+
+### [墙](https://en.wiktionary.org/wiki/墙) wo
+
+noun - wall, barrier
+
+From
+
+
+- [English wall](https://en.wiktionary.org/wiki/wall#English)
+
+### [工](https://en.wiktionary.org/wiki/工) wok
+
+intransitive verb - work, labor, position, role
+
+From
+
+
+- [English work](https://en.wiktionary.org/wiki/work#English)
+
+### [问](https://en.wiktionary.org/wiki/问) won
+
+transitive verb - ask, request, question, problem, issue
+
+From
+
+
+- [Chinese 问](https://en.wiktionary.org/wiki/问#Chinese)
+
+### [朽](https://en.wiktionary.org/wiki/朽) wos
+
+intransitive verb - worsen, decay, decline, rot, deteriorate
+
+From
+
+
+- [English worsen](https://en.wiktionary.org/wiki/worsen#English)
+- [Malay rosot](https://en.wiktionary.org/wiki/rosot#Malay)
+- [Malay rosak](https://en.wiktionary.org/wiki/rosak#Malay)
+
+### [沙](https://en.wiktionary.org/wiki/沙) xa
+
+noun - sand, powder
+
+From
+
+
+- [Chinese 沙](https://en.wiktionary.org/wiki/沙#Chinese)
+
+### [时](https://en.wiktionary.org/wiki/时) xas
+
+noun - time, hour
+
+From
+
+
+- [Chinese 时间](https://en.wiktionary.org/wiki/时间#Chinese)
+- [Chinese 小时](https://en.wiktionary.org/wiki/小时#Chinese)
+
+### [羞](https://en.wiktionary.org/wiki/羞) xai
+
+adjective - shy, timid, meek, ashamed
+
+From
+
+
+- [English shy](https://en.wiktionary.org/wiki/shy#English)
+
+### [支](https://en.wiktionary.org/wiki/支) xak
+
+noun - branch, department, section, arm, tributary
+
+From
+
+
+- [Hindi शाखा](https://en.wiktionary.org/wiki/शाखा#Hindi)
+
+### [上](https://en.wiktionary.org/wiki/上) xan
+
+positional - top, over, above, up
+
+From
+
+
+- [Chinese 上](https://en.wiktionary.org/wiki/上#Chinese)
+
+### [小](https://en.wiktionary.org/wiki/小) xao
+
+adjective - small, young
+
+From
+
+
+- [Chinese 小](https://en.wiktionary.org/wiki/小#Chinese)
+
+### [写](https://en.wiktionary.org/wiki/写) xe
+
+transitive verb - write
+
+From
+
+
+- [Chinese 写](https://en.wiktionary.org/wiki/写#Chinese)
+
+### [摇](https://en.wiktionary.org/wiki/摇) xek
+
+intransitive verb - shake, vibrate, sway, move (back and forth)
+
+From
+
+
+- [English shake](https://en.wiktionary.org/wiki/shake#English)
+
+### [深](https://en.wiktionary.org/wiki/深) xen
+
+adjective - deep, rich, saturated
+
+From
+
+
+- [Chinese 深](https://en.wiktionary.org/wiki/深#Chinese)
+
+### [学](https://en.wiktionary.org/wiki/学) xes
+
+transitive verb - learn, study
+
+From
+
+
+- [Chinese 学习](https://en.wiktionary.org/wiki/学习#Chinese)
+
+### [喜](https://en.wiktionary.org/wiki/喜) xi
+
+transitive verb - happy, pleased, enjoy, interest
+
+From
+
+
+- [Chinese 喜](https://en.wiktionary.org/wiki/喜#Chinese)
+
+### [雅](https://en.wiktionary.org/wiki/雅) xik
+
+adjective - chic, hip, cool
+
+From
+
+
+- [French chic](https://en.wiktionary.org/wiki/chic#French)
+
+### [星](https://en.wiktionary.org/wiki/星) xin
+
+noun - star, week
+
+From
+
+
+- [Chinese 星](https://en.wiktionary.org/wiki/星#Chinese)
+
+### [蜥](https://en.wiktionary.org/wiki/蜥) xis
+
+noun - lizard, snake, reptile
+
+From
+
+
+- [Chinese 蜥形纲](https://en.wiktionary.org/wiki/蜥形纲#Chinese)
+
+### [手](https://en.wiktionary.org/wiki/手) xo
+
+noun - hand, arm
+
+From
+
+
+- [Chinese 手](https://en.wiktionary.org/wiki/手#Chinese)
+
+### [升](https://en.wiktionary.org/wiki/升) xoi
+
+transitive verb - climb, ascend, rise, mount, improve
+
+From
+
+
+- [Japanese 昇](https://en.wiktionary.org/wiki/昇#Japanese)
+- [Spanish subir](https://en.wiktionary.org/wiki/subir#Spanish)
+
+### [石](https://en.wiktionary.org/wiki/石) xok
+
+noun - stone, rock
+
+From
+
+
+- [Chinese 石头](https://en.wiktionary.org/wiki/石头#Chinese)
+- [English rock](https://en.wiktionary.org/wiki/rock#English)
+
+### [胸](https://en.wiktionary.org/wiki/胸) xon
+
+noun - chest, breast
+
+From
+
+
+- [Chinese 胸](https://en.wiktionary.org/wiki/胸#Chinese)
+
+### [休](https://en.wiktionary.org/wiki/休) xos
+
+intransitive verb - rest, pause
+
+From
+
+
+- [Chinese 休息](https://en.wiktionary.org/wiki/休息#Chinese)
+
+### [鞋](https://en.wiktionary.org/wiki/鞋) xu
+
+noun - shoe
+
+From
+
+
+- [English shoe](https://en.wiktionary.org/wiki/shoe#English)
+
+### [谢](https://en.wiktionary.org/wiki/谢) xuk
+
+transitive verb - thank
+
+From
+
+
+- [Arabic شكرا](https://en.wiktionary.org/wiki/شكرا#Arabic)
+
+### [顺](https://en.wiktionary.org/wiki/顺) xun
+
+transitive verb - obey, follow, fit, suit
+
+From
+
+
+- [Chinese 顺](https://en.wiktionary.org/wiki/顺#Chinese)
+
+### [舒](https://en.wiktionary.org/wiki/舒) xus
+
+adjective - comfortable, cozy, snug, relaxed
+
+From
+
+
+- [Chinese 舒适](https://en.wiktionary.org/wiki/舒适#Chinese)
+
+### [压](https://en.wiktionary.org/wiki/压) ya
+
+transitive verb - press, push, control, print
+
+From
+
+
+- [Chinese 压](https://en.wiktionary.org/wiki/压#Chinese)
+
+### [讶](https://en.wiktionary.org/wiki/讶) yai
+
+intransitive verb - surprised, amazed, be surprised by
+
+From
+
+
+- [Chinese 讶异](https://en.wiktionary.org/wiki/讶异#Chinese)
+
+### [约](https://en.wiktionary.org/wiki/约) yak
+
+positional, adverb - around, near, about, approximately, almost
+
+From
+
+
+- [Turkish yakın](https://en.wiktionary.org/wiki/yakın#Turkish)
+- [Japanese 約](https://en.wiktionary.org/wiki/約#Japanese)
+
+### [羊](https://en.wiktionary.org/wiki/羊) yan
+
+noun - sheep, goat
+
+From
+
+
+- [Chinese 羊](https://en.wiktionary.org/wiki/羊#Chinese)
+
+### [要](https://en.wiktionary.org/wiki/要) yao
+
+transitive verb - want, need
+
+From
+
+
+- [Chinese 要](https://en.wiktionary.org/wiki/要#Chinese)
+
+### [牙](https://en.wiktionary.org/wiki/牙) yas
+
+noun - tooth
+
+From
+
+
+- [Chinese 牙齿](https://en.wiktionary.org/wiki/牙齿#Chinese)
+
+### [也](https://en.wiktionary.org/wiki/也) ye
+
+adverb - also, too
+
+From
+
+
+- [Chinese 也](https://en.wiktionary.org/wiki/也#Chinese)
+
+### [眼](https://en.wiktionary.org/wiki/眼) yek
+
+noun - eye, personality, character, soul
+
+From
+
+
+- [Chinese 眼睛](https://en.wiktionary.org/wiki/眼睛#Chinese)
+
+### [盐](https://en.wiktionary.org/wiki/盐) yen
+
+noun - salt
+
+From
+
+
+- [Chinese 盐](https://en.wiktionary.org/wiki/盐#Chinese)
+
+### [唉](https://en.wiktionary.org/wiki/唉) yes
+
+adverb - yes, indeed
+
+From
+
+
+- [English yes](https://en.wiktionary.org/wiki/yes#English)
+
+### [有](https://en.wiktionary.org/wiki/有) yo
+
+existential - have, own, there is
+
+From
+
+
+- [Chinese 有](https://en.wiktionary.org/wiki/有#Chinese)
+
+### [哎](https://en.wiktionary.org/wiki/哎) yoi
+
+interjection - (marginal interjection expressing surprise or dismay)
+
+From
+
+
+
+
+### [右](https://en.wiktionary.org/wiki/右) yok
+
+positional - right (side), north
+
+From
+
+
+- [Chinese 右边](https://en.wiktionary.org/wiki/右边#Chinese)
+
+### [踊](https://en.wiktionary.org/wiki/踊) yon
+
+intransitive verb - leap, jump, bounce
+
+From
+
+
+- [Chinese 踊](https://en.wiktionary.org/wiki/踊#Chinese)
+
+### [油](https://en.wiktionary.org/wiki/油) yos
+
+noun - oil, fat, grease
+
+From
+
+
+- [Chinese 油脂](https://en.wiktionary.org/wiki/油脂#Chinese)
+
+### [鱼](https://en.wiktionary.org/wiki/鱼) yu
+
+noun - fish
+
+From
+
+
+- [Chinese 鱼](https://en.wiktionary.org/wiki/鱼#Chinese)
+
+### [助](https://en.wiktionary.org/wiki/助) yuk
+
+transitive verb - help, assist
+
+From
+
+
+- [Spanish ayudar](https://en.wiktionary.org/wiki/ayudar#Spanish)
+
+### [云](https://en.wiktionary.org/wiki/云) yun
+
+noun - cloud, fog, mist, steam, vapor
+
+From
+
+
+- [Chinese 云](https://en.wiktionary.org/wiki/云#Chinese)
+
+### [用](https://en.wiktionary.org/wiki/用) yus
+
+transitive verb - use
+
+From
+
+
+- [English use](https://en.wiktionary.org/wiki/use#English)
+
 # Syntax
 
 This section attempts to describe Jaobon syntax in maximum detail and precision. For someone aspiring to learn Jaobon, it may not be necessary to read this section, at least not in its entirety. Jaobon syntax is quite similar to that of its major source languages of Mandarin, English, and Spanish, and is probably possible to acquire implicitly via exposure. 
