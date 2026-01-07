@@ -7,6 +7,7 @@ import {DisplaySettingsContext} from "./DisplaySettings";
 import {Text, Collection} from "./texts/types";
 import collections from "./texts/collections";
 import {Coda, Onset, stringToSyllable, Vowel} from "./syllables";
+import ReactDOM from "react-dom";
 
 type TextStats = {
   frequencies: Map<Root, number>,
@@ -247,13 +248,13 @@ export function TextList(props: {}) {
 
       <FrequenciesTally stats={CORPUS_STATS} collectionType={'corpus'}/>
 
-      {collections.map((collection, _) => (
-        <>
+      {collections.map((collection, i) => (
+        <React.Fragment key={i}>
           <h2 key={collection.slug}>{collection.title}</h2>
           {collection.texts.map(text => (
             <h3 key={text.slug}><Link to={`/texts/${collection.slug}/${text.slug}`}>{text.title}</Link></h3>
           ))}
-        </>
+        </React.Fragment>
       ))}
     </>
   );

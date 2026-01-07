@@ -46,7 +46,7 @@ export type TableCell = {
   children: TextualChunk[],
 }
 
-type TextSection = {
+export type TextSection = {
   type: "text section"
   format_level: FormatLevel,
   textual_chunks: TextualChunk[],
@@ -62,7 +62,7 @@ type ImageSection = {
 export type UnorderedListSection = {
   type: "unordered list"
   show_bullet: boolean,
-  items: TextualChunk[][],
+  items: (TextualChunk | TextSection)[][], // TODO: remove TextSection?
 }
 
 export type TableSection = {
@@ -106,9 +106,9 @@ function chunkToJSX(chunk: TextualChunk): React.ReactNode {
 }
 
 function tableCellToJSX(cell: TableCell, key: number) {
-  const attrs: {colspan?: number, style?: React.CSSProperties} = {};
+  const attrs: {colSpan?: number, style?: React.CSSProperties} = {};
   if (cell.colspan != undefined) {
-    attrs.colspan = cell.colspan;
+    attrs.colSpan = cell.colspan;
   }
   if (cell.style != undefined) {
     attrs.style = cell.style;
@@ -152,9 +152,13 @@ function sectionToJSX(section: DocumentSection): React.ReactNode {
 
       const lis = section.items.map((item, i) => {
         return (
-          <li key={i}>{item.map((chunk, j) => (
-            <React.Fragment key={j}>{chunkToJSX(chunk)}</React.Fragment>
-          ))}</li>
+          <li key={i}>{item.map((chunk, j) => {
+            if (typeof chunk === "string" || chunk.type !== "text section") {
+              return <React.Fragment key={j}>{chunkToJSX(chunk)}</React.Fragment>;
+            } else {
+              return <React.Fragment key={j}>{sectionToJSX(chunk)}</React.Fragment>
+            }
+          })}</li>
         );
       })
 
@@ -228,7 +232,7 @@ export function img(filename: string, style?: React.CSSProperties, alt?: string)
   }
 }
 
-export function ul(...items: TextualChunk[][]): UnorderedListSection {
+export function ul(...items: (TextualChunk | TextSection)[][]): UnorderedListSection {
   return {
     type: "unordered list",
     show_bullet: true,
@@ -254,6 +258,13 @@ export function td(...children: TextualChunk[]): TableCell {
   return {
     th: false,
     children: children,
+  }
+}
+
+export function ijb(outline: string): InlineJaobon {
+  return {
+    type: "inline Jaobon",
+    outline,
   }
 }
 

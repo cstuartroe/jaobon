@@ -1,11 +1,12 @@
 import fs from "fs";
 
-import {Document, DocumentSection, TextualChunk, FormatLevel, TableSection, TableCell, table} from "../src/formatting";
+import {Document, DocumentSection, TextualChunk, FormatLevel, TableSection, TableCell, TextSection} from "../src/formatting";
 import {multiscriptText, isError} from "../src/AnnotatedText";
 import {HomeDocument} from "../src/Home";
 import {HistoryDocument} from "../src/History";
 import {PhonologyDocument} from "../src/Phonology";
 import {WritingSystemsMarkdownDocument} from "../src/WritingSystems";
+import {SyntaxDocument} from "../src/Syntax";
 
 function chunkToMarkdown(chunk: TextualChunk): string {
   if (typeof chunk === "string") {
@@ -91,6 +92,14 @@ function generateTable(table: TableSection) {
   return out + "\n";
 }
 
+function chunkOrTextSectionToMarkdown(chunk: TextualChunk | TextSection): string {
+  if (typeof chunk === "string" || chunk.type != "text section") {
+    return chunkToMarkdown(chunk);
+  } else {
+    return sectionToMarkdown(chunk).trimEnd() + "<br/>";
+  }
+}
+
 function sectionToMarkdown(section: DocumentSection): string {
   switch (section.type) {
     case "image section":
@@ -98,7 +107,7 @@ function sectionToMarkdown(section: DocumentSection): string {
     case "text section":
       return format_level_prefixes[section.format_level] + section.textual_chunks.map(chunkToMarkdown).join("") + "\n\n";
     case "unordered list":
-      return section.items.map(chunks => "- " + chunks.map(chunkToMarkdown).join("")).join("\n") + "\n\n";
+      return section.items.map(chunks => "- " + chunks.map(chunkOrTextSectionToMarkdown).join("")).join("\n") + "\n\n";
     case "table":
       return generateTable(section);
     default:
@@ -115,6 +124,7 @@ const document = [
   ...HistoryDocument,
   ...PhonologyDocument,
   ...WritingSystemsMarkdownDocument,
+  ...SyntaxDocument,
 ];
 
 fs.writeFileSync("README.md", documentToMarkdown(document));

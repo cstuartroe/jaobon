@@ -1,4 +1,3 @@
-import React from "react";
 import NoteManager from "./notes";
 import {Document, h1, h2, p, ipa as _ipa, table, th, td, a, i, span, documentToJSX, TextualChunk} from "./formatting";
 
@@ -14,10 +13,6 @@ function dots(s: string) {
 
 function inlineDots(s: string) {
   return span("inline", dots(s));
-}
-
-function IPA(props: React.PropsWithChildren<{}>) {
-  return <span style={{fontFamily: "Gentium"}}>/{props.children}/</span>;
 }
 
 const latinNotes = {
