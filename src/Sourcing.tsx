@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import {sourceCounts} from "./roots";
 import {Link} from "react-router-dom";
-import {IPA} from "./Phonology";
+
+export function IPA(props: React.PropsWithChildren<{}>) {
+  return <span style={{fontFamily: "Gentium"}}>{props.children}</span>;
+}
 
 type Props = {
 }

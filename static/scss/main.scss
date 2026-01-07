@@ -2,8 +2,12 @@ $purple: #8866cc;
 $ice_blue: #99ddff;
 $green: #66cc88;
 
-h1, h2, h3, p, li, .translation, input[type="text"] {
+h1, h2, h3, p, li, td, .translation, input[type="text"] {
   font-family: "Kanit", sans-serif;
+}
+
+th, .ipa {
+  font-family: "Gentium", serif;
 }
 
 .roman {
@@ -67,7 +71,7 @@ th .dots {
   font-weight: 400;
 }
 
-.fd-phoneme-chart .dots {
+table .dots {
   font-size: 160%;
   line-height: 100%;
 }
@@ -79,16 +83,6 @@ th .dots {
     margin-bottom: .25rem;
   }
 }
-
-//p, ul {
-//  margin-top: 2vh;
-//  padding-bottom: 1.5vh;
-//  margin-bottom: 0;
-//
-//  &.note {
-//    margin-top: 0;
-//  }
-//}
 
 .lauvinko {
   //font-family: "Lauvinko Bubble", sans-serif;
@@ -207,4 +201,8 @@ table {
 .inline-image {
   display: block;
   margin: auto auto 1rem;
+}
+
+ul.hide_bullet {
+  list-style-type: none;
 }

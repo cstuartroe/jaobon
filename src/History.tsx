@@ -1,5 +1,3 @@
-import React from "react";
-import {IPA} from "./Phonology";
 import {Document, h1, h2, p, a, i, ipa, documentToJSX} from "./formatting";
 
 export const HistoryDocument: Document = [

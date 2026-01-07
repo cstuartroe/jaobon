@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import AnnotatedText from "./AnnotatedText";
+import classNames from "classnames";
 
 type InlineJaobon = {
   type: "inline Jaobon",
@@ -23,9 +24,27 @@ type IPAChunk = {
   children: TextualChunk[],
 }
 
-export type TextualChunk = string | InlineJaobon | LinkChunk | ItalicChunk | IPAChunk;
+type SuperscriptChunk = {
+  type: "superscript",
+  children: TextualChunk[],
+}
+
+type SpanChunk = {
+  type: "span",
+  className: string,
+  children: TextualChunk[],
+}
+
+export type TextualChunk = string | InlineJaobon | LinkChunk | ItalicChunk | IPAChunk | SuperscriptChunk | SpanChunk;
 
 export type FormatLevel = "h1" | "h2" | "h3" | "p";
+
+export type TableCell = {
+  th: boolean,
+  colspan?: number,
+  style?: React.CSSProperties,
+  children: TextualChunk[],
+}
 
 type TextSection = {
   type: "text section"
@@ -40,12 +59,18 @@ type ImageSection = {
   style?: React.CSSProperties,
 }
 
-type UnorderedListSection = {
+export type UnorderedListSection = {
   type: "unordered list"
+  show_bullet: boolean,
   items: TextualChunk[][],
 }
 
-export type DocumentSection = TextSection | ImageSection | UnorderedListSection;
+export type TableSection = {
+  type: "table",
+  rows: TableCell[][],
+}
+
+export type DocumentSection = TextSection | ImageSection | UnorderedListSection | TableSection;
 
 export type Document = DocumentSection[];
 
@@ -72,7 +97,31 @@ function chunkToJSX(chunk: TextualChunk): React.ReactNode {
     case "inline Jaobon":
       return <AnnotatedText sentence={chunk.outline} inline={true}/>;
     case "ipa":
-      return <span style={{fontFamily: "Gentium"}}>{chunkChildren(chunk)}</span>;
+      return <span className="ipa">{chunkChildren(chunk)}</span>;
+    case "superscript":
+      return <sup>{chunkChildren(chunk)}</sup>
+    case "span":
+      return <span className={chunk.className}>{chunkChildren(chunk)}</span>;
+  }
+}
+
+function tableCellToJSX(cell: TableCell, key: number) {
+  const attrs: {colspan?: number, style?: React.CSSProperties} = {};
+  if (cell.colspan != undefined) {
+    attrs.colspan = cell.colspan;
+  }
+  if (cell.style != undefined) {
+    attrs.style = cell.style;
+  }
+
+  if (cell.th) {
+    return (
+      <th key={key} {...attrs}>{chunkChildren(cell)}</th>
+    );
+  } else {
+    return (
+      <td key={key} {...attrs}>{chunkChildren(cell)}</td>
+    );
   }
 }
 
@@ -97,12 +146,34 @@ function sectionToJSX(section: DocumentSection): React.ReactNode {
     case "image section":
       return <img src={"/static/img/" + section.filename} alt={section.alt} style={section.style}/>;
     case "unordered list":
-      const lis = section.items.map((item, i) => (
-        <li key={i}>{item.map((chunk, j) => (
-          <React.Fragment key={j}>{chunkToJSX(chunk)}</React.Fragment>
-        ))}</li>
-      ))
-      return <ul>{lis}</ul>;
+      const classes = classNames({
+        hide_bullet: !section.show_bullet,
+      });
+
+      const lis = section.items.map((item, i) => {
+        return (
+          <li key={i}>{item.map((chunk, j) => (
+            <React.Fragment key={j}>{chunkToJSX(chunk)}</React.Fragment>
+          ))}</li>
+        );
+      })
+
+      return <ul className={classes}>{lis}</ul>;
+    case "table":
+      return (
+        <table>
+          <thead>
+          <tr>
+          {section.rows[0].map((cell, j) => tableCellToJSX(cell, j))}
+          </tr>
+          </thead>
+          <tbody>
+          {section.rows.slice(1).map((row, i) => (
+            <tr key={i}>{row.map((cell, j) => tableCellToJSX(cell, j))}</tr>
+          ))}
+          </tbody>
+        </table>
+      );
     default:
       throw new Error(`Unknown section type: ${section}`);
   }
@@ -160,7 +231,29 @@ export function img(filename: string, style?: React.CSSProperties, alt?: string)
 export function ul(...items: TextualChunk[][]): UnorderedListSection {
   return {
     type: "unordered list",
+    show_bullet: true,
     items,
+  }
+}
+
+export function table(...rows: TableCell[][]): TableSection {
+  return {
+    type: "table",
+    rows,
+  }
+}
+
+export function th(...children: TextualChunk[]): TableCell {
+  return {
+    th: true,
+    children: children,
+  }
+}
+
+export function td(...children: TextualChunk[]): TableCell {
+  return {
+    th: false,
+    children: children,
   }
 }
 
@@ -182,6 +275,21 @@ export function i(...children: TextualChunk[]): ItalicChunk {
 export function ipa(...children: TextualChunk[]): IPAChunk {
   return {
     type: "ipa",
+    children,
+  }
+}
+
+export function sup(...children: TextualChunk[]): SuperscriptChunk {
+  return {
+    type: "superscript",
+    children,
+  }
+}
+
+export function span(className: string, ...children: TextualChunk[]): SpanChunk {
+  return {
+    type: "span",
+    className,
     children,
   }
 }
