@@ -74,18 +74,18 @@ Jaobon has 17 initial consonants:
 - <sup>2</sup> The fortis-lenis distinction may surface as a difference in voicing, aspiration, or both, or even in length or some other feature that may be interpreted as a fortis-lenis binary. I notate stops/affricates in broad transcription as though they contrast in voicing.
 - <sup>3</sup> May be any coronal affricate: [t͡ʃ d͡ʒ], [t͡ɕ d͡ʑ], [t͡ʂ d͡ʐ], or even [t͡s d͡z].
 - <sup>4</sup> Voicing is non-contrastive in fricatives, but they preferably remain unvoiced. This is because some listeners may have trouble distinguishing between voiced affricates and fricatives.
-- <sup>5</sup> Free variation: [ʃ~ɕ~ʂ].
-- <sup>6</sup> Free variation: [h~x~χ~ʁ].
+- <sup>5</sup> Free variation: [ʃ\~ɕ\~ʂ].
+- <sup>6</sup> Free variation: [h\~x\~χ\~ʁ].
 - <sup>7</sup> May be any lateral or rhotic consonant.
 
-Jaobon has the common system of five cardinal vowels /a e i o u/. It also has three diphthongs /ai̯ au̯ oi̯/. The realization of the vowels is flexible as long as a five-way contrast is maintained, and /oi̯/ in particular permits variation such as [oi̯~ui̯~we~wi~ɥi~ø~y~øy̯] etc.
+Jaobon has the common system of five cardinal vowels /a e i o u/. It also has three diphthongs /ai̯ au̯ oi̯/. The realization of the vowels is flexible as long as a five-way contrast is maintained, and /oi̯/ in particular permits variation such as [oi̯\~ui̯\~we\~wi\~ɥi\~ø\~y\~øy̯] etc.
 
-A number of initial-vowel sequences are disallowed: /ti/, /di/, /si/, /hi/, /ji/, and /wu/. Because /oi̯/ may often be pronounced [we~wi] or similar, it is not permitted to have the onset /w/; the root /oi̯/ is merely an interjection to avoid confusion with the roots /we/ and /wi/, and similarly the root /joi̯/ is a marginal interjection as some speakers may find it difficult to pronounce.
+A number of initial-vowel sequences are disallowed: /ti/, /di/, /si/, /hi/, /ji/, and /wu/. Because /oi̯/ may often be pronounced [we\~wi] or similar, it is not permitted to have the onset /w/; the root /oi̯/ is merely an interjection to avoid confusion with the roots /we/ and /wi/, and similarly the root /joi̯/ is a marginal interjection as some speakers may find it difficult to pronounce.
 
 Jaobon has three possible coda consonant phonemes:
 
 - A stop /Q/, which is typically pronounced [k̚] or [ʔ], but may optionally assimilate in place to a following consonant.
-- A nasal /N/, which is typically [n~ŋ~ɴ] before a pause, but usually assimilates in place to a following consonant. May also surface as nasalization of the previous vowel.
+- A nasal /N/, which is typically [n\~ŋ\~ɴ] before a pause, but usually assimilates in place to a following consonant. May also surface as nasalization of the previous vowel.
 - A fricative /S/, which is preferably [s] but may be any fricative sound.
 
 Jaobon syllable structure is CV(C), with an initial consonant and a vowel required and a coda optional. A coda consonant may not occur after a diphthong. These phonotactics result in 366 permissible syllables. In Jaobon, all 366 possible syllables are morphemes with a specific meaning:

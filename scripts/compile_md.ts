@@ -9,7 +9,7 @@ import {WritingSystemsMarkdownDocument} from "../src/WritingSystems";
 
 function chunkToMarkdown(chunk: TextualChunk): string {
   if (typeof chunk === "string") {
-    return chunk;
+    return chunk.replace(/~/g, "\\~");
   }
   switch (chunk.type) {
     case "inline Jaobon":
