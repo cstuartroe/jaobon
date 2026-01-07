@@ -70,7 +70,11 @@ export type TableSection = {
   rows: TableCell[][],
 }
 
-export type DocumentSection = TextSection | ImageSection | UnorderedListSection | TableSection;
+export type HRSection = {
+  type: "hr",
+}
+
+export type DocumentSection = TextSection | ImageSection | UnorderedListSection | TableSection | HRSection;
 
 export type Document = DocumentSection[];
 
@@ -182,6 +186,8 @@ function sectionToJSX(section: DocumentSection): React.ReactNode {
           </tbody>
         </table>
       );
+    case "hr":
+      return <hr/>;
     default:
       throw new Error(`Unknown section type: ${section}`);
   }
@@ -243,6 +249,8 @@ export function ul(...items: (TextualChunk | TextSection | UnorderedListSection)
     items,
   }
 }
+
+export const hr: HRSection = {type: "hr"};
 
 export function table(...rows: TableCell[][]): TableSection {
   return {

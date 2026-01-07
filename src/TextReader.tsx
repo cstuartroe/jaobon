@@ -15,7 +15,7 @@ import {DisplaySettingsContext} from "./DisplaySettings";
 import {Text, Collection} from "./texts/types";
 import collections from "./texts/collections";
 import {Coda, Onset, stringToSyllable, Vowel} from "./syllables";
-import {Document, h1, h2, h3, p, img, i} from "./formatting";
+import {Document, h1, h2, h3, p, img, i, hr} from "./formatting";
 
 export const TextsDocument: Document = [
   h1("Texts"),
@@ -24,25 +24,40 @@ export const TextsDocument: Document = [
 collections.forEach(collection => {
   TextsDocument.push(
     h2(collection.title),
-    p(...collection.description || []),
   );
+
+  if (collection.description !== undefined) {
+    TextsDocument.push(
+      p(...collection.description || []),
+    );
+  }
 
   collection.texts.forEach(text => {
     TextsDocument.push(
       h3(text.title),
-      p(...text.description || []),
     );
 
-    text.lines.forEach(line => {
+    if (text.description !== undefined) {
+      TextsDocument.push(
+        p(...text.description || []),
+        hr,
+      );
+    }
+
+    text.lines.forEach((line, j) => {
       const mt = multiscriptText(line.jaobon);
       if (isError(mt)) {
         throw new Error(mt.message)
       }
 
+      if (j > 0) {
+        TextsDocument.push(hr);
+      }
+
       TextsDocument.push(
         p(mt.CJK),
         p(i(mt.roman)),
-        p('"', line.translation, '"'),
+        p(line.translation),
       );
 
       if (line.image !== undefined) {

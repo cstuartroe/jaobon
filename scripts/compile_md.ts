@@ -127,6 +127,8 @@ function sectionToMarkdown(section: DocumentSection, leftPad: string): string {
       return "\n" + section.items.map(chunks => leftPad + "- " + chunks.map(chunk => chunkOrTextSectionToMarkdown(chunk, leftPad)).join("")).join("\n") + "\n\n";
     case "table":
       return generateTable(section);
+    case "hr":
+      return "------\n\n"
     default:
       throw new Error(`Unrecognized section type: ${JSON.stringify(section)}`);
   }

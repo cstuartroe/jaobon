@@ -6452,5705 +6452,7583 @@ Geographical terms like cardinal directions and "new" may be translated rather t
 
 ## Classic conlanger translations
 
-
-
 ### The North Wind and the Sun
 
 A classic conlanger's translation.
+
+------
 
 《右气流》又《日》在言争于何是者更有力。这时路人，者带袄者温，使来过约。
 
 *Yokgaslu i Son en des puk nis ke es ki mas yo pao. je xas pu jen, ki dai jak ki wen, as lai pas yak.*
 
-"The North Wind and the Sun were disputing which was the stronger, when a traveler came along wrapped in a warm cloak."
+The North Wind and the Sun were disputing which was the stronger, when a traveler came along wrapped in a warm cloak.
+
+------
 
 这二同言何者赢使何路人除袄从己该是名于者更有力从另边。
 
 *je dos ton des ke ki win as ke pu jen kik jak de se gai es min nis ki mas yo pao de o la.*
 
-"They agreed that the one who first succeeded in making the traveler take his cloak off should be considered stronger than the other."
+They agreed that the one who first succeeded in making the traveler take his cloak off should be considered stronger than the other.
+
+------
 
 而《右气流》使流气更有力为者能，又次者他使流气更有力为，路人就更使引关袄向己身。
 
 *loi Yokgaslu as lu gas mas yo pao we ki ken, i bes ki ta as lu gas mas yo pao we, pu jen jo mas as in gun jak a se koi.*
 
-"Then the North Wind blew as hard as he could, but the more he blew the more closely did the traveler fold his cloak around him."
+Then the North Wind blew as hard as he could, but the more he blew the more closely did the traveler fold his cloak around him.
+
+------
 
 就有时者《右气流》站考。
 
 *jo yo xas ki Yokgaslu pa kao.*
 
-"At last the North Wind gave up the attempt. "
+At last the North Wind gave up the attempt. 
+
+------
 
 而《日》使扔光者温，又这时路人就除袄。
 
 *loi Son as tos lus ki wen, i je xas pu jen jo kik jak.*
 
-"Then the Sun shined out warmly, and immediately the traveler took off his cloak."
+Then the Sun shined out warmly, and immediately the traveler took off his cloak.
+
+------
 
 这为，《右气流》必言何《日》更有力从己。
 
 *je we, Yokgaslu mos des ke Son mas yo pao de se.*
 
-"And so the North Wind was obliged to confess that the Sun was the stronger of the two."
+And so the North Wind was obliged to confess that the Sun was the stronger of the two.
 
 ### Syntax Test Cases
 
 This is a translation of fiziwig's [Conlang Syntax Test Cases](https://cofl.github.io/conlang/resources/mirror/conlang-syntax-test-cases.html).
 
+------
+
 日扔光。
 
 *son tos lus.*
 
-"The sun shines."
+The sun shines.
+
+------
 
 日在扔光。
 
 *son en tos lus.*
 
-"The sun is shining."
+The sun is shining.
+
+------
 
 日过扔光。
 
 *son pas tos lus.*
 
-"The sun shone."
+The sun shone.
+
+------
 
 日向扔光。
 
 *son a tos lus.*
 
-"The sun will shine."
+The sun will shine.
+
+------
 
 日过扔光。
 
 *son pas tos lus.*
 
-"The sun has been shining."
+The sun has been shining.
+
+------
 
 日扔光新次。
 
 *son tos lus nu bes.*
 
-"The sun is shining again."
+The sun is shining again.
+
+------
 
 日扔光后日。
 
 *son tos lus bek son.*
 
-"The sun will shine tomorrow."
+The sun will shine tomorrow.
+
+------
 
 日很扔光。
 
 *son hen tos lus.*
 
-"The sun shines brightly."
+The sun shines brightly.
+
+------
 
 日者有光扔光。
 
 *son ki yo lus tos lus.*
 
-"The bright sun shines."
+The bright sun shines.
+
+------
 
 日在升这时。
 
 *son en xoi je xas.*
 
-"The sun is rising now."
+The sun is rising now.
+
+------
 
 每人过使大声。
 
 *me jen pas as bik bos.*
 
-"All the people shouted."
+All the people shouted.
+
+------
 
 计人过使大声。
 
 *ji jen pas as bik bos.*
 
-"Some of the people shouted."
+Some of the people shouted.
+
+------
 
 们从这人过使大声二次。
 
 *men de je jen pas as bik bos dos bes.*
 
-"Many of the people shouted twice."
+Many of the people shouted twice.
+
+------
 
 人者喜使大声们次。
 
 *jen ki xi as bik bos men bes.*
 
-"Happy people often shout."
+Happy people often shout.
+
+------
 
 猫子过使踊向上。
 
 *gak cik pas as yon a xan.*
 
-"The kitten jumped up."
+The kitten jumped up.
+
+------
 
 猫子过使踊向桌上。
 
 *gak cik pas as yon a jos xan.*
 
-"The kitten jumped onto the table."
+The kitten jumped onto the table.
+
+------
 
 我猫子过走向外。
 
 *mi gak cik pas wak a ek.*
 
-"My little kitten walked away."
+My little kitten walked away.
+
+------
 
 天水在跌。
 
 *ten wa en ka.*
 
-"It's raining."
+It's raining.
+
+------
 
 天水过跌。
 
 *ten wa pas ka.*
 
-"The rain came down."
+The rain came down.
+
+------
 
 猫子在使玩在天水。
 
 *gak cik en as hu en ten wa.*
 
-"The kitten is playing in the rain."
+The kitten is playing in the rain.
+
+------
 
 天水过站跌。
 
 *ten wa pas pa ka.*
 
-"The rain has stopped."
+The rain has stopped.
+
+------
 
 天水向站跌约时。
 
 *ten wa a pa ka yak xas.*
 
-"Soon the rain will stop."
+Soon the rain will stop.
+
+------
 
 我要何天水站跌约时。
 
 *mi yao ke ten wa pa ka yak xas.*
 
-"I hope the rain stops soon."
+I hope the rain stops soon.
+
+------
 
 露兽过活在这所有时。
 
 *nak an pas bi en je luk yo xas.*
 
-"Once wild animals lived here."
+Once wild animals lived here.
+
+------
 
 他过使慢看约。
 
 *ta pas as len kan yak.*
 
-"Slowly she looked around."
+Slowly she looked around.
+
+------
 
 走向外！
 
 *wak a ek!*
 
-"Go away!"
+Go away!
+
+------
 
 来走！
 
 *lai wak!*
 
-"Let's go!"
+Let's go!
+
+------
 
 你该使走。
 
 *ni gai as wak.*
 
-"You should go."
+You should go.
+
+------
 
 我向喜使走。
 
 *mi a xi as wak.*
 
-"I will be happy to go."
+I will be happy to go.
+
+------
 
 他向使来到约时。
 
 *ta a as lai dao yak xas.*
 
-"He will arrive soon."
+He will arrive soon.
+
+------
 
 球从出子过回向外。
 
 *cok de cu cik pas hoi a ek.*
 
-"The baby's ball has rolled away."
+The baby's ball has rolled away.
+
+------
 
 这二小男人在使工组为。
 
 *je dos xao nan jen en as wok guk we.*
 
-"The two boys are working together."
+The two boys are working together.
+
+------
 
 云向变洁更为。
 
 *yun a ben lin mas we.*
 
-"This mist will probably clear away."
+This mist will probably clear away.
+
+------
 
 美菜色在增在每所。
 
 *be sai so en kes en me luk.*
 
-"Lovely flowers are growing everywhere."
+Lovely flowers are growing everywhere.
+
+------
 
 我们该使更慢吃。
 
 *mi men gai as mas len co.*
 
-"We should eat more slowly."
+We should eat more slowly.
+
+------
 
 你过使来到早过者该。
 
 *ni pas as lai dao sao pas ki gai.*
 
-"You have come too soon."
+You have come too soon.
+
+------
 
 你必使写更排为。
 
 *ni mos as xe mas pai we.*
 
-"You must write more neatly."
+You must write more neatly.
+
+------
 
 有美深房者是在张反边。
 
 *yo be xen kas ki es en jan han la.*
 
-"Directly opposite stands a wonderful palace."
+Directly opposite stands a wonderful palace.
+
+------
 
 犬从友《很礼》不是能找到。
 
 *dok de mik Henli no es ken bus dao.*
 
-"Henry's dog is lost."
+Henry's dog is lost.
+
+------
 
 我猫是黑。
 
 *mi gak es dak.*
 
-"My cat is black."
+My cat is black.
+
+------
 
 人物从小女子是碎。
 
 *jen kos de xao nus cik es soi.*
 
-"The little girl's doll is broken."
+The little girl's doll is broken.
+
+------
 
 我舒睡更次。
 
 *mi xus do mas bes.*
 
-"I usually sleep soundly."
+I usually sleep soundly.
+
+------
 
 子们过使速追小《袄》。
 
 *cik men pas as su ces xao Jak.*
 
-"The children ran after Jack."
+The children ran after Jack.
+
+------
 
 我能使玩学后。
 
 *mi ken as hu xes bek.*
 
-"I can play after school."
+I can play after school.
+
+------
 
 我们过走客向市子。
 
 *mi men pas wak bis a dus cik.*
 
-"We went to the village for a visit."
+We went to the village for a visit.
+
+------
 
 我们过使到水流。
 
 *mi men pas as dao wa lu.*
 
-"We arrived at the river."
+We arrived at the river.
+
+------
 
 我过使醒你。
 
 *mi pas as wek ni.*
 
-"I have been waiting for you."
+I have been waiting for you.
+
+------
 
 外睡人们过坐在火约。
 
 *ek do jen men pas sen en ik yak.*
 
-"The campers sat around the fire."
+The campers sat around the fire.
+
+------
 
 小女子者有猫子过坐在我约。
 
 *xao nus cik ki yo gak cik pas sen en mi yak.*
 
-"A little girl with a kitten sat near me."
+A little girl with a kitten sat near me.
+
+------
 
 子过使坐在口约醒他男亲。
 
 *cik pas as sen en ko yak wek ta nan ma.*
 
-"The child waited at the door for her father."
+The child waited at the door for her father.
+
+------
 
 前日女子者是者更大在市子过变不能找到他猫子。
 
 *cen son nus cik ki es ki mas bik en dus cik pas ben no ken bus dao ta gak cik.*
 
-"Yesterday the oldest girl in the village lost her kitten."
+Yesterday the oldest girl in the village lost her kitten.
+
+------
 
 你出春在这市子另？
 
 *ni cu cun en je dus cik o?*
 
-"Were you born in this village?"
+Were you born in this village?
+
+------
 
 你男兄能好舞另？
 
 *ni nan kek ken hao uk o?*
 
-"Can your brother dance well?"
+Can your brother dance well?
+
+------
 
 男人过出另？
 
 *nan jen pas cu o?*
 
-"Did the man leave?"
+Did the man leave?
+
+------
 
 你女兄向使来到你另？
 
 *ni nus kek a as lai dao ni o?*
 
-"Is your sister coming for you?"
+Is your sister coming for you?
+
+------
 
 你能来后日另？
 
 *ni ken lai bek son o?*
 
-"Can you come tomorrow?"
+Can you come tomorrow?
+
+------
 
 约人过使走向外为过冰时另？
 
 *yak jen pas as wak a ek we pas bin xas o?*
 
-"Have the neighbors gone away for the winter?"
+Have the neighbors gone away for the winter?
+
+------
 
 红胸鸟使唱在天水另？
 
 *hon xon pak as can en ten wa o?*
 
-"Does the robin sing in the rain?"
+Does the robin sing in the rain?
+
+------
 
 你向使跟我们走向乐集另？
 
 *ni a as wis mi men wak a tun ga o?*
 
-"Are you going with us to the concert?"
+Are you going with us to the concert?
+
+------
 
 有时者你使客深木土另？
 
 *yo xas ki ni as bis xen mu tu o?*
 
-"Have you ever travelled in the jungle?"
+Have you ever travelled in the jungle?
+
+------
 
 我们过坐在水车跟到水流过计千外块。
 
 *mi men pas sen en wa ce wis dao wa lu pas ji tao ek pis.*
 
-"We sailed down the river for several miles."
+We sailed down the river for several miles.
+
+------
 
 每人知于追兽。
 
 *me jen sa nis ces an.*
 
-"Everybody knows about hunting."
+Everybody knows about hunting.
+
+------
 
 早时者在光同后者很有日，我们使出走向山集。
 
 *sao xas ki en lus ton bek ki hen yo son, mi men as cu wak a mon ga.*
 
-"On a sunny morning after the solstice we started for the mountains."
+On a sunny morning after the solstice we started for the mountains.
+
+------
 
 友《头亲》过哈于玩性从猴。
 
 *mik Toma pas ha nis hu nes de hus.*
 
-"Tom laughed at the monkey's tricks."
+Tom laughed at the monkey's tricks.
+
+------
 
 故男人者有走木过使张在木墙约。
 
 *gu nan jen ki yo wak mu pas as jan en mu wo yak.*
 
-"An old man with a walking stick stood beside the fence."
+An old man with a walking stick stood beside the fence.
+
+------
 
 睡所从木鼠是秘于木支者跌。
 
 *do luk de mu mus es gis nis mu xak ki ka.*
 
-"The squirrel's nest was hidden by drooping boughs."
+The squirrel's nest was hidden by drooping boughs.
+
+------
 
 小菜种过坐在天冰水下又好醒于时者春日者春向来。
 
 *xao sai jon pas sen en ten bin wa bon i hao wek nis xas ki cun son ki cun a lai.*
 
-"The little seeds waited patiently under the snow for the warm spring sun."
+The little seeds waited patiently under the snow for the warm spring sun.
+
+------
 
 们小女子者带菜色轮在头过使舞在木火约。
 
 *men xao nus cik ki dai sai so lun en to pas as uk en mu ik yak.*
 
-"Many little girls with wreaths of flowers on their heads danced around the bonfire."
+Many little girls with wreaths of flowers on their heads danced around the bonfire.
+
+------
 
 盾物从排系杯过跌到房土。
 
 *dun kos de pai tai tas pas ka dao kas tu.*
 
-"The cover of the basket fell to the floor."
+The cover of the basket fell to the floor.
+
+------
 
 男子者更前在人排过使站走在口前。
 
 *nan cik ki mas cen en jen pai pas as pa wak en ko cen.*
 
-"The first boy in the line stopped at the entrance."
+The first boy in the line stopped at the entrance.
+
+------
 
 山子上过有小房子者故女人者锐活在。
 
 *mon cik xan pas yo xao kas cik ki gu nus jen ki kin bi en.*
 
-"On the top of the hill in a little hut lived a wise old woman."
+On the top of the hill in a little hut lived a wise old woman.
+
+------
 
 时者活在露土，我们使走在毛菜土们次。
 
 *xas ki bi en nak tu, mi men as wak en mao sai tu men bes.*
 
-"During our residence in the country we often walked in the pastures."
+During our residence in the country we often walked in the pastures.
+
+------
 
 何时客人从大市向使来到？
 
 *ke xas bis jen de bik dus a as lai dao?*
 
-"When will your guests from the city arrive?"
+When will your guests from the city arrive?
+
+------
 
 块从水流者在末约变走向日后很速为。
 
 *pis de wa lu ki en mo yak ben wak a son bek hen su we.*
 
-"Near the mouth of the river, its course turns sharply towards the East."
+Near the mouth of the river, its course turns sharply towards the East.
+
+------
 
 中从这二很高山有矮土在者菜是温为增。
 
 *mes de je dos hen gao mon yo lo tu en ki sai es wen we kes.*
 
-"Between the two lofty mountains lay a fertile valley."
+Between the two lofty mountains lay a fertile valley.
+
+------
 
 慢脑菜色者红又高过增在中从冰饭菜。
 
 *len nao sai so ki hon i gao pas kes en mes de bin pan sai.*
 
-"Among the wheat grew tall red poppies."
+Among the wheat grew tall red poppies.
+
+------
 
 刚木根从盾种木过是引出从土。
 
 *duk mu gen de dun jon mu pas es in cu de tu.*
 
-"The strong roots of the oak trees were torn from the ground."
+The strong roots of the oak trees were torn from the ground.
+
+------
 
 日过看过木支，看子们者在玩。
 
 *son pas kan pas mu xak, kan cik men ki en hu.*
 
-"The sun looked down through the branches upon the children at play."
+The sun looked down through the branches upon the children at play.
+
+------
 
 前气流过流摸我头前同为从友人。
 
 *cen gas lu pas lu tok mi to cen ton we de mik jen.*
 
-"The west wind blew across my face like a friendly caress."
+The west wind blew across my face like a friendly caress.
+
+------
 
 系条轮过轮走过房土。
 
 *tai cao lun pas lun wak pas kas tu.*
 
-"The spool of thread rolled across the floor."
+The spool of thread rolled across the floor.
+
+------
 
 张包者菜们增是过坐在墙玻前。
 
 *jan bao ki sai men kes es pas sen en wo las cen.*
 
-"A box of growing plants stood in the window."
+A box of growing plants stood in the window.
+
+------
 
 我很喜。
 
 *mi hen xi.*
 
-"I am very happy."
+I am very happy.
+
+------
 
 这黄红果们很有汁。
 
 *je kun hon gos men hen yo jus.*
 
-"These oranges are juicy."
+These oranges are juicy.
+
+------
 
 水从大盐水很有盐。
 
 *wa de bik yen wa hen yo yen.*
 
-"Sea water is salty."
+Sea water is salty.
+
+------
 
 路上很有人。
 
 *pu xan hen yo jen.*
 
-"The streets are full of people."
+The streets are full of people.
+
+------
 
 糖有糖味。
 
 *suk yo suk tes.*
 
-"Sugar tastes sweet."
+Sugar tastes sweet.
+
+------
 
 火使何我觉热。
 
 *ik as ke mi jek hok.*
 
-"The fire feels hot."
+The fire feels hot.
+
+------
 
 小女子过是看为者觉独。
 
 *xao nus cik pas es kan we ki jek lon.*
 
-"The little girl seemed lonely."
+The little girl seemed lonely.
+
+------
 
 有次者男亲从这小男子使工在水车。
 
 *yo bes ki nan ma de je xao nan cik as wok en wa ce.*
 
-"The little boy's father had once been a sailor."
+The little boy's father had once been a sailor.
+
+------
 
 我不能找到我温布。
 
 *mi no ken bus dao mi wen te.*
 
-"I have lost my blanket."
+I have lost my blanket.
+
+------
 
 有红胸鸟者过作睡所在木从马果。
 
 *yo hon xon pak ki pas mak do luk en mu de hos gos.*
 
-"A robin has built his nest in the apple tree."
+A robin has built his nest in the apple tree.
+
+------
 
 午中我们过吃在路边。
 
 *nun mes mi men pas co en pu la.*
 
-"At noon we ate our lunch by the roadside."
+At noon we ate our lunch by the roadside.
+
+------
 
 男《种知》过作锐物给小男子。
 
 *nan Jonsa pas mak kin kos ge xao nan cik.*
 
-"Mr. Jones made a knife for his little boy."
+Mr. Jones made a knife for his little boy.
+
+------
 
 他们声是听很喜为。
 
 *ta men bos es kus hen xi we.*
 
-"Their voices sound very happy."
+Their voices sound very happy.
+
+------
 
 这日是星子月另？
 
 *je son es xin cik mun o?*
 
-"Is today Monday?"
+Is today Monday?
+
+------
 
 每菜片过跌从木菜另？
 
 *me sai pen pas ka de mu sai o?*
 
-"Have all the leaves fallen from the tree?"
+Have all the leaves fallen from the tree?
+
+------
 
 你向变备真时另？
 
 *ni a ben lis jas xas o?*
 
-"Will you be ready on time?"
+Will you be ready on time?
+
+------
 
 你能健我使出这言子另？
 
 *ni ken he mi as cu je des cik o?*
 
-"Will you send this message for me?"
+Will you send this message for me?
+
+------
 
 你醒于我另？
 
 *ni wek nis mi o?*
 
-"Are you waiting for me?"
+Are you waiting for me?
+
+------
 
 这是计一猫子从出子组另？
 
 *je es ji un gak cik de cu cik guk o?*
 
-"Is this the first kitten of the litter?"
+Is this the first kitten of the litter?
+
+------
 
 这鞋们是条大于你另？
 
 *je xu men es cao bik nis ni o?*
 
-"Are these shoes too big for you?"
+Are these shoes too big for you?
+
+------
 
 水流是何计厚？
 
 *wa lu es ke ji ho?*
 
-"How wide is the river?"
+How wide is the river?
+
+------
 
 听。
 
 *kus.*
 
-"Listen."
+Listen.
+
+------
 
 来坐在我约。
 
 *lai sen en mi yak.*
 
-"Sit here by me."
+Sit here by me.
+
+------
 
 不言这秘子向人后日前。
 
 *no des je gis cik a jen bek son cen.*
 
-"Keep this secret until tomorrow."
+Keep this secret until tomorrow.
+
+------
 
 来跟我们。
 
 *lai wis mi men.*
 
-"Come with us."
+Come with us.
 
 ## LCC11
-
-
 
 ### LCC11 Conlang Relay Prose Ring
 
 I participated in the [LCC11 Conlang Relay](https://conlang.org/language-creation-conference/lcc11/lcc11-relay/)!
 
+------
+
 刚片奶兽是导头从迷组于作言为！
 
 *duk pen lak an es gi to de gik guk nis mak des we!*
 
-"The pangolin is the leader of a language creation club!"
+The pangolin is the leader of a language creation club!
+
+------
 
 他使好听懂言为从外。
 
 *ta as hao kus don des we de ek.*
 
-"It can listen to and understand foreign languages well."
+It can listen to and understand foreign languages well.
+
+------
 
 们次他使过每日块看电脑网，又很有力于在这所买觉块。
 
 *men bes ta as pas me son pis kan lek nao ne, i hen yo pao nis en je luk mai jek pis.*
 
-"It often spends every hour looking at the internet, and is very skilled at exchanging ideas there."
+It often spends every hour looking at the internet, and is very skilled at exchanging ideas there.
+
+------
 
 他刚片有同为于者从骨皮奶兽：如是打还不是碎。
 
 *ta duk pen yo ton we nis ki de wes pi lak an: juk es da hai no es soi.*
 
-"Its scales have the same purpose as those of the armadillo: if struck, they will not be wounded."
+Its scales have the same purpose as those of the armadillo: if struck, they will not be wounded.
+
+------
 
 有一次者这刚片奶兽过使作言为者更好从每。
 
 *yo un bes ki je duk pen lak an pas as mak des we ki mas hao de me.*
 
-"Once, the pangolin made a language which was the best."
+Once, the pangolin made a language which was the best.
+
+------
 
 每时这迷组约不有导头者这为黏在每脑。
 
 *me xas je gik guk yak no yo gi to ki je we pek en me nao.*
 
-"The club has almost never had a leader who is so memorable."
+The club has almost never had a leader who is so memorable.
+
+------
 
 胜刚片奶兽！
 
 *jai duk pen lak an!*
 
-"Long live the pangolin!"
+Long live the pangolin!
 
 ### LCC11 Shirt Contribution
 
 I contributed a phrase to the LCC11 shirt.
 
+------
+
 有次者我觉同为从盾蜥者躺有下在上，又我要何另人使助加我好为。
 
 *yo bes ki mi jek ton we de dun xis ki tan yo bon en xan, i mi yao ke o jen as yuk pon mi hao we.*
 
-"Sometimes I feel like a turtle on its back, and I need someone to help put me the right way up."
+Sometimes I feel like a turtle on its back, and I need someone to help put me the right way up.
 
 ## Challenges
-
-
 
 ### Jaobon Root A Day
 
 Follow along over on [Bluesky](https://bsky.app/profile/jaobon.bsky.social)!
 
+------
+
 新：这日开新年！
 
 *nu: je son kai nu nen!*
 
-"new, young: Today begins a new year!"
+new, young: Today begins a new year!
+
+------
 
 光：日光使何天冰水变流。
 
 *lus: son lus as ke ten bin wa ben lu.*
 
-"light, intelligence, clarity, perspective: The sunlight melts the snow."
+light, intelligence, clarity, perspective: The sunlight melts the snow.
+
+------
 
 猫：在电脑网内，们人喜看像于猫。
 
 *gak: en lek nao ne den, men jen xi kan pik nis gak.*
 
-"cat: On the internet, many people like looking at pictures of cats."
+cat: On the internet, many people like looking at pictures of cats.
+
+------
 
 星：光时星不能是看。
 
 *xin: lus xas xin no ken es kan.*
 
-"star, week: During the daytime, stars cannot be seen."
+star, week: During the daytime, stars cannot be seen.
+
+------
 
 一：每人就活在一球满组为。
 
 *un: me jen jo bi en un cok man guk we.*
 
-"one, a, some, any: All people live together in just one world."
+one, a, some, any: All people live together in just one world.
+
+------
 
 二：脚力车有二轮。
 
 *dos: jao pao ce yo dos lun.*
 
-"two, pair: Bicycles have two wheels."
+two, pair: Bicycles have two wheels.
+
+------
 
 三：三角张是边张者更刚。
 
 *san: san huk jan es la jan ki mas duk.*
 
-"three: Triangles are the strongest shape."
+three: Triangles are the strongest shape.
+
+------
 
 四：春时是一从四块从年。
 
 *cak: cun xas es un de cak pis de nen.*
 
-"four: Spring is one quarter of the year."
+four: Spring is one quarter of the year.
+
+------
 
 五：我手有五手子。者更短是名于厚手子。
 
 *u: mi xo yo u xo cik. ki mas kok es min nis ho xo cik.*
 
-"five: My hand has five fingers. The shortest is called the thumb."
+five: My hand has five fingers. The shortest is called the thumb.
+
+------
 
 六：春质点有六酸点。
 
 *ses: cun us gok yo ses sun gok.*
 
-"six: A carbon atom has six protons."
+six: A carbon atom has six protons.
+
+------
 
 七：人们言何七是计者己更喜更次从每另计。
 
 *ci: jen men des ke ci es ji ki se mas xi mas bes de me o ji.*
 
-"seven: People say that seven is their favorite number more often than any other number."
+seven: People say that seven is their favorite number more often than any other number.
+
+------
 
 八：在电脑从这时言组有八唉另不。
 
 *ok: en lek nao de je xas des guk yo ok yes o no.*
 
-"eight: In modern computers, a byte has eight bits."
+eight: In modern computers, a byte has eight bits.
+
+------
 
 九：计写子者在后从贵性是九很们次。
 
 *nai: ji xe cik ki en bek de goi nes es nai hen men bes.*
 
-"nine: The last digit of a price is very often nine."
+nine: The last digit of a price is very often nine.
+
+------
 
 十：我们该用十另十二于计根？
 
 *das: mi men gai yus das o das dos nis ji gen?*
 
-"ten: Should we use ten or twelve as a numerical base?"
+ten: Should we use ten or twelve as a numerical base?
+
+------
 
 气：我车有气轮者差。
 
 *gas: mi ce yo gas lun ki ca.*
 
-"gas, air, odor: My car has bad tires."
+gas, air, odor: My car has bad tires.
+
+------
 
 木：木是用为者作木片。
 
 *mu: mu es yus we ki mak mu pen.*
 
-"tree, post, column, wood: Wood is used to make paper."
+tree, post, column, wood: Wood is used to make paper.
+
+------
 
 火：火回器使火石油。
 
 *ik: ik hoi mek as ik xok yos.*
 
-"burn, fire: An engine burns gasoline."
+burn, fire: An engine burns gasoline.
+
+------
 
 金：我过不有金者够于买拿这头布。
 
 *jin: mi pas no yo jin ki go nis mai tek je to te.*
 
-"metal, money: I didn't have enough money to buy the hat."
+metal, money: I didn't have enough money to buy the hat.
+
+------
 
 水：你要冰水又酸果加向你水另？
 
 *wa: ni yao bin wa i sun gos pon a ni wa o?*
 
-"water: Do you want ice and lemon to put in your water?"
+water: Do you want ice and lemon to put in your water?
+
+------
 
 土：我们能把土像从公土给你。
 
 *tu: mi men ken ba tu pik de gon tu ge ni.*
 
-"ground, land, dirt, territory, earth: We can give you a map of the park."
+ground, land, dirt, territory, earth: We can give you a map of the park.
+
+------
 
 白：这混水者有白云菜是更喜于我。
 
 *wai: je hun wa ki yo wai yun sai es mas xi nis mi.*
 
-"white, pale: The soup with cauliflower is my favorite."
+white, pale: The soup with cauliflower is my favorite.
+
+------
 
 绿：菜果者不备是绿更次。
 
 *gin: sai gos ki no lis es gin mas bes.*
 
-"green: Unripe fruit is usually green."
+green: Unripe fruit is usually green.
+
+------
 
 黄：故时人们使用黄金作买金。
 
 *kun: gu xas jen men as yus kun jin mak mai jin.*
 
-"yellow, orange, brown: In old times people made money from gold."
+yellow, orange, brown: In old times people made money from gold.
+
+------
 
 红：皮从金星是汁酸混，而是红。
 
 *hon: pi de jin xin es jus sun hun, loi es hon.*
 
-"red: The surface of Mars is iron oxide, that's why it's red."
+red: The surface of Mars is iron oxide, that's why it's red.
+
+------
 
 蓝：如眼从女亲又男亲是蓝，眼从子必也蓝。
 
 *lan: juk yek de nus ma i nan ma es lan, yek de cik mos ye lan.*
 
-"blue: If the eyes of the mother and father are both blue, the eyes of their child must also be blue."
+blue: If the eyes of the mother and father are both blue, the eyes of their child must also be blue.
+
+------
 
 黑：石孔内是更黑从每另所者我过客。
 
 *dak: xok bok den es mas dak de me o luk ki mi pas bis.*
 
-"dark, black: The inside of the cave is the darkest place I've ever been."
+dark, black: The inside of the cave is the darkest place I've ever been.
+
+------
 
 农：在农土我们使农羊又水鸡。
 
 *non: en non tu mi men as non yan i wa poi.*
 
-"farm, grow, raise, agriculture: On the farm we raise goats and ducks."
+farm, grow, raise, agriculture: On the farm we raise goats and ducks.
+
+------
 
 逃：如怕，这兽不使逃–真为他表为者过末。
 
 *wi: juk tak, je an no as wi - jas we ta ak we ki pas mo.*
 
-"escape, avoid, flee: When it's afraid, the animal doesn't run away - it actually pretends to be dead."
+escape, avoid, flee: When it's afraid, the animal doesn't run away - it actually pretends to be dead.
+
+------
 
 找：你就找使差我反水杆另？
 
 *bus: ni jo bus as ca mi han wa gan o?*
 
-"seek, search, look for, want, aim, intentionally: Did you just break my umbrella on purpose?"
+seek, search, look for, want, aim, intentionally: Did you just break my umbrella on purpose?
+
+------
 
 回：每二十九半日时，月回跟满轮。
 
 *hoi: me dos das nai ban son xas, mun hoi wis man lun.*
 
-"turn, revolve, rotate, turn back, return, orbit: Every twenty-nine days, the moon completes an orbit."
+turn, revolve, rotate, turn back, return, orbit: Every twenty-nine days, the moon completes an orbit.
+
+------
 
 颈：这黏种子使何我颈内有悲。
 
 *nek: je pek jon cik as ke mi nek den yo doi.*
 
-"neck, stem: This virus makes my throat hurt."
+neck, stem: This virus makes my throat hurt.
+
+------
 
 兽：更们奶兽有出子者春。
 
 *an: mas men lak an yo cu cik ki cun.*
 
-"animal, beast: Most mammals give birth to live young."
+animal, beast: Most mammals give birth to live young.
+
+------
 
 踊：猫子过使踊向桌上。
 
 *yon: gak cik pas as yon a jos xan.*
 
-"leap, jump, bounce: The kitten jumped onto the table."
+leap, jump, bounce: The kitten jumped onto the table.
+
+------
 
 摇：摇身使健。
 
 *xek: xek koi as he.*
 
-"shake, vibrate, sway, move (back and forth): Exercising is healthy."
+shake, vibrate, sway, move (back and forth): Exercising is healthy.
+
+------
 
 脚：我们过脚坐在茶所吃种茶。
 
 *jao: mi men pas jao sen en cai luk co jon cai.*
 
-"foot, leg: We sat in the cafe drinking coffee."
+foot, leg: We sat in the cafe drinking coffee.
+
+------
 
 躺：我条喜躺在睡张。
 
 *tan: mi cao xi tan en do jan.*
 
-"lie, recline: I really love lying in bed."
+lie, recline: I really love lying in bed.
+
+------
 
 还：计十一日块我过还躺在睡张。
 
 *hai: ji das un son pis mi pas hai tan en do jan.*
 
-"still, yet, additional, surplus, but: At 11:00 am I was still lying in bed."
+still, yet, additional, surplus, but: At 11:00 am I was still lying in bed.
+
+------
 
 唉：我过唉作者你问！
 
 *yes: mi pas yes mak ki ni won!*
 
-"yes, indeed: I did do what you asked!"
+yes, indeed: I did do what you asked!
+
+------
 
 礼：他混礼向是在何所？
 
 *li: ta hun li a es en ke luk?*
 
-"ritual, ceremony, etiquette, custom, gift: Where will their wedding be?"
+ritual, ceremony, etiquette, custom, gift: Where will their wedding be?
+
+------
 
 酸：更次我早吃鸡果又酸奶。
 
 *sun: mas bes mi sao co poi gos i sun lak.*
 
-"sour, acid: I usually have eggs and yogurt for breakfast."
+sour, acid: I usually have eggs and yogurt for breakfast.
+
+------
 
 脑：黑脑鸟有脑肉者大。
 
 *nao: dak nao pak yo nao nik ki bik.*
 
-"brain, mind: Crows have large brains."
+brain, mind: Crows have large brains.
+
+------
 
 许：我亲们不使许何我坐在排车独为。
 
 *lao: mi ma men no as lao ke mi sen en pai ce lon we.*
 
-"allow, let, open: My parents don't allow me to ride the train alone."
+allow, let, open: My parents don't allow me to ride the train alone.
+
+------
 
 如：我变条喜如他爱我。
 
 *juk: mi ben cao xi juk ta ai mi.*
 
-"if: I'd be so happy if she loved me."
+if: I'd be so happy if she loved me.
+
+------
 
 所：向何所你走？
 
 *luk: a ke luk ni wak?*
 
-"place, location: Where are you going?"
+place, location: Where are you going?
+
+------
 
 流：这市有公带流网者很好。
 
 *lu: je dus yo gon dai lu ne ki hen hao.*
 
-"flow, pour, spill, move, circulate: That city has a very good transportation system."
+flow, pour, spill, move, circulate: That city has a very good transportation system.
+
+------
 
 同：这日，光时又夕时有条性者约同。
 
 *ton: je son, lus xas i nok xas yo cao nes ki yak ton.*
 
-"same, common, like, as: Today, the daytime and nighttime are approximately the same length."
+same, common, like, as: Today, the daytime and nighttime are approximately the same length.
+
+------
 
 给：他过买这术物给我们。
 
 *ge: ta pas mai je jis kos ge mi men.*
 
-"give, offer: He sold us this work of art."
+give, offer: He sold us this work of art.
+
+------
 
 块：约二从三块从黑条猫们活在人墙内。
 
 *pis: yak dos de san pis de dak cao gak men bi en jen wo den.*
 
-"piece, part, drop, singulative: Around two thirds of tigers live in human captivity."
+piece, part, drop, singulative: Around two thirds of tigers live in human captivity.
+
+------
 
 边：午中我们过吃在路边。
 
 *la: nun mes mi men pas co en pu la.*
 
-"side, edge, direction: At noon we ate our lunch by the roadside."
+side, edge, direction: At noon we ate our lunch by the roadside.
+
+------
 
 哇：哇！条美！
 
 *wao: wao! cao be!*
 
-"wow, (exclamation): Wow! So beautiful!"
+wow, (exclamation): Wow! So beautiful!
+
+------
 
 玻：我女兄必用眼玻。
 
 *las: mi nus kek mos yus yek las.*
 
-"glass, transparent: My sister needs glasses."
+glass, transparent: My sister needs glasses.
+
+------
 
 争：还不争！
 
 *puk: hai no puk!*
 
-"conflict, fight, war: No more war!"
+conflict, fight, war: No more war!
+
+------
 
 手：在这身玩你不是许用手摸玩球。
 
 *xo: en je koi hu ni no es lao yus xo tok hu cok.*
 
-"hand, arm: In this sport you're not allowed to touch the ball with your hands."
+hand, arm: In this sport you're not allowed to touch the ball with your hands.
+
+------
 
 空：客休房不有睡所者空这夕。
 
 *bas: bis xos kas no yo do luk ki bas je nok.*
 
-"empty, blank, vacant, hollow: The hotel doesn't have any vacant rooms for tonight."
+empty, blank, vacant, hollow: The hotel doesn't have any vacant rooms for tonight.
+
+------
 
 弱：冰漂后，我脚觉弱。
 
 *wik: bin coi bek, mi jao jek wik.*
 
-"weak, tired: My legs feel tired after skiing."
+weak, tired: My legs feel tired after skiing.
+
+------
 
 站：站声！
 
 *pa: pa bos!*
 
-"stand up, stop, halt, be still: Shush!"
+stand up, stop, halt, be still: Shush!
+
+------
 
 点：时点过又玻沙点跌。
 
 *gok: xas gok pas i las xa gok ka.*
 
-"drop, bead, spot, point, grain: As seconds are passing, grains of sand are falling."
+drop, bead, spot, point, grain: As seconds are passing, grains of sand are falling.
+
+------
 
 胜：胜红脚布组从《声同》市！
 
 *jai: jai hon jao te guk de Boston dus!*
 
-"victory, glory, long live: Go Boston Red Sox!"
+victory, glory, long live: Go Boston Red Sox!
+
+------
 
 位：他位于这工组很有重。
 
 *pos: ta pos nis je wok guk hen yo pes.*
 
-"position, role, place, status: His position at that company is very important."
+position, role, place, status: His position at that company is very important.
+
+------
 
 咔：骨者在我手子过咔又很有悲这时。
 
 *cas: wes ki en mi xo cik pas cas i hen yo doi je xas.*
 
-"click, snap, pop: A bone in my finger broke and really hurts now."
+click, snap, pop: A bone in my finger broke and really hurts now.
+
+------
 
 吃：我们来午吃在这吃房。
 
 *co: mi men lai nun co en je co kas.*
 
-"eat, drink, consume: Let's go eat lunch in that restaurant."
+eat, drink, consume: Let's go eat lunch in that restaurant.
+
+------
 
 贵：有觉块者很贵。
 
 *goi: yo jek pis ki hen goi.*
 
-"expensive, valuable, precious: Some ideas are very valuable."
+expensive, valuable, precious: Some ideas are very valuable.
+
+------
 
 条：我兄过作这饭条者条有好味！
 
 *cao: mi kek pas mak je pan cao ki cao yo hao tes!*
 
-"long, string, strip, ribbon, extreme, too: My sibling made these very delicious noodles!"
+long, string, strip, ribbon, extreme, too: My sibling made these very delicious noodles!
+
+------
 
 看：他喜看这身玩。
 
 *kan: ta xi kan je koi hu.*
 
-"see, read: He likes watching this sport."
+see, read: He likes watching this sport.
+
+------
 
 我：很们从这言排有言块「我」。
 
 *mi: hen men de je des pai yo des pis “mi”.*
 
-"1st person: Very many of these sentences contain the word "me"."
+1st person: Very many of these sentences contain the word "me".
+
+------
 
 支：有木支者过跌打我手支。哎！
 
 *xak: yo mu xak ki pas ka da mi xo xak. yoi!*
 
-"branch, department, section, arm, tributary: A tree branch fell and hit my arm. Ow!"
+branch, department, section, arm, tributary: A tree branch fell and hit my arm. Ow!
+
+------
 
 电：你电脑很贵另？
 
 *lek: ni lek nao hen goi o?*
 
-"electric, electricity: Is your computer very expensive?"
+electric, electricity: Is your computer very expensive?
+
+------
 
 活：我们活在大市。
 
 *bi: mi men bi en bik dus.*
 
-"live, reside, life: We live in a big city."
+live, reside, life: We live in a big city.
+
+------
 
 女：我女亲是矮从为者他二亲是矮。
 
 *nus: mi nus ma es lo de we ki ta dos ma es lo.*
 
-"feminine, female: My mother is short because her parents are short."
+feminine, female: My mother is short because her parents are short.
+
+------
 
 讶：讶差！
 
 *yai: yai ca!*
 
-"surprised, amazed, be surprised by: Oh woe!"
+surprised, amazed, be surprised by: Oh woe!
+
+------
 
 写：他过用写管写这写片者向他男兄。
 
 *xe: ta pas yus xe tuk xe je xe pen ki a ta nan kek.*
 
-"write: She used a pen to write the letter to her brother."
+write: She used a pen to write the letter to her brother.
+
+------
 
 使：我过使差这电脑表写。不找！
 
 *as: mi pas as ca je lek nao ak xe. no bus!*
 
-"make, cause, volitive: I broke the computer program. Oops!"
+make, cause, volitive: I broke the computer program. Oops!
+
+------
 
 于：我们过坐在人集于作言为。
 
 *nis: mi men pas sen en jen ga nis mak des we.*
 
-"about, concerning, with regard to: We attended a conference about constructing languages."
+about, concerning, with regard to: We attended a conference about constructing languages.
+
+------
 
 助：请助我使出这给物向他。
 
 *yuk: cin yuk mi as cu je ge kos a ta.*
 
-"help, assist: Please send them this gift for me."
+help, assist: Please send them this gift for me.
+
+------
 
 层：酱饭层是吃物者我更喜。
 
 *los: sas pan los es co kos ki mi mas xi.*
 
-"level, floor, layer, stratum: Lasagna is my favorite food."
+level, floor, layer, stratum: Lasagna is my favorite food.
+
+------
 
 从：友《头亲》过哈于玩性从猴。
 
 *de: mik Toma pas ha nis hu nes de hus.*
 
-"from, off of, away from: Tom laughed at the monkey's tricks."
+from, off of, away from: Tom laughed at the monkey's tricks.
+
+------
 
 中：夕中我过看何有人者在站在杆饭菜中。
 
 *mes: nok mes mi pas kan ke yo jen ki en pa en gan pan sai mes.*
 
-"middle, center, between, among: At midnight I saw someone standing among the corn."
+middle, center, between, among: At midnight I saw someone standing among the corn.
+
+------
 
 早：早时我过速走在房约，而午前我坐在人集。
 
 *sao: sao xas mi pas su wak en kas yak, loi nun cen mi sen en jen ga.*
 
-"early, morning: Early this morning I ran in the neighborhood, then later in the morning I attended a meeting."
+early, morning: Early this morning I ran in the neighborhood, then later in the morning I attended a meeting.
+
+------
 
 无：无人过来向他出日玩集。
 
 *nin: nin jen pas lai a ta cu son hu ga.*
 
-"none, nothing, zero: Nobody came to her birthday party."
+none, nothing, zero: Nobody came to her birthday party.
+
+------
 
 摸：你能摸排打乐器另不？
 
 *tok: ni ken tok pai da tun mek o no?*
 
-"touch, feel, play (instrument): Can't you play piano?"
+touch, feel, play (instrument): Can't you play piano?
+
+------
 
 晚：不出从房晚时。
 
 *wan: no cu de kas wan xas.*
 
-"late, night, evening: Don't leave the house at night."
+late, night, evening: Don't leave the house at night.
+
+------
 
 眼：他表很有悲，他作眼水。
 
 *yek: ta ak hen yo doi, ta mak yek wa.*
 
-"eye, personality, character, soul: He seemed very sad, he was crying."
+eye, personality, character, soul: He seemed very sad, he was crying.
+
+------
 
 事：你在觉于何类事？
 
 *gus: ni en jek nis ke le gus?*
 
-"story, narrative, matter: What kind of things are you thinking about?"
+story, narrative, matter: What kind of things are you thinking about?
+
+------
 
 国：这时他活在何国土？
 
 *nas: je xas ta bi en ke nas tu?*
 
-"nation, people, ethnicity: Which country is she living in now?"
+nation, people, ethnicity: Which country is she living in now?
+
+------
 
 家：你家有何计人？
 
 *ja: ni ja yo ke ji jen?*
 
-"family, household: How many people are in your household?"
+family, household: How many people are in your household?
+
+------
 
 用：用打杆打这物。
 
 *yus: yus da gan da je kos.*
 
-"use: Hit it with a hammer."
+use: Hit it with a hammer.
+
+------
 
 鼻：友《家醒》言何鼻从条鼻兽很条。
 
 *nos: mik Jawek des ke nos de cao nos an hen cao.*
 
-"nose: Jawed says that elephants' noses are very long."
+nose: Jawed says that elephants' noses are very long.
+
+------
 
 客：这市收更们买金从客性。
 
 *bis: je dus gek mas men mai jin de bis nes.*
 
-"visit, travel, tour, guest: That city receives most of its income from tourism."
+visit, travel, tour, guest: That city receives most of its income from tourism.
+
+------
 
 喜：你喜饭条另？
 
 *xi: ni xi pan cao o?*
 
-"happy, pleased, enjoy, interest: Do you like noodles?"
+happy, pleased, enjoy, interest: Do you like noodles?
+
+------
 
 厚：流厚性条烦这日。
 
 *ho: lu ho nes cao noi je son.*
 
-"thick, ample, deep, wide, dense, fat: Traffic is really bothersome today."
+thick, ample, deep, wide, dense, fat: Traffic is really bothersome today.
+
+------
 
 杯：土杯是温，又有很们类于兽又菜。
 
 *tas: tu tas es wen, i yo hen men le nis an i sai.*
 
-"cup, bowl: The valley is warm and has many types of animals and plants."
+cup, bowl: The valley is warm and has many types of animals and plants.
+
+------
 
 次：更次我使助家作晚吃。
 
 *bes: mas bes mi as yuk ja mak wan co.*
 
-"time, instance, action, turn, once: I usually prepare dinner for the family."
+time, instance, action, turn, once: I usually prepare dinner for the family.
+
+------
 
 色：开热日能是名于菜色日。
 
 *so: kai hok son ken es min nis sai so son.*
 
-"color: The first day of summer can be called Beltane/Flower Day."
+color: The first day of summer can be called Beltane/Flower Day.
+
+------
 
 蜥：走蜥在躺在石上收日光者温。
 
 *xis: wak xis en tan en xok xan gek son lus ki wen.*
 
-"lizard, snake, reptile: The lizard is lying on top of a rock, receiving warm sunlight."
+lizard, snake, reptile: The lizard is lying on top of a rock, receiving warm sunlight.
+
+------
 
 细：如用这为能作饭条者很细。
 
 *dek: juk yus je we ken mak pan cao ki hen dek.*
 
-"thin, slender, narrow: Using this method, you can make very thin noodles."
+thin, slender, narrow: Using this method, you can make very thin noodles.
+
+------
 
 子：我女子过作写子给我。
 
 *cik: mi nus cik pas mak xe cik ge mi.*
 
-"child, offspring, (diminutive): My daughter wrote me a note."
+child, offspring, (diminutive): My daughter wrote me a note.
+
+------
 
 根：我必找电根。
 
 *gen: mi mos bus lek gen.*
 
-"root, source, origin: I need to find a power outlet."
+root, source, origin: I need to find a power outlet.
+
+------
 
 管：我觉何水管过是碎。
 
 *tuk: mi jek ke wa tuk pas es soi.*
 
-"tube, pipe: I think a pipe got broken."
+tube, pipe: I think a pipe got broken.
+
+------
 
 这：这时我不有时于言。
 
 *je: je xas mi no yo xas nis des.*
 
-"this, that: I don't have time to talk right now."
+this, that: I don't have time to talk right now.
+
+------
 
 百：这机收八十一从百块从买金从国导机。
 
 *bai: je jik gek ok das un de bai pis de mai jin de nas gi jik.*
 
-"hundred: This organization receives 81% of its funding from the federal government."
+hundred: This organization receives 81% of its funding from the federal government.
+
+------
 
 千：有八点二从千山己三次人。
 
 *tao: yo ok gok dos de tao mon se san bes jen.*
 
-"thousand: There are 8.2 billion people."
+thousand: There are 8.2 billion people.
+
+------
 
 半：半为我要不向玩集。
 
 *ban: ban we mi yao no a hu ga.*
 
-"half: I kinda don't want to go to the party."
+half: I kinda don't want to go to the party.
+
+------
 
 计：你要何计金于这计黄红果？
 
 *ji: ni yao ke ji jin nis je ji kun hon gos?*
 
-"number, amount, some, ordinal, unit, count, calculate: How much money do you want for this many oranges?"
+number, amount, some, ordinal, unit, count, calculate: How much money do you want for this many oranges?
+
+------
 
 排：何计是排计从这排车？
 
 *pai: ke ji es pai ji de je pai ce?*
 
-"arrange, put in order, oversee, row: What's the ID number of that train?"
+arrange, put in order, oversee, row: What's the ID number of that train?
+
+------
 
 反：反五点向你组！
 
 *han: han u gok a ni guk!*
 
-"reverse, oppose, opposite, against, respond, react: Minus five points to your team!"
+reverse, oppose, opposite, against, respond, react: Minus five points to your team!
+
+------
 
 又：二又二是四。
 
 *i: dos i dos es cak.*
 
-"and: Two plus two equals four."
+and: Two plus two equals four.
+
+------
 
 差：十差七是三。
 
 *ca: das ca ci es san.*
 
-"fall short, different, minus, mistake, error, bad: Ten minus seven is three."
+fall short, different, minus, mistake, error, bad: Ten minus seven is three.
+
+------
 
 山：六山四是二十四。
 
 *mon: ses mon cak es dos das cak.*
 
-"mountain, hill, mound, pile, heap, mass: Six times four is twenty four."
+mountain, hill, mound, pile, heap, mass: Six times four is twenty four.
+
+------
 
 切：九切三是三。
 
 *cek: nai cek san es san.*
 
-"cut, slice, separate: Nine divided by three is three."
+cut, slice, separate: Nine divided by three is three.
+
+------
 
 包：水星有张包者秘。
 
 *bao: wa xin yo jan bao ki gis.*
 
-"bag, package, bundle, container; to cover, to wrap: The starfish has a secret box."
+bag, package, bundle, container; to cover, to wrap: The starfish has a secret box.
+
+------
 
 约：这约有《反组》吃房者条好。
 
 *yak: je yak yo Hanguk co kas ki cao hao.*
 
-"around, near, about, approximately, almost: There's a really great Korean restaurant near here."
+around, near, about, approximately, almost: There's a really great Korean restaurant near here.
+
+------
 
 健：这质轻反健。
 
 *he: je us lik han he.*
 
-"heal, health, healthy: This substance is slightly unhealthy."
+heal, health, healthy: This substance is slightly unhealthy.
+
+------
 
 性：排性从这市使讶。
 
 *nes: pai nes de je dus as yai.*
 
-"essence, concept, abstract noun: The layout of this city is surprising."
+essence, concept, abstract noun: The layout of this city is surprising.
+
+------
 
 菇：他不喜味从菇果。
 
 *on: ta no xi tes de on gos.*
 
-"fungus, mushroom: She doesn't like the taste of mushrooms."
+fungus, mushroom: She doesn't like the taste of mushrooms.
+
+------
 
 菜：这晚吃有很们球锐根又云菜。
 
 *sai: je wan co yo hen men cok kin gen i yun sai.*
 
-"vegetable, plant: This dinner has lots of onions and cauliflower."
+vegetable, plant: This dinner has lots of onions and cauliflower.
+
+------
 
 肉：我不吃肉。
 
 *nik: mi no co nik.*
 
-"meat, flesh, organ: I don't eat meat."
+meat, flesh, organ: I don't eat meat.
+
+------
 
 混：注！这混水很热！
 
 *hun: joi! je hun wa hen hok!*
 
-"mix, mingle, together, marriage: Be careful! The soup is very hot!"
+mix, mingle, together, marriage: Be careful! The soup is very hot!
+
+------
 
 集：你能请排这大晚吃集另？
 
 *ga: ni ken cin pai je bik wan co ga o?*
 
-"gather, assemble, condense, aggregate: Could you please organize this big dinner event?"
+gather, assemble, condense, aggregate: Could you please organize this big dinner event?
+
+------
 
 扔：扔网不很有力。
 
 *tos: tos ne no hen yo pao.*
 
-"throw, throw out, reject, expel, emit, spew, cough: The wifi isn't very strong."
+throw, throw out, reject, expel, emit, spew, cough: The wifi isn't very strong.
+
+------
 
 市：头市从这国土是何？
 
 *dus: to dus de je nas tu es ke?*
 
-"city: What's the capital city of that country?"
+city: What's the capital city of that country?
+
+------
 
 损：我过损信性从何公机人们向表好为。
 
 *pe: mi pas pe cos nes de ke gon jik jen men a ak hao we.*
 
-"lose, pay, suffer: I've lost faith that the people in government are going to do the right thing."
+lose, pay, suffer: I've lost faith that the people in government are going to do the right thing.
+
+------
 
 飞：他过学导飞车。
 
 *bo: ta pas xes gi bo ce.*
 
-"fly: He has learned to pilot a plane."
+fly: He has learned to pilot a plane.
+
+------
 
 下：犬子坐在桌下。
 
 *bon: dok cik sen en jos bon.*
 
-"under, bottom, bum: The puppy is under the table."
+under, bottom, bum: The puppy is under the table.
+
+------
 
 马：我喜早吃软马饭。
 
 *hos: mi xi sao co moi hos pan.*
 
-"horse, equine: I like to eat oatmeal for breakfast."
+horse, equine: I like to eat oatmeal for breakfast.
+
+------
 
 张：言片者介站是八角张。
 
 *jan: des pen ki jes pa es ok huk jan.*
 
-"flat, sheet, surface, platform: The sign that says to stop is an octagon."
+flat, sheet, surface, platform: The sign that says to stop is an octagon.
+
+------
 
 网：这是网所者我更喜。
 
 *ne: je es ne luk ki mi mas xi.*
 
-"system, network, economy, environment, internet: This is my favorite website."
+system, network, economy, environment, internet: This is my favorite website.
+
+------
 
 秘：有人者过秘拿我金包！
 
 *gis: yo jen ki pas gis tek mi jin bao!*
 
-"hide, conceal, obscure, secret: Someone stole my wallet!"
+hide, conceal, obscure, secret: Someone stole my wallet!
+
+------
 
 物：你用物金另电金片损？
 
 *kos: ni yus kos jin o lek jin pen pe?*
 
-"thing, object, tool: Are you paying by cash or card?"
+thing, object, tool: Are you paying by cash or card?
+
+------
 
 饿：他饿性于金不能是懂。
 
 *e: ta e nes nis jin no ken es don.*
 
-"hungry, greedy, starve: His greed for money is incomprehensible."
+hungry, greedy, starve: His greed for money is incomprehensible.
+
+------
 
 休：这房者大是客休房。
 
 *xos: je kas ki bik es bis xos kas.*
 
-"rest, pause: That big building is a hotel."
+rest, pause: That big building is a hotel.
+
+------
 
 路：更为我该追工路更真为，不从何我还不要。
 
 *pu: mas we mi gai ces wok pu mas jas we, no de ke mi hai no yao.*
 
-"way, road, path, direction: I should probably pursue a career more seriously, even though I don't want to."
+way, road, path, direction: I should probably pursue a career more seriously, even though I don't want to.
+
+------
 
 漂：我坐在漂物跟水流。
 
 *coi: mi sen en coi kos wis wa lu.*
 
-"float, drift, slide, glide, smooth, effortless: I'm going down the river in a raft."
+float, drift, slide, glide, smooth, effortless: I'm going down the river in a raft.
+
+------
 
 真：这真像过是作时者我小。
 
 *jas: je jas pik pas es mak xas ki mi xao.*
 
-"true, real, genuine, correct, serious: This picture was taken when I was a kid."
+true, real, genuine, correct, serious: This picture was taken when I was a kid.
+
+------
 
 公：这是国公土从国土者更大。
 
 *gon: je es nas gon tu de nas tu ki mas bik.*
 
-"public, shared, government: This is the largest national park in the country."
+public, shared, government: This is the largest national park in the country.
+
+------
 
 过：导机头过作们过水路。
 
 *pas: gi jik to pas mak men pas wa pu.*
 
-"pass, cross, across, on the other side of, experiential, spend time: The prime minister has built many bridges."
+pass, cross, across, on the other side of, experiential, spend time: The prime minister has built many bridges.
+
+------
 
 何：你过吃何计层糖饭？
 
 *ke: ni pas co ke ji los suk pan?*
 
-"what, which: How many pastries did you eat?"
+what, which: How many pastries did you eat?
+
+------
 
 舞：这类舞过是作在计十八年百。
 
 *uk: je le uk pas es mak en ji das ok nen bai.*
 
-"dance: This form of dance was created in the 18th century."
+dance: This form of dance was created in the 18th century.
+
+------
 
 日：热中日有光时者更条。
 
 *son: hok mes son yo lus xas ki mas cao.*
 
-"sun, day: The summer solstice has the longest daylight."
+sun, day: The summer solstice has the longest daylight.
+
+------
 
 学：我学所不有导学人从买网学。
 
 *xes: mi xes luk no yo gi xes jen de mai ne xes.*
 
-"learn, study: My school doesn't have an economics teacher."
+learn, study: My school doesn't have an economics teacher.
+
+------
 
 果：这干果蜥吃鸟果。
 
 *gos: je sek gos xis co pak gos.*
 
-"fruit, egg, produce, results: This reptile eats bird eggs."
+fruit, egg, produce, results: This reptile eats bird eggs.
+
+------
 
 睡：我开睡很晚前夕。
 
 *do: mi kai do hen wan cen nok.*
 
-"sleep: I went to sleep late last night."
+sleep: I went to sleep late last night.
+
+------
 
 储：我外兄工在储金所。
 
 *cuk: mi ek kek wok en cuk jin luk.*
 
-"store, stockpile, preserve, save, keep: My cousin works at the bank."
+store, stockpile, preserve, save, keep: My cousin works at the bank.
+
+------
 
 吸：我吸饭包者在是烧另？
 
 *hes: mi hes pan bao ki en es kuk o?*
 
-"breathe, smell: Do I smell baking bread?"
+breathe, smell: Do I smell baking bread?
+
+------
 
 注：我注看我满约。
 
 *joi: mi joi kan mi man yak.*
 
-"watch out, pay attention, beware, nurture, guard: I looked all around me."
+watch out, pay attention, beware, nurture, guard: I looked all around me.
+
+------
 
 毛：新事者另是何毛菜是绿。
 
 *mao: nu gus ki o es ke mao sai es gin.*
 
-"hair, fur, feather, wool, bristle: In other news, grass is green."
+hair, fur, feather, wool, bristle: In other news, grass is green.
+
+------
 
 鱼：我亲男兄很喜引鱼。
 
 *yu: mi ma nan kek hen xi in yu.*
 
-"fish: My uncle loves fishing."
+fish: My uncle loves fishing.
+
+------
 
 顺：我觉何这胸布很顺你味。
 
 *xun: mi jek ke je xon te hen xun ni tes.*
 
-"obey, follow, fit, suit: I think this shirt really fits your style."
+obey, follow, fit, suit: I think this shirt really fits your style.
+
+------
 
 增：这菜增在土者干。
 
 *kes: je sai kes en tu ki sek.*
 
-"grow, increase: This plant grows in dry ground."
+grow, increase: This plant grows in dry ground.
+
+------
 
 锐：锐物是一从用物者人们过开作更早。
 
 *kin: kin kos es un de yus kos ki jen men pas kai mak mas sao.*
 
-"keen, sharp, witty, clever, blade: Knives are one of the earliest tools made by humans."
+keen, sharp, witty, clever, blade: Knives are one of the earliest tools made by humans.
+
+------
 
 言：如言向人用他亲言为，你言向他心。
 
 *des: juk des a jen yus ta ma des we, ni des a ta hak.*
 
-"speak, say, mean, signify: If you speak to somone in their native language, you speak to their heart."
+speak, say, mean, signify: If you speak to somone in their native language, you speak to their heart.
+
+------
 
 介：我过介何他该更学。
 
 *jes: mi pas jes ke ta gai mas xes.*
 
-"introduce, bring up, advise, comment, suggest: I said he should study more."
+introduce, bring up, advise, comment, suggest: I said he should study more.
+
+------
 
 也：我也能速走过外块千集在四切时内。
 
 *ye: mi ye ken su wak pas ek pis tao ga en cak cek xas den.*
 
-"also, too: I can also run a kilometer in four minutes."
+also, too: I can also run a kilometer in four minutes.
+
+------
 
 喂：喂！这作悲！
 
 *oi: oi! je mak doi!*
 
-"oh, hey: Ow! That hurts!"
+oh, hey: Ow! That hurts!
+
+------
 
 羊：这温胸布是作从羊毛。
 
 *yan: je wen xon te es mak de yan mao.*
 
-"sheep, goat: This sweater is made of wool."
+sheep, goat: This sweater is made of wool.
+
+------
 
 黏：他头前条黏在我脑。
 
 *pek: ta to cen cao pek en mi nao.*
 
-"sticky, adhere, glue, attach: I remember his face so vividly."
+sticky, adhere, glue, attach: I remember his face so vividly.
+
+------
 
 刺：早人用刺杆找使末头刺兽。
 
 *pin: sao jen yus pin gan bus as mo to pin an.*
 
-"prick, pierce, stab, pin, thorn: The hominid used a spear to hunt deer."
+prick, pierce, stab, pin, thorn: The hominid used a spear to hunt deer.
+
+------
 
 声：每人从人组大声时者玩人打出球。
 
 *bos: me jen de jen guk bik bos xas ki hu jen da cu cok.*
 
-"voice, sound, noise, make noise: The crowd all shouted when the player hit the ball."
+voice, sound, noise, make noise: The crowd all shouted when the player hit the ball.
+
+------
 
 天：很们国土有色布者天鸟在。
 
 *ten: hen men nas tu yo so te ki ten pak en.*
 
-"sky, weather, heaven, god, holy, sacred: Many countries have an eagle on their flag."
+sky, weather, heaven, god, holy, sacred: Many countries have an eagle on their flag.
+
+------
 
 升：每从二升器是差，必用走排。
 
 *xoi: me de dos xoi mek es ca, mos yus wak pai.*
 
-"climb, ascend, rise, mount, improve: Both elevators are broken, we have to take the stairs."
+climb, ascend, rise, mount, improve: Both elevators are broken, we have to take the stairs.
+
+------
 
 而：我车变差而我用脚力车向这所。
 
 *loi: mi ce ben ca loi mi yus jao pao ce a je luk.*
 
-"then, next, later, so, therefore: My car broke down so I biked here."
+then, next, later, so, therefore: My car broke down so I biked here.
+
+------
 
 买：他过买每五猪给人在买土。
 
 *mai: ta pas mai me u pok ge jen en mai tu.*
 
-"buy, sell, trade, exchange, swap, switch: She sold off all five pigs at the market."
+buy, sell, trade, exchange, swap, switch: She sold off all five pigs at the market.
+
+------
 
 末：这盾蜥者有百九十二年还不末。
 
 *mo: je dun xis ki yo bai nai das dos nen hai no mo.*
 
-"die, end, ending: This 192 year old tortoise still hasn't died."
+die, end, ending: This 192 year old tortoise still hasn't died.
+
+------
 
 糖：你能言何我顺为从故时，我还觉何你该有糖饭在你出日。
 
 *suk: ni ken des ke mi xun we de gu xas, mi hai jek ke ni gai yo suk pan en ni cu son.*
 
-"sugar: Call me old-fashioned, but I think you should have cake on your birthday."
+sugar: Call me old-fashioned, but I think you should have cake on your birthday.
+
+------
 
 前：前日我看猫犬者在我房前。
 
 *cen: cen son mi kan gak dok ki en mi kas cen.*
 
-"front, face, before, west: Yesterday I saw a fox in front of my house."
+front, face, before, west: Yesterday I saw a fox in front of my house.
+
+------
 
 菌：如找作酸奶，你必有这类菌。
 
 *jun: juk bus mak sun lak, ni mos yo je le jun.*
 
-"bacteria, mold: To make yogurt you need this type of bacteria."
+bacteria, mold: To make yogurt you need this type of bacteria.
+
+------
 
 关：晚时计十日块这吃房变关。
 
 *gun: wan xas ji das son pis je co kas ben gun.*
 
-"closed, shut: This restaurant closes at 10pm."
+closed, shut: This restaurant closes at 10pm.
+
+------
 
 到：木菜者大过是压于气流又跌到土。
 
 *dao: mu sai ki bik pas es ya nis gas lu i ka dao tu.*
 
-"arrive, until, up to, succeed: The big tree was blown to the ground by the wind."
+arrive, until, up to, succeed: The big tree was blown to the ground by the wind.
+
+------
 
 醒：我过变醒于喊者大。
 
 *wek: mi pas ben wek nis boi ki bik.*
 
-"alert, awake, wait, anticipate: I was awakened by a loud shout."
+alert, awake, wait, anticipate: I was awakened by a loud shout.
+
+------
 
 热：注：这杯内有水者很热！
 
 *hok: joi: je tas den yo wa ki hen hok!*
 
-"hot, heat: Caution: this cup contains hot liquid!"
+hot, heat: Caution: this cup contains hot liquid!
+
+------
 
 术：我过在使满好术于作气糖。
 
 *jis: mi pas en as man hao jis nis mak gas suk.*
 
-"skill, craft, technology, technique, art: I've been perfecting the art of making nougat."
+skill, craft, technology, technique, art: I've been perfecting the art of making nougat.
+
+------
 
 房：有条蜥者在活在我房下。
 
 *kas: yo cao xis ki en bi en mi kas bon.*
 
-"house, home, building: There's a snake living under my house."
+house, home, building: There's a snake living under my house.
+
+------
 
 头：我过带头布从杆球玩向玩次从《大市》组从《新右》市。
 
 *to: mi pas dai to te de gan cok hu a hu bes de Bikdus guk de Nuyok dus.*
 
-"head, individual, chief, main: I wore a baseball cap to the New York Mets game."
+head, individual, chief, main: I wore a baseball cap to the New York Mets game.
+
+------
 
 左：时者飞车导人看另飞车在他左，他回导向另边。
 
 *is: xas ki bo ce gi jen kan o bo ce en ta is, ta hoi gi a o la.*
 
-"left, south: When the pilot saw another plane to her left, she turned the other way."
+left, south: When the pilot saw another plane to her left, she turned the other way.
+
+------
 
 身：这短后我时够满有事，我就不有休时者我能摇身。
 
 *koi: je kok bek mi xas go man yo gus, mi jo no yo xos xas ki mi ken xek koi.*
 
-"body, torso, corpse, form, (3D) shape: I've been so busy recently that I haven't had time to exercise."
+body, torso, corpse, form, (3D) shape: I've been so busy recently that I haven't had time to exercise.
+
+------
 
 懂：我就懂何为者这吃房有考介者条好。
 
 *don: mi jo don ke we ki je co kas yo kao jes ki cao hao.*
 
-"understand: Now I understand why this restaurant has such good reviews."
+understand: Now I understand why this restaurant has such good reviews.
+
+------
 
 污：每杯是污，请洗。
 
 *sus: me tas es sus, cin was.*
 
-"dirty, gross, grubby, unwashed: The dishes are all dirty, please wash them."
+dirty, gross, grubby, unwashed: The dishes are all dirty, please wash them.
+
+------
 
 走：星车人过走在皮从走星者奥。
 
 *wak: xin ce jen pas wak en pi de wak xin ki ao.*
 
-"walk, move: The astronaut walked on the surface of the strange planet."
+walk, move: The astronaut walked on the surface of the strange planet.
+
+------
 
 酪：奶酪者刚能是储又不朽很条时。
 
 *cis: lak cis ki duk ken es cuk i no wos hen cao xas.*
 
-"cheese, form, coagulate, curdle: Hard cheese can be stored for a long time without spoiling."
+cheese, form, coagulate, curdle: Hard cheese can be stored for a long time without spoiling.
+
+------
 
 慢：更慢！路上有小兽。
 
 *len: mas len! pu xan yo xao an.*
 
-"slow: Slow down! There's a little critter in the road."
+slow: Slow down! There's a little critter in the road.
+
+------
 
 刚：刚片从刚片奶兽是很刚。
 
 *duk: duk pen de duk pen lak an es hen duk.*
 
-"hard, strong, tough, stiff: The scales of the armadillo are very hard."
+hard, strong, tough, stiff: The scales of the armadillo are very hard.
+
+------
 
 碎：刚片从刚片奶兽是够刚，如是打就还不是碎。
 
 *soi: duk pen de duk pen lak an es go duk, juk es da jo hai no es soi.*
 
-"break, shatter, shred: The scales of the armadillo are so hard that if struck they will not be wounded."
+break, shatter, shred: The scales of the armadillo are so hard that if struck they will not be wounded.
+
+------
 
 角：用角厚性又皮外性能计到外性从轮皮块。
 
 *huk: yus huk ho nes i pi ek nes ken ji dao ek nes de lun pi pis.*
 
-"hook, bend, curve, corner: The arc length can be calculated using the angle and the radius."
+hook, bend, curve, corner: The arc length can be calculated using the angle and the radius.
+
+------
 
 拿：找事从这玩是秘拿色布从另组。
 
 *tek: bus gus de je hu es gis tek so te de o guk.*
 
-"take, buy: The objective of this game is to steal the other team's flags."
+take, buy: The objective of this game is to steal the other team's flags.
+
+------
 
 饭：这时是时于开拿饭菜从土。
 
 *pan: je xas es xas nis kai tek pan sai de tu.*
 
-"bread, rice, starch, grain: Now it's time to begin harvesting the grain."
+bread, rice, starch, grain: Now it's time to begin harvesting the grain.
+
+------
 
 猴：站是猴！
 
 *hus: pa es hus!*
 
-"monkey, ape, naughty, tricksy: Stop fooling around!"
+monkey, ape, naughty, tricksy: Stop fooling around!
+
+------
 
 该：这日我该写何类言排？喂，我就能写这！
 
 *gai: je son mi gai xe ke le des pai? oi, mi jo ken xe je!*
 
-"should, ought: What kind of sentence should I write today? Oh, I can just write this!"
+should, ought: What kind of sentence should I write today? Oh, I can just write this!
+
+------
 
 机：反争机是好大。
 
 *jik: han puk jik es hao bik.*
 
-"structure, organization, institution: The enemy army is quite large."
+structure, organization, institution: The enemy army is quite large.
+
+------
 
 除：速为天过变很热，又我就除我袄。
 
 *kik: su we ten pas ben hen hok, i mi jo kik mi jak.*
 
-"remove, take away, clean off: The weather suddenly became very hot, so I took off my jacket."
+remove, take away, clean off: The weather suddenly became very hot, so I took off my jacket.
+
+------
 
 知：知性是力！
 
 *sa: sa nes es pao!*
 
-"know: Knowledge is power!"
+know: Knowledge is power!
+
+------
 
 锁：秘拿人过用杆子们从金使反锁器。
 
 *sok: gis tek jen pas yus gan cik men de jin as han sok mek.*
 
-"lock, latch, secure, certain: The thief used metal picks to unlock the lock."
+lock, latch, secure, certain: The thief used metal picks to unlock the lock.
+
+------
 
 春：在这考所他们使工于春学者条有重。
 
 *cun: en je kao luk ta men as wok nis cun xes ki cao yo pes.*
 
-"vitality, life, lust, spring, alive: In this lab they work on very important biology research."
+vitality, life, lust, spring, alive: In this lab they work on very important biology research.
+
+------
 
 请：请注你就事又许何我反这。
 
 *cin: cin joi ni jo gus i lao ke mi han je.*
 
-"politely request, please: Please mind your own business and let me deal with this."
+politely request, please: Please mind your own business and let me deal with this.
+
+------
 
 引：更大块从买网从这所是引鱼。
 
 *in: mas bik pis de mai ne de je luk es in yu.*
 
-"pull, stretch, extend, exaggerate, attract, tempt: The biggest sector of this area's economy is fishing."
+pull, stretch, extend, exaggerate, attract, tempt: The biggest sector of this area's economy is fishing.
+
+------
 
 胸：引肉从他胸是很大从何他举重物每日。
 
 *xon: in nik de ta xon es hen bik de ke ta ju pes kos me son.*
 
-"chest, breast: His chest muscles are very large because he lifts weights every day."
+chest, breast: His chest muscles are very large because he lifts weights every day.
+
+------
 
 工：我就升工位！
 
 *wok: mi jo xoi wok pos!*
 
-"work, labor, position, role: I just got promoted!"
+work, labor, position, role: I just got promoted!
+
+------
 
 变：这写子是变从根者在《路蓝己》言为。
 
 *ben: je xe cik es ben de gen ki en Pulanse des we.*
 
-"bend, change, become: This message has been translated from the French original."
+bend, change, become: This message has been translated from the French original.
+
+------
 
 失：如不有看事，就开介于规是失者真大。
 
 *mis: juk no yo kan gus, jo kai jes nis ges es mis ki jas bik.*
 
-"miss, err, mistake: It is a capital mistake to theorize before one has data."
+miss, err, mistake: It is a capital mistake to theorize before one has data.
+
+------
 
 杆：有使怕蜥者有毛杆。
 
 *gan: yo as tak xis ki yo mao gan.*
 
-"stick, pole, rod, bar: Some dinosaurs had feathers."
+stick, pole, rod, bar: Some dinosaurs had feathers.
+
+------
 
 仿：小《举礼》过秘仿我写事。
 
 *mok: xao Juli pas gis mok mi xe gus.*
 
-"mock, copy, imitate, resemble: Julie plagiarized my essay."
+mock, copy, imitate, resemble: Julie plagiarized my essay.
+
+------
 
 洁：使洁你房块！
 
 *lin: as lin ni kas pis!*
 
-"clean, clear, pure: Clean your room!"
+clean, clear, pure: Clean your room!
+
+------
 
 怒：真性使放你。这前给怒向你。
 
 *has: jas nes as muk ni. je cen ge has a ni.*
 
-"anger, wrath: The truth will set you free, but first it will piss you off."
+anger, wrath: The truth will set you free, but first it will piss you off.
+
+------
 
 后：这后我使工引肉从我后。
 
 *bek: je bek mi as wok in nik de mi bek.*
 
-"back, behind, after, east: After this I'll work out my back muscles."
+back, behind, after, east: After this I'll work out my back muscles.
+
+------
 
 盐：该有人者向无兽吃房言何盐不从兽。
 
 *yen: gai yo jen ki a nin an co kas des ke yen no de an.*
 
-"salt: Someone should tell vegan restaurants that salt is vegan."
+salt: Someone should tell vegan restaurants that salt is vegan.
+
+------
 
 赢：在玩土我过到扔轮向关杯颈又赢黄鱼。
 
 *win: en hu tu mi pas dao tos lun a gun tas nek i win kun yu.*
 
-"win, gain, obtain, succeed: At the fair I successfully threw a ring onto the bottle neck and won a goldfish."
+win, gain, obtain, succeed: At the fair I successfully threw a ring onto the bottle neck and won a goldfish.
+
+------
 
 冰：玩土也有人者买冰奶。
 
 *bin: hu tu ye yo jen ki mai bin lak.*
 
-"freeze, cold: The fair also had people selling ice cream."
+freeze, cold: The fair also had people selling ice cream.
+
+------
 
 喊：每时他犬使喊。
 
 *boi: me xas ta dok as boi.*
 
-"yell, shout, howl, bark, moo, meow (etc., any animal sound): Her dog is always barking."
+yell, shout, howl, bark, moo, meow (etc., any animal sound): Her dog is always barking.
+
+------
 
 带：带问人很有友为。
 
 *dai: dai won jen hen yo mik we.*
 
-"support, carry, bring, wear: The waiter is very friendly."
+support, carry, bring, wear: The waiter is very friendly.
+
+------
 
 补：我找补何我有必事于你。
 
 *bu: mi bus bu ke mi yo mos gus nis ni.*
 
-"repair, recompense, compensate, fill in: I'm trying to fulfill my obligation to you."
+repair, recompense, compensate, fill in: I'm trying to fulfill my obligation to you.
+
+------
 
 深：红色从红土根是很深。
 
 *xen: hon so de hon tu gen es hen xen.*
 
-"deep, rich, saturated: The red color of beetroot is very saturated."
+deep, rich, saturated: The red color of beetroot is very saturated.
+
+------
 
 就：你就能睡夕时另时者电天水在跌。
 
 *jo: ni jo ken do nok xas o xas ki lek ten wa en ka.*
 
-"just, only, already, as soon as, own: You can sleep only at night or during thunderstorms."
+just, only, already, as soon as, own: You can sleep only at night or during thunderstorms.
+
+------
 
 沙：这日冰漂是很好从何天冰水很是沙。
 
 *xa: je son bin coi es hen hao de ke ten bin wa hen es xa.*
 
-"sand, powder: The skiing is good today because the snow is very powdery."
+sand, powder: The skiing is good today because the snow is very powdery.
+
+------
 
 布：我胸布有像们于鱼。
 
 *te: mi xon te yo pik men nis yu.*
 
-"fabric, cloth, clothing: My shirt has pictures of fish on it."
+fabric, cloth, clothing: My shirt has pictures of fish on it.
+
+------
 
 羞：这犬很羞又就秘己在后从脚从他人。
 
 *xai: je dok hen xai i jo gis se en bek de jao de ta jen.*
 
-"shy, timid, meek, ashamed: The dog was very shy and hid behind its person's leg."
+shy, timid, meek, ashamed: The dog was very shy and hid behind its person's leg.
+
+------
 
 乐：我们过唱又舞听乐们者更喜在玩集。
 
 *tun: mi men pas can i uk kus tun men ki mas xi en hu ga.*
 
-"music, harmony: We sang and danced to our favorite songs at the party."
+music, harmony: We sang and danced to our favorite songs at the party.
+
+------
 
 鸡：我过吃小土鸡果在我饭内牛肉。
 
 *poi: mi pas co xao tu poi gos en mi pan den bak nik.*
 
-"chicken, fowl: I ate a quail egg on my burger."
+chicken, fowl: I ate a quail egg on my burger.
+
+------
 
 故：人们者不能储故事在脑必过他新次。
 
 *gu: jen men ki no ken cuk gu gus en nao mos pas ta nu bes.*
 
-"old, tradition, ancient: Those who cannot remember the past are condemned to repeat it."
+old, tradition, ancient: Those who cannot remember the past are condemned to repeat it.
+
+------
 
 追：农前，每人必追兽又找菜者能吃。
 
 *ces: non cen, me jen mos ces an i bus sai ki ken co.*
 
-"chase, pursue, follow: Before agriculture, all people had to hunt animals and gather edible plants."
+chase, pursue, follow: Before agriculture, all people had to hunt animals and gather edible plants.
+
+------
 
 时：使醒我时者月时九是末。
 
 *xas: as wek mi xas ki mun xas nai es mo.*
 
-"time, hour: Wake me up when September ends."
+time, hour: Wake me up when September ends.
+
+------
 
 洗：何是洗所？
 
 *was: ke es was luk?*
 
-"wash, bathe, erase: Where is the restroom?"
+wash, bathe, erase: Where is the restroom?
+
+------
 
 云：每日时午吃是味混云菜又水饭者是打。
 
 *yun: me son xas nun co es tes hun yun sai i wa pan ki es da.*
 
-"cloud, fog, mist, steam, vapor: Every day lunch is curried cauliflower with poha."
+cloud, fog, mist, steam, vapor: Every day lunch is curried cauliflower with poha.
+
+------
 
 肚：我肚有悲。
 
 *du: mi du yo doi.*
 
-"belly, stomach: My tummy hurts."
+belly, stomach: My tummy hurts.
+
+------
 
 他：友《星又》导己车向他房。
 
 *ta: mik Xin'i gi se ce a ta kas.*
 
-"3rd person, thing: Xinyi drove her car to his house."
+3rd person, thing: Xinyi drove her car to his house.
+
+------
 
 酒：这果酒是加向关杯内十六年后。
 
 *sak: je gos sak es pon a gun tas den das ses nen bek.*
 
-"alcohol: This wine was bottled sixteen years ago."
+alcohol: This wine was bottled sixteen years ago.
+
+------
 
 很：你很有术于助人们使何他懂另人。
 
 *hen: ni hen yo jis nis yuk jen men as ke ta don o jen.*
 
-"very, intensely: You are very good at helping people understand each other."
+very, intensely: You are very good at helping people understand each other.
+
+------
 
 吻：有土者人们在他开集又吻孔边从另人。
 
 *kis: yo tu ki jen men en ta kai ga i kis bok la de o jen.*
 
-"kiss: In some places people greet one another by kissing on the cheek."
+kiss: In some places people greet one another by kissing on the cheek.
+
+------
 
 兄：每从我混兄们活在《就家》块。
 
 *kek: me de mi hun kek men bi en Joja pis.*
 
-"sibling: All my siblings-in-law live in Georgia."
+sibling: All my siblings-in-law live in Georgia.
+
+------
 
 雅：条雅！
 
 *xik: cao xik!*
 
-"chic, hip, cool: Awesome!"
+chic, hip, cool: Awesome!
+
+------
 
 球：土球有八从千山己三次人又球外有十人。
 
 *cok: tu cok yo ok de tao mon se san bes jen i cok ek yo das jen.*
 
-"ball, sphere: There are eight billion people on Earth and ten people in outer space."
+ball, sphere: There are eight billion people on Earth and ten people in outer space.
+
+------
 
 涂：不摸涂色者还不干！
 
 *tus: no tok tus so ki hai no sek!*
 
-"paint, smear, wipe, coating, layer: Don't touch the wet paint!"
+paint, smear, wipe, coating, layer: Don't touch the wet paint!
+
+------
 
 朽：在这所我约人有觉为于朽土者很刚。
 
 *wos: en je luk mi yak jen yo jek we nis wos tu ki hen duk.*
 
-"worsen, decay, decline, rot, deteriorate: My neighbors here have strong opinions about compost."
+worsen, decay, decline, rot, deteriorate: My neighbors here have strong opinions about compost.
+
+------
 
 谢：计一片从这书有谢。
 
 *xuk: ji un pen de je buk yo xuk.*
 
-"thank: The first page of the book was acknowledgements."
+thank: The first page of the book was acknowledgements.
+
+------
 
 珠：这糖饭包有脑珠又漂酸果者干。
 
 *nuk: je suk pan bao yo nao nuk i coi sun gos ki sek.*
 
-"nut, bead, pearl: This muffin has walnuts and dried cranberries."
+nut, bead, pearl: This muffin has walnuts and dried cranberries.
+
+------
 
 跌：很们天水在跌。
 
 *ka: hen men ten wa en ka.*
 
-"fall, drop, down: It's raining heavily."
+fall, drop, down: It's raining heavily.
+
+------
 
 悲：我要何我悲是懂重为。
 
 *doi: mi yao ke mi doi es don pes we.*
 
-"sorrow, sadness, pain: I want my misfortunes to be taken seriously."
+sorrow, sadness, pain: I want my misfortunes to be taken seriously.
+
+------
 
 犬：
 
 *dok: *
 
-"dog: "
+dog: 
+
+------
 
 奥：
 
 *ao: *
 
-"strange, unknown, mysterious: "
+strange, unknown, mysterious: 
+
+------
 
 猪：
 
 *pok: *
 
-"pig: "
+pig: 
+
+------
 
 鼠：
 
 *mus: *
 
-"mouse, rodent: "
+mouse, rodent: 
+
+------
 
 夕：
 
 *nok: *
 
-"night: "
+night: 
+
+------
 
 牛：
 
 *bak: *
 
-"cow, bovine: "
+cow, bovine: 
 
 ## Minecraft
-
-
 
 ### Game Text
 
 Translations of Minecraft in-game text
 
+------
+
 为
 
 *we*
 
-"Mode"
+Mode
+
+------
 
 睡温为
 
 *do wen we*
 
-"Sweet Dreams"
+Sweet Dreams
+
+------
 
 使者二兽给种
 
 *as ki dos an ge jon*
 
-"Breed two animals together"
+Breed two animals together
+
+------
 
 言鸟又飞鼠
 
 *des pak i bo mus*
 
-"The Parrots and the Bats"
+The Parrots and the Bats
+
+------
 
 拿鱼从水
 
 *tek yu de wa*
 
-"Catch a fish"
+Catch a fish
+
+------
 
 事者扔味从鱼
 
 *gus ki tos tes de yu*
 
-"Fishy Business"
+Fishy Business
+
+------
 
 加菜种向土又看何这增
 
 *pon sai jon a tu i kan ke je kes*
 
-"Plant a seed and watch it grow"
+Plant a seed and watch it grow
+
+------
 
 所从种
 
 *luk de jon*
 
-"A Seedy Place"
+A Seedy Place
+
+------
 
 球满有很们友又吃物
 
 *cok man yo hen men mik i co kos*
 
-"The world is full of friends and food"
+The world is full of friends and food
+
+------
 
 农术
 
 *non jis*
 
-"Husbandry"
+Husbandry
+
+------
 
 作碎石杆者还更有力
 
 *mak soi xok gan ki hai mas yo pao*
 
-"Upgrade your pickaxe"
+Upgrade your pickaxe
+
+------
 
 杆从碎从金从汁
 
 *gan de soi de jin de jus*
 
-"Isn't It Iron Pick"
+Isn't It Iron Pick
+
+------
 
 加流石向大杯内
 
 *pon lu xok a bik tas den*
 
-"Fill a bucket with lava"
+Fill a bucket with lava
+
+------
 
 有者热
 
 *yo ki hok*
 
-"Hot Stuff"
+Hot Stuff
+
+------
 
 用你碎石杆
 
 *yus ni soi xok gan*
 
-"Mine stone with your new pickaxe"
+Mine stone with your new pickaxe
+
+------
 
 时从石
 
 *xas de xok*
 
-"Stone Age"
+Stone Age
+
+------
 
 用盾块从汁金使盾己
 
 *yus dun pis de jus jin as dun se*
 
-"Protect yourself with a piece of iron armor"
+Protect yourself with a piece of iron armor
+
+------
 
 开带
 
 *kai dai*
 
-"Suit Up"
+Suit Up
+
+------
 
 心从玩
 
 *hak de hu*
 
-"The heart and story of the game"
+The heart and story of the game
+
+------
 
 碎作
 
 *soi mak*
 
-"Minecraft"
+Minecraft
+
+------
 
 烧块从汁金
 
 *kuk pis de jus jin*
 
-"Smelt an iron ingot"
+Smelt an iron ingot
+
+------
 
 收者刚
 
 *gek ki duk*
 
-"Acquire Hardware"
+Acquire Hardware
+
+------
 
 作碎石杆者更有力
 
 *mak soi xok gan ki mas yo pao*
 
-"Construct a better pickaxe"
+Construct a better pickaxe
+
+------
 
 升层
 
 *xoi los*
 
-"Getting an Upgrade"
+Getting an Upgrade
+
+------
 
 你赢找事！
 
 *ni win bus gus!*
 
-"Advancement Made!"
+Advancement Made!
+
+------
 
 盾性
 
 *dun nes*
 
-"Armor"
+Armor
+
+------
 
 损性从打
 
 *pe nes de da*
 
-"Attack Damage"
+Attack Damage
+
+------
 
 速性从打
 
 *su nes de da*
 
-"Attack Speed"
+Attack Speed
+
+------
 
 更们计从健性点
 
 *mas men ji de he nes gok*
 
-"Max Health"
+Max Health
+
+------
 
 速性
 
 *su nes*
 
-"Speed"
+Speed
+
+------
 
 压器从刺木
 
 *ya mek de pin mu*
 
-"Acacia Button"
+Acacia Button
+
+------
 
 口张从刺木
 
 *ko jan de pin mu*
 
-"Acacia Door"
+Acacia Door
+
+------
 
 杆墙从刺木
 
 *gan wo de pin mu*
 
-"Acacia Fence"
+Acacia Fence
+
+------
 
 杆墙口从刺木
 
 *gan wo ko de pin mu*
 
-"Acacia Fence Gate"
+Acacia Fence Gate
+
+------
 
 菜片从刺木
 
 *sai pen de pin mu*
 
-"Acacia Leaves"
+Acacia Leaves
+
+------
 
 刺木
 
 *pin mu*
 
-"Acacia Log"
+Acacia Log
+
+------
 
 切块从刺木
 
 *cek pis de pin mu*
 
-"Acacia Planks"
+Acacia Planks
+
+------
 
 脚压器从刺木
 
 *jao ya mek de pin mu*
 
-"Acacia Pressure Plate"
+Acacia Pressure Plate
+
+------
 
 刺木菜
 
 *pin mu sai*
 
-"Acacia Sapling"
+Acacia Sapling
+
+------
 
 写张从刺木
 
 *xe jan de pin mu*
 
-"Acacia Sign"
+Acacia Sign
+
+------
 
 半刺木
 
 *ban pin mu*
 
-"Acacia Slab"
+Acacia Slab
+
+------
 
 走排从刺木
 
 *wak pai de pin mu*
 
-"Acacia Stairs"
+Acacia Stairs
+
+------
 
 桌口张从刺木
 
 *jos ko jan de pin mu*
 
-"Acacia Trapdoor"
+Acacia Trapdoor
+
+------
 
 墙写张从刺木
 
 *wo xe jan de pin mu*
 
-"Acacia Wall Sign"
+Acacia Wall Sign
+
+------
 
 刺木山
 
 *pin mu mon*
 
-"Acacia Wood"
+Acacia Wood
+
+------
 
 气
 
 *gas*
 
-"Air"
+Air
+
+------
 
 刚杆菜
 
 *duk gan sai*
 
-"Bamboo"
+Bamboo
+
+------
 
 刚杆菜子
 
 *duk gan sai cik*
 
-"Bamboo Shoot"
+Bamboo Shoot
+
+------
 
 你就能睡夕时另时者电天水在跌
 
 *ni jo ken do nok xas o xas ki lek ten wa en ka*
 
-"You can sleep only at night or during thunderstorms"
+You can sleep only at night or during thunderstorms
+
+------
 
 这时你不能睡，奥兽在这约
 
 *je xas ni no ken do, ao an en je yak*
 
-"You may not rest now; there are monsters nearby"
+You may not rest now; there are monsters nearby
+
+------
 
 有物者使何你不能向这睡张
 
 *yo kos ki as ke ni no ken a je do jan*
 
-"This bed is obstructed"
+This bed is obstructed
+
+------
 
 这睡张有人
 
 *je do jan yo jen*
 
-"This bed is occupied"
+This bed is occupied
+
+------
 
 这时你不能睡，睡张在外从你
 
 *je xas ni no ken do, do jan en ek de ni*
 
-"You may not rest now; the bed is too far away"
+You may not rest now; the bed is too far away
+
+------
 
 下石
 
 *bon xok*
 
-"Bedrock"
+Bedrock
+
+------
 
 红土根们
 
 *hon tu gen men*
 
-"Beetroots"
+Beetroots
+
+------
 
 压器从白木
 
 *ya mek de wai mu*
 
-"Birch Button"
+Birch Button
+
+------
 
 口张从白木
 
 *ko jan de wai mu*
 
-"Birch Door"
+Birch Door
+
+------
 
 杆墙从白木
 
 *gan wo de wai mu*
 
-"Birch Fence"
+Birch Fence
+
+------
 
 杆墙口从白木
 
 *gan wo ko de wai mu*
 
-"Birch Fence Gate"
+Birch Fence Gate
+
+------
 
 菜片从白木
 
 *sai pen de wai mu*
 
-"Birch Leaves"
+Birch Leaves
+
+------
 
 白木
 
 *wai mu*
 
-"Birch Log"
+Birch Log
+
+------
 
 切块从白木
 
 *cek pis de wai mu*
 
-"Birch Planks"
+Birch Planks
+
+------
 
 脚压器从白木
 
 *jao ya mek de wai mu*
 
-"Birch Pressure Plate"
+Birch Pressure Plate
+
+------
 
 白木菜
 
 *wai mu sai*
 
-"Birch Sapling"
+Birch Sapling
+
+------
 
 写张从白木
 
 *xe jan de wai mu*
 
-"Birch Sign"
+Birch Sign
+
+------
 
 半白木
 
 *ban wai mu*
 
-"Birch Slab"
+Birch Slab
+
+------
 
 走排从白木
 
 *wak pai de wai mu*
 
-"Birch Stairs"
+Birch Stairs
+
+------
 
 桌口张从白木
 
 *jos ko jan de wai mu*
 
-"Birch Trapdoor"
+Birch Trapdoor
+
+------
 
 墙写张从白木
 
 *wo xe jan de wai mu*
 
-"Birch Wall Sign"
+Birch Wall Sign
+
+------
 
 白木山
 
 *wai mu mon*
 
-"Birch Wood"
+Birch Wood
+
+------
 
 睡张者黑
 
 *do jan ki dak*
 
-"Black Bed"
+Black Bed
+
+------
 
 火油杆者黑
 
 *ik yos gan ki dak*
 
-"Black Candle"
+Black Candle
+
+------
 
 羊毛者黑
 
 *yan mao ki dak*
 
-"Black Wool"
+Black Wool
+
+------
 
 睡张者蓝
 
 *do jan ki lan*
 
-"Blue Bed"
+Blue Bed
+
+------
 
 火油杆者蓝
 
 *ik yos gan ki lan*
 
-"Blue Candle"
+Blue Candle
+
+------
 
 羊毛者蓝
 
 *yan mao ki lan*
 
-"Blue Wool"
+Blue Wool
+
+------
 
 睡张者黑黄
 
 *do jan ki dak kun*
 
-"Brown Bed"
+Brown Bed
+
+------
 
 火油杆者黑黄
 
 *ik yos gan ki dak kun*
 
-"Brown Candle"
+Brown Candle
+
+------
 
 土菇果
 
 *tu on gos*
 
-"Brown Mushroom"
+Brown Mushroom
+
+------
 
 大块从土菇果
 
 *bik pis de tu on gos*
 
-"Brown Mushroom Block"
+Brown Mushroom Block
+
+------
 
 羊毛者黑黄
 
 *yan mao ki dak kun*
 
-"Brown Wool"
+Brown Wool
+
+------
 
 刺干菜
 
 *pin sek sai*
 
-"Cactus"
+Cactus
+
+------
 
 色从刺干菜
 
 *so de pin sek sai*
 
-"Cactus Flower"
+Cactus Flower
+
+------
 
 糖饭
 
 *suk pan*
 
-"Cake"
+Cake
+
+------
 
 火油杆
 
 *ik yos gan*
 
-"Candle"
+Candle
+
+------
 
 糖条根们
 
 *suk cao gen men*
 
-"Carrots"
+Carrots
+
+------
 
 黄球果者是切
 
 *kun cok gos ki es cek*
 
-"Carved Pumpkin"
+Carved Pumpkin
+
+------
 
 张包
 
 *jan bao*
 
-"Chest"
+Chest
+
+------
 
 软土
 
 *moi tu*
 
-"Clay"
+Clay
+
+------
 
 山从春石
 
 *mon de cun xok*
 
-"Block of Coal"
+Block of Coal
+
+------
 
 沙土
 
 *xa tu*
 
-"Coarse Dirt"
+Coarse Dirt
+
+------
 
 碎石
 
 *soi xok*
 
-"Cobblestone"
+Cobblestone
+
+------
 
 半碎石
 
 *ban soi xok*
 
-"Cobblestone Slab"
+Cobblestone Slab
+
+------
 
 走排从碎石
 
 *wak pai de soi xok*
 
-"Cobblestone Stairs"
+Cobblestone Stairs
+
+------
 
 墙从碎石
 
 *wo de soi xok*
 
-"Cobblestone Wall"
+Cobblestone Wall
+
+------
 
 朽土张包
 
 *wos tu jan bao*
 
-"Composter"
+Composter
+
+------
 
 山从导金
 
 *mon de gi jin*
 
-"Block of Copper"
+Block of Copper
+
+------
 
 作物桌
 
 *mak kos jos*
 
-"Crafting Table"
+Crafting Table
+
+------
 
 睡张者绿蓝
 
 *do jan ki gin lan*
 
-"Cyan Bed"
+Cyan Bed
+
+------
 
 火油杆者绿蓝
 
 *ik yos gan ki gin lan*
 
-"Cyan Candle"
+Cyan Candle
+
+------
 
 羊毛者绿蓝
 
 *yan mao ki gin lan*
 
-"Cyan Wool"
+Cyan Wool
+
+------
 
 压器从黑木
 
 *ya mek de dak mu*
 
-"Dark Oak Button"
+Dark Oak Button
+
+------
 
 口张从黑木
 
 *ko jan de dak mu*
 
-"Dark Oak Door"
+Dark Oak Door
+
+------
 
 杆墙从黑木
 
 *gan wo de dak mu*
 
-"Dark Oak Fence"
+Dark Oak Fence
+
+------
 
 杆墙口从黑木
 
 *gan wo ko de dak mu*
 
-"Dark Oak Fence Gate"
+Dark Oak Fence Gate
+
+------
 
 菜片从黑木
 
 *sai pen de dak mu*
 
-"Dark Oak Leaves"
+Dark Oak Leaves
+
+------
 
 黑木
 
 *dak mu*
 
-"Dark Oak Log"
+Dark Oak Log
+
+------
 
 切块从黑木
 
 *cek pis de dak mu*
 
-"Dark Oak Planks"
+Dark Oak Planks
+
+------
 
 脚压器从黑木
 
 *jao ya mek de dak mu*
 
-"Dark Oak Pressure Plate"
+Dark Oak Pressure Plate
+
+------
 
 黑木菜
 
 *dak mu sai*
 
-"Dark Oak Sapling"
+Dark Oak Sapling
+
+------
 
 写张从黑木
 
 *xe jan de dak mu*
 
-"Dark Oak Sign"
+Dark Oak Sign
+
+------
 
 半黑木
 
 *ban dak mu*
 
-"Dark Oak Slab"
+Dark Oak Slab
+
+------
 
 走排从黑木
 
 *wak pai de dak mu*
 
-"Dark Oak Stairs"
+Dark Oak Stairs
+
+------
 
 桌口张从黑木
 
 *jos ko jan de dak mu*
 
-"Dark Oak Trapdoor"
+Dark Oak Trapdoor
+
+------
 
 墙写张从黑木
 
 *wo xe jan de dak mu*
 
-"Dark Oak Wall Sign"
+Dark Oak Wall Sign
+
+------
 
 黑木山
 
 *dak mu mon*
 
-"Dark Oak Wood"
+Dark Oak Wood
+
+------
 
 山从春玻
 
 *mon de cun las*
 
-"Block of Diamond"
+Block of Diamond
+
+------
 
 土
 
 *tu*
 
-"Dirt"
+Dirt
+
+------
 
 山从色绿玻石
 
 *mon de so gin las xok*
 
-"Block of Emerald"
+Block of Emerald
+
+------
 
 光虫菜
 
 *lus con sai*
 
-"Firefly Bush"
+Firefly Bush
+
+------
 
 烧桌
 
 *kuk jos*
 
-"Furnace"
+Furnace
+
+------
 
 玻
 
 *las*
 
-"Glass"
+Glass
+
+------
 
 山从黄金
 
 *mon de kun jin*
 
-"Block of Gold"
+Block of Gold
+
+------
 
 毛菜
 
 *mao sai*
 
-"Grass"
+Grass
+
+------
 
 毛菜土
 
 *mao sai tu*
 
-"Grass Block"
+Grass Block
+
+------
 
 石点们
 
 *xok gok men*
 
-"Gravel"
+Gravel
+
+------
 
 睡张者白黑
 
 *do jan ki wai dak*
 
-"Gray Bed"
+Gray Bed
+
+------
 
 火油杆者白黑
 
 *ik yos gan ki wai dak*
 
-"Gray Candle"
+Gray Candle
+
+------
 
 羊毛者白黑
 
 *yan mao ki wai dak*
 
-"Gray Wool"
+Gray Wool
+
+------
 
 睡张者绿
 
 *do jan ki gin*
 
-"Green Bed"
+Green Bed
+
+------
 
 火油杆者绿
 
 *ik yos gan ki gin*
 
-"Green Candle"
+Green Candle
+
+------
 
 羊毛者绿
 
 *yan mao ki gin*
 
-"Green Wool"
+Green Wool
+
+------
 
 干菜系
 
 *sek sai tai*
 
-"Hay Bale"
+Hay Bale
+
+------
 
 山从汁金
 
 *mon de jus jin*
 
-"Block of Iron"
+Block of Iron
+
+------
 
 口张从汁金
 
 *ko jan de jus jin*
 
-"Iron Door"
+Iron Door
+
+------
 
 桌口张从汁金
 
 *jos ko jan de jus jin*
 
-"Iron Trapdoor"
+Iron Trapdoor
+
+------
 
 压器从深木
 
 *ya mek de xen mu*
 
-"Jungle Button"
+Jungle Button
+
+------
 
 口张从深木
 
 *ko jan de xen mu*
 
-"Jungle Door"
+Jungle Door
+
+------
 
 杆墙从深木
 
 *gan wo de xen mu*
 
-"Jungle Fence"
+Jungle Fence
+
+------
 
 杆墙口从深木
 
 *gan wo ko de xen mu*
 
-"Jungle Fence Gate"
+Jungle Fence Gate
+
+------
 
 菜片从深木
 
 *sai pen de xen mu*
 
-"Jungle Leaves"
+Jungle Leaves
+
+------
 
 深木
 
 *xen mu*
 
-"Jungle Log"
+Jungle Log
+
+------
 
 切块从深木
 
 *cek pis de xen mu*
 
-"Jungle Planks"
+Jungle Planks
+
+------
 
 脚压器从深木
 
 *jao ya mek de xen mu*
 
-"Jungle Pressure Plate"
+Jungle Pressure Plate
+
+------
 
 深木菜
 
 *xen mu sai*
 
-"Jungle Sapling"
+Jungle Sapling
+
+------
 
 写张从深木
 
 *xe jan de xen mu*
 
-"Jungle Sign"
+Jungle Sign
+
+------
 
 半深木
 
 *ban xen mu*
 
-"Jungle Slab"
+Jungle Slab
+
+------
 
 走排从深木
 
 *wak pai de xen mu*
 
-"Jungle Stairs"
+Jungle Stairs
+
+------
 
 桌口张从深木
 
 *jos ko jan de xen mu*
 
-"Jungle Trapdoor"
+Jungle Trapdoor
+
+------
 
 墙写张从深木
 
 *wo xe jan de xen mu*
 
-"Jungle Wall Sign"
+Jungle Wall Sign
+
+------
 
 深木山
 
 *xen mu mon*
 
-"Jungle Wood"
+Jungle Wood
+
+------
 
 升杆
 
 *xoi gan*
 
-"Ladder"
+Ladder
+
+------
 
 流石
 
 *lu xok*
 
-"Lava"
+Lava
+
+------
 
 菜片们
 
 *sai pen men*
 
-"Leaf Litter"
+Leaf Litter
+
+------
 
 引器
 
 *in mek*
 
-"Lever"
+Lever
+
+------
 
 光
 
 *lus*
 
-"Light"
+Light
+
+------
 
 睡张者白蓝
 
 *do jan ki wai lan*
 
-"Light Blue Bed"
+Light Blue Bed
+
+------
 
 火油杆者白蓝
 
 *ik yos gan ki wai lan*
 
-"Light Blue Candle"
+Light Blue Candle
+
+------
 
 羊毛者白蓝
 
 *yan mao ki wai lan*
 
-"Light Blue Wool"
+Light Blue Wool
+
+------
 
 睡张者黑白
 
 *do jan ki dak wai*
 
-"Light Gray Bed"
+Light Gray Bed
+
+------
 
 火油杆者黑白
 
 *ik yos gan ki dak wai*
 
-"Light Gray Candle"
+Light Gray Candle
+
+------
 
 羊毛者黑白
 
 *yan mao ki dak wai*
 
-"Light Gray Wool"
+Light Gray Wool
+
+------
 
 睡张者白绿
 
 *do jan ki wai gin*
 
-"Lime Bed"
+Lime Bed
+
+------
 
 火油杆者白绿
 
 *ik yos gan ki wai gin*
 
-"Lime Candle"
+Lime Candle
+
+------
 
 羊毛者白绿
 
 *yan mao ki wai gin*
 
-"Lime Wool"
+Lime Wool
+
+------
 
 排系器
 
 *pai tai mek*
 
-"Loom"
+Loom
+
+------
 
 睡张者蓝红
 
 *do jan ki lan hon*
 
-"Magenta Bed"
+Magenta Bed
+
+------
 
 火油杆者蓝红
 
 *ik yos gan ki lan hon*
 
-"Magenta Candle"
+Magenta Candle
+
+------
 
 羊毛者蓝红
 
 *yan mao ki lan hon*
 
-"Magenta Wool"
+Magenta Wool
+
+------
 
 水球果
 
 *wa cok gos*
 
-"Melon"
+Melon
+
+------
 
 颈从水球果
 
 *nek de wa cok gos*
 
-"Melon Stem"
+Melon Stem
+
+------
 
 山从皮菜
 
 *mon de pi sai*
 
-"Moss Block"
+Moss Block
+
+------
 
 层从皮菜
 
 *los de pi sai*
 
-"Moss Carpet"
+Moss Carpet
+
+------
 
 颈从菇果
 
 *nek de on gos*
 
-"Mushroom Stem"
+Mushroom Stem
+
+------
 
 山从下所金
 
 *mon de bon luk jin*
 
-"Block of Netherite"
+Block of Netherite
+
+------
 
 压器从刚木
 
 *ya mek de duk mu*
 
-"Oak Button"
+Oak Button
+
+------
 
 口张从刚木
 
 *ko jan de duk mu*
 
-"Oak Door"
+Oak Door
+
+------
 
 杆墙从刚木
 
 *gan wo de duk mu*
 
-"Oak Fence"
+Oak Fence
+
+------
 
 杆墙口从刚木
 
 *gan wo ko de duk mu*
 
-"Oak Fence Gate"
+Oak Fence Gate
+
+------
 
 菜片从刚木
 
 *sai pen de duk mu*
 
-"Oak Leaves"
+Oak Leaves
+
+------
 
 刚木
 
 *duk mu*
 
-"Oak Log"
+Oak Log
+
+------
 
 切块从刚木
 
 *cek pis de duk mu*
 
-"Oak Planks"
+Oak Planks
+
+------
 
 脚压器从刚木
 
 *jao ya mek de duk mu*
 
-"Oak Pressure Plate"
+Oak Pressure Plate
+
+------
 
 刚木菜
 
 *duk mu sai*
 
-"Oak Sapling"
+Oak Sapling
+
+------
 
 写张从刚木
 
 *xe jan de duk mu*
 
-"Oak Sign"
+Oak Sign
+
+------
 
 半刚木
 
 *ban duk mu*
 
-"Oak Slab"
+Oak Slab
+
+------
 
 走排从刚木
 
 *wak pai de duk mu*
 
-"Oak Stairs"
+Oak Stairs
+
+------
 
 桌口张从刚木
 
 *jos ko jan de duk mu*
 
-"Oak Trapdoor"
+Oak Trapdoor
+
+------
 
 墙写张从刚木
 
 *wo xe jan de duk mu*
 
-"Oak Wall Sign"
+Oak Wall Sign
+
+------
 
 刚木山
 
 *duk mu mon*
 
-"Oak Wood"
+Oak Wood
+
+------
 
 睡张者黄红
 
 *do jan ki kun hon*
 
-"Orange Bed"
+Orange Bed
+
+------
 
 火油杆者黄红
 
 *ik yos gan ki kun hon*
 
-"Orange Candle"
+Orange Candle
+
+------
 
 羊毛者黄红
 
 *yan mao ki kun hon*
 
-"Orange Wool"
+Orange Wool
+
+------
 
 睡张者白红
 
 *do jan ki wai hon*
 
-"Pink Bed"
+Pink Bed
+
+------
 
 火油杆者白红
 
 *ik yos gan ki wai hon*
 
-"Pink Candle"
+Pink Candle
+
+------
 
 羊毛者白红
 
 *yan mao ki wai hon*
 
-"Pink Wool"
+Pink Wool
+
+------
 
 酸土
 
 *sun tu*
 
-"Podzol"
+Podzol
+
+------
 
 刚杆菜者在杯
 
 *duk gan sai ki en tas*
 
-"Potted Bamboo"
+Potted Bamboo
+
+------
 
 土菇果者在杯
 
 *tu on gos ki en tas*
 
-"Potted Brown Mushroom"
+Potted Brown Mushroom
+
+------
 
 刺干菜者在杯
 
 *pin sek sai ki en tas*
 
-"Potted Cactus"
+Potted Cactus
+
+------
 
 红菇果者在杯
 
 *hon on gos ki en tas*
 
-"Potted Red Mushroom"
+Potted Red Mushroom
+
+------
 
 黄球果
 
 *kun cok gos*
 
-"Pumpkin"
+Pumpkin
+
+------
 
 颈从黄球果
 
 *nek de kun cok gos*
 
-"Pumpkin Stem"
+Pumpkin Stem
+
+------
 
 睡张者红蓝
 
 *do jan ki hon lan*
 
-"Purple Bed"
+Purple Bed
+
+------
 
 火油杆者红蓝
 
 *ik yos gan ki hon lan*
 
-"Purple Candle"
+Purple Candle
+
+------
 
 羊毛者红蓝
 
 *yan mao ki hon lan*
 
-"Purple Wool"
+Purple Wool
+
+------
 
 山从导金者露
 
 *mon de gi jin ki nak*
 
-"Block of Raw Copper"
+Block of Raw Copper
+
+------
 
 山从黄金者露
 
 *mon de kun jin ki nak*
 
-"Block of Raw Gold"
+Block of Raw Gold
+
+------
 
 山从汁金者露
 
 *mon de jus jin ki nak*
 
-"Block of Raw Iron"
+Block of Raw Iron
+
+------
 
 睡张者红
 
 *do jan ki hon*
 
-"Red Bed"
+Red Bed
+
+------
 
 火油杆者红
 
 *ik yos gan ki hon*
 
-"Red Candle"
+Red Candle
+
+------
 
 红菇果
 
 *hon on gos*
 
-"Red Mushroom"
+Red Mushroom
+
+------
 
 大块从红菇果
 
 *bik pis de hon on gos*
 
-"Red Mushroom Block"
+Red Mushroom Block
+
+------
 
 羊毛者红
 
 *yan mao ki hon*
 
-"Red Wool"
+Red Wool
+
+------
 
 玻沙
 
 *las xa*
 
-"Sand"
+Sand
+
+------
 
 玻石
 
 *las xok*
 
-"Sandstone"
+Sandstone
+
+------
 
 新活次开在这所
 
 *nu bi bes kai en je luk*
 
-"Respawn point set"
+Respawn point set
+
+------
 
 压器从冰木
 
 *ya mek de bin mu*
 
-"Spruce Button"
+Spruce Button
+
+------
 
 口张从冰木
 
 *ko jan de bin mu*
 
-"Spruce Door"
+Spruce Door
+
+------
 
 杆墙从冰木
 
 *gan wo de bin mu*
 
-"Spruce Fence"
+Spruce Fence
+
+------
 
 杆墙口从冰木
 
 *gan wo ko de bin mu*
 
-"Spruce Fence Gate"
+Spruce Fence Gate
+
+------
 
 菜片从冰木
 
 *sai pen de bin mu*
 
-"Spruce Leaves"
+Spruce Leaves
+
+------
 
 冰木
 
 *bin mu*
 
-"Spruce Log"
+Spruce Log
+
+------
 
 切块从冰木
 
 *cek pis de bin mu*
 
-"Spruce Planks"
+Spruce Planks
+
+------
 
 脚压器从冰木
 
 *jao ya mek de bin mu*
 
-"Spruce Pressure Plate"
+Spruce Pressure Plate
+
+------
 
 冰木菜
 
 *bin mu sai*
 
-"Spruce Sapling"
+Spruce Sapling
+
+------
 
 写张从冰木
 
 *xe jan de bin mu*
 
-"Spruce Sign"
+Spruce Sign
+
+------
 
 半冰木
 
 *ban bin mu*
 
-"Spruce Slab"
+Spruce Slab
+
+------
 
 走排从冰木
 
 *wak pai de bin mu*
 
-"Spruce Stairs"
+Spruce Stairs
+
+------
 
 桌口张从冰木
 
 *jos ko jan de bin mu*
 
-"Spruce Trapdoor"
+Spruce Trapdoor
+
+------
 
 墙写张从冰木
 
 *wo xe jan de bin mu*
 
-"Spruce Wall Sign"
+Spruce Wall Sign
+
+------
 
 冰木山
 
 *bin mu mon*
 
-"Spruce Wood"
+Spruce Wood
+
+------
 
 满石
 
 *man xok*
 
-"Stone"
+Stone
+
+------
 
 压器从石
 
 *ya mek de xok*
 
-"Stone Button"
+Stone Button
+
+------
 
 糖杆菜
 
 *suk gan sai*
 
-"Sugar Cane"
+Sugar Cane
+
+------
 
 光杆
 
 *lus gan*
 
-"Torch"
+Torch
+
+------
 
 水
 
 *wa*
 
-"Water"
+Water
+
+------
 
 睡张者白
 
 *do jan ki wai*
 
-"White Bed"
+White Bed
+
+------
 
 火油杆者白
 
 *ik yos gan ki wai*
 
-"White Candle"
+White Candle
+
+------
 
 羊毛者白
 
 *yan mao ki wai*
 
-"White Wool"
+White Wool
+
+------
 
 混菜色
 
 *hun sai so*
 
-"Wildflowers"
+Wildflowers
+
+------
 
 睡张者黄
 
 *do jan ki kun*
 
-"Yellow Bed"
+Yellow Bed
+
+------
 
 火油杆者黄
 
 *ik yos gan ki kun*
 
-"Yellow Candle"
+Yellow Candle
+
+------
 
 羊毛者黄
 
 *yan mao ki kun*
 
-"Yellow Wool"
+Yellow Wool
+
+------
 
 写于%1$s
 
 *xe nis %1$s*
 
-"by %1$s"
+by %1$s
+
+------
 
 新书
 
 *nu buk*
 
-"Original"
+Original
+
+------
 
 仿于新书
 
 *mok nis nu buk*
 
-"Copy of original"
+Copy of original
+
+------
 
 仿于仿
 
 *mok nis mok*
 
-"Copy of a copy"
+Copy of a copy
+
+------
 
 轻是碎
 
 *lik es soi*
 
-"Tattered"
+Tattered
+
+------
 
 片计%1$s从%2$s
 
 *pen ji %1$s de %2$s*
 
-"Page %1$s of %2$s"
+Page %1$s of %2$s
+
+------
 
 写名
 
 *xe min*
 
-"Sign"
+Sign
+
+------
 
 %s过赢找事%s
 
 *%s pas win bus gus %s*
 
-"%s has made the advancement %s"
+%s has made the advancement %s
+
+------
 
 过使何玩为从%s是%s
 
 *pas as ke hu we de %s es %s*
 
-"Set %s's game mode to %s"
+Set %s's game mode to %s
+
+------
 
 过使何玩为从己是%s
 
 *pas as ke hu we de se es %s*
 
-"Set own game mode to %s"
+Set own game mode to %s
+
+------
 
 张包
 
 *jan bao*
 
-"Chest"
+Chest
+
+------
 
 张包者大
 
 *jan bao ki bik*
 
-"Large Chest"
+Large Chest
+
+------
 
 作物
 
 *mak kos*
 
-"Crafting"
+Crafting
+
+------
 
 烧桌
 
 *kuk jos*
 
-"Furnace"
+Furnace
+
+------
 
 使备于作所…
 
 *as lis nis mak luk…*
 
-"Preparing for world creation..."
+Preparing for world creation...
+
+------
 
 玩事
 
 *hu gus*
 
-"Game"
+Game
+
+------
 
 另事
 
 *o gus*
 
-"More"
+More
+
+------
 
 所事
 
 *luk gus*
 
-"World"
+World
+
+------
 
 %1$s过跌到土条速为
 
 *%1$s pas ka dao tu cao su we*
 
-"%1$s hit the ground too hard"
+%1$s hit the ground too hard
+
+------
 
 （找失事）：
 
 *(bus mis gus):*
 
-"[Debug]:"
+[Debug]:
+
+------
 
 过读财根包新次
 
 *pas les bun gen bao nu bes*
 
-"Reloaded resource packs"
+Reloaded resource packs
+
+------
 
 水车从刺木
 
 *wa ce de pin mu*
 
-"Acacia Boat"
+Acacia Boat
+
+------
 
 扔刺
 
 *tos pin*
 
-"Arrow"
+Arrow
+
+------
 
 水车从白木
 
 *wa ce de wai mu*
 
-"Birch Boat"
+Birch Boat
+
+------
 
 水车
 
 *wa ce*
 
-"Boat"
+Boat
+
+------
 
 水车从黑木
 
 *wa ce de dak mu*
 
-"Dark Oak Boat"
+Dark Oak Boat
+
+------
 
 水车从深木
 
 *wa ce de xen mu*
 
-"Jungle Boat"
+Jungle Boat
+
+------
 
 水车从刚木
 
 *wa ce de duk mu*
 
-"Oak Boat"
+Oak Boat
+
+------
 
 红流鱼
 
 *hon lu yu*
 
-"Salmon"
+Salmon
+
+------
 
 水车从冰木
 
 *wa ce de bin mu*
 
-"Spruce Boat"
+Spruce Boat
+
+------
 
 为从路
 
 *we de pu*
 
-"Adventure Mode"
+Adventure Mode
+
+------
 
 为从满力
 
 *we de man pao*
 
-"Creative Mode"
+Creative Mode
+
+------
 
 为从坐末！
 
 *we de sen mo!*
 
-"Hardcore Mode!"
+Hardcore Mode!
+
+------
 
 为从看
 
 *we de kan*
 
-"Spectator Mode"
+Spectator Mode
+
+------
 
 为从活
 
 *we de bi*
 
-"Survival Mode"
+Survival Mode
+
+------
 
 找事
 
 *bus gus*
 
-"Advancements"
+Advancements
+
+------
 
 回
 
 *hoi*
 
-"Back"
+Back
+
+------
 
 站
 
 *pa*
 
-"Cancel"
+Cancel
+
+------
 
 满好
 
 *man hao*
 
-"Done"
+Done
+
+------
 
 找…
 
 *bus…*
 
-"Search..."
+Search...
+
+------
 
 举每物
 
 *ju me kos*
 
-"Showing All"
+Showing All
+
+------
 
 举物者你能作
 
 *ju kos ki ni ken mak*
 
-"Showing Craftable"
+Showing Craftable
+
+------
 
 找…
 
 *bus…*
 
-"Search..."
+Search...
+
+------
 
 集计
 
 *ga ji*
 
-"Statistics"
+Statistics
+
+------
 
 水车从刺木
 
 *wa ce de pin mu*
 
-"Acacia Boat"
+Acacia Boat
+
+------
 
 马果
 
 *hos gos*
 
-"Apple"
+Apple
+
+------
 
 扔刺
 
 *tos pin*
 
-"Arrow"
+Arrow
+
+------
 
 农果从刺交虫
 
 *non gos de pin sos con*
 
-"Bee Spawn Egg"
+Bee Spawn Egg
+
+------
 
 牛肉者不是烧
 
 *bak nik ki no es kuk*
 
-"Raw Beef"
+Raw Beef
+
+------
 
 红土根
 
 *hon tu gen*
 
-"Beetroot"
+Beetroot
+
+------
 
 种从红土根
 
 *jon de hon tu gen*
 
-"Beetroot Seeds"
+Beetroot Seeds
+
+------
 
 混水从红土根
 
 *hun wa de hon tu gen*
 
-"Beetroot Soup"
+Beetroot Soup
+
+------
 
 水车从白木
 
 *wa ce de wai mu*
 
-"Birch Boat"
+Birch Boat
+
+------
 
 色者黑
 
 *so ki dak*
 
-"Black Dye"
+Black Dye
+
+------
 
 色者蓝
 
 *so ki lan*
 
-"Blue Dye"
+Blue Dye
+
+------
 
 骨
 
 *wes*
 
-"Bone"
+Bone
+
+------
 
 骨沙
 
 *wes xa*
 
-"Bone Meal"
+Bone Meal
+
+------
 
 书
 
 *buk*
 
-"Book"
+Book
+
+------
 
 杯
 
 *tas*
 
-"Bowl"
+Bowl
+
+------
 
 饭包
 
 *pan bao*
 
-"Bread"
+Bread
+
+------
 
 躺块
 
 *tan pis*
 
-"Brick"
+Brick
+
+------
 
 色者黑黄
 
 *so ki dak kun*
 
-"Brown Dye"
+Brown Dye
+
+------
 
 鸡果者红
 
 *poi gos ki hon*
 
-"Brown Egg"
+Brown Egg
+
+------
 
 大杯
 
 *bik tas*
 
-"Bucket"
+Bucket
+
+------
 
 布包
 
 *te bao*
 
-"Bundle"
+Bundle
+
+------
 
 糖条根
 
 *suk cao gen*
 
-"Carrot"
+Carrot
+
+------
 
 糖条根者在杆
 
 *suk cao gen ki en gan*
 
-"Carrot on a Stick"
+Carrot on a Stick
+
+------
 
 农果从猫
 
 *non gos de gak*
 
-"Cat Spawn Egg"
+Cat Spawn Egg
+
+------
 
 鞋从金轮
 
 *xu de jin lun*
 
-"Chainmail Boots"
+Chainmail Boots
+
+------
 
 胸盾从金轮
 
 *xon dun de jin lun*
 
-"Chainmail Chestplate"
+Chainmail Chestplate
+
+------
 
 头盾从金轮
 
 *to dun de jin lun*
 
-"Chainmail Helmet"
+Chainmail Helmet
+
+------
 
 身盾从马从金轮
 
 *koi dun de hos de jin lun*
 
-"Chainmail Horse Armor"
+Chainmail Horse Armor
+
+------
 
 脚盾从金轮
 
 *jao dun de jin lun*
 
-"Chainmail Leggings"
+Chainmail Leggings
+
+------
 
 烧木
 
 *kuk mu*
 
-"Charcoal"
+Charcoal
+
+------
 
 鸡肉者不是烧
 
 *poi nik ki no es kuk*
 
-"Raw Chicken"
+Raw Chicken
+
+------
 
 农果从土鸡
 
 *non gos de tu poi*
 
-"Chicken Spawn Egg"
+Chicken Spawn Egg
+
+------
 
 球从软土
 
 *cok de moi tu*
 
-"Clay Ball"
+Clay Ball
+
+------
 
 时器
 
 *xas mek*
 
-"Clock"
+Clock
+
+------
 
 春石
 
 *cun xok*
 
-"Coal"
+Coal
+
+------
 
 白土鱼者不是烧
 
 *wai tu yu ki no es kuk*
 
-"Raw Cod"
+Raw Cod
+
+------
 
 白土鱼者在大杯
 
 *wai tu yu ki en bik tas*
 
-"Bucket of Cod"
+Bucket of Cod
+
+------
 
 农果从白土鱼
 
 *non gos de wai tu yu*
 
-"Cod Spawn Egg"
+Cod Spawn Egg
+
+------
 
 半肉者是烧
 
 *ban nik ki es kuk*
 
-"Steak"
+Steak
+
+------
 
 鸡肉者是烧
 
 *poi nik ki es kuk*
 
-"Cooked Chicken"
+Cooked Chicken
+
+------
 
 白土鱼者是烧
 
 *wai tu yu ki es kuk*
 
-"Cooked Cod"
+Cooked Cod
+
+------
 
 羊肉者是烧
 
 *yan nik ki es kuk*
 
-"Cooked Mutton"
+Cooked Mutton
+
+------
 
 猪肉者是烧
 
 *pok nik ki es kuk*
 
-"Cooked Porkchop"
+Cooked Porkchop
+
+------
 
 红流鱼者是烧
 
 *hon lu yu ki es kuk*
 
-"Cooked Salmon"
+Cooked Salmon
+
+------
 
 农果从牛
 
 *non gos de bak*
 
-"Cow Spawn Egg"
+Cow Spawn Egg
+
+------
 
 色者绿蓝
 
 *so ki gin lan*
 
-"Cyan Dye"
+Cyan Dye
+
+------
 
 水车从黑木
 
 *wa ce de dak mu*
 
-"Dark Oak Boat"
+Dark Oak Boat
+
+------
 
 春玻
 
 *cun las*
 
-"Diamond"
+Diamond
+
+------
 
 切木杆从春玻
 
 *cek mu gan de cun las*
 
-"Diamond Axe"
+Diamond Axe
+
+------
 
 鞋从春玻
 
 *xu de cun las*
 
-"Diamond Boots"
+Diamond Boots
+
+------
 
 胸盾从春玻
 
 *xon dun de cun las*
 
-"Diamond Chestplate"
+Diamond Chestplate
+
+------
 
 头盾从春玻
 
 *to dun de cun las*
 
-"Diamond Helmet"
+Diamond Helmet
+
+------
 
 切土杆从春玻
 
 *cek tu gan de cun las*
 
-"Diamond Hoe"
+Diamond Hoe
+
+------
 
 身盾从马从春玻
 
 *koi dun de hos de cun las*
 
-"Diamond Horse Armor"
+Diamond Horse Armor
+
+------
 
 脚盾从春玻
 
 *jao dun de cun las*
 
-"Diamond Leggings"
+Diamond Leggings
+
+------
 
 碎石杆从春玻
 
 *soi xok gan de cun las*
 
-"Diamond Pickaxe"
+Diamond Pickaxe
+
+------
 
 举土杆从春玻
 
 *ju tu gan de cun las*
 
-"Diamond Shovel"
+Diamond Shovel
+
+------
 
 锐打杆从春玻
 
 *kin da gan de cun las*
 
-"Diamond Sword"
+Diamond Sword
+
+------
 
 鸡果
 
 *poi gos*
 
-"Egg"
+Egg
+
+------
 
 色绿玻石
 
 *so gin las xok*
 
-"Emerald"
+Emerald
+
+------
 
 毛杆
 
 *mao gan*
 
-"Feather"
+Feather
+
+------
 
 土像
 
 *tu pik*
 
-"Map"
+Map
+
+------
 
 鱼角杆
 
 *yu huk gan*
 
-"Fishing Rod"
+Fishing Rod
+
+------
 
 块从黄金
 
 *pis de kun jin*
 
-"Gold Ingot"
+Gold Ingot
+
+------
 
 珠从黄金
 
 *nuk de kun jin*
 
-"Gold Nugget"
+Gold Nugget
+
+------
 
 马果从黄金
 
 *hos gos de kun jin*
 
-"Golden Apple"
+Golden Apple
+
+------
 
 切木杆从黄金
 
 *cek mu gan de kun jin*
 
-"Golden Axe"
+Golden Axe
+
+------
 
 鞋从黄金
 
 *xu de kun jin*
 
-"Golden Boots"
+Golden Boots
+
+------
 
 糖条根从黄金
 
 *suk cao gen de kun jin*
 
-"Golden Carrot"
+Golden Carrot
+
+------
 
 胸盾从黄金
 
 *xon dun de kun jin*
 
-"Golden Chestplate"
+Golden Chestplate
+
+------
 
 头盾从黄金
 
 *to dun de kun jin*
 
-"Golden Helmet"
+Golden Helmet
+
+------
 
 切土杆从黄金
 
 *cek tu gan de kun jin*
 
-"Golden Hoe"
+Golden Hoe
+
+------
 
 身盾从马从黄金
 
 *koi dun de hos de kun jin*
 
-"Golden Horse Armor"
+Golden Horse Armor
+
+------
 
 脚盾从黄金
 
 *jao dun de kun jin*
 
-"Golden Leggings"
+Golden Leggings
+
+------
 
 碎石杆从黄金
 
 *soi xok gan de kun jin*
 
-"Golden Pickaxe"
+Golden Pickaxe
+
+------
 
 举土杆从黄金
 
 *ju tu gan de kun jin*
 
-"Golden Shovel"
+Golden Shovel
+
+------
 
 锐打杆从黄金
 
 *kin da gan de kun jin*
 
-"Golden Sword"
+Golden Sword
+
+------
 
 色者白黑
 
 *so ki wai dak*
 
-"Gray Dye"
+Gray Dye
+
+------
 
 色者绿
 
 *so ki gin*
 
-"Green Dye"
+Green Dye
+
+------
 
 农果从马
 
 *non gos de hos*
 
-"Horse Spawn Egg"
+Horse Spawn Egg
+
+------
 
 包从黑涂色
 
 *bao de dak tus so*
 
-"Ink Sac"
+Ink Sac
+
+------
 
 切木杆从汁金
 
 *cek mu gan de jus jin*
 
-"Iron Axe"
+Iron Axe
+
+------
 
 鞋从汁金
 
 *xu de jus jin*
 
-"Iron Boots"
+Iron Boots
+
+------
 
 胸盾从汁金
 
 *xon dun de jus jin*
 
-"Iron Chestplate"
+Iron Chestplate
+
+------
 
 头盾从汁金
 
 *to dun de jus jin*
 
-"Iron Helmet"
+Iron Helmet
+
+------
 
 切土杆从汁金
 
 *cek tu gan de jus jin*
 
-"Iron Hoe"
+Iron Hoe
+
+------
 
 身盾从马从汁金
 
 *koi dun de hos de jus jin*
 
-"Iron Horse Armor"
+Iron Horse Armor
+
+------
 
 块从汁金
 
 *pis de jus jin*
 
-"Iron Ingot"
+Iron Ingot
+
+------
 
 脚盾从汁金
 
 *jao dun de jus jin*
 
-"Iron Leggings"
+Iron Leggings
+
+------
 
 珠从汁金
 
 *nuk de jus jin*
 
-"Iron Nugget"
+Iron Nugget
+
+------
 
 碎石杆从汁金
 
 *soi xok gan de jus jin*
 
-"Iron Pickaxe"
+Iron Pickaxe
+
+------
 
 举土杆从汁金
 
 *ju tu gan de jus jin*
 
-"Iron Shovel"
+Iron Shovel
+
+------
 
 锐打杆从汁金
 
 *kin da gan de jus jin*
 
-"Iron Sword"
+Iron Sword
+
+------
 
 水车从深木
 
 *wa ce de xen mu*
 
-"Jungle Boat"
+Jungle Boat
+
+------
 
 大杯者有流石
 
 *bik tas ki yo lu xok*
 
-"Lava Bucket"
+Lava Bucket
+
+------
 
 兽系
 
 *an tai*
 
-"Lead"
+Lead
+
+------
 
 兽皮
 
 *an pi*
 
-"Leather"
+Leather
+
+------
 
 鞋从兽皮
 
 *xu de an pi*
 
-"Leather Boots"
+Leather Boots
+
+------
 
 胸盾从兽皮
 
 *xon dun de an pi*
 
-"Leather Chestplate"
+Leather Chestplate
+
+------
 
 头盾从兽皮
 
 *to dun de an pi*
 
-"Leather Helmet"
+Leather Helmet
+
+------
 
 身盾从马从兽皮
 
 *koi dun de hos de an pi*
 
-"Leather Horse Armor"
+Leather Horse Armor
+
+------
 
 脚盾从兽皮
 
 *jao dun de an pi*
 
-"Leather Leggings"
+Leather Leggings
+
+------
 
 色者白蓝
 
 *so ki wai lan*
 
-"Light Blue Dye"
+Light Blue Dye
+
+------
 
 色者黑白
 
 *so ki dak wai*
 
-"Light Gray Dye"
+Light Gray Dye
+
+------
 
 色者白绿
 
 *so ki wai gin*
 
-"Lime Dye"
+Lime Dye
+
+------
 
 色者蓝红
 
 *so ki lan hon*
 
-"Magenta Dye"
+Magenta Dye
+
+------
 
 土像者空
 
 *tu pik ki bas*
 
-"Empty Map"
+Empty Map
+
+------
 
 种从水球果
 
 *jon de wa cok gos*
 
-"Melon Seeds"
+Melon Seeds
+
+------
 
 切块从水球果
 
 *cek pis de wa cok gos*
 
-"Melon Slice"
+Melon Slice
+
+------
 
 大杯者有奶
 
 *bik tas ki yo lak*
 
-"Milk Bucket"
+Milk Bucket
+
+------
 
 农果从菇牛
 
 *non gos de on bak*
 
-"Mooshroom Spawn Egg"
+Mooshroom Spawn Egg
+
+------
 
 混水从菇果
 
 *hun wa de on gos*
 
-"Mushroom Stew"
+Mushroom Stew
+
+------
 
 羊肉者不是烧
 
 *yan nik ki no es kuk*
 
-"Raw Mutton"
+Raw Mutton
+
+------
 
 切木杆从下所金
 
 *cek mu gan de bon luk jin*
 
-"Netherite Axe"
+Netherite Axe
+
+------
 
 鞋从下所金
 
 *xu de bon luk jin*
 
-"Netherite Boots"
+Netherite Boots
+
+------
 
 胸盾从下所金
 
 *xon dun de bon luk jin*
 
-"Netherite Chestplate"
+Netherite Chestplate
+
+------
 
 头盾从下所金
 
 *to dun de bon luk jin*
 
-"Netherite Helmet"
+Netherite Helmet
+
+------
 
 切土杆从下所金
 
 *cek tu gan de bon luk jin*
 
-"Netherite Hoe"
+Netherite Hoe
+
+------
 
 身盾从马从下所金
 
 *koi dun de hos de bon luk jin*
 
-"Netherite Horse Armor"
+Netherite Horse Armor
+
+------
 
 脚盾从下所金
 
 *jao dun de bon luk jin*
 
-"Netherite Leggings"
+Netherite Leggings
+
+------
 
 碎石杆从下所金
 
 *soi xok gan de bon luk jin*
 
-"Netherite Pickaxe"
+Netherite Pickaxe
+
+------
 
 举土杆从下所金
 
 *ju tu gan de bon luk jin*
 
-"Netherite Shovel"
+Netherite Shovel
+
+------
 
 锐打杆从下所金
 
 *kin da gan de bon luk jin*
 
-"Netherite Sword"
+Netherite Sword
+
+------
 
 水车从刚木
 
 *wa ce de duk mu*
 
-"Oak Boat"
+Oak Boat
+
+------
 
 色者黄红
 
 *so ki kun hon*
 
-"Orange Dye"
+Orange Dye
+
+------
 
 木片
 
 *mu pen*
 
-"Paper"
+Paper
+
+------
 
 农果从猪
 
 *non gos de pok*
 
-"Pig Spawn Egg"
+Pig Spawn Egg
+
+------
 
 色者白红
 
 *so ki wai hon*
 
-"Pink Dye"
+Pink Dye
+
+------
 
 猪肉者不是烧
 
 *pok nik ki no es kuk*
 
-"Raw Porkchop"
+Raw Porkchop
+
+------
 
 土果
 
 *tu gos*
 
-"Potato"
+Potato
+
+------
 
 玻关杯者有水
 
 *las gun tas ki yo wa*
 
-"Water Bottle"
+Water Bottle
+
+------
 
 糖果饭从黄球果
 
 *suk gos pan de kun cok gos*
 
-"Pumpkin Pie"
+Pumpkin Pie
+
+------
 
 种从黄球果
 
 *jon de kun cok gos*
 
-"Pumpkin Seeds"
+Pumpkin Seeds
+
+------
 
 色者红蓝
 
 *so ki hon lan*
 
-"Purple Dye"
+Purple Dye
+
+------
 
 农果从踊鼠
 
 *non gos de yon mus*
 
-"Rabbit Spawn Egg"
+Rabbit Spawn Egg
+
+------
 
 导金者露
 
 *gi jin ki nak*
 
-"Raw Copper"
+Raw Copper
+
+------
 
 黄金者露
 
 *kun jin ki nak*
 
-"Raw Gold"
+Raw Gold
+
+------
 
 汁金者露
 
 *jus jin ki nak*
 
-"Raw Iron"
+Raw Iron
+
+------
 
 色者红
 
 *so ki hon*
 
-"Red Dye"
+Red Dye
+
+------
 
 肉者朽
 
 *nik ki wos*
 
-"Rotten Flesh"
+Rotten Flesh
+
+------
 
 红流鱼者不是烧
 
 *hon lu yu ki no es kuk*
 
-"Raw Salmon"
+Raw Salmon
+
+------
 
 红流鱼者在大杯
 
 *hon lu yu ki en bik tas*
 
-"Bucket of Salmon"
+Bucket of Salmon
+
+------
 
 农果从红流鱼
 
 *non gos de hon lu yu*
 
-"Salmon Spawn Egg"
+Salmon Spawn Egg
+
+------
 
 切毛物
 
 *cek mao kos*
 
-"Shears"
+Shears
+
+------
 
 农果从羊
 
 *non gos de yan*
 
-"Sheep Spawn Egg"
+Sheep Spawn Egg
+
+------
 
 盾张
 
 *dun jan*
 
-"Shield"
+Shield
+
+------
 
 盾张者黑
 
 *dun jan ki dak*
 
-"Black Shield"
+Black Shield
+
+------
 
 盾张者蓝
 
 *dun jan ki lan*
 
-"Blue Shield"
+Blue Shield
+
+------
 
 盾张者黑黄
 
 *dun jan ki dak kun*
 
-"Brown Shield"
+Brown Shield
+
+------
 
 盾张者绿蓝
 
 *dun jan ki gin lan*
 
-"Cyan Shield"
+Cyan Shield
+
+------
 
 盾张者白黑
 
 *dun jan ki wai dak*
 
-"Gray Shield"
+Gray Shield
+
+------
 
 盾张者绿
 
 *dun jan ki gin*
 
-"Green Shield"
+Green Shield
+
+------
 
 盾张者白蓝
 
 *dun jan ki wai lan*
 
-"Light Blue Shield"
+Light Blue Shield
+
+------
 
 盾张者黑白
 
 *dun jan ki dak wai*
 
-"Light Gray Shield"
+Light Gray Shield
+
+------
 
 盾张者白绿
 
 *dun jan ki wai gin*
 
-"Lime Shield"
+Lime Shield
+
+------
 
 盾张者蓝红
 
 *dun jan ki lan hon*
 
-"Magenta Shield"
+Magenta Shield
+
+------
 
 盾张者黄红
 
 *dun jan ki kun hon*
 
-"Orange Shield"
+Orange Shield
+
+------
 
 盾张者白红
 
 *dun jan ki wai hon*
 
-"Pink Shield"
+Pink Shield
+
+------
 
 盾张者红蓝
 
 *dun jan ki hon lan*
 
-"Purple Shield"
+Purple Shield
+
+------
 
 盾张者红
 
 *dun jan ki hon*
 
-"Red Shield"
+Red Shield
+
+------
 
 盾张者白
 
 *dun jan ki wai*
 
-"White Shield"
+White Shield
+
+------
 
 盾张者黄
 
 *dun jan ki kun*
 
-"Yellow Shield"
+Yellow Shield
+
+------
 
 农果从骨人
 
 *non gos de wes jen*
 
-"Skeleton Spawn Egg"
+Skeleton Spawn Egg
+
+------
 
 冰水球
 
 *bin wa cok*
 
-"Snowball"
+Snowball
+
+------
 
 眼从八脚虫
 
 *yek de ok jao con*
 
-"Spider Eye"
+Spider Eye
+
+------
 
 农果从八脚虫
 
 *non gos de ok jao con*
 
-"Spider Spawn Egg"
+Spider Spawn Egg
+
+------
 
 水车从冰木
 
 *wa ce de bin mu*
 
-"Spruce Boat"
+Spruce Boat
+
+------
 
 农果从扔脚鱼
 
 *non gos de tos jao yu*
 
-"Squid Spawn Egg"
+Squid Spawn Egg
+
+------
 
 木杆
 
 *mu gan*
 
-"Stick"
+Stick
+
+------
 
 切木杆从石
 
 *cek mu gan de xok*
 
-"Stone Axe"
+Stone Axe
+
+------
 
 切土杆从石
 
 *cek tu gan de xok*
 
-"Stone Hoe"
+Stone Hoe
+
+------
 
 碎石杆从石
 
 *soi xok gan de xok*
 
-"Stone Pickaxe"
+Stone Pickaxe
+
+------
 
 举土杆从石
 
 *ju tu gan de xok*
 
-"Stone Shovel"
+Stone Shovel
+
+------
 
 锐打杆从石
 
 *kin da gan de xok*
 
-"Stone Sword"
+Stone Sword
+
+------
 
 系条
 
 *tai cao*
 
-"String"
+String
+
+------
 
 糖
 
 *suk*
 
-"Sugar"
+Sugar
+
+------
 
 农果从市人
 
 *non gos de dus jen*
 
-"Villager Spawn Egg"
+Villager Spawn Egg
+
+------
 
 农果从路买人
 
 *non gos de pu mai jen*
 
-"Wandering Trader Spawn Egg"
+Wandering Trader Spawn Egg
+
+------
 
 大杯者有水
 
 *bik tas ki yo wa*
 
-"Water Bucket"
+Water Bucket
+
+------
 
 冰饭
 
 *bin pan*
 
-"Wheat"
+Wheat
+
+------
 
 种从冰饭
 
 *jon de bin pan*
 
-"Wheat Seeds"
+Wheat Seeds
+
+------
 
 色者白
 
 *so ki wai*
 
-"White Dye"
+White Dye
+
+------
 
 农果从犬兽
 
 *non gos de dok an*
 
-"Wolf Spawn Egg"
+Wolf Spawn Egg
+
+------
 
 切木杆从木
 
 *cek mu gan de mu*
 
-"Wooden Axe"
+Wooden Axe
+
+------
 
 切土杆从木
 
 *cek tu gan de mu*
 
-"Wooden Hoe"
+Wooden Hoe
+
+------
 
 碎石杆从木
 
 *soi xok gan de mu*
 
-"Wooden Pickaxe"
+Wooden Pickaxe
+
+------
 
 举土杆从木
 
 *ju tu gan de mu*
 
-"Wooden Shovel"
+Wooden Shovel
+
+------
 
 锐打杆从木
 
 *kin da gan de mu*
 
-"Wooden Sword"
+Wooden Sword
+
+------
 
 色者黄
 
 *so ki kun*
 
-"Yellow Dye"
+Yellow Dye
+
+------
 
 时者这在胸：
 
 *xas ki je en xon:*
 
-"When on Body:"
+When on Body:
+
+------
 
 时者这在脚：
 
 *xas ki je en jao:*
 
-"When on Feet:"
+When on Feet:
+
+------
 
 时者这在头：
 
 *xas ki je en to:*
 
-"When on Head:"
+When on Head:
+
+------
 
 时者这在脚支：
 
 *xas ki je en jao xak:*
 
-"When on Legs:"
+When on Legs:
+
+------
 
 时者这在右手：
 
 *xas ki je en yok xo:*
 
-"When in Main Hand:"
+When in Main Hand:
+
+------
 
 时者这在左手：
 
 *xas ki je en is xo:*
 
-"When in Off Hand:"
+When in Off Hand:
+
+------
 
 找事
 
 *bus gus*
 
-"Advancements"
+Advancements
+
+------
 
 事于玩
 
 *gus nis hu*
 
-"Game Menu"
+Game Menu
+
+------
 
 组玩
 
 *guk hu*
 
-"Multiplayer"
+Multiplayer
+
+------
 
 选事…
 
 *cus gus…*
 
-"Options..."
+Options...
+
+------
 
 站玩
 
 *pa hu*
 
-"Quit Game"
+Quit Game
+
+------
 
 举失事
 
 *ju mis gus*
 
-"Report Bugs"
+Report Bugs
+
+------
 
 回向玩
 
 *hoi a hu*
 
-"Back to Game"
+Back to Game
+
+------
 
 储玩又回向前片
 
 *cuk hu i hoi a cen pen*
 
-"Save and Quit to Title"
+Save and Quit to Title
+
+------
 
 在储这所
 
 *en cuk je luk*
 
-"Saving world"
+Saving world
+
+------
 
 反介
 
 *han jes*
 
-"Give Feedback"
+Give Feedback
+
+------
 
 许约网玩
 
 *lao yak ne hu*
 
-"Open to LAN"
+Open to LAN
+
+------
 
 独玩
 
 *lon hu*
 
-"Singleplayer"
+Singleplayer
+
+------
 
 在作土…
 
 *en mak tu…*
 
-"Loading terrain..."
+Loading terrain...
+
+------
 
 出从睡张
 
 *cu de do jan*
 
-"Leave Bed"
+Leave Bed
+
+------
 
 选事于助用…
 
 *cus gus nis yuk yus…*
 
-"Accessibility Settings..."
+Accessibility Settings...
+
+------
 
 选事于助用
 
 *cus gus nis yuk yus*
 
-"Accessibility Settings"
+Accessibility Settings
+
+------
 
 无
 
 *nin*
 
-"OFF"
+OFF
+
+------
 
 言买…
 
 *des mai…*
 
-"Chat Settings..."
+Chat Settings...
+
+------
 
 言买
 
 *des mai*
 
-"Chat Settings"
+Chat Settings
+
+------
 
 导为…
 
 *gi we…*
 
-"Controls..."
+Controls...
+
+------
 
 谢又举根…
 
 *xuk i ju gen…*
 
-"Credits & Attribution..."
+Credits & Attribution...
+
+------
 
 复性
 
 *pus nes*
 
-"Difficulty"
+Difficulty
+
+------
 
 单
 
 *dan*
 
-"Easy"
+Easy
+
+------
 
 有兽者要争者还给乏悲。饿性点变乏又使何健性跌到五点。
 
 *yo an ki yao puk ki hai ge po doi. e nes gok ben po i as ke he nes ka dao u gok.*
 
-"Hostile mobs spawn but deal less damage. Hunger bar depletes and drains health down to 5 hearts."
+Hostile mobs spawn but deal less damage. Hunger bar depletes and drains health down to 5 hearts.
+
+------
 
 复
 
 *pus*
 
-"Hard"
+Hard
+
+------
 
 有兽者要争者给更们悲。饿性点变乏又使何健性跌到无点。
 
 *yo an ki yao puk ki ge mas men doi. e nes gok ben po i as ke he nes ka dao nin gok.*
 
-"Hostile mobs spawn and deal more damage. Hunger bar depletes and drains all health."
+Hostile mobs spawn and deal more damage. Hunger bar depletes and drains all health.
+
+------
 
 坐末
 
 *sen mo*
 
-"Hardcore"
+Hardcore
+
+------
 
 中
 
 *mes*
 
-"Normal"
+Normal
+
+------
 
 有兽者要争者给中们悲。饿性点变乏又使何健性跌到半点。
 
 *yo an ki yao puk ki ge mes men doi. e nes gok ben po i as ke he nes ka dao ban gok.*
 
-"Hostile mobs spawn and deal standard damage. Hunger bar depletes and drains health down to half a heart."
+Hostile mobs spawn and deal standard damage. Hunger bar depletes and drains health down to half a heart.
+
+------
 
 不争
 
 *no puk*
 
-"Peaceful"
+Peaceful
+
+------
 
 不有兽者要争，又就有乏计从兽者能争。饿性点不变乏，又过时健性就回变们。
 
 *no yo an ki yao puk, i jo yo po ji de an ki ken puk. e nes gok no ben po, i pas xas he nes jo hoi ben men.*
 
-"No hostile mobs and only some neutral mobs spawn. Hunger bar doesn't deplete and health replenishes over time."
+No hostile mobs and only some neutral mobs spawn. Hunger bar doesn't deplete and health replenishes over time.
+
+------
 
 选事于写身…
 
 *cus gus nis xe koi…*
 
-"Font Settings..."
+Font Settings...
+
+------
 
 选事于写身
 
 *cus gus nis xe koi*
 
-"Font Settings"
+Font Settings
+
+------
 
 看厚性
 
 *kan ho nes*
 
-"FOV"
+FOV
+
+------
 
 厚角
 
 *ho huk*
 
-"Quake Pro"
+Quake Pro
+
+------
 
 中
 
 *mes*
 
-"Normal"
+Normal
+
+------
 
 言为…
 
 *des we…*
 
-"Language..."
+Language...
+
+------
 
 言为
 
 *des we*
 
-"Language"
+Language
+
+------
 
 言为变能不满为真
 
 *des we ben ken no man we jas*
 
-"Language translations may not be 100%% accurate"
+Language translations may not be 100%% accurate
+
+------
 
 言为变能不满为真
 
 *des we ben ken no man we jas*
 
-"Language translations may not be 100%% accurate"
+Language translations may not be 100%% accurate
+
+------
 
 不
 
 *no*
 
-"OFF"
+OFF
+
+------
 
 不
 
 *no*
 
-"OFF"
+OFF
+
+------
 
 %s：不
 
 *%s: no*
 
-"%s: OFF"
+%s: OFF
+
+------
 
 唉
 
 *yes*
 
-"ON"
+ON
+
+------
 
 %s：唉
 
 *%s: yes*
 
-"%s: ON"
+%s: ON
+
+------
 
 网事…
 
 *ne gus…*
 
-"Online..."
+Online...
+
+------
 
 财根包们…
 
 *bun gen bao men…*
 
-"Resource Packs..."
+Resource Packs...
+
+------
 
 选事于皮…
 
 *cus gus nis pi…*
 
-"Skin Customization..."
+Skin Customization...
+
+------
 
 选事于皮
 
 *cus gus nis pi*
 
-"Skin Customization"
+Skin Customization
+
+------
 
 乐又声…
 
 *tun i bos…*
 
-"Music & Sounds..."
+Music & Sounds...
+
+------
 
 选事于乐又声
 
 *cus gus nis tun i bos*
 
-"Music & Sound Options"
+Music & Sound Options
+
+------
 
 言性从外读…
 
 *des nes de ek les…*
 
-"Telemetry Data..."
+Telemetry Data...
+
+------
 
 选事
 
 *cus gus*
 
-"Options"
+Options
+
+------
 
 选事于像…
 
 *cus gus nis pik…*
 
-"Video Settings..."
+Video Settings...
+
+------
 
 选事于像
 
 *cus gus nis pik*
 
-"Video Settings"
+Video Settings
+
+------
 
 能用
 
 *ken yus*
 
-"Available"
+Available
+
+------
 
 找加财根包，把加言财向这片
 
 *bus pon bun gen bao, ba pon des bun a je pen*
 
-"Drag and drop files into this window to add packs"
+Drag and drop files into this window to add packs
+
+------
 
 开财包于财根包
 
 *kai bun bao nis bun gen bao*
 
-"Open Pack Folder"
+Open Pack Folder
+
+------
 
 在用
 
 *en yus*
 
-"Selected"
+Selected
+
+------
 
 跟根
 
 *wis gen*
 
-"built-in"
+built-in
+
+------
 
 读你作为书
 
 *les ni mak we buk*
 
-"Check your recipe book"
+Check your recipe book
+
+------
 
 能看作为者新！
 
 *ken kan mak we ki nu!*
 
-"New Recipes Unlocked!"
+New Recipes Unlocked!
+
+------
 
 选财根包们
 
 *cus bun gen bao men*
 
-"Select Resource Packs"
+Select Resource Packs
+
+------
 
 使许力言
 
 *as lao pao des*
 
-"Allow Cheats"
+Allow Cheats
+
+------
 
 于举事，有/gamemode，/experience，又另
 
 *nis ju gus, yo /gamemode, /experience, i o*
 
-"Commands like /gamemode, /experience"
+Commands like /gamemode, /experience
+
+------
 
 使许力言
 
 *as lao pao des*
 
-"Allow Commands"
+Allow Commands
+
+------
 
 力言
 
 *pao des*
 
-"Cheats"
+Cheats
+
+------
 
 力言
 
 *pao des*
 
-"Commands"
+Commands
+
+------
 
 作所者新
 
 *mak luk ki nu*
 
-"Create New World"
+Create New World
+
+------
 
 使除
 
 *as kik*
 
-"Delete"
+Delete
+
+------
 
 使变
 
 *as ben*
 
-"Edit"
+Edit
+
+------
 
 使储
 
 *as cuk*
 
-"Save"
+Save
+
+------
 
 名从所
 
 *min de luk*
 
-"World Name"
+World Name
+
+------
 
 玩为
 
 *hu we*
 
-"Game Mode"
+Game Mode
+
+------
 
 满力
 
 *man pao*
 
-"Creative"
+Creative
+
+------
 
 作，加，又流更力为。你能飞，有不末计从物，又不能是损于奥兽。
 
 *mak, pon, i lu mas pao we. ni ken bo, yo no mo ji de kos, i no ken es pe nis ao an.*
 
-"Create, build, and explore without limits. You can fly, have endless materials, and can't be hurt by monsters."
+Create, build, and explore without limits. You can fly, have endless materials, and can't be hurt by monsters.
+
+------
 
 坐末
 
 *sen mo*
 
-"Hardcore"
+Hardcore
+
+------
 
 活玩为者锁复性者更复。如末你不能活新次。
 
 *bi hu we ki sok pus nes ki mas pus. juk mo ni no ken bi nu bes.*
 
-"Survival Mode locked to 'Hard' difficulty. You can't respawn if you die."
+Survival Mode locked to 'Hard' difficulty. You can't respawn if you die.
+
+------
 
 看
 
 *kan*
 
-"Spectator"
+Spectator
+
+------
 
 活
 
 *bi*
 
-"Survival"
+Survival
+
+------
 
 流看奥所。在他你作物，拿财根，又争反奥兽。
 
 *lu kan ao luk. en ta ni mak kos, tek bun gen, i puk han ao an.*
 
-"Explore a mysterious world where you build, collect, craft and fight monsters."
+Explore a mysterious world where you build, collect, craft and fight monsters.
+
+------
 
 所类
 
 *luk le*
 
-"World Type"
+World Type
+
+------
 
 所者新
 
 *luk ki nu*
 
-"New World"
+New World
+
+------
 
 作新次
 
 *mak nu bes*
 
-"Re-Create"
+Re-Create
+
+------
 
 在使备财根…
 
 *en as lis bun gen…*
 
-"Preparing resources..."
+Preparing resources...
+
+------
 
 玩在这所
 
 *hu en je luk*
 
-"Play Selected World"
+Play Selected World
+
+------
 
 选所
 
 *cus luk*
 
-"Select World"
+Select World
+
+------
 
 排计
 
 *pai ji*
 
-"Version:"
+Version:
+
+------
 
 所
 
 *luk*
 
-"World"
+World
+
+------
 
 推许性就是有于Mojang AB。不推！
 
 *toi lao nes jo es yo nis Mojang AB. no toi!*
 
-"Copyright Mojang AB. Do not distribute!"
+Copyright Mojang AB. Do not distribute!
 
 ### Splash Texts
 
 Translations of selected splash texts... I aimed to translate the spirit, not the literal meaning, in many cases
 
+------
+
 是看在外像器！
 
 *es kan en ek pik mek!*
 
-"As seen on TV!"
+As seen on TV!
+
+------
 
 条雅！
 
 *cao xik!*
 
-"Awesome!"
+Awesome!
+
+------
 
 百从百块是洁！
 
 *bai de bai pis es lin!*
 
-"100% pure!"
+100% pure!
+
+------
 
 能有珠！
 
 *ken yo nuk!*
 
-"May contain nuts!"
+May contain nuts!
+
+------
 
 们计从边张！
 
 *men ji de la jan!*
 
-"More polygons!"
+More polygons!
+
+------
 
 乏计从边张！
 
 *po ji de la jan!*
 
-"Less polygons!"
+Less polygons!
+
+------
 
 推组者向站！
 
 *toi guk ki a pa!*
 
-"Limited edition!"
+Limited edition!
+
+------
 
 写者摇！
 
 *xe ki xek!*
 
-"Flashing letters!"
+Flashing letters!
+
+------
 
 过到！
 
 *pas dao!*
 
-"It's here!"
+It's here!
+
+------
 
 每所有八脚虫！
 
 *me luk yo ok jao con!*
 
-"Spiders everywhere!"
+Spiders everywhere!
 
 ## The Little Prince
 
@@ -12158,506 +14036,652 @@ by Antoine de Saint-Exupéry
 
 ### 1
 
-
-
 时者我有六年，有次者我看像者条美者在书者是名于「真事从露网」者于木土从根露性。这像有包条蜥者在吃兽。这下仿像从书。
 
 *xas ki mi yo ses nen, yo bes ki mi kan pik ki cao be ki en buk ki es min nis “jas gus de nak ne” ki nis mu tu de gen nak nes. je pik yo bao cao xis ki en co an. je bon mok pik de buk.*
 
-"Once when I was six years old I saw a magnificent picture in a book, called True Stories from Nature, about the primeval forest. It was a picture of a boa constrictor in the act of swallowing an animal. Here is a copy of the drawing."
+Once when I was six years old I saw a magnificent picture in a book, called True Stories from Nature, about the primeval forest. It was a picture of a boa constrictor in the act of swallowing an animal. Here is a copy of the drawing.
 
 ![undefined](static/img/littleprince/001.png)
+
+------
 
 书言：「包条蜥使吃兽满为，不用孔碎。而他不能走，又睡过六月时者必用拿质从兽身。」
 
 *buk des: “bao cao xis as co an man we, no yus bok soi. loi ta no ken wak, i do pas ses mun xas ki mos yus tek us de an koi.”*
 
-"In the book it said: "Boa constrictors swallow their prey whole, without chewing it. After that they are not able to move, and they sleep through the six months that they need for digestion.""
+In the book it said: "Boa constrictors swallow their prey whole, without chewing it. After that they are not able to move, and they sleep through the six months that they need for digestion."
+
+------
 
 而我坐觉深为于这真事从深木土。又用色石写管后我到作像一次。我计一像。这下仿这像：
 
 *loi mi sen jek xen we nis je jas gus de xen mu tu. i yus so xok xe tuk bek mi dao mak pik un bes. mi ji un pik. je bon mok je pik:*
 
-"I pondered deeply, then, over the adventures of the jungle. And after some work with a colored pencil I succeeded in making my first drawing. My Drawing Number One. It looked something like this:"
+I pondered deeply, then, over the adventures of the jungle. And after some work with a colored pencil I succeeded in making my first drawing. My Drawing Number One. It looked something like this:
 
 ![undefined](static/img/littleprince/002.png)
+
+------
 
 我使何增人们看我美像，又问于何这像使何他们怕另不。
 
 *mi as ke kes jen men kan mi be pik, i won nis ke je pik as ke ta men tak o no.*
 
-"I showed my masterpiece to the grown-ups, and asked them whether the drawing frightened them."
+I showed my masterpiece to the grown-ups, and asked them whether the drawing frightened them.
+
+------
 
 而他们还反言：「怕？何为有人者怕头布？」
 
 *loi ta men hai han des: “tak? ke we yo jen ki tak to te?”*
 
-"But they answered: "Frighten? Why should any one be frightened by a hat?""
+But they answered: "Frighten? Why should any one be frightened by a hat?"
+
+------
 
 我像不有头布。这像有包条蜥者有条鼻兽在肚。从何增人们还不能看懂他，我作像新次：我写像于包条蜥内，找何增人们能看懂他单为。每次必助言于事向他们。这下仿我计二像：
 
 *mi pik no yo to te. je pik yo bao cao xis ki yo cao nos an en du. de ke kes jen men hai no ken kan don ta, mi mak pik nu bes: mi xe pik nis bao cao xis den, bus ke kes jen men ken kan don ta dan we. me bes mos yuk des nis gus a ta men. je bon mok mi ji dos pik:*
 
-"My drawing was not a picture of a hat. It was a picture of a boa constrictor digesting an elephant. But since
+My drawing was not a picture of a hat. It was a picture of a boa constrictor digesting an elephant. But since
 the grown-ups were not able to understand it, I made another drawing: I drew the inside of a boa
 constrictor, so that the grown-ups could see it clearly. They always need to have things explained. My
-Drawing Number Two looked like this:"
+Drawing Number Two looked like this:
 
 ![undefined](static/img/littleprince/003.png)
+
+------
 
 这次增人们反介何我该加像于包条蜥，于皮另于内，向边，又另为注土球学，故事学，基计学，又言规。从这我者有六年出从工路于涂像者能变条美。我损信性从何我计一像又计二像到差。每次增人不懂事独为，又每次每时助言于事向增人很使弱小人。
 
 *je bes kes jen men han jes ke mi gai pon pik nis bao cao xis, nis pi o nis den, a la, i o we joi tu cok xes, gu gus xes, pun ji xes, i des ges. de je mi ki yo ses nen cu de wok pu nis tus pik ki ken ben cao be. mi pe cos nes de ke mi ji un pik i ji dos pik dao ca. me bes kes jen no don gus lon we, i me bes me xas yuk des nis gus a kes jen hen as wik xao jen.*
 
-"The grown-ups' response, this time, was to advise me to lay aside my drawings of boa constrictors, whether from the inside or the outside, and devote myself instead to geography, history, arithmetic, and grammar. That is why, at the age of six, I gave up what might have been a magnificent career as a painter. I had been disheartened by the failure of my Drawing Number One and my Drawing Number Two. Grown-ups never understand anything by themselves, and it is tiresome for children to be always and forever explaining things to them."
+The grown-ups' response, this time, was to advise me to lay aside my drawings of boa constrictors, whether from the inside or the outside, and devote myself instead to geography, history, arithmetic, and grammar. That is why, at the age of six, I gave up what might have been a magnificent career as a painter. I had been disheartened by the failure of my Drawing Number One and my Drawing Number Two. Grown-ups never understand anything by themselves, and it is tiresome for children to be always and forever explaining things to them.
+
+------
 
 而我选另工路又学导飞车。每所从球满有次者我飞过，又真为土球学很助我。我能速看识切《中土》国又《向礼就泳》块。如夕时不知边者该向，这类知性很助。
 
 *loi mi cus o wok pu i xes gi bo ce. me luk de cok man yo bes ki mi bo pas, i jas we tu cok xes hen yuk mi. mi ken su kan kon cek Mestu nas i Alijona pis. juk nok xas no sa la ki gai a, je le sa nes hen yuk.*
 
-"So then I chose another profession, and learned to pilot airplanes. I have flown a little over all parts of the world; and it is true that geography has been very useful to me. At a glance I can distinguish China from Arizona. If one gets lost in the night, such knowledge is valuable."
+So then I chose another profession, and learned to pilot airplanes. I have flown a little over all parts of the world; and it is true that geography has been very useful to me. At a glance I can distinguish China from Arizona. If one gets lost in the night, such knowledge is valuable.
+
+------
 
 很们次从我活时内我开识很们人者表于事者很有重。们时我活在中从增人。我过看他们从很约，识事者秘。又这不使高者我觉于他们。
 
 *hen men bes de mi bi xas den mi kai kon hen men jen ki ak nis gus ki hen yo pes. men xas mi bi en mes de kes jen. mi pas kan ta men de hen yak, kon gus ki gis. i je no as gao ki mi jek nis ta men.*
 
-"In the course of this life I have had a great many encounters with a great many people who have been concerned with matters of consequence. I have lived a great deal among grown-ups. I have seen them intimately, close at hand. And that hasn't much improved my opinion of them."
+In the course of this life I have had a great many encounters with a great many people who have been concerned with matters of consequence. I have lived a great deal among grown-ups. I have seen them intimately, close at hand. And that hasn't much improved my opinion of them.
+
+------
 
 次者我开识增人者我觉何他看物洁为，我考使何他看我计一像，者我满时储。这为我找到知何这人识事真为另不。又每次每人还言这：
 
 *bes ki mi kai kon kes jen ki mi jek ke ta kan kos lin we, mi kao as ke ta kan mi ji un pik, ki mi man xas cuk. je we mi bus dao sa ke je jen kon gus jas we o no. i me bes me jen hai des je:*
 
-"Whenever I met one of them who seemed to me at all clear-sighted, I tried the experiment of showing him my Drawing Number One, which I have always kept. I would try to find out, so, if this was a person of true understanding. But, whoever it was, he, or she, would always say:"
+Whenever I met one of them who seemed to me at all clear-sighted, I tried the experiment of showing him my Drawing Number One, which I have always kept. I would try to find out, so, if this was a person of true understanding. But, whoever it was, he, or she, would always say:
+
+------
 
 「这是头布。」
 
 *“je es to te.”*
 
-""That is a hat.""
+"That is a hat."
+
+------
 
 而每次我不言向这人于包条蜥另于木土从根露性另于星。我加己向层从他。我言向他于拿组片玩，又于土球玩，又于公导，又于颈布。又这增人很喜开识人者觉真为。
 
 *loi me bes mi no des a je jen nis bao cao xis o nis mu tu de gen nak nes o nis xin. mi pon se a los de ta. mi des a ta nis tek guk pen hu, i nis tu cok hu, i nis gon gi, i nis nek te. i je kes jen hen xi kai kon jen ki jek jas we.*
 
-"Then I would never talk to that person about boa constrictors, or primeval forests, or stars. I would bring myself down to his level. I would talk to him about bridge, and golf, and politics, and neckties. And the grown-up would be greatly pleased to have met such a sensible man."
+Then I would never talk to that person about boa constrictors, or primeval forests, or stars. I would bring myself down to his level. I would talk to him about bridge, and golf, and politics, and neckties. And the grown-up would be greatly pleased to have met such a sensible man.
 
 ### 2
-
-
 
 从这我坐活独为又不有人者真为能言向。这为我坐前从何六年前我飞车变差跌在《知哈边》干所。有物者差在火回器。从何我约不有补器人又不有坐车人，独为我开找补者复。这是事于坐活另末：我不有水者够于六星时吃。
 
 *de je mi sen bi lon we i no yo jen ki jas we ken des a. je we mi sen cen de ke ses nen cen mi bo ce ben ca ka en Sahala sek luk. yo kos ki ca en ik hoi mek. de ke mi yak no yo bu mek jen i no yo sen ce jen, lon we mi kai bus bu ki pus. je es gus nis sen bi o mo: mi no yo wa ki go nis ses xin xas co.*
 
-"So I lived my life alone, without anyone that I could really talk to, until I had an accident with my plane in the Desert of Sahara, six years ago. Something was broken in my engine. And as I had with me neither a mechanic nor any passengers, I set myself to attempt the difficult repairs all alone. It was a question of life or death for me: I had scarcely enough drinking water to last a week."
+So I lived my life alone, without anyone that I could really talk to, until I had an accident with my plane in the Desert of Sahara, six years ago. Something was broken in my engine. And as I had with me neither a mechanic nor any passengers, I set myself to attempt the difficult repairs all alone. It was a question of life or death for me: I had scarcely enough drinking water to last a week.
+
+------
 
 计一夕时我而开睡在沙上在千千外块从人活所。我是更独从水车人者损车又坐在漂物者在大水中。从这你能觉于像于我讶性于何日升时我变醒于声者小又奥。这声言：
 
 *ji un nok xas mi loi kai do en xa xan en tao tao ek pis de jen bi luk. mi es mas lon de wa ce jen ki pe ce i sen en coi kos ki en bik wa mes. de je ni ken jek nis pik nis mi yai nes nis ke son xoi xas mi ben wek nis bos ki xao i ao. je bos des:*
 
-"The first night, then, I went to sleep on the sand, a thousand miles from any human habitation. I was more isolated than a shipwrecked sailor on a raft in the middle of the ocean. Thus you can imagine my amazement, at sunrise, when I was awakened by an odd little voice. It said:"
+The first night, then, I went to sleep on the sand, a thousand miles from any human habitation. I was more isolated than a shipwrecked sailor on a raft in the middle of the ocean. Thus you can imagine my amazement, at sunrise, when I was awakened by an odd little voice. It said:
+
+------
 
 「你请–写像于农羊给我！」
 
 *“ni cin - xe pik nis non yan ge mi!”*
 
-""If you please--draw me a sheep!""
+"If you please--draw me a sheep!"
+
+------
 
 「何！」
 
 *“ke!”*
 
-""What!""
+"What!"
+
+------
 
 「写像于农羊给我！」
 
 *“xe pik nis non yan ge mi!”*
 
-""Draw me a sheep!""
+"Draw me a sheep!"
+
+------
 
 我条讶又踊站。力为我使关眼又新次看。我注看我满约。又我看人者小又条奥者在这所站看我很重为。这下你能看像者更好者我而能作于他。又锁为我像还不有友性从像根。
 
 *mi cao yai i yon pa. pao we mi as gun yek i nu bes kan. mi joi kan mi man yak. i mi kan jen ki xao i cao ao ki en je luk pa kan mi hen pes we. je bon ni ken kan pik ki mas hao ki mi loi ken mak nis ta. i sok we mi pik hai no yo mik nes de pik gen.*
 
-"I jumped to my feet, completely thunderstruck. I blinked my eyes hard. I looked carefully all around me. And I saw a most extraordinary small person, who stood there examining me with great seriousness. Here you may see the best portrait that, later, I was able to make of him. But my drawing is certainly very much less charming than its model."
+I jumped to my feet, completely thunderstruck. I blinked my eyes hard. I looked carefully all around me. And I saw a most extraordinary small person, who stood there examining me with great seriousness. Here you may see the best portrait that, later, I was able to make of him. But my drawing is certainly very much less charming than its model.
 
 ![undefined](static/img/littleprince/004.png)
+
+------
 
 又这还不来从何我差。增人言何我该站跟工路于涂像时者有六年，又我过不学写像于物者另于包条蜥皮又包条蜥内。
 
 *i je hai no lai de ke mi ca. kes jen des ke mi gai pa wis wok pu nis tus pik xas ki yo ses nen, i mi pas no xes xe pik nis kos ki o nis bao cao xis pi i bao cao xis den.*
 
-"That, however, is not my fault. The grown-ups discouraged me in my painter's career when I was six years old, and I never learned to draw anything, except boas from the outside and boas from the inside."
+That, however, is not my fault. The grown-ups discouraged me in my painter's career when I was six years old, and I never learned to draw anything, except boas from the outside and boas from the inside.
+
+------
 
 这时我看这新子者速为来又我眼约出从我头于讶性。储觉何我过跌在干所在千千外块从人活所。又这小人还不表为者不找流在沙中另不醒为于弱性另于饿性另于干性另于怕性。满为他不有为从子者在干所中在千千外块从人活所又不知边者该向。时者我变能言，我而言向他：
 
 *je xas mi kan je nu cik ki su we lai i mi yek yak cu de mi to nis yai nes. cuk jek ke mi pas ka en sek luk en tao tao ek pis de jen bi luk. i je xao jen hai no ak we ki no bus lu en xa mes o no wek we nis wik nes o nis e nes o nis sek nes o nis tak nes. man we ta no yo we de cik ki en sek luk mes en tao tao ek pis de jen bi luk i no sa la ki gai a. xas ki mi ben ken des, mi loi des a ta:*
 
-"Now I stared at this sudden apparition with my eyes fairly starting out of my head in astonishment. Remember, I had crashed in the desert a thousand miles from any inhabited region. And yet my little man seemed neither to be straying uncertainly among the sands, nor to be fainting from fatigue or hunger or thirst or fear. Nothing about him gave any suggestion of a child lost in the middle of the desert, a thousand miles from any human habitation. When at last I was able to speak, I said to him:"
+Now I stared at this sudden apparition with my eyes fairly starting out of my head in astonishment. Remember, I had crashed in the desert a thousand miles from any inhabited region. And yet my little man seemed neither to be straying uncertainly among the sands, nor to be fainting from fatigue or hunger or thirst or fear. Nothing about him gave any suggestion of a child lost in the middle of the desert, a thousand miles from any human habitation. When at last I was able to speak, I said to him:
+
+------
 
 「又–你在这所找何？」
 
 *“i - ni en je luk bus ke?”*
 
-""But--what are you doing here?""
+"But--what are you doing here?"
+
+------
 
 又慢为他反言这，为者他言于物者很有重：
 
 *i len we ta han des je, we ki ta des nis kos ki hen yo pes:*
 
-"And in answer he repeated, very slowly, as if he were speaking of a matter of great consequence:"
+And in answer he repeated, very slowly, as if he were speaking of a matter of great consequence:
+
+------
 
 「你请–写像于农羊给我…」
 
 *“ni cin - xe pik nis non yan ge mi…”*
 
-""If you please--draw me a sheep…""
+"If you please--draw me a sheep…"
+
+------
 
 时者秘事条有力，人不信于不顺。我觉何这很奥，又在千千外块从人活所又在所者我能末，我还使拿一木片又我跌涂写管从我包子。这时我觉于何更为我过学土球学，故事学，基计学，又言规，又我言向小人（轻怒为，这边）于何我不能写像。他反言这：
 
 *xas ki gis gus cao yo pao, jen no cos nis no xun. mi jek ke je hen ao, i en tao tao ek pis de jen bi luk i en luk ki mi ken mo, mi hai as tek un mu pen i mi ka tus xe tuk de mi bao cik. je xas mi jek nis ke mas we mi pas xes tu cok xes, gu gus xes, pun ji xes, i des ges, i mi des a xao jen (lik has we, je la) nis ke mi no ken xe pik. ta han des je:*
 
-"When a mystery is too overpowering, one dare not disobey. Absurd as it might seem to me, a thousand miles from any human habitation and in danger of death, I took out of my pocket a sheet of paper and my fountain-pen. But then I remembered how my studies had been concentrated on geography, history, arithmetic and grammar, and I told the little chap (a little crossly, too) that I did not know how to draw. He answered me:"
+When a mystery is too overpowering, one dare not disobey. Absurd as it might seem to me, a thousand miles from any human habitation and in danger of death, I took out of my pocket a sheet of paper and my fountain-pen. But then I remembered how my studies had been concentrated on geography, history, arithmetic and grammar, and I told the little chap (a little crossly, too) that I did not know how to draw. He answered me:
+
+------
 
 「这不有重。写像于农羊给我…」
 
 *“je no yo pes. xe pik nis non yan ge mi…”*
 
-""That doesn't matter. Draw me a sheep…""
+"That doesn't matter. Draw me a sheep…"
+
+------
 
 又还不有时者我写像于农羊。而我给他写一从这二像者我过写们次。这者有皮从包条蜥。又我讶于何小人看像言这：
 
 *i hai no yo xas ki mi xe pik nis non yan. loi mi ge ta xe un de je dos pik ki mi pas xe men bes. je ki yo pi de bao cao xis. i mi yai nis ke xao jen kan pik des je:*
 
-"But I had never drawn a sheep. So I drew for him one of the two pictures I had drawn so often. It was that of the boa constrictor from the outside. And I was astounded to hear the little fellow greet it with,"
+But I had never drawn a sheep. So I drew for him one of the two pictures I had drawn so often. It was that of the boa constrictor from the outside. And I was astounded to hear the little fellow greet it with,
+
+------
 
 「不，不，不！我不要条鼻兽在包条蜥内。包条蜥很能使末，又排条鼻兽是很复。在所者我活在，每物是很小。者我要是农羊。给我写像于农羊。」
 
 *“no, no, no! mi no yao cao nos an en bao cao xis den. bao cao xis hen ken as mo, i pai cao nos an es hen pus. en luk ki mi bi en, me kos es hen xao. ki mi yao es non yan. ge mi xe pik nis non yan.”*
 
-""No, no, no! I do not want an elephant inside a boa constrictor. A boa constrictor is a very dangerous creature, and an elephant is very cumbersome. Where I live, everything is very small. What I need is a sheep. Draw me a sheep.""
+"No, no, no! I do not want an elephant inside a boa constrictor. A boa constrictor is a very dangerous creature, and an elephant is very cumbersome. Where I live, everything is very small. What I need is a sheep. Draw me a sheep."
+
+------
 
 从这我而写一像。
 
 *de je mi loi xe un pik.*
 
-"So then I made a drawing."
+So then I made a drawing.
 
 ![undefined](static/img/littleprince/005.png)
+
+------
 
 重为他看像，而他言：
 
 *pes we ta kan pik, loi ta des:*
 
-"He looked at it carefully, then he said:"
+He looked at it carefully, then he said:
+
+------
 
 「不。这农羊就不健。作新次。」
 
 *“no. je non yan jo no he. mak nu bes.”*
 
-""No. This sheep is already very sickly. Make me another.""
+"No. This sheep is already very sickly. Make me another."
+
+------
 
 从这我作新像。
 
 *de je mi mak nu pik.*
 
-"So I made another drawing."
+So I made another drawing.
 
 ![undefined](static/img/littleprince/006.png)
+
+------
 
 我友使轻哈温为又许为
 
 *mi mik as lik ha wen we i lao we*
 
-"My friend smiled gently and indulgently."
+My friend smiled gently and indulgently.
+
+------
 
 他言：「独为你能看懂何这不是农羊。这是头刺羊。他有头刺。」
 
 *ta des: “lon we ni ken kan don ke je no es non yan. je es to pin yan. ta yo to pin.”*
 
-""You see yourself," he said, "that this is not a sheep. This is a ram. It has horns.""
+"You see yourself," he said, "that this is not a sheep. This is a ram. It has horns."
+
+------
 
 从这我还写像新次。
 
 *de je mi hai xe pik nu bes.*
 
-"So then I did my drawing over once more."
+So then I did my drawing over once more.
 
 ![undefined](static/img/littleprince/007.png)
+
+------
 
 又这像也不是拿，同为从另像。
 
 *i je pik ye no es tek, ton we de o pik.*
 
-"But it was rejected too, just like the others."
+But it was rejected too, just like the others.
+
+------
 
 「这羊条故。我要农羊者还向活们时。」
 
 *“je yan cao gu. mi yao non yan ki hai a bi men xas.”*
 
-""This one is too old. I want a sheep that will live a long time.""
+"This one is too old. I want a sheep that will live a long time."
+
+------
 
 这时我就不要还作，从何我要速开加块从火回器向外找懂。从这我就速作这像。
 
 *je xas mi jo no yao hai mak, de ke mi yao su kai pon pis de ik hoi mek a ek bus don. de je mi jo su mak je pik.*
 
-"By this time my patience was exhausted, because I was in a hurry to start taking my engine apart. So I tossed off this drawing."
+By this time my patience was exhausted, because I was in a hurry to start taking my engine apart. So I tossed off this drawing.
 
 ![undefined](static/img/littleprince/008.png)
+
+------
 
 又同时我速助言于这。
 
 *i ton xas mi su yuk des nis je.*
 
-"And I threw out an explanation with it."
+And I threw out an explanation with it.
+
+------
 
 「这就张包从他。农羊者你问是在这内。」
 
 *“je jo jan bao de ta. non yan ki ni won es en je den.”*
 
-""This is only his box. The sheep you asked for is inside.""
+"This is only his box. The sheep you asked for is inside."
+
+------
 
 我很讶于何喜性来向头前从我小选人。
 
 *mi hen yai nis ke xi nes lai a to cen de mi xao cus jen.*
 
-"I was very surprised to see a light break over the face of my young judge:"
+I was very surprised to see a light break over the face of my young judge:
+
+------
 
 「真为这是类者我要！你觉何这农羊向要很们毛菜另？」
 
 *“jas we je es le ki mi yao! ni jek ke je non yan a yao hen men mao sai o?”*
 
-""That is exactly the way I wanted it! Do you think that this sheep will have to have a great deal of grass?""
+"That is exactly the way I wanted it! Do you think that this sheep will have to have a great deal of grass?"
+
+------
 
 「找何？」
 
 *“bus ke?”*
 
-""Why?""
+"Why?"
+
+------
 
 「从何每物者在所者我活在是很小…」
 
 *“de ke me kos ki en luk ki mi bi en es hen xao…”*
 
-""Because where I live everything is very small…""
+"Because where I live everything is very small…"
+
+------
 
 「锁为毛菜向够于他。」我言这。「农羊者我把给你是很小。」
 
 *“sok we mao sai a go nis ta.” mi des je. “non yan ki mi ba ge ni es hen xao.”*
 
-""There will surely be enough grass for him," I said. "It is a very small sheep that I have given you.""
+"There will surely be enough grass for him," I said. "It is a very small sheep that I have given you."
+
+------
 
 他变己加己头在像上。
 
 *ta ben se pon se to en pik xan.*
 
-"He bent his head over the drawing."
+He bent his head over the drawing.
+
+------
 
 「不是小为者–看！他过开睡…」
 
 *“no es xao we ki - kan! ta pas kai do…”*
 
-""Not so small that--Look! He has gone to sleep…""
+"Not so small that--Look! He has gone to sleep…"
+
+------
 
 又这为我开识小导子。
 
 *i je we mi kai kon xao gi cik.*
 
-"And that is how I made the acquaintance of the little prince."
+And that is how I made the acquaintance of the little prince.
 
 ### 3
-
-
 
 我过们时前从何到知何所者他来从。每次小导子，者们次问向我，不表为者他听者我问向他。从言块者不找为出，点为慢为我到知每事。
 
 *mi pas men xas cen de ke dao sa ke luk ki ta lai de. me bes xao gi cik, ki men bes won a mi, no ak we ki ta kus ki mi won a ta. de des pis ki no bus we cu, gok we len we mi dao sa me gus.*
 
-"It took me a long time to learn where he came from. The little prince, who asked me so many questions, never seemed to hear the ones I asked him. It was from words dropped by chance that, little by little, everything was revealed to me."
+It took me a long time to learn where he came from. The little prince, who asked me so many questions, never seemed to hear the ones I asked him. It was from words dropped by chance that, little by little, everything was revealed to me.
+
+------
 
 一举事是何计一次者他看我飞车（我不向写像于我飞车；这条复于我），他问向我：
 
 *un ju gus es ke ji un bes ki ta kan mi bo ce (mi no a xe pik nis mi bo ce; je cao pus nis mi), ta won a mi:*
 
-"The first time he saw my airplane, for instance (I shall not draw my airplane; that would be much too complicated for me), he asked me:"
+The first time he saw my airplane, for instance (I shall not draw my airplane; that would be much too complicated for me), he asked me:
+
+------
 
 「这物是何？」
 
 *“je kos es ke?”*
 
-""What is that object?""
+"What is that object?"
+
+------
 
 「这不就是物。这能飞。这是我飞车。」
 
 *“je no jo es kos. je ken bo. je es mi bo ce.”*
 
-""That is not an object. It flies. It is an airplane. It is my airplane.""
+"That is not an object. It flies. It is an airplane. It is my airplane."
+
+------
 
 又我有高心于何他知何我能飞。
 
 *i mi yo gao hak nis ke ta sa ke mi ken bo.*
 
-"And I was proud to have him learn that I could fly."
+And I was proud to have him learn that I could fly.
+
+------
 
 他而喊：
 
 *ta loi boi:*
 
-"He cried out, then:"
+He cried out, then:
+
+------
 
 「何！你过跌从天？」
 
 *“ke! ni pas ka de ten?”*
 
-""What! You dropped down from the sky?""
+"What! You dropped down from the sky?"
+
+------
 
 「唉。」我反言矮为。
 
 *“yes.” mi han des lo we.*
 
-""Yes," I answered, modestly."
+"Yes," I answered, modestly.
+
+------
 
 「喂！这好有逗！」
 
 *“oi! je hao yo jok!”*
 
-""Oh! That is funny!""
+"Oh! That is funny!"
+
+------
 
 又小导子开哈美为，又这很烦我。我要何我悲是懂重为。
 
 *i xao gi cik kai ha be we, i je hen noi mi. mi yao ke mi doi es don pes we.*
 
-"And the little prince broke into a lovely peal of laughter, which irritated me very much. I like my misfortunes to be taken seriously."
+And the little prince broke into a lovely peal of laughter, which irritated me very much. I like my misfortunes to be taken seriously.
+
+------
 
 他而加：
 
 *ta loi pon:*
 
-"Then he added:"
+Then he added:
+
+------
 
 「而你也过来从天！何是走星从你？」
 
 *“loi ni ye pas lai de ten! ke es wak xin de ni?”*
 
-""So you, too, come from the sky! Which is your planet?""
+"So you, too, come from the sky! Which is your planet?"
+
+------
 
 这时我就看光子在这满秘性从他人；又我问，速次：
 
 *je xas mi jo kan lus cik en je man gis nes de ta jen; i mi won, su bes:*
 
-"At that moment I caught a gleam of light in the impenetrable mystery of his presence; and I demanded, abruptly:"
+At that moment I caught a gleam of light in the impenetrable mystery of his presence; and I demanded, abruptly:
+
+------
 
 「你过来从另走星另？」
 
 *“ni pas lai de o wak xin o?”*
 
-""Do you come from another planet?""
+"Do you come from another planet?"
+
+------
 
 他还不反言。他使踊他头温为，还坐看我飞车：
 
 *ta hai no han des. ta as yon ta to wen we, hai sen kan mi bo ce:*
 
-"But he did not reply. He tossed his head gently, without taking his eyes from my plane:"
+But he did not reply. He tossed his head gently, without taking his eyes from my plane:
+
+------
 
 「真为你必不过来从条外所…」
 
 *“jas we ni mos no pas lai de cao ek luk…”*
 
-""It is true that on that you can't have come from very far away…""
+"It is true that on that you can't have come from very far away…"
+
+------
 
 又他变坐觉过们时。而他把我农羊从他包子，又坐觉于这财好重为。
 
 *i ta ben sen jek pas men xas. loi ta ba mi non yan de ta bao cik, i sen jek nis je bun hao pes we.*
 
-"And he sank into a reverie, which lasted a long time. Then, taking my sheep out of his pocket, he buried himself in the contemplation of his treasure."
+And he sank into a reverie, which lasted a long time. Then, taking my sheep out of his pocket, he buried himself in the contemplation of his treasure.
+
+------
 
 你能懂何为者我变要知于这半信性于「另走星」。力为我而找更知于这事。
 
 *ni ken don ke we ki mi ben yao sa nis je ban cos nes nis “o wak xin”. pao we mi loi bus mas sa nis je gus.*
 
-"You can imagine how my curiosity was aroused by this half-confidence about the "other planets." I made a great effort, therefore, to find out more on this subject."
+You can imagine how my curiosity was aroused by this half-confidence about the "other planets." I made a great effort, therefore, to find out more on this subject.
+
+------
 
 「我小子，你过来从何所？何是这者你言「我活所」于？你要带你农羊向何所？」
 
 *“mi xao cik, ni pas lai de ke luk? ke es je ki ni des “mi bi luk” nis? ni yao dai ni non yan a ke luk?”*
 
-""My little man, where do you come from? What is this 'where I live,' of which you speak? Where do you want to take your sheep?""
+"My little man, where do you come from? What is this 'where I live,' of which you speak? Where do you want to take your sheep?"
+
+------
 
 有时者他不声表为者觉，而他反言：
 
 *yo xas ki ta no bos ak we ki jek, loi ta han des:*
 
-"After a reflective silence he answered:"
+After a reflective silence he answered:
+
+------
 
 「者好于这张包者你过把给我是何夕时他能用这于活房。」
 
 *“ki hao nis je jan bao ki ni pas ba ge mi es ke nok xas ta ken yus je nis bi kas.”*
 
-""The thing that is so good about the box you have given me is that at night he can use it as his house.""
+"The thing that is so good about the box you have given me is that at night he can use it as his house."
+
+------
 
 「真为。又如你好我向把系条也给你找何光时你能系农羊，又也木者你能系他在。」
 
 *“jas we. i juk ni hao mi a ba tai cao ye ge ni bus ke lus xas ni ken tai non yan, i ye mu ki ni ken tai ta en.”*
 
-""That is so. And if you are good I will give you a string, too, so that you can tie him during the day, and a post to tie him to.""
+"That is so. And if you are good I will give you a string, too, so that you can tie him during the day, and a post to tie him to."
+
+------
 
 小导子还表为者他讶于这举事。
 
 *xao gi cik hai ak we ki ta yai nis je ju gus.*
 
-"But the little prince seemed shocked by this offer:"
+But the little prince seemed shocked by this offer:
+
+------
 
 「系他！这觉块好奥！」
 
 *“tai ta! je jek pis hao ao!”*
 
-""Tie him! What a queer idea!""
+"Tie him! What a queer idea!"
+
+------
 
 我言：「如你不系他，他不找流向另所，又不能回。」
 
 *mi des: “juk ni no tai ta, ta no bus lu a o luk, i no ken hoi.”*
 
-""But if you don't tie him," I said, "he will wander off somewhere, and get lost.""
+"But if you don't tie him," I said, "he will wander off somewhere, and get lost."
+
+------
 
 新次我友人开哈速为。
 
 *nu bes mi mik jen kai ha su we.*
 
-"My friend broke into another peal of laughter:"
+My friend broke into another peal of laughter:
+
+------
 
 「又你觉何他流向何所？」
 
 *“i ni jek ke ta lu a ke luk?”*
 
-""But where do you think he would go?""
+"But where do you think he would go?"
+
+------
 
 「每所。向他前。」
 
 *“me luk. a ta cen.”*
 
-""Anywhere. Straight ahead of him.""
+"Anywhere. Straight ahead of him."
+
+------
 
 小导子而言真为：
 
 *xao gi cik loi des jas we:*
 
-"Then the little prince said, earnestly:"
+Then the little prince said, earnestly:
+
+------
 
 「不有重。在我活所，每物好小。」
 
 *“no yo pes. en mi bi luk, me kos hao xao.”*
 
-""That doesn't matter. Where I live, everything is so small!""
+"That doesn't matter. Where I live, everything is so small!"
+
+------
 
 又他而言为者能有小悲：
 
 *i ta loi des we ki ken yo xao doi:*
 
-"And, with perhaps a hint of sadness, he added:"
+And, with perhaps a hint of sadness, he added:
+
+------
 
 「向他前不能走向条外…」
 
 *“a ta cen no ken wak a cao ek…”*
 
-""Straight ahead of him, nobody can go very far…""
+"Straight ahead of him, nobody can go very far…"
 
