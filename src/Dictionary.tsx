@@ -3,8 +3,9 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAngleRight, faAngleDown, faSearch} from "@fortawesome/free-solid-svg-icons";
 
 import _dictionary from "./dictionary.json"
-import {TranslatedLine} from "./AnnotatedText";
+import {isError, multiscriptText, TranslatedLine} from "./AnnotatedText";
 import {DisplaySettingsContext} from "./DisplaySettings";
+import {Document, h1, h2, p, i} from "./formatting";
 
 type DictionaryEntry = {
   English: string,
@@ -17,6 +18,25 @@ type DictionarySection = {
 }
 
 const dictionarySections = _dictionary as DictionarySection[];
+
+export const DictionaryDocument: Document = [
+  h1("Dictionary"),
+];
+
+dictionarySections.forEach(section => {
+  DictionaryDocument.push(h2(section.title));
+
+  section.entries.forEach(entry => {
+    const mt = multiscriptText(entry.Jaobon);
+    if (isError(mt)) {
+      throw new Error(mt.message)
+    }
+
+    DictionaryDocument.push(
+      p(mt.CJK, " ", i(mt.roman), " \"", entry.English, "\""),
+    );
+  })
+})
 
 const getSearchTerm = () => (new URLSearchParams(window.location.search)).get("q") || "";
 

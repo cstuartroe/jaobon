@@ -18,6 +18,7 @@ import {WritingSystemsMarkdownDocument} from "../src/WritingSystems";
 import {SyntaxDocument} from "../src/Syntax";
 import {SourcingDocument} from "../src/Sourcing";
 import {RootListDocument} from "../src/RootList";
+import {DictionaryDocument} from "../src/Dictionary";
 
 function chunkToMarkdown(chunk: TextualChunk): string {
   if (typeof chunk === "string") {
@@ -142,6 +143,7 @@ const document = [
   ...SourcingDocument,
   ...RootListDocument,
   ...SyntaxDocument,
+  ...DictionaryDocument,
 ];
 
 fs.writeFileSync("README.md", documentToMarkdown(document));

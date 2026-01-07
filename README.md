@@ -3842,3 +3842,2609 @@ Subnational divisions (provinces/states) use the term 块 *pis* or 国土块 *na
 
 Geographical terms like cardinal directions and "new" may be translated rather than phonetically rendered: 右《跌矮来泳》块 *yok Kalolaina pis* "North Carolina", 左《向每礼跌》土 *is Amelika tu* "South America". 
 
+# Dictionary
+
+## Personal pronouns
+
+我 *mi* "I/me/my"
+
+你 *ni* "You/your"
+
+他 *ta* "He/him/his"
+
+他 *ta* "She/her/hers"
+
+他 *ta* "It/its"
+
+我们 *mi men* "We/us/our"
+
+你们 *ni men* "Y'all/Y'all's"
+
+他们 *ta men* "They/them/their"
+
+己 *se* "self"
+
+## Numbers
+
+计，山计 *ji, mon ji* "number (cardinal)"
+
+计，排计 *ji, pai ji* "number (id/ordinal)"
+
+计写块 *ji xe pis* "numeral/digit"
+
+无 *nin* "0"
+
+一 *un* "1"
+
+二 *dos* "2"
+
+三 *san* "3"
+
+四 *cak* "4"
+
+五 *u* "5"
+
+六 *ses* "6"
+
+七 *ci* "7"
+
+八 *ok* "8"
+
+九 *nai* "9"
+
+十 *das* "10"
+
+十一 *das un* "11"
+
+十二 *das dos* "12"
+
+十三 *das san* "13"
+
+十四 *das cak* "14"
+
+十五 *das u* "15"
+
+十六 *das ses* "16"
+
+十七 *das ci* "17"
+
+十八 *das ok* "18"
+
+十九 *das nai* "19"
+
+二十 *dos das* "20"
+
+二十一 *dos das un* "21"
+
+二十二 *dos das dos* "22"
+
+三十 *san das* "30"
+
+四十 *cak das* "40"
+
+五十 *u das* "50"
+
+六十 *ses das* "60"
+
+七十 *ci das* "70"
+
+八十 *ok das* "80"
+
+九十 *nai das* "90"
+
+百 *bai* "100"
+
+百一 *bai un* "101"
+
+百二 *bai dos* "102"
+
+百十 *bai das* "110"
+
+二百 *dos bai* "200"
+
+千 *tao* "1,000"
+
+千一 *tao un* "1,001"
+
+十千 *das tao* "10,000"
+
+百千 *bai tao* "100,000"
+
+千千 *tao tao* "1,000,000"
+
+千山己三次 *tao mon se san bes* "1,000,000,000"
+
+反一 *han un* "-1"
+
+奥一 *ao un* "i"
+
+计一 *ji un* "first"
+
+计二 *ji dos* "second"
+
+计三 *ji san* "third"
+
+计四 *ji cak* "fourth"
+
+计五 *ji u* "fifth"
+
+半 *ban* "1/2"
+
+## Math
+
+一从三块 *un de san pis* "1/3"
+
+二从三块 *dos de san pis* "2/3"
+
+一从四块 *un de cak pis* "1/4"
+
+一从五块 *un de u pis* "1/5"
+
+三点一四 *san gok un cak* "3.14"
+
+从百块 *de bai pis* "percent"
+
+又 *i* "plus"
+
+差 *ca* "minus"
+
+山 *mon* "times"
+
+切 *cek* "divided by"
+
+山己〜次 *mon se \~ bes* "to the power of"
+
+计根 *ji gen* "numerical base, radix"
+
+不末计 *no mo ji* "infinity"
+
+满回计 *man hoi ji* "tau"
+
+半回计 *ban hoi ji* "pi"
+
+## Quantifiers
+
+们 *men* "some"
+
+乏 *po* "a few"
+
+更，更们 *mas, mas men* "most"
+
+每 *me* "all"
+
+无 *nin* "none"
+
+就 *jo* "only"
+
+## Time
+
+年 *nen* "year"
+
+月，月时 *mun, mun xas* "month"
+
+星时 *xin xas* "week"
+
+日，日时 *son, son xas* "day (24 hours)"
+
+日块 *son pis* "hour"
+
+切时 *cek xas* "minute"
+
+时点 *xas gok* "second"
+
+年十 *nen das* "decade"
+
+年百 *nen bai* "century"
+
+年千 *nen tao* "millennium"
+
+光时 *lus xas* "daytime"
+
+早时，午前 *sao xas, nun cen* "morning"
+
+午中 *nun mes* "noon"
+
+午后 *nun bek* "afternoon"
+
+晚时 *wan xas* "evening"
+
+夕时 *nok xas* "night"
+
+夕中 *nok mes* "midnight"
+
+计六日块 *ji ses son pis* "6:00 am"
+
+计十八日块 *ji das ok son pis* "6:00 pm"
+
+这时 *je xas* "now"
+
+后，而 *bek, loi* "later"
+
+前前日 *cen cen son* "day before yesterday"
+
+前日 *cen son* "yesterday"
+
+前晚，前夕 *cen wan, cen nok* "last night"
+
+这日 *je son* "today"
+
+这夕 *je nok* "tonight"
+
+后日 *bek son* "tomorrow"
+
+后后日 *bek bek son* "day after tomorrow"
+
+日计 *son ji* "date"
+
+时 *xas* "time"
+
+〜前 *\~ cen* "before"
+
+〜后 *\~ bek* "after"
+
+〜后 *\~ bek* "ago"
+
+## Seasons
+
+春时 *cun xas* "spring"
+
+热时 *hok xas* "summer"
+
+朽时 *wos xas* "autumn"
+
+冰时 *bin xas* "winter"
+
+水时 *wa xas* "monsoon/wet season"
+
+干时 *sek xas* "dry season"
+
+年块 *nen pis* "season"
+
+## Days of the week
+
+星子月 *xin cik mun* "monday"
+
+星子金 *xin cik jin* "tuesday"
+
+星子水 *xin cik wa* "wednesday"
+
+星子木 *xin cik mu* "thursday"
+
+星子火 *xin cik ik* "friday"
+
+星子土 *xin cik tu* "saturday"
+
+星子日 *xin cik son* "sunday"
+
+星时末 *xin xas mo* "weekend"
+
+## Months
+
+月时一 *mun xas un* "january"
+
+月时二 *mun xas dos* "february"
+
+月时三 *mun xas san* "march"
+
+月时四 *mun xas cak* "april"
+
+月时五 *mun xas u* "may"
+
+月时六 *mun xas ses* "june"
+
+月时七 *mun xas ci* "july"
+
+月时八 *mun xas ok* "august"
+
+月时九 *mun xas nai* "september"
+
+月时十 *mun xas das* "october"
+
+月时十一 *mun xas das un* "november"
+
+月时十二 *mun xas das dos* "december"
+
+## Holidays
+
+休日 *xos son* "holiday"
+
+开年日 *kai nen son* "New Years' Day"
+
+开春日，光日 *kai cun son, lus son* "Imbolc"
+
+爱日 *ai son* "Valentine's Day"
+
+开热日，菜色日 *kai hok son, sai so son* "Beltane, May Day"
+
+热中日 *hok mes son* "Midsummer, summer solstice"
+
+开朽日，饭日 *kai wos son, pan son* "Lunasa"
+
+朽中日 *wos mes son* "Mid-autumn"
+
+开冰日，奥日 *kai bin son, ao son* "Samhain, Halloween"
+
+冰中日 *bin mes son* "Midwinter, Yule, Christmas"
+
+出日 *cu son* "birthday"
+
+## Relative directions
+
+上 *xan* "top"
+
+下 *bon* "bottom"
+
+边 *la* "side"
+
+前 *cen* "front"
+
+后 *bek* "back"
+
+内 *den* "inside"
+
+皮，外 *pi, ek* "outside"
+
+上 *xan* "up"
+
+下 *bon* "down"
+
+上 *xan* "over"
+
+下 *bon* "under"
+
+左 *is* "left"
+
+右 *yok* "right"
+
+前 *cen* "straight"
+
+## Cardinal directions
+
+日右 *son yok* "north"
+
+日左 *son is* "south"
+
+日后 *son bek* "east"
+
+日前 *son cen* "west"
+
+日前右 *son cen yok* "northwest"
+
+日后右 *son bek yok* "northeast"
+
+日前左 *son cen is* "southwest"
+
+男变左 *nan ben is* "southeast"
+
+边，路 *la, pu* "direction"
+
+## Units of measure
+
+外块 *ek pis* "meter"
+
+外块百切 *ek pis bai cek* "centimeter"
+
+外块千集，千外块 *ek pis tao ga, tao ek pis* "kilometer"
+
+重块千集，千重块 *pes pis tao ga, tao pes pis* "kilogram"
+
+热块 *hok pis* "degree of temperature"
+
+角块 *huk pis* "arc degree"
+
+皮外角 *pi ek huk* "radian"
+
+## Dimensions of measure
+
+大性 *bik nes* "size"
+
+计，们性 *ji, men nes* "amount"
+
+重 *pes* "weight"
+
+热性 *hok nes* "temperature"
+
+条性 *cao nes* "length (spatial or duration)"
+
+外性 *ek nes* "distance"
+
+外性从轮皮块 *ek nes de lun pi pis* "arc length"
+
+角厚性 *huk ho nes* "measure of angle"
+
+## Fields of study
+
+计学 *ji xes* "mathematics"
+
+基计学 *pun ji xes* "arithmetic"
+
+变计学 *ben ji xes* "calculus"
+
+集计学 *ga ji xes* "statistics"
+
+物学 *kos xes* "physics"
+
+质学 *us xes* "chemistry"
+
+春学 *cun xes* "biology"
+
+健学，身学 *he xes, koi xes* "medicine, medical science"
+
+言学 *des xes* "linguistics, semiotics"
+
+土球学 *tu cok xes* "geography"
+
+买网学 *mai ne xes* "economics"
+
+事读 *gus les* "literature studies"
+
+故事学 *gu gus xes* "history"
+
+## Geometry
+
+轮 *lun* "circle"
+
+轮张 *lun jan* "disk"
+
+四中角张 *cak mes huk jan* "rectangle"
+
+同边中角张 *ton la mes huk jan* "square"
+
+三角张，三边张 *san huk jan, san la jan* "triangle"
+
+边张 *la jan* "polygon"
+
+边 *la* "edge"
+
+角 *huk* "corner, angle"
+
+细角 *dek huk* "acute angle"
+
+中角 *mes huk* "right angle"
+
+厚角 *ho huk* "obtuse angle"
+
+点 *gok* "dot, point"
+
+块 *pis* "piece, part"
+
+满 *man* "whole"
+
+同边中角身 *ton la mes huk koi* "cube"
+
+皮外性 *pi ek nes* "radius"
+
+张厚性 *jan ho nes* "diameter"
+
+轮皮块 *lun pi pis* "arc"
+
+## Colors
+
+黑 *dak* "black"
+
+白 *wai* "white"
+
+红 *hon* "red"
+
+黄 *kun* "yellow"
+
+绿 *gin* "green"
+
+蓝 *lan* "blue"
+
+黑黄 *dak kun* "brown"
+
+黑白 *dak wai* "gray"
+
+白红，蓝红 *wai hon, lan hon* "pink"
+
+红蓝 *hon lan* "purple"
+
+黄红 *kun hon* "orange"
+
+色 *so* "color"
+
+## Body parts
+
+头 *to* "head"
+
+颈 *nek* "neck"
+
+颈内 *nek den* "throat"
+
+头前 *to cen* "face"
+
+孔毛 *bok mao* "beard"
+
+孔上毛 *bok xan mao* "mustache"
+
+头毛 *to mao* "head hair"
+
+皮毛 *pi mao* "body hair"
+
+眼 *yek* "eye"
+
+孔 *bok* "mouth"
+
+孔边 *bok la* "lip"
+
+鼻 *nos* "nose"
+
+牙 *yas* "tooth"
+
+听肉 *kus nik* "ear"
+
+言肉 *des nik* "tongue"
+
+孔边 *bok la* "cheek"
+
+孔下山 *bok bon mon* "chin"
+
+胸 *xon* "chest"
+
+后 *bek* "back"
+
+手支 *xo xak* "arm"
+
+手 *xo* "hand"
+
+手子 *xo cik* "finger"
+
+厚手子 *ho xo cik* "thumb"
+
+脚支 *jao xak* "leg"
+
+脚 *jao* "foot"
+
+脚子 *jao cik* "toe"
+
+手根 *xo gen* "shoulder"
+
+心 *hak* "heart"
+
+脑肉 *nao nik* "brain"
+
+脑 *nao* "mind"
+
+脚根 *jao gen* "hip"
+
+脚角 *jao huk* "knee"
+
+肚 *du* "belly"
+
+骨 *wes* "bone"
+
+引肉 *in nik* "muscle"
+
+皮 *pi* "skin"
+
+身 *koi* "body"
+
+## Health
+
+肉汁 *nik jus* "blood"
+
+皮水 *pi wa* "sweat"
+
+眼水 *yek wa* "tear"
+
+屎 *kak* "poop"
+
+扔水 *tos wa* "pee"
+
+健反 *he han* "disease"
+
+声 *bos* "voice"
+
+损觉 *pe jek* "pain"
+
+肉差 *nik ca* "injury"
+
+## Animals
+
+奶兽 *lak an* "mammal"
+
+犬 *dok* "dog"
+
+猫 *gak* "cat"
+
+颈毛猫 *nek mao gak* "lion"
+
+黑条猫 *dak cao gak* "tiger"
+
+犬兽 *dok an* "wolf"
+
+猫犬 *gak dok* "fox"
+
+熊 *os* "bear"
+
+猴 *hus* "monkey"
+
+牛 *bak* "cow"
+
+猪 *pok* "pig"
+
+羊 *yan* "sheep"
+
+羊 *yan* "goat"
+
+马 *hos* "horse"
+
+头刺兽 *to pin an* "deer"
+
+鼻刺兽 *nos pin an* "rhinoceros"
+
+泳厚兽 *na ho an* "hippopotamus"
+
+条鼻兽 *cao nos an* "elephant"
+
+条颈兽 *cao nek an* "giraffe"
+
+大水兽 *bik wa an* "whale"
+
+鸟水兽 *pak wa an* "dolphin"
+
+飞鼠 *bo mus* "bat"
+
+鼠 *mus* "mouse"
+
+鼠 *mus* "rat"
+
+踊鼠 *yon mus* "rabbit"
+
+刚片奶兽 *duk pen lak an* "pangolin"
+
+骨皮奶兽 *wes pi lak an* "armadillo"
+
+鸟 *pak* "bird"
+
+鸡，土鸡 *poi, tu poi* "chicken"
+
+水鸡，小水鸡 *wa poi, xao wa poi* "duck"
+
+中水鸡 *mes wa poi* "goose"
+
+大水鸡 *bik wa poi* "swan"
+
+小土鸡 *xao tu poi* "quail"
+
+夕眼鸟 *nok yek pak* "owl"
+
+天鸟 *ten pak* "eagle"
+
+小天鸟 *xao ten pak* "hawk"
+
+言鸟 *des pak* "parrot"
+
+脑鸟 *nao pak* "corvid"
+
+黑脑鸟 *dak nao pak* "crow, raven"
+
+拿脑鸟 *tek nao pak* "magpie"
+
+干果蜥 *sek gos xis* "reptile"
+
+使怕蜥 *as tak xis* "dinosaur"
+
+盾蜥 *dun xis* "turtle"
+
+泳秘蜥 *na gis xis* "alligator"
+
+泳秘蜥 *na gis xis* "crocodile"
+
+走蜥 *wak xis* "lizard"
+
+条蜥 *cao xis* "snake"
+
+火蜥 *ik xis* "dragon"
+
+鱼 *yu* "fish"
+
+使怕鱼 *as tak yu* "shark"
+
+黄鱼 *kun yu* "goldfish"
+
+切虫 *cek con* "arthropod"
+
+八脚虫 *ok jao con* "spider"
+
+六脚虫 *ses jao con* "insect"
+
+色飞虫 *so bo con* "butterfly"
+
+红点虫 *hon gok con* "ladybug"
+
+交虫 *sos con* "hymenopteran"
+
+刺交虫 *pin sos con* "bee"
+
+刺虫 *pin con* "wasp"
+
+土交虫 *tu sos con* "ant"
+
+唱踊虫 *can yon con* "cricket"
+
+朽飞虫 *wos bo con* "fly"
+
+朽秘虫 *wos gis con* "cockroach "
+
+条虫 *cao con* "worm"
+
+盾涂虫 *dun tus con* "snail"
+
+扔脚鱼 *tos jao yu* "squid"
+
+八脚鱼 *ok jao yu* "octopus"
+
+舞水虫 *uk wa con* "crab"
+
+水星，五手水虫 *wa xin, u xo wa con* "starfish"
+
+水果蜥 *wa gos xis* "amphibian"
+
+水踊蜥 *wa yon xis* "frog"
+
+土踊蜥 *tu yon xis* "toad"
+
+兽 *an* "animal"
+
+农兽 *non an* "livestock"
+
+房兽 *kas an* "pet"
+
+## Animal body parts
+
+毛杆 *mao gan* "feather"
+
+飞手 *bo xo* "wing"
+
+后条 *bek cao* "tail"
+
+头刺 *to pin* "horn"
+
+## Biology
+
+春学 *cun xes* "biology"
+
+春包 *cun bao* "cell"
+
+春包墙 *cun bao wo* "cell wall"
+
+种写 *jon xe* "DNA/RNA"
+
+种书 *jon buk* "chromosome"
+
+春菌 *cun jun* "bacteria, microorganism"
+
+黏种子 *pek jon cik* "virus"
+
+## Transit
+
+排车 *pai ce* "train"
+
+飞车 *bo ce* "airplane"
+
+车，路车，轮车 *ce, pu ce, lun ce* "car"
+
+带车 *dai ce* "truck"
+
+二轮车，脚力车 *dos lun ce, jao pao ce* "bicycle"
+
+公车 *gon ce* "bus"
+
+水车 *wa ce* "boat, ship"
+
+星车 *xin ce* "spaceship"
+
+漂物 *coi kos* "raft"
+
+气轮 *gas lun* "tire"
+
+石油 *xok yos* "gasoline"
+
+力器 *pao mek* "engine"
+
+许片 *lao pen* "ticket"
+
+带流性 *dai lu nes* "transportation"
+
+流厚性 *lu ho nes* "traffic"
+
+站速器 *pa su mek* "brake"
+
+## Places
+
+市 *dus* "city"
+
+市子 *dus cik* "town"
+
+房约，房组 *kas yak, kas guk* "neighborhood"
+
+活房，家房 *bi kas, ja kas* "house"
+
+房山 *kas mon* "apartment"
+
+房 *kas* "building"
+
+房块，墙内 *kas pis, wo den* "room"
+
+土 *tu* "ground"
+
+房土 *kas tu* "yard"
+
+农土 *non tu* "garden"
+
+路 *pu* "street/road"
+
+飞流土 *bo lu tu* "airport"
+
+排车休所 *pai ce xos luk* "train station"
+
+过水路 *pas wa pu* "bridge"
+
+客休房 *bis xos kas* "hotel"
+
+吃房 *co kas* "restaurant"
+
+农土，农所 *non tu, non luk* "farm"
+
+规所 *ges luk* "court (law)"
+
+学所 *xes luk* "school"
+
+工所 *wok luk* "office"
+
+小学所 *xao xes luk* "primary school"
+
+中学所 *mes xes luk* "secondary school"
+
+大学所 *bik xes luk* "university"
+
+夕舞房 *nok uk kas* "nightclub"
+
+酒房 *sak kas* "bar"
+
+茶房 *cai kas* "cafe"
+
+公土 *gon tu* "park"
+
+睡土 *do tu* "camp"
+
+买所 *mai luk* "store"
+
+表张 *ak jan* "theater"
+
+光像房 *lus pik kas* "cinema"
+
+公书房 *gon buk kas* "library"
+
+健所 *he luk* "hospital"
+
+唱天所 *can ten luk* "church, temple"
+
+买土 *mai tu* "market"
+
+储金所 *cuk jin luk* "bank"
+
+玩土 *hu tu* "field/pitch"
+
+玩张 *hu jan* "court (sports)"
+
+储兽所 *cuk an luk* "zoo"
+
+考所 *kao luk* "laboratory"
+
+国土 *nas tu* "country"
+
+国土块 *nas tu pis* "province"
+
+所 *luk* "location"
+
+## Clothing
+
+头布 *to te* "hat"
+
+眼玻 *yek las* "glasses"
+
+胸布 *xon te* "shirt"
+
+单胸布 *dan xon te* "T-shirt"
+
+放中布 *muk mes te* "skirt"
+
+脚支布 *jao xak te* "pants"
+
+礼布 *li te* "suit"
+
+放布 *muk te* "dress"
+
+内布 *den te* "undies"
+
+温胸布 *wen xon te* "sweater"
+
+袄 *jak* "coat/jacket"
+
+脚布，鞋内布 *jao te, xu den te* "sock"
+
+鞋 *xu* "shoe"
+
+颈布 *nek te* "scarf, necktie"
+
+同布 *ton te* "uniform"
+
+包子 *bao cik* "pocket"
+
+污子 *sus cik* "stain"
+
+布 *te* "clothing"
+
+## Family members
+
+男子 *nan cik* "son"
+
+女子 *nus cik* "daughter"
+
+女亲 *nus ma* "mother"
+
+男亲 *nan ma* "father"
+
+亲 *ma* "parent"
+
+男兄 *nan kek* "brother"
+
+女兄 *nus kek* "sister"
+
+家人 *ja jen* "family"
+
+女上亲 *nus xan ma* "grandmother"
+
+男上亲 *nan xan ma* "grandfather"
+
+男混人 *nan hun jen* "husband"
+
+女混人 *nus hun jen* "wife"
+
+混人 *hun jen* "spouse"
+
+外兄 *ek kek* "cousin"
+
+亲男兄 *ma nan kek* "uncle"
+
+亲女兄 *ma nus kek* "aunt"
+
+女外子 *nus ek cik* "niece"
+
+男外子 *nan ek cik* "nephew"
+
+男混兄 *nan hun kek* "stepbrother"
+
+女混兄 *nus hun kek* "stepsister"
+
+男混亲 *nan hun ma* "stepfather"
+
+女混亲 *nus hun ma* "stepmother"
+
+男混兄 *nan hun kek* "brother-in-law"
+
+女混兄 *nus hun kek* "sister-in-law"
+
+女混亲 *nus hun ma* "mother-in-law"
+
+男混亲 *nan hun ma* "father-in-law"
+
+## People
+
+人 *jen* "person"
+
+人 *jen* "human"
+
+男人 *nan jen* "man"
+
+女人 *nus jen* "woman"
+
+增人，大人 *kes jen, bik jen* "adult"
+
+男小人 *nan xao jen* "boy"
+
+女小人 *nus xao jen* "girl"
+
+小人 *xao jen* "child"
+
+出子 *cu cik* "baby"
+
+独导人 *lon gi jen* "monarch"
+
+男独导人 *nan lon gi jen* "king"
+
+女独导人 *nus lon gi jen* "queen"
+
+导人，导头 *gi jen, gi to* "leader"
+
+国头 *nas to* "president, head of state"
+
+导机头 *gi jik to* "prime minister, head of government"
+
+约人 *yak jen* "neighbor"
+
+友，友人 *mik, mik jen* "friend"
+
+男爱人 *nan ai jen* "boyfriend"
+
+女爱人 *nus ai jen* "girlfriend"
+
+者是烦 *ki es noi* "victim"
+
+玩人 *hu jen* "player"
+
+喜看迷 *xi kan gik* "fan"
+
+人山，人组 *jen mon, jen guk* "crowd"
+
+坐车人 *sen ce jen* "passenger"
+
+## Occupations
+
+导学人 *gi xes jen* "teacher"
+
+学人 *xes jen* "student"
+
+言规人 *des ges jen* "lawyer"
+
+者使健 *ki as he* "doctor"
+
+不健人 *no he jen* "patient"
+
+带问人 *dai won jen* "waiter"
+
+储秘人 *cuk gis jen* "secretary"
+
+天人 *ten jen* "priest"
+
+天人 *ten jen* "rabbi"
+
+天人 *ten jen* "imam"
+
+盾机 *dun jik* "police"
+
+盾人 *dun jen* "police officer"
+
+争机 *puk jik* "army"
+
+争人 *puk jen* "soldier"
+
+美术人 *be jis jen* "artist"
+
+写书人 *xe buk jen* "author"
+
+导人 *gi jen* "manager"
+
+找真人 *bus jas jen* "reporter"
+
+表人 *ak jen* "actor"
+
+导表人 *gi ak jen* "director"
+
+房像人 *kas pik jen* "architect"
+
+电脑写人 *lek nao xe jen* "programmer"
+
+补器人 *bu mek jen* "mechanic"
+
+水车人 *wa ce jen* "sailor"
+
+星车人 *xin ce jen* "astronaut"
+
+## Society
+
+信事 *cos gus* "religion"
+
+天 *ten* "heaven"
+
+末下所 *mo bon luk* "hell"
+
+末性 *mo nes* "death"
+
+健质 *he us* "medicine"
+
+金，买金 *jin, mai jin* "money"
+
+金片 *jin pen* "bill"
+
+金块 *jin pis* "coin"
+
+物金 *kos jin* "cash"
+
+买性 *mai nes* "business"
+
+混性 *hun nes* "marriage"
+
+混礼 *hun li* "wedding"
+
+组 *guk* "team"
+
+人类 *jen le* "race"
+
+给种 *ge jon* "sex (act)"
+
+种类 *jon le* "sex (category)"
+
+种心 *jon hak* "gender"
+
+种要 *jon yao* "sexual orientation"
+
+使末人 *as mo jen* "murder"
+
+关所 *gun luk* "prison"
+
+术 *jis* "technology"
+
+术物 *jis kos* "artwork"
+
+力 *pao* "energy"
+
+争 *puk* "war"
+
+不争 *no puk* "peace"
+
+打 *da* "attack"
+
+公导，组导 *gon gi, guk gi* "politics"
+
+选次 *cus bes* "election"
+
+公机，国导机 *gon jik, nas gi jik* "government"
+
+土机 *tu jik* "state, polity"
+
+导机 *gi jik* "parliament"
+
+机人 *jik jen* "citizen"
+
+独导土 *lon gi tu* "monarchy, kingdom"
+
+公国 *gon nas* "republic"
+
+组选 *guk cus* "democracy"
+
+喜片 *xi pen* "magazine"
+
+新出片 *nu cu pen* "newspaper"
+
+新事 *nu gus* "news"
+
+买片 *mai pen* "advertisement"
+
+反健质 *han he us* "poison"
+
+出打器 *cu da mek* "gun"
+
+身玩 *koi hu* "sport"
+
+摇身 *xek koi* "exercise"
+
+球 *cok* "ball"
+
+玩 *hu* "game"
+
+片玩 *pen hu* "card game"
+
+拿组片玩 *tek guk pen hu* "trick-taking card game"
+
+工 *wok* "job"
+
+工路 *wok pu* "career"
+
+工类 *wok le* "occupation, job title"
+
+同规片 *ton ges pen* "contract"
+
+工组 *wok guk* "company"
+
+金计，贵性 *jin ji, goi nes* "price"
+
+变脑质 *ben nao us* "psychoactive drug"
+
+言片 *des pen* "sign"
+
+天头 *ten to* "god"
+
+人集，言集 *jen ga, des ga* "meeting, conference"
+
+玩集 *hu ga* "party, recreational event"
+
+出机 *cu jik* "postal service"
+
+色布，事色布，国色布 *so te, gus so te, nas so te* "flag"
+
+买网 *mai ne* "economy"
+
+## Arts
+
+美术 *be jis* "art"
+
+乐 *tun* "music"
+
+乐组 *tun guk* "band"
+
+唱，乐 *can, tun* "song"
+
+光像 *lus pik* "movie"
+
+排像 *pai pik* "tv show"
+
+像 *pik* "picture/image"
+
+涂像 *tus pik* "painting"
+
+排性 *pai nes* "pattern"
+
+## Sports
+
+脚球玩 *jao cok hu* "soccer"
+
+杆球玩 *gan cok hu* "baseball"
+
+土球玩 *tu cok hu* "golf"
+
+## Beverages
+
+种茶 *jon cai* "coffee"
+
+菜茶 *sai cai* "tea"
+
+气酒 *gas sak* "beer"
+
+果酒 *gos sak* "wine"
+
+水 *wa* "water"
+
+果汁 *gos jus* "juice"
+
+奶 *lak* "milk"
+
+吃水 *co wa* "beverage"
+
+## Food
+
+吃物 *co kos* "food"
+
+油 *yos* "oil"
+
+饭，饭质 *pan, pan us* "starch, carbohydrate"
+
+肉质 *nik us* "protein"
+
+盐 *yen* "salt"
+
+糖 *suk* "sugar"
+
+鸡果，鸟果 *poi gos, pak gos* "egg"
+
+奶油 *lak yos* "butter"
+
+奶酪 *lak cis* "cheese"
+
+酸奶 *sun lak* "yogurt"
+
+冰奶 *bin lak* "ice cream"
+
+饭包 *pan bao* "bread"
+
+饭条 *pan cao* "noodle"
+
+混水 *hun wa* "soup"
+
+气糖饭 *gas suk pan* "cake"
+
+层糖饭 *los suk pan* "pastry"
+
+把饭，饭内〜 *ba pan, pan den \~* "sandwich"
+
+鸡肉 *poi nik* "chicken"
+
+猪肉 *pok nik* "pork"
+
+牛肉 *bak nik* "beef"
+
+菜果 *sai gos* "fruit"
+
+马果 *hos gos* "apple"
+
+黄条果 *kun cao gos* "banana"
+
+黄红果 *kun hon gos* "orange"
+
+黄酸果 *kun sun gos* "lemon"
+
+水球果 *wa cok gos* "melon"
+
+心果 *hak gos* "mango"
+
+漂酸果 *coi sun gos* "cranberry"
+
+杆饭 *gan pan* "corn"
+
+水饭 *wa pan* "rice"
+
+冰饭 *bin pan* "wheat, Triticeae"
+
+刚冰饭 *duk bin pan* "barley"
+
+黑冰饭 *dak bin pan* "rye"
+
+马饭 *hos pan* "oat"
+
+菜种 *sai jon* "seed"
+
+条菜种 *cao sai jon* "bean"
+
+肉质种 *nik us jon* "soybean"
+
+种酪 *jon cis* "tofu"
+
+菇种 *on jon* "tempeh"
+
+锐根 *kin gen* "Allium"
+
+球锐根 *cok kin gen* "onion"
+
+包锐根 *bao kin gen* "garlic"
+
+糖条根 *suk cao gen* "carrot"
+
+土果 *tu gos* "potato"
+
+云菜 *yun sai* "cauliflower"
+
+酱果 *sas gos* "tomato"
+
+热果 *hok gos* "pepper"
+
+黄球果 *kun cok gos* "pumpkin"
+
+脑珠 *nao nuk* "walnut"
+
+味菜 *tes sai* "spice"
+
+味混 *tes hun* "curry"
+
+无肉 *nin nik* "vegetarian"
+
+无兽 *nin an* "vegan"
+
+## Eating
+
+切杆，切物，锐物 *cek gan, cek kos, kin kos* "knife"
+
+杯杆 *tas gan* "spoon"
+
+排刺杆 *pai pin gan* "fork"
+
+吃木 *co mu* "chopsticks"
+
+吃张 *co jan* "plate"
+
+杯 *tas* "bowl"
+
+杯 *tas* "cup"
+
+玻杯 *las tas* "glass"
+
+关杯 *gun tas* "bottle"
+
+孔布 *bok te* "napkin"
+
+早吃 *sao co* "breakfast"
+
+午吃 *nun co* "lunch"
+
+晚吃 *wan co* "dinner"
+
+## House and rooms
+
+桌 *jos* "table"
+
+坐物 *sen kos* "chair"
+
+睡张 *do jan* "bed"
+
+墙玻 *wo las* "window"
+
+墙口 *wo ko* "doorway"
+
+口张 *ko jan* "door"
+
+睡所 *do luk* "bedroom"
+
+烧所 *kuk luk* "kitchen"
+
+洗所 *was luk* "bathroom"
+
+上墙 *xan wo* "ceiling"
+
+房上 *kas xan* "roof"
+
+墙 *wo* "wall"
+
+升排 *xoi pai* "staircase"
+
+房土 *kas tu* "floor (ground)"
+
+房层 *kas los* "floor (level)"
+
+土布 *tu te* "carpet, rug"
+
+房内物 *kas den kos* "furniture"
+
+条，条物，引条，系条 *cao, cao kos, in cao, tai cao* "string, rope"
+
+## Abstract nouns
+
+睡像 *do pik* "dream"
+
+秘事 *gis gus* "mystery, secret"
+
+举事 *ju gus* "example, demonstration"
+
+觉块 *jek pis* "idea"
+
+财根 *bun gen* "resource"
+
+许性 *lao nes* "permission"
+
+知性 *sa nes* "knowledge"
+
+言性 *des nes* "information"
+
+要事 *yao gus* "desire, plan"
+
+考介 *kao jes* "review, appraisal"
+
+找事 *bus gus* "goal, objective"
+
+公头 *gon to* "standard"
+
+考次，考排 *kao bes, kao pai* "experiment"
+
+看事，者是看 *kan gus, ki es kan* "observation"
+
+真事，真性 *jas gus, jas nes* "truth"
+
+觉为 *jek we* "opinion, view"
+
+## Objects and tools
+
+石写管 *xok xe tuk* "pencil"
+
+涂写管 *tus xe tuk* "pen"
+
+跌涂写管 *ka tus xe tuk* "fountain pen"
+
+球涂写管 *cok tus xe tuk* "ballpoint pen"
+
+木片 *mu pen* "paper"
+
+真像 *jas pik* "photograph"
+
+书 *buk* "book"
+
+片 *pen* "page"
+
+写片 *xe pen* "letter"
+
+写子 *xe cik* "note"
+
+涂色 *tus so* "paint"
+
+锁器 *sok mek* "key"
+
+反锁杆 *han sok gan* "key"
+
+洗油，苦油 *was yos, ku yos* "soap"
+
+刺 *pin* "needle"
+
+包 *bao* "bag"
+
+张包 *jan bao* "box"
+
+礼物，给物 *li kos, ge kos* "gift"
+
+写片 *xe pen* "greeting card"
+
+手子轮 *xo cik lun* "ring"
+
+用物 *yus kos* "tool"
+
+土像 *tu pik* "map"
+
+时器 *xas mek* "clock"
+
+流气器 *lu gas mek* "fan"
+
+光根 *lus gen* "lamp"
+
+电根 *lek gen* "power outlet"
+
+写书 *xe buk* "notebook"
+
+冰器 *bin mek* "refrigerator"
+
+水根 *wa gen* "sink"
+
+把杆 *ba gan* "handle"
+
+大杯 *bik tas* "bucket"
+
+反水杆 *han wa gan* "umbrella "
+
+打杆 *da gan* "hammer"
+
+锐打杆 *kin da gan* "sword"
+
+刺杆 *pin gan* "spear"
+
+举土杆 *ju tu gan* "shovel"
+
+碎石杆 *soi xok gan* "pickaxe"
+
+切木杆 *cek mu gan* "axe"
+
+切土杆 *cek tu gan* "hoe"
+
+火油杆 *ik yos gan* "candle"
+
+升杆 *xoi gan* "ladder"
+
+金包 *jin bao* "wallet, money purse"
+
+## Technology
+
+回器 *hoi mek* "motor"
+
+火回器 *ik hoi mek* "combustion engine"
+
+像器 *pik mek* "camera"
+
+外声器 *ek bos mek* "radio"
+
+外像器 *ek pik mek* "television"
+
+外言器 *ek des mek* "telephone"
+
+外言子 *ek des cik* "cell phone"
+
+电脑子 *lek nao cik* "smartphone"
+
+电脑 *lek nao* "computer"
+
+带电脑 *dai lek nao* "laptop"
+
+光片 *lus pen* "screen"
+
+表写 *ak xe* "program"
+
+网 *ne* "network"
+
+电脑网 *lek nao ne* "internet"
+
+网所 *ne luk* "website"
+
+写子 *xe cik* "post"
+
+言子 *des cik* "message"
+
+扔网 *tos ne* "wifi"
+
+言性 *des nes* "data"
+
+扔网根 *tos ne gen* "hotspot"
+
+唉另不 *yes o no* "bit"
+
+言组 *des guk* "byte"
+
+言财 *des bun* "file"
+
+财包 *bun bao* "folder, directory"
+
+写身 *xe koi* "font"
+
+电金片 *lek jin pen* "credit/debit card"
+
+升器 *xoi mek* "elevator"
+
+## Musical instruments
+
+乐器，乐物 *tun mek, tun kos* "music instrument"
+
+排打乐器 *pai da tun mek* "piano, keyboard"
+
+## Geography
+
+大盐水 *bik yen wa* "sea, ocean"
+
+水流 *wa lu* "river"
+
+水所 *wa luk* "lake, wetland"
+
+土山 *tu mon* "mountain"
+
+山子 *mon cik* "hill"
+
+土杯 *tu tas* "valley"
+
+木土 *mu tu* "forest"
+
+水边 *wa la* "beach"
+
+独土 *lon tu* "island"
+
+干所 *sek luk* "desert"
+
+石孔 *xok bok* "cave"
+
+天 *ten* "sky"
+
+球满 *cok man* "world"
+
+## Nature
+
+露网 *nak ne* "nature"
+
+天水 *ten wa* "rain"
+
+天冰水 *ten bin wa* "snow"
+
+菜 *sai* "plant"
+
+木菜 *mu sai* "tree"
+
+菜色 *sai so* "flower"
+
+菜根 *sai gen* "root"
+
+菜片 *sai pen* "leaf"
+
+木杆 *mu gan* "stick"
+
+毛菜 *mao sai* "grass"
+
+菇果 *on gos* "mushroom"
+
+土质，土沙 *tu us, tu xa* "soil"
+
+朽土，朽质 *wos tu, wos us* "compost"
+
+玻沙 *las xa* "sand"
+
+气 *gas* "air"
+
+气流 *gas lu* "wind"
+
+热性 *hok nes* "heat"
+
+火 *ik* "fire"
+
+冰水 *bin wa* "ice"
+
+水山 *wa mon* "wave"
+
+光 *lus* "light"
+
+不光 *no lus* "darkness"
+
+声 *bos* "sound"
+
+不声 *no bos* "quiet/silence"
+
+## Astronomy
+
+月 *mun* "moon"
+
+日 *son* "sun"
+
+星 *xin* "star"
+
+走星 *wak xin* "planet"
+
+水星 *wa xin* "Mercury"
+
+火星 *ik xin* "Venus"
+
+土球 *tu cok* "Earth"
+
+金星 *jin xin* "Mars"
+
+木星 *mu xin* "Jupiter"
+
+土星 *tu xin* "Saturn"
+
+球外 *cok ek* "outer space"
+
+## Materials
+
+质 *us* "material, substance"
+
+玻，沙玻 *las, xa las* "glass"
+
+金质 *jin us* "metal"
+
+油酪 *yos cis* "plastic"
+
+木质 *mu us* "wood"
+
+石质 *xok us* "stone"
+
+更刚玻 *mas duk las* "diamond"
+
+软土 *moi tu* "clay"
+
+沙 *xa* "dust, sand"
+
+烧木 *kuk mu* "charcoal"
+
+春石 *cun xok* "coal"
+
+玻石，排石 *las xok, pai xok* "crystal"
+
+春玻 *cun las* "diamond"
+
+兽皮 *an pi* "leather"
+
+烧土 *kuk tu* "ceramic"
+
+## Chemistry
+
+质学 *us xes* "chemistry"
+
+质点 *us gok* "atom"
+
+点系 *gok tai* "molecule"
+
+混质 *hun us* "compound"
+
+基点 *pun gok* "elementary particle"
+
+电点 *lek gok* "electron"
+
+酸点 *sun gok* "proton"
+
+中点 *mes gok* "neutron"
+
+酸 *sun* "acid"
+
+苦 *ku* "alkali"
+
+〜锐混 *\~ kin hun* "oxide"
+
+## Chemical elements
+
+水质 *wa us* "hydrogen"
+
+日气 *son gas* "helium"
+
+石金 *xok jin* "lithium"
+
+轻金 *lik jin* "beryllium"
+
+糖金 *suk jin* "boron"
+
+春质 *cun us* "carbon"
+
+菌质 *jun us* "nitrogen"
+
+锐质 *kin us* "oxygen"
+
+牙质 *yas us* "fluorine"
+
+新气 *nu gas* "neon"
+
+洗金 *was jin* "sodium"
+
+白金 *wai jin* "magnesium"
+
+皮金 *pi jin* "aluminium"
+
+玻金 *las jin* "silicon"
+
+光质 *lus us* "phosphorus"
+
+火质 *ik us* "sulfur"
+
+绿质 *gin us* "chlorine"
+
+休气 *xos gas* "argon"
+
+菜金 *sai jin* "potassium"
+
+骨金 *wes jin* "calcium"
+
+力金 *pao jin* "titanium"
+
+女金 *nus jin* "vanadium"
+
+色金 *so jin* "chromium"
+
+汁金 *jus jin* "iron"
+
+蓝金 *lan jin* "cobalt"
+
+买金 *mai jin* "nickel"
+
+导金 *gi jin* "copper"
+
+健金 *he jin* "zinc"
+
+末金 *mo jin* "arsenic"
+
+月质 *mun us* "selenium"
+
+红质 *hon us* "bromine"
+
+秘气 *gis gas* "krypton"
+
+摇金 *xek jin* "palladium"
+
+洁金 *lin jin* "silver"
+
+前金 *cen jin* "cadmium"
+
+软金 *moi jin* "indium"
+
+咔金 *cas jin* "tin"
+
+黑质 *dak us* "iodine"
+
+土金 *tu jin* "tellurium"
+
+外气 *ek gas* "xenon"
+
+重金 *pes jin* "barium"
+
+热金 *hok jin* "tungsten"
+
+沙金 *xa jin* "platinum"
+
+黄金 *kun jin* "gold"
+
+流金 *lu jin* "mercury"
+
+管金 *tuk jin* "lead"
+
+肚金 *du jin* "bismuth"
+
+扔金 *tos jin* "radium"
+
+天金 *ten jin* "uranium"
+
+云金 *yun jin* "neptunium"
+
+下金 *bon jin* "plutonium"
+
+## Language
+
+写块 *xe pis* "letter"
+
+声块 *bos pis* "phoneme"
+
+关声 *gun bos* "consonant"
+
+许声 *lao bos* "vowel"
+
+声组 *bos guk* "syllable"
+
+言块 *des pis* "word"
+
+言排 *des pai* "sentence"
+
+言规 *des ges* "grammar"
+
+名言块 *min des pis* "noun"
+
+表言块 *ak des pis* "verb"
+
+类言块 *le des pis* "adjective"
+
+为言块 *we des pis* "adverb"
+
+知言块 *sa des pis* "article"
+
+轻名言块 *lik min des pis* "pronoun"
+
+路言块 *pu des pis* "adposition"
+
+言块书 *des pis buk* "dictionary"
+
+言为 *des we* "language"
+
+亲言为 *ma des we* "mother tongue, native/heritage language"
+
+言买 *des mai* "conversation"
+
+## Adjectives + opposites
+
+条 *cao* "long"
+
+短 *kok* "short"
+
+高 *gao* "tall, high"
+
+矮 *lo* "short, low"
+
+厚 *ho* "wide"
+
+小，不厚 *xao, no ho* "narrow"
+
+大 *bik* "big"
+
+小 *xao* "small"
+
+慢 *len* "slow"
+
+速 *su* "fast"
+
+热 *hok* "hot"
+
+冰 *bin* "cold"
+
+轻热，温 *lik hok, wen* "warm"
+
+轻冰 *lik bin* "cool"
+
+新 *nu* "new"
+
+故 *gu* "old"
+
+小 *xao* "young"
+
+大 *bik* "old (adult)"
+
+故 *gu* "old (elderly)"
+
+有力 *yo pao* "strong"
+
+弱 *wik* "weak"
+
+过末 *pas mo* "dead"
+
+活，春 *bi, cun* "alive"
+
+有重 *yo pes* "heavy"
+
+轻 *lik* "light"
+
+黑，不有光 *dak, no yo lus* "dark"
+
+白，有光 *wai, yo lus* "light/bright"
+
+好 *hao* "good"
+
+差，烦 *ca, noi* "bad"
+
+美 *be* "pretty, handsome"
+
+不美 *no be* "ugly"
+
+计一，更前 *ji un, mas cen* "first"
+
+更后 *mas bek* "last"
+
+洁 *lin* "clean"
+
+污 *sus* "dirty"
+
+同 *ton* "same"
+
+不同，有差 *no ton, yo ca* "different"
+
+另 *o* "other"
+
+早 *sao* "early"
+
+晚 *wan* "late"
+
+复 *pus* "difficult"
+
+单 *dan* "easy"
+
+们 *men* "many"
+
+乏 *po* "few"
+
+同们 *ton men* "normal"
+
+不同们，奥 *no ton men, ao* "strange"
+
+不是识 *no es kon* "unfamiliar"
+
+有们 *yo men* "frequent/common"
+
+不有们 *no yo men* "rare"
+
+不贵，有小金计 *no goi, yo xao jin ji* "cheap"
+
+贵，有大金计 *goi, yo bik jin ji* "expensive"
+
+有重 *yo pes* "important"
+
+是识 *es kon* "famous"
+
+锐 *kin* "sharp"
+
+不锐 *no kin* "dull"
+
+有逗，好有逗 *yo jok, hao yo jok* "funny"
+
+有术 *yo jis* "skilled"
+
+## Emotions
+
+喜 *xi* "happy"
+
+喜性 *xi nes* "happiness"
+
+有怒 *yo has* "angry"
+
+怒 *has* "anger"
+
+有悲 *yo doi* "sad"
+
+悲 *doi* "sadness, pain"
+
+恨 *hek* "hate, disgusted"
+
+恨性 *hek nes* "hatred, disgust"
+
+爱 *ai* "love (verb)"
+
+爱性 *ai nes* "love (noun)"
+
+怕 *tak* "afraid, fear"
+
+怕性 *tak nes* "fear"
+
+讶 *yai* "surprised, amazed"
+
+讶性 *yai nes* "surprise (noun), amazement"
+
+弱 *wik* "tired"
+
+弱性 *wik nes* "exhaustion"
+
+不喜 *no xi* "bored"
+
+不喜性 *no xi nes* "boredom"
+
+舒 *xus* "comfortable, relaxed"
+
+舒性 *xus nes* "comfort, relaxation"
+
+羞 *xai* "shy, timid"
+
+羞性 *xai nes* "shyness"
+
+## Verbs
+
+是 *es* "be"
+
+使，器 *as, mek* "do/make"
+
+给 *ge* "give"
+
+工 *wok* "work"
+
+玩 *hu* "play"
+
+走，脚走 *wak, jao wak* "walk"
+
+速走 *su wak* "run"
+
+导车 *gi ce* "drive"
+
+飞 *bo* "fly"
+
+坐 *sen* "ride"
+
+泳 *na* "swim"
+
+走，向 *wak, a* "go"
+
+站，休 *pa, xos* "stop"
+
+跟，追 *wis, ces* "follow"
+
+觉 *jek* "think, believe"
+
+考 *kao* "think (about)"
+
+言 *des* "speak, say, tell"
+
+吃 *co* "eat, drink"
+
+使末 *as mo* "kill"
+
+末 *mo* "die"
+
+轻哈 *lik ha* "smile"
+
+哈 *ha* "laugh"
+
+悲喊 *doi boi* "cry"
+
+拿，买拿 *tek, mai tek* "buy"
+
+给金 *ge jin* "pay"
+
+买给 *mai ge* "sell"
+
+出打 *cu da* "shoot"
+
+学 *xes* "learn"
+
+踊 *yon* "jump"
+
+吸 *hes* "smell (something)"
+
+扔味，扔气 *tos tes, tos gas* "smell (like)"
+
+听 *kus* "hear, listen"
+
+收味 *gek tes* "taste (something)"
+
+有味 *yo tes* "taste (like)"
+
+摸 *tok* "touch"
+
+看 *kan* "see, watch, look"
+
+吻 *kis* "kiss"
+
+火 *ik* "burn"
+
+变流 *ben lu* "melt"
+
+作土孔 *mak tu bok* "dig"
+
+扔气 *tos gas* "explode"
+
+坐，脚坐 *sen, jao sen* "sit"
+
+站 *pa* "stand"
+
+躺 *tan* "lie"
+
+爱 *ai* "love"
+
+过〜约 *pas \~ yak* "pass by"
+
+切 *cek* "cut"
+
+争 *puk* "fight"
+
+舞 *uk* "dance"
+
+唱 *can* "sing"
+
+睡 *do* "sleep"
+
+变醒 *ben wek* "wake up"
+
+计 *ji* "count"
+
+计到 *ji dao* "calculate"
+
+混 *hun* "marry"
+
+问向天 *won a ten* "pray"
+
+赢 *win* "win"
+
+损 *pe* "lose"
+
+使混 *as hun* "mix/stir"
+
+变 *ben* "bend"
+
+洗 *was* "wash"
+
+烧 *kuk* "cook"
+
+使何〜许 *as ke \~ lao* "open"
+
+使关 *as gun* "close"
+
+写 *xe* "write"
+
+外言 *ek des* "call"
+
+回，跟轮 *hoi, wis lun* "turn, spin"
+
+作 *mak* "build"
+
+使学 *as xes* "teach"
+
+学 *xes* "study"
+
+增 *kes* "grow"
+
+写像 *xe pik* "draw"
+
+涂色，涂像 *tus so, tus pik* "paint"
+
+给吃 *ge co* "feed"
+
+把 *ba* "catch"
+
+扔 *tos* "throw"
+
+使洁 *as lin* "clean"
+
+找到 *bus dao* "find"
+
+跌 *ka* "fall"
+
+压 *ya* "push"
+
+引 *in* "pull"
+
+带 *dai* "carry"
+
+带 *dai* "bring"
+
+碎，使差 *soi, as ca* "break"
+
+带 *dai* "wear"
+
+系 *tai* "hang"
+
+摇 *xek* "shake"
+
+写名 *xe min* "sign (write signature)"
+
+赢 *win* "defeat"
+
+举，使升 *ju, as xoi* "lift"
+
+打 *da* "strike/hit"
+
+用脚打 *yus jao da* "kick"
+
+导 *gi* "lead"
+
+吃火 *co ik* "smoke"
+
+是看 *es kan* "appear"
+
+变 *ben* "become"
+
+升，走向〜上 *xoi, wak a \~ xan* "climb"
+
+秘拿 *gis tek* "steal"
+
+醒于 *wek nis* "await"
+
+冰漂 *bin coi* "ski"
+
+坐在 *sen en* "attend"
+
+出 *cu* "send"
+
+助言 *yuk des* "explain"
+
+反言 *han des* "reply"
+
+开识 *kai kon* "meet, encounter, get to know"
+
+引鱼 *in yu* "fish, go fishing"
+
+变言为，变向〜言为 *ben des we, ben a \~ des we* "translate"
+
+秘仿 *gis mok* "plagiarize"
+
+储觉，储〜在脑 *cuk jek, cuk \~ en nao* "remember"
+
+## Adverbs and conjunctions
+
+更为 *mas we* "probably"
+
+有为，能 *yo we, ken* "maybe"
+
+必，不能不 *mos, no ken no* "definitely"
+
+真为 *jas we* "actually, truly, honestly"
+
+每时，每次 *me xas, me bes* "always"
+
+更次 *mas bes* "usually"
+
+们次 *men bes* "often"
+
+有次者〜 *yo bes ki \~* "sometimes"
+
+有一次者〜 *yo un bes ki \~* "once, some time"
+
+每时〜不〜，每次〜不〜 *me xas \~ no \~, me bes \~ no \~* "never"
+
+约 *yak* "almost"
+
+约 *yak* "about/approximately"
+
+〜另更 *\~ o mas* "at least"
+
+二 *dos* "both"
+
+也，同为 *ye, ton we* "also"
+
+还 *hai* "still/yet"
+
+到 *dao* "until"
+
+约时 *yak xas* "soon, recently"
+
+这短前 *je kok cen* "recently"
+
+这短后 *je kok bek* "soon"
+
+从何 *de ke* "because"
+
+找何，找 *bus ke, bus* "in order to"
+
+而 *loi* "therefore"
+
+找 *bus* "intentionally"
+
+不找 *no bus* "accidentally/unintentionally"
+
+新次 *nu bes* "again"
+
+速为 *su we* "suddenly"
+
+半为 *ban we* "halfway, partially"
+
+重为 *pes we* "carefully, seriously"
+
+够〜就 *go \~ jo* "so ... that"
+
+## Interrogative pronouns
+
+何人 *ke jen* "who"
+
+何，何物 *ke, ke kos* "what"
+
+何 *ke* "which"
+
+何所 *ke luk* "where"
+
+何时 *ke xas* "when"
+
+找何，从何 *bus ke, de ke* "why"
+
+何为 *ke we* "how"
+
+何计 *ke ji* "how much"
+
+何计 *ke ji* "how many"
+
+何类 *ke le* "what kind"
+
+## Toponyms
+
+《向路礼跌》 *Apulika* "Africa"
+
+《家菜礼》 *Jasaili* "Algeria"
+
+左冰土 *is bin tu* "Antarctica"
+
+《向每礼跌》 *Amelika* "America (continent)"
+
+《向很七泳》 *Ahencina* "Argentina"
+
+《向计》 *Aji* "Asia"
+
+《熊布来》 *Ostelai* "Austria"
+
+《熊他礼》 *Ostali* "Australia"
+
+《半边》 *Banla* "Bangladesh"
+
+《美类计》 *Beleji* "Belgium"
+
+《补边举》 *Bulaju* "Brazil"
+
+《跌泳打》 *Kanada* "Canada"
+
+《中土》，《种水》 *Mestu, Jonwa* "China"
+
+《追口》 *Cesko* "Czechia"
+
+组选公国于《识够》土 *guk cus gon nas nis Kongo tu* "Democratic Republic of the Congo"
+
+《单作》 *Danmak* "Denmark"
+
+《中流》 *Meslu* "Egypt"
+
+《在类》 *Enle* "England"
+
+《又吃皮》 *Icopi* "Ethiopia"
+
+《喂矮站》 *Oilopa* "Europe"
+
+《色我》 *Somi* "Finland"
+
+《路蓝己》 *Pulanse* "France"
+
+《悲车》 *Doice* "Germany"
+
+《饿边打》 *Elada* "Greece"
+
+《把边他》 *Balata* "India"
+
+《引睡》 *Indo* "Indonesia"
+
+《又蓝》 *Ilan* "Iran"
+
+《又奶》 *Ilak* "Iraq"
+
+《饿类》 *Ele* "Ireland"
+
+《又他礼》 *Itali* "Italy"
+
+《日根》 *Songen* "Japan"
+
+《跌袄》 *Kajak* "Kazakhstan"
+
+《能压》 *Kenya* "Kenya"
+
+《亲来沙》 *Malaixa* "Malaysia"
+
+《器雅》 *Mekxik* "Mexico"
+
+《亲狂》 *Malok* "Morocco"
+
+《矮土》，《网从蓝》 *Lotu, Nedelan* "Netherlands"
+
+《新计蓝》 *Nujilan* "New Zealand"
+
+《九计礼》 *Naijili* "Nigeria"
+
+《向每礼跌》右 *Amelika yok* "North America"
+
+《就日》 *Joson* "North Korea"
+
+《不给》 *Noge* "Norway"
+
+《站者》 *Paki* "Pakistan"
+
+《皮礼刺》 *Pilipin* "Philippines"
+
+《乏读跌》 *Poleska* "Poland"
+
+《乏土高》 *Potugao* "Portugal"
+
+《层喜》 *Losxi* "Russia"
+
+《早计》 *Saoji* "Saudi Arabia"
+
+公国于《向路礼跌》左 *gon nas nis Apulika is* "South Africa"
+
+《向每礼跌》左 *Amelika is* "South America"
+
+《反组》 *Hanguk* "South Korea"
+
+《是饭》 *Espan* "Spain"
+
+《速单》 *Sudan* "Sudan"
+
+《速温》 *Suwen* "Sweden"
+
+《系晚》 *Taiwan* "Taiwan"
+
+《躺家你》 *Tanjani* "Tanzania"
+
+《满系》 *Mantai* "Thailand"
+
+《土者》 *Tuki* "Turkey"
+
+《五杆打》 *Uganda* "Uganda"
+
+《舞来泳》 *Uklaina* "Ukraine"
+
+同集独导土 *ton ga lon gi tu* "United Kingdom"
+
+同集土机于《向每礼跌》土 *ton ga tu jik nis Amelika tu* "United States of America"
+
+《活眼》 *Biyek* "Vietnam"
+
+## U.S. states
+
+《向礼就泳》块 *Alijona pis* "Arizona"
+
+《跌礼乏你》块 *Kaliponi pis* "California"
+
+《就家》块 *Joja pis* "Georgia"
+
+《哈白又》块 *Hawai'i pis* "Hawaii"
+
+《我网色他》块 *Minesota pis* "Minnesota"
+
+《新家计》块 *Nujaji pis* "New Jersey"
+
+《新右》块 *Nuyok pis* "New York"
+
+右《跌矮来泳》块 *yok Kalolaina pis* "North Carolina"
+
+## Languages
+
+公头《种水》言为 *gon to Jonwa des we* "Mandarin Chinese"
+
+《是饭》言为 *Espan des we* "Spanish"
+
+《在类》言为 *Enle des we* "English"
+
+《星计》言为 *Xinji des we* "Hindi"
+
+《向边活》言为 *Alabi des we* "Arabic"
+
+《乏土高》言为 *Potugao des we* "Portuguese"
+
+《半边》言为 *Banla des we* "Bengali"
+
+《层喜》言为 *Losxi des we* "Russian"
+
+《日根》言为 *Songen des we* "Japanese"
+
+《饭家活》言为 *Panjabi des we* "Punjabi"
+
+《活眼》言为 *Biyek des we* "Vietnamese"
+
+《公后》言为，《鱼为》言为 *Gonbek des we, Yuwe des we* "Cantonese, Yue Chinese"
+
+《土者》言为 *Tuki des we* "Turkish"
+
+《亲边七》言为 *Malaci des we* "Marathi"
+
+《布流故》言为 *Telugu des we* "Telugu"
+
+《反组》言为，《就日》言为 *Hanguk des we, Joson des we* "Korean"
+
+《他我流》言为 *Tamilu des we* "Tamil"
+
+《五肚》言为 *Udu des we* "Urdu"
+
+《悲车》言为 *Doice des we* "German"
+
+《引睡》言为 *Indo des we* "Indonesian"
+
+《路蓝己》言为 *Pulanse des we* "French"
+
+《家水》言为 *Jawa des we* "Javanese"
+
+《站喜》言为 *Paxi des we* "Persian, Farsi"
+
+《又他礼》言为 *Itali des we* "Italian"
+
+《脚下》言为 *Jaobon des we* "Jaobon"
+
+《是损蓝头》言为 *Espelanto des we* "Esperanto"
+
+《头者乏泳》言为，《好言》言为 *Tokipona des we, Haodes des we* "Toki Pona"
+
+《逃另知》言为 *Wi'osa des we* "Viossa"
+
+## Interjections and phrases
+
+喂！ *oi!* "hey!"
+
+好日！ *hao son!* "hello!"
+
+谢！ *xuk!* "thank you!"
+
+坐健！ *sen he!* "bless you!"
+
+哎！ *yoi!* "ow!"
+
+讶差！ *yai ca!* "what a pity!"
+
+又另 *i o* "etc."
+
