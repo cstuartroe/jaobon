@@ -1,5 +1,5 @@
 import {Collection} from "./types";
-import React from "react";
+import {a} from "../formatting";
 
 const lcc11: Collection = {
   title: "LCC11",
@@ -8,12 +8,10 @@ const lcc11: Collection = {
     {
       title: "LCC11 Conlang Relay Prose Ring",
       slug: "prose_ring",
-      description: <>
-        I participated in the{' '}
-        <a href="https://conlang.org/language-creation-conference/lcc11/lcc11-relay/" target="_blank">
-          LCC11 Conlang Relay
-        </a>!
-      </>,
+      description: [
+        "I participated in the ",
+        a("https://conlang.org/language-creation-conference/lcc11/lcc11-relay/", "LCC11 Conlang Relay"), "!",
+      ],
       lines: [
         {
           jaobon: "duk pen lak an es gi to de gik guk nis mak des we!",
@@ -48,7 +46,7 @@ const lcc11: Collection = {
     {
       title: "LCC11 Shirt Contribution",
       slug: "turtle",
-      description: "I contributed a phrase to the LCC11 shirt.",
+      description: ["I contributed a phrase to the LCC11 shirt."],
       lines: [
         {
           jaobon: "yo bes ki mi jek ton we de dun xis ki tan yo bon en xan, i mi yao ke o jen as yuk pon mi hao we.",

@@ -8,7 +8,7 @@ const minecraft: Collection = {
     {
       title: "Game Text",
       slug: "game_text",
-      description: "Translations of Minecraft in-game text",
+      description: ["Translations of Minecraft in-game text"],
       lines: (
         translations
           .filter(t => !t.key.startsWith("language."))
@@ -18,7 +18,7 @@ const minecraft: Collection = {
     {
       title: "Splash Texts",
       slug: "splash_texts",
-      description: "Translations of selected splash texts... I aimed to translate the spirit, not the literal meaning, in many cases",
+      description: ["Translations of selected splash texts... I aimed to translate the spirit, not the literal meaning, in many cases"],
       lines: splashes.map(([translation, jaobon]) => ({jaobon, translation})),
     },
   ],

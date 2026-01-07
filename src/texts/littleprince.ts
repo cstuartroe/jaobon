@@ -3,7 +3,7 @@ import {Collection} from "./types";
 const littleprince: Collection = {
   title: "The Little Prince",
   slug: "littleprince",
-  description: "by Antoine de Saint-Exupéry",
+  description: ["by Antoine de Saint-Exupéry"],
   texts: [
     {
       title: "1",

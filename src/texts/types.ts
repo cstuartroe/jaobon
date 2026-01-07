@@ -1,3 +1,5 @@
+import {TextualChunk} from "../formatting";
+
 export type TextLine = {
   jaobon: string,
   translation: string,
@@ -7,7 +9,7 @@ export type TextLine = {
 export type Text = {
   title: string,
   slug: string,
-  description?: string | JSX.Element,
+  description?: TextualChunk[],
   show_numbers?: boolean,
   lines: TextLine[],
 }
@@ -15,6 +17,6 @@ export type Text = {
 export type Collection = {
   title: string,
   slug: string,
-  description?: string | JSX.Element,
+  description?: TextualChunk[],
   texts: Text[],
 }

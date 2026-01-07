@@ -1,6 +1,6 @@
 import {TextLine, Collection} from "./types";
 import {DAILY_ROOTS} from "../DailyWords";
-import React from "react";
+import {a} from "../formatting";
 
 const challenges: Collection = {
   title: "Challenges",
@@ -9,12 +9,10 @@ const challenges: Collection = {
     {
       title: "Jaobon Root A Day",
       slug: "rootaday",
-      description: <>
-        Follow along over on{' '}
-        <a href="https://bsky.app/profile/jaobon.bsky.social" target="_blank">
-          Bluesky
-        </a>!
-      </>,
+      description: [
+        "Follow along over on ",
+        a("https://bsky.app/profile/jaobon.bsky.social", "Bluesky"), "!",
+      ],
       lines: DAILY_ROOTS.map(dr => dr && ({
         jaobon: `${dr.root.syllable}: ${dr.example_sentence.Jaobon_source}`,
         translation: `${dr.root.definition}: ${dr.example_sentence.English}`,

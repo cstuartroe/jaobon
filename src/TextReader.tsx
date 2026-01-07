@@ -2,12 +2,55 @@ import React, {useContext, useState} from "react";
 import {Link, useParams} from "react-router-dom";
 
 import {Root, ROOTS} from "./roots";
-import {AnnotatedCharacter, isError, isLiteral, isPN, parseJaobon, TranslatedLine} from "./AnnotatedText";
+import {
+  AnnotatedCharacter,
+  isError,
+  isLiteral,
+  isPN,
+  multiscriptText,
+  parseJaobon,
+  TranslatedLine
+} from "./AnnotatedText";
 import {DisplaySettingsContext} from "./DisplaySettings";
 import {Text, Collection} from "./texts/types";
 import collections from "./texts/collections";
 import {Coda, Onset, stringToSyllable, Vowel} from "./syllables";
-import ReactDOM from "react-dom";
+import {Document, h1, h2, h3, p, img, i} from "./formatting";
+
+export const TextsDocument: Document = [
+  h1("Texts"),
+];
+
+collections.forEach(collection => {
+  TextsDocument.push(
+    h2(collection.title),
+    p(...collection.description || []),
+  );
+
+  collection.texts.forEach(text => {
+    TextsDocument.push(
+      h3(text.title),
+      p(...text.description || []),
+    );
+
+    text.lines.forEach(line => {
+      const mt = multiscriptText(line.jaobon);
+      if (isError(mt)) {
+        throw new Error(mt.message)
+      }
+
+      TextsDocument.push(
+        p(mt.CJK),
+        p(i(mt.roman)),
+        p('"', line.translation, '"'),
+      );
+
+      if (line.image !== undefined) {
+        TextsDocument.push(img(line.image));
+      }
+    })
+  });
+})
 
 type TextStats = {
   frequencies: Map<Root, number>,

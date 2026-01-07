@@ -152,6 +152,7 @@ const charMappings = new Map<string, [string, string]>([
   ['“', ['「', '"']],
   ['”', ['」', '"']],
   ['…', ['…', '...']],
+  [';', ['；', ';']],
 ]);
 
 export function parseJaobon(sentence: string): ParsingError | (Root | ProperNoun | Literal | string)[] {

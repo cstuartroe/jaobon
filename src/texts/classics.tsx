@@ -1,5 +1,5 @@
 import {Collection} from "./types";
-import React from "react";
+import {a} from "../formatting";
 
 const classics: Collection = {
   title: "Classic conlanger translations",
@@ -8,7 +8,7 @@ const classics: Collection = {
     {
       title: "The North Wind and the Sun",
       slug: "north_wind",
-      description: "A classic conlanger's translation.",
+      description: ["A classic conlanger's translation."],
       lines: [
         {
           jaobon: "[yok gas lu] i [son] en des puk nis ke es ki mas yo pao. je xas pu jen, ki dai jak ki wen, as lai pas yak.",
@@ -39,11 +39,13 @@ const classics: Collection = {
     {
       title: "Syntax Test Cases",
       slug: "syntax_test",
-      description: <>
-        This is a translation of fiziwig's{' '}
-        <a href="https://cofl.github.io/conlang/resources/mirror/conlang-syntax-test-cases.html">Conlang Syntax Test
-          Cases</a>.
-      </>,
+      description: [
+        "This is a translation of fiziwig's ",
+        a(
+          "https://cofl.github.io/conlang/resources/mirror/conlang-syntax-test-cases.html",
+          "Conlang Syntax Test Cases"
+        ), ".",
+      ],
       show_numbers: true,
       lines: [
         {
