@@ -12,6 +12,7 @@ Jaobon is in large part inspired by, and in response to, Toki Pona; it shares ma
 
 Jaobon has three canonical writing systems:
 
+
 - The Latin alphabet, which is preferable for input methods and informal communication.
 - CJK characters, with a set of 366 in use in a one-to-one relationship with Jaobon morphemes. I use simplified Chinese characters to write Jaobon, with the justification that visual simplicity should be prioritized for such a small grapheme set. I prefer the use of CJK characters when reading; all texts on this site are rendered in CJK characters by default. 
 - A general-purpose featural script called Featural Dots, which is space-efficient and cool!
@@ -70,6 +71,7 @@ Jaobon has 17 initial consonants:
 | **Fricative<sup>4</sup>** |  | s | ʃ <sup>5</sup> |  | h <sup>6</sup> |
 | **Approximant** | w | l <sup>7</sup> | j |  |  |
 
+
 - <sup>1</sup> In free variation with dental place of articulation.
 - <sup>2</sup> The fortis-lenis distinction may surface as a difference in voicing, aspiration, or both, or even in length or some other feature that may be interpreted as a fortis-lenis binary. I notate stops/affricates in broad transcription as though they contrast in voicing.
 - <sup>3</sup> May be any coronal affricate: [t͡ʃ d͡ʒ], [t͡ɕ d͡ʑ], [t͡ʂ d͡ʐ], or even [t͡s d͡z].
@@ -83,6 +85,7 @@ Jaobon has the common system of five cardinal vowels /a e i o u/. It also has th
 A number of initial-vowel sequences are disallowed: /ti/, /di/, /si/, /hi/, /ji/, and /wu/. Because /oi̯/ may often be pronounced [we\~wi] or similar, it is not permitted to have the onset /w/; the root /oi̯/ is merely an interjection to avoid confusion with the roots /we/ and /wi/, and similarly the root /joi̯/ is a marginal interjection as some speakers may find it difficult to pronounce.
 
 Jaobon has three possible coda consonant phonemes:
+
 
 - A stop /Q/, which is typically pronounced [k̚] or [ʔ], but may optionally assimilate in place to a following consonant.
 - A nasal /N/, which is typically [n\~ŋ\~ɴ] before a pause, but usually assimilates in place to a following consonant. May also surface as nasalization of the previous vowel.
@@ -132,6 +135,7 @@ Jaobon uses a purely phonemic romanization scheme, that hopefully largely satisf
 | **Fricative** |  | /s/ ⟨s⟩ | /ʃ/ ⟨x⟩ |  | /h/ ⟨h⟩ |
 | **Lenis stop/affricate** | /w/ ⟨w⟩ | /l/ ⟨l⟩ | /j/ ⟨y⟩ |  |  |
 
+
 - <sup>1</sup> The glottal stop is not written in romanization.
 
 The vowels /a e i o u/ are romanized ⟨a e i o u⟩, because I'm not a madman. /ai̯ au̯ oi̯/ are ⟨ai ao oi⟩ (with ⟨ao⟩ taking inspiration from Mandarin Pinyin), and the coda consonants /Q N S/ are spelled ⟨k n s⟩. 
@@ -150,6 +154,53 @@ Of note: I strictly use simplified characters to spell Jaobon, as their greater 
 
 Proper nouns like personal names and place names are set apart orthographically in all writing systems for Jaobon. In the Latin alphabet, names are written capitalized, with all syllables grouped together without spaces: *Toma*. In CJK characters double angle brackets are placed around the name: 《头妈》. 
 
+# Sourcing roots
+
+Jaobon derives its 366 roots from other languages, so that speakers of those languages may have a recognizable connection to as many roots as possible when first encountering them, to aid in remembering them. To this end, I have striven to make every root as close in sound and meaning as possible to the source word. I don't think that a speaker of a given source language would be able to guess the meaning of most Jaobon roots at first glance, but I do think they will find the similarity to be a memory aid once the etymology is pointed out to them. For instance, I don't think most English speakers would be able to guess without context that [*dak*](/roots#dak) means "dark, black," but once told that it derived from the English word "dark," I'm sure they'd be able to recall the word *dak* much more easily. 
+
+Jaobon roots are predominantly taken from the three most widely natively spoken languages in the world: Mandarin, Spanish, and English. In fact, the first version of Jaobon included only one or two roots from other sources. This was to maximize the number of people who would be able to recognize the source of a given root (I suppose the logical extreme of this strategy would have been to simply source every root from Mandarin, but I wanted to preserve at least some semblance of an internation/neutral character for the language; and besides, doing so would have exacerbated the issue described below). 
+
+The problem with this strategy is that the main challenge of assigning Jaobon morphemes is that it essentially functions like an extremely complex Tetris game - I was attempting to assign meanings to as many syllables as possible, while making sure that the meanings were core enough to deserve a morpheme, and that no etymology was so distorted in sound or meaning that its mnemonic value was lost. Despite my best efforts, the language was suffering from the same syndrome as Volapük - words so distorted from their sources as to be humorous. What English speaker, for instance, would really connect the Jaobon word *hen* with its English source "heaven", and remember it as a term for "sky"; or the Jaobon word *tek* with its English source "thick"? I think that deriving all or close to all of the 366 roots from only Spanish, English, and Mandarin while maintaining the quality of etymologies would have been essentially impossible. 
+
+In the end, I prioritized the fidelity of etymologies and my goal of using every phonologically permissible syllable over the purity of using only the three core languages. I threw out some etymologies which sounded too unlike the source word to be recognizable, and filled gaps opportunistically with words from other languages. I ended up with a total of 15 source languages, although all but the core three contribute a relatively tiny number of roots. In retrospect, I think this also had a positive effect on the feeling of the language, making it just a touch more variegated, global, and inclusive. 
+
+The counts of how many roots derive entirely or in part from each source language are as follows:
+
+
+- [Chinese: 166 roots](/roots?lang=Chinese)
+- [Spanish: 115 roots](/roots?lang=Spanish)
+- [English: 109 roots](/roots?lang=English)
+- [Hindi: 9 roots](/roots?lang=Hindi)
+- [Japanese: 6 roots](/roots?lang=Japanese)
+- [French: 5 roots](/roots?lang=French)
+- [Latin: 5 roots](/roots?lang=Latin)
+- [Malay: 4 roots](/roots?lang=Malay)
+- [Turkish: 3 roots](/roots?lang=Turkish)
+- [Dutch: 3 roots](/roots?lang=Dutch)
+- [Russian: 2 roots](/roots?lang=Russian)
+- [Arabic: 2 roots](/roots?lang=Arabic)
+- [German: 2 roots](/roots?lang=German)
+- [Vietnamese: 1 roots](/roots?lang=Vietnamese)
+
+The counts sum to more than 366, since many roots have more than one source language.
+
+The only language among this set without a large number of speakers (> 80 million) and/or international significance is Dutch, though it's worth noting that none of the Dutch-derived roots comes solely from Dutch; they're only there to reinforce and add adjacent semantic space to English/German sources. The inclusion of Dutch was because of my personal familiarity with the language that led me to spot some chances to use Dutch etymologies that felt too fitting to pass up. I'll also point out that for Japanese, some of those are Sino-Japanese readings of characters which are especially recognizable cognates to the many widely-spoken Chinese varieties which preserve final stops. 
+
+Even after opening up sourcing to a wider array of languages, all Jaobon roots have undergone varying degrees of indignity in the form of phonological and semantic distortion, some severe enough that I'm sure Jaobon hasn't entirely escaped its Volapükishness. In particular: 
+
+
+- Vowels are often distorted: English *back* [bæk] → Jaobon *bek* [bek]
+- Consonants, especially liquids and glides, are liable to disappear: Mandarin 年 [njɛn˧˥] → Jaobon *nen*, Spanish *crecer* → Jaobon *kes*, English *horse* → Jaobon *hos*, English *glass* → Jaobon *las*, Hindi मुक्त [mʊkt̪] → Jaobon *muk*
+- Consonants (particularly, [f]) are occasionally replaced with the closest but still not-so-similar alternatives: Mandarin 复杂 [fût͡sǎ] → Jaobon *pus*. This is especially true with final consonants: 
+  - Any old stop might become Jaobon final *k* (for which I consider both [k] and [ʔ] acceptable pronunciations): English *dog* → Jaobon *dok*, Mandarin 舞蹈 [u˧˥ tau̯˨˩˦] → Jaobon *uk* 
+  - Any coronal fricative or affricate might become Jaobon final *s*: English *with* → Jaobon *wis*, Mandarin 物质 [u˥˩ ʈ͡ʂɻ̩˥˩] → Jaobon *us*
+- On rare occasions, I allowed a root to be more recognizable in spelling than pronunciation: English *make* → Jaobon *mak* 
+- I may only take the first or stressed syllable of a multisyllablic source word/stem: Spanish *nadar* → Jaobon *na*, Spanish *escuchar* → Jaobon *kus* 
+
+In addition to phonetic fidelity, an effort was made to preserve semantic faithfulness as well, which was key in defining the semantic space of certain roots. For instance, Jaobon *xun* from Chinese 順 takes on its multiple related senses, including "follow, go along; obey, comply; suit, fit; agree with". This principle was not respected in all cases, in order to fill in semantic gaps, e.g. Jaobon *wik* from English *weak* taking on not only the meaning "weak", but the related sense "tired". 
+
+In some cases, the principle of semantic fidelity has led to related sets of words having different syntax, e.g. emotion terms *xi* "like", *has* "anger": *mi xi Toma* "I like Tom" vs. *mi yo has nis Toma* "I'm angry with Tom". 
+
 # Syntax
 
 This section attempts to describe Jaobon syntax in maximum detail and precision. For someone aspiring to learn Jaobon, it may not be necessary to read this section, at least not in its entirety. Jaobon syntax is quite similar to that of its major source languages of Mandarin, English, and Spanish, and is probably possible to acquire implicitly via exposure. 
@@ -160,6 +211,7 @@ Every Jaobon root has an explicitly assigned part of speech. Maximally, there ar
 
 Nominals:
 
+
 - [noun: 128 roots](/roots?pos=noun)
 - [positional: 12 roots](/roots?pos=positional)
 - [numeral: 14 roots](/roots?pos=numeral)
@@ -169,17 +221,20 @@ Nominals:
 
 Intransitives:
 
+
 - [intransitive verb: 44 roots](/roots?pos=intransitive verb)
 - [adjective: 59 roots](/roots?pos=adjective)
 - [number particle: 1 roots](/roots?pos=number particle)
 
 Transitives:
 
+
 - [transitive verb: 74 roots](/roots?pos=transitive verb)
 - [preposition: 6 roots](/roots?pos=preposition)
 - [existential: 1 roots](/roots?pos=existential)
 
 Other:
+
 
 - [adverb: 20 roots](/roots?pos=adverb)
 - [aspect particle: 7 roots](/roots?pos=aspect particle)
@@ -218,11 +273,13 @@ A predicate consists of an optional voice particle, a required predicate core, a
 
 There are two voice particles, 使 *as* and 是 *es* The meaning of voice particles depends on the type of predicate core: 
 
+
 - For most noun phrases, only 是 *es* may be used. It essentially functions as a copula, equating the subject and verbal phrase: 头刺兽是奶兽 *to pin an es lak an* "Deers are mammals." Although it is the only possible voice particle, it is still most common to include the particle to clearly separate the subject from the predicate, since nouns may often directly modify other nouns. It is most likely to be dropped in simple sentences: 他学人 *ta xes jen* "he is a student."<br/>A special case of noun phrases, complementizer phrases, can use the voice particle 使 *as* with a causative meaning: 我过使何他吃水 *mi pas as ke ta co wa* "I made him drink water."<br/>
 - Intransitive predicate cores may use 是 *es* or no voice particle with the same meaning - that the predicate describes the subject: 他是高 *ta es gao* or 他高 *ta gao* "he is tall." The choice of whether or not to use 是 *es* is basically the same as for noun predicate cores - including 是 *es* can resolve syntactic ambiguity or otherwise make the structure of the clause more obvious.<br/>Intransitive predicate cores can use 使 *as*, which permits the presence of a direct object. If there is a direct object, the clause takes on a causative meaning: 我使健他 *mi as he ta* "I make him healthy," or "I heal him." Without a direct object, it has a volitional or reflexive meaning: 我使健 *mi as he* "I am intentionally healthy," or "I make myself healthy."<br/>
 - Transitive predicates, in contrast, default to the same meaning as 使 *as* if a voice particle is not included. With 使 *as* or no voice particle, the subject is the agent, with a generally required direct object being the patient: 我使吃水 *mi as co wa* or 我吃水 *mi co wa* "I drink water." Unlike with the use of 是 *es* for nouns and intransitives, including the voice particle is not just a matter of clarifying the syntax of the sentence, but may also suggest greater volition: 我过损玩 *mi pas pe hu* "I lost the game" vs. 我过使损玩 *mi pas as pe hu* "I (intentionally) lost the game."<br/>Transitive predicates may use 是 *es*, which indicates a passive meaning and forbids a direct object: 我在是追 *mi en es ces* "I am being followed." The agent can be recovered with the preposition 于 *nis*: 我在是追于他 *mi en es ces nis ta* "I'm being followed by him."<br/>Note the perhaps surprising syntax that this implies for prepositions, which are a subtype of transitives: to mean "it is under the table," 他是在桌下 *ta es en jos bon* is incorrect, although it might be an apparent word-for-word translation from English or Spanish. 他 *ta* has an agent role with regard to the transitive 在 *en*, so it must use either 使 *as* or no voice particle. No voice particle is prototypical for prepositions: 他在桌下 *ta en jos bon*. 使 *as* may be used to imply volition: 他使在桌下 *ta as en jos bon* would be correct if, for instance, "it" was an animal that had gone under the table. This is a normal way to express willful motion: 他使向买所 *ta as a mai luk* "she's going to the store".<br/>
 
 A major exception to the general rules for subjects and predicates is the existential 有 *yo*, which I class as a special transitive part of speech. It behaves like a transitive verb with the meaning "have": 我有们书 *mi yo men buk* "I have many books," and 这约有吃所 *je yak yo co luk* "there's a restaurant near here." However, there are two major differences from other transitives: 
+
 
 - 有 *yo* cannot use voice particles.
 - Instead of a normal passive construction, 有 *yo* can be used in an existential construction that simply lacks a subject: 有人者能助你 *yo jen ki ken yuk ni* "there's someone who can help you." This is one of two clause types in Jaobon which may lack a subject, the other being imperatives. This 有 *yo*...者 *ki* pattern in particular is used like an indefinite article, to introduce a subject which has not previously been mentioned: 有人者过使站在路 *yo jen ki pas as pa en pu* "a person was standing in the street." 

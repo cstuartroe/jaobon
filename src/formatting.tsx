@@ -62,7 +62,7 @@ type ImageSection = {
 export type UnorderedListSection = {
   type: "unordered list"
   show_bullet: boolean,
-  items: (TextualChunk | TextSection)[][], // TODO: remove TextSection?
+  items: (TextualChunk | TextSection | UnorderedListSection)[][], // TODO: remove TextSection?
 }
 
 export type TableSection = {
@@ -153,11 +153,15 @@ function sectionToJSX(section: DocumentSection): React.ReactNode {
       const lis = section.items.map((item, i) => {
         return (
           <li key={i}>{item.map((chunk, j) => {
-            if (typeof chunk === "string" || chunk.type !== "text section") {
-              return <React.Fragment key={j}>{chunkToJSX(chunk)}</React.Fragment>;
-            } else {
-              return <React.Fragment key={j}>{sectionToJSX(chunk)}</React.Fragment>
+            if (typeof chunk !== "string") {
+              if (chunk.type === "text section") {
+                return <React.Fragment key={j}>{sectionToJSX(chunk)}</React.Fragment>
+              }
+              if (chunk.type === "unordered list") {
+                return <React.Fragment key={j}>{sectionToJSX(chunk)}</React.Fragment>;
+              }
             }
+            return <React.Fragment key={j}>{chunkToJSX(chunk)}</React.Fragment>;
           })}</li>
         );
       })
@@ -232,7 +236,7 @@ export function img(filename: string, style?: React.CSSProperties, alt?: string)
   }
 }
 
-export function ul(...items: (TextualChunk | TextSection)[][]): UnorderedListSection {
+export function ul(...items: (TextualChunk | TextSection | UnorderedListSection)[][]): UnorderedListSection {
   return {
     type: "unordered list",
     show_bullet: true,

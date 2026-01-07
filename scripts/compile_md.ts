@@ -1,12 +1,22 @@
 import fs from "fs";
 
-import {Document, DocumentSection, TextualChunk, FormatLevel, TableSection, TableCell, TextSection} from "../src/formatting";
+import {
+  Document,
+  DocumentSection,
+  TextualChunk,
+  FormatLevel,
+  TableSection,
+  TableCell,
+  TextSection,
+  UnorderedListSection
+} from "../src/formatting";
 import {multiscriptText, isError} from "../src/AnnotatedText";
 import {HomeDocument} from "../src/Home";
 import {HistoryDocument} from "../src/History";
 import {PhonologyDocument} from "../src/Phonology";
 import {WritingSystemsMarkdownDocument} from "../src/WritingSystems";
 import {SyntaxDocument} from "../src/Syntax";
+import {SourcingDocument} from "../src/Sourcing";
 
 function chunkToMarkdown(chunk: TextualChunk): string {
   if (typeof chunk === "string") {
@@ -92,22 +102,26 @@ function generateTable(table: TableSection) {
   return out + "\n";
 }
 
-function chunkOrTextSectionToMarkdown(chunk: TextualChunk | TextSection): string {
-  if (typeof chunk === "string" || chunk.type != "text section") {
-    return chunkToMarkdown(chunk);
-  } else {
-    return sectionToMarkdown(chunk).trimEnd() + "<br/>";
+function chunkOrTextSectionToMarkdown(chunk: TextualChunk | TextSection | UnorderedListSection, leftPad: string): string {
+  if (typeof chunk !== "string") {
+    if (chunk.type == "text section") {
+      return sectionToMarkdown(chunk, "").trimEnd() + "<br/>";
+    }
+    if (chunk.type == "unordered list") {
+      return sectionToMarkdown(chunk, leftPad + "  ").trimEnd();
+    }
   }
+  return chunkToMarkdown(chunk);
 }
 
-function sectionToMarkdown(section: DocumentSection): string {
+function sectionToMarkdown(section: DocumentSection, leftPad: string): string {
   switch (section.type) {
     case "image section":
       return `![${section.alt}](static/img/${section.filename})\n\n`;
     case "text section":
       return format_level_prefixes[section.format_level] + section.textual_chunks.map(chunkToMarkdown).join("") + "\n\n";
     case "unordered list":
-      return section.items.map(chunks => "- " + chunks.map(chunkOrTextSectionToMarkdown).join("")).join("\n") + "\n\n";
+      return "\n" + section.items.map(chunks => leftPad + "- " + chunks.map(chunk => chunkOrTextSectionToMarkdown(chunk, leftPad)).join("")).join("\n") + "\n\n";
     case "table":
       return generateTable(section);
     default:
@@ -116,7 +130,7 @@ function sectionToMarkdown(section: DocumentSection): string {
 }
 
 function documentToMarkdown(document: Document): string {
-  return document.map(sectionToMarkdown).join("");
+  return document.map(section => sectionToMarkdown(section, "")).join("");
 }
 
 const document = [
@@ -124,6 +138,7 @@ const document = [
   ...HistoryDocument,
   ...PhonologyDocument,
   ...WritingSystemsMarkdownDocument,
+  ...SourcingDocument,
   ...SyntaxDocument,
 ];
 
